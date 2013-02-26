@@ -1,0 +1,472 @@
+/* HEADER RULES ====================================================== */
+
+.ui-autocomplete {display: none !important;}
+
+.headerContainer {
+	height: 76px;
+	margin: 12px auto 16px;
+	position: relative;
+	width: 990px;
+}
+
+	.headerContainer .logo-header {
+		background: url('logo-flaminga.png') no-repeat;
+		display: block;
+		height: 57px;
+		float: left;
+		margin: 10px 0 0;
+		text-indent: -9999px;
+		width: 177px;
+	}
+
+	.container-msg-usuario {
+		float: left;
+		font-size: 12px;
+		margin-left: 15px;
+		padding-top: 5px;
+	}
+
+		.container-msg-usuario .welcome,
+		.container-msg-usuario .loginmsg {display: none;}
+
+		.container-msg-usuario p {
+		    display: inline;
+		    margin-right: 5px;
+		}
+
+		.container-msg-usuario a {
+		    color: #555;
+		    text-transform: capitalize;
+		}
+
+		.headerContainer .userContainer {
+			margin: 35px 0 0;
+		}
+
+	.headerContainer .userContainer .list a {
+		color:dimGray;
+		text-decoration: none;
+	}
+
+	.headerContainer .userContainer .list a:hover {text-decoration: underline;}
+
+	.headerContainer .userContainer .userInfos .trocaFacil {
+		background: url('ico-cabide-top.png') no-repeat 0 0;
+		display: block;
+		height: 11px;
+		padding: 2px 0 0 21px;
+	}
+
+	.headerContainer .userContainer .userInfos .televendas {
+		background: url('ico-telefone-top.png') no-repeat 0 0;
+		display: block;
+		height: 11px;
+		padding: 2px 0 0 21px;
+	}
+
+	.headerContainer .userContainer .search {width:150px}
+
+	.search legend,
+	.search label,
+	.search select {display: none;}
+
+	.search .btn-buscar {
+		background: url('ico-busca-header.png') no-repeat;
+		border:none;
+		cursor: pointer;
+		height: 15px;
+		display: block;
+		margin: 0 0 0 10px;
+		text-indent: -9999px;
+		width:15px;
+
+}
+
+	.search .fulltext-search-box {
+		border: 1px solid #AAACAB;
+		color: #898989;
+		font-family: Georgia, serif;
+		height: 21px;
+		margin: 0 10px 0 0;
+		float: left;
+		padding: 0 5px;
+		width: 111px;
+	}
+
+	.headerContainer .userArea {
+		font-size: 12px;
+		font-style: italic;
+		float: right;
+	}
+
+		.headerContainer .userArea a {
+			color:dimGray;
+			text-decoration: none;
+		}
+
+		.headerContainer .userArea .box {
+			border-right: 1px solid #eaeaea;
+			float:left;
+			height: 24px;
+			margin: 0 15px 0 0;
+			padding: 3px 15px 0 0;
+		}
+
+		.headerContainer .userArea .box.last {
+			border: none;
+			margin-right: 0;
+			padding-right: 0;
+		}
+
+		.headerContainer .userArea .container-minha-conta {
+			float: left;
+			border-right: 1px solid #eaeaea;
+			height: 21px;
+			margin-top: -2px;
+			padding-right: 15px;
+			padding-top: 6px;
+		}
+
+		.headerContainer .userArea .box.cartResume {
+			position: relative;
+			width: 135px;
+		}
+
+		.headerContainer .userArea .linkCart {
+			display: block;
+			float:left;
+			height: 18px;
+			left: 0;
+			padding: 10px 0 0 0;
+			position: absolute;
+			top: -4px;
+			width: 140px;
+			z-index: 2;
+		}
+
+		.headerContainer .cartHeader {
+			bottom: 7px;
+			position: absolute;
+			right: 15px;
+			width: 20px;
+			z-index: 1;
+		}
+
+		.headerContainer .cartHeader .title,
+		.headerContainer .cartHeader li {display: none;}
+
+		.headerContainer .cartHeader .amount-items {
+			display: block;
+			font-style: normal;
+		}
+
+		.headerContainer .cartHeader .amount-items em {
+			background: url('/arquivos/ico-sacola-header.png') no-repeat;
+			color:#fff;
+			display: block;
+			font-size: 14px;
+			height: 18px;
+			padding: 10px 0 0 6px;
+			width: 14px;
+		}
+
+		.headerContainer .cartHeader .amount-items span {display:none;}
+
+
+	.topMenuContainer {
+		background:#333;
+		color:#fff;
+		height: 27px;
+		width:100%;
+	}
+
+		.topMenuContainer a {
+			color:#fff;
+			text-decoration: none;
+		}
+
+		.topMenuContainer a:hover {color:#fff; text-decoration:underline;}
+
+		.topMenuContainer #menuTop {
+			font-size: 11px;
+			height: 27px;
+			margin: 0 auto;
+			width: 990px;
+			/* com todas opcoes ativas width: 980px; */
+		}
+
+		.topMenuContainer .menuItem {
+			display:inline;
+			float:left;
+			height: 19px;
+			letter-spacing: 3px;
+			margin: 0 80px 0 0;
+			position: relative;
+			padding: 8px 0 0;
+			/* com todas opcoes ativas padding: 8px 18px 0; */
+			text-transform: uppercase;
+			width: auto;
+		}
+
+		.topMenuContainer .menuItem.last {margin-right:0;}
+
+/* DROPDOWN */
+.topMenuContainer .drop-container {
+	background: #333;
+	display: none;
+	font-family: Georgia, Times, serif;
+	padding: 0 10px;
+	position: absolute;
+	top:25px;
+	text-transform: uppercase;
+	left: 0;
+	width: 190px;
+	z-index: 9999;
+}
+	.topMenuContainer .drop-container a {color: white;}
+	.topMenuContainer .drop-container a:hover {text-decoration: underline;}
+
+	.topMenuContainer .drop-container.lingerie-drop {width:230px;}
+
+	.topMenuContainer .drop-container ul {
+		font-family: Georgia, Times, serif;
+		font-size: 11px;
+		float: left;
+		margin: 0;
+		padding: 0;
+		text-transform: uppercase;
+	}
+		.topMenuContainer .drop-container ul .titulo-opcoes-drop a {
+			color:#FF7629;
+			font-weight: bold;
+		}
+		.topMenuContainer .drop-container ul.genero-drop {
+			border-left: 1px solid #f2f2f2;
+			margin-left: 30px;
+			padding-left: 10px;
+		}
+		.topMenuContainer .drop-container ul .opcao-drop {
+			list-style-type: none;
+			margin:10px 0;
+		}
+		.topMenuContainer .drop-container .produto-destaque-menu {
+			border:1px solid #ccc;
+			font-family: Georgia, Times, serif;
+			font-size: 11px;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			text-transform: uppercase;
+			width:110px;
+		}
+			.topMenuContainer .drop-container .produto-destaque-menu span {display: block;}
+			.topMenuContainer .drop-container .produto-destaque-menu .imagem-destaque {
+				height: 103px;
+				width:80px;
+			}
+			.topMenuContainer .drop-container .produto-destaque-menu .preco-produto a {color:#FF7629};
+/* end DROPDOWN */
+
+
+/* SYSTEM AUTOCOMPLETE BOX */
+.ui-autocomplete {
+	background: white;
+	font-family: Georgia, serif;
+	font-size:13px;
+	padding: 10px;
+}
+	.ui-autocomplete .ui-menu-item {padding: 5px 0;}
+	.ui-autocomplete .ui-corner-all img {padding-right: 5px;}
+	.ui-autocomplete li a img {display: none;}
+
+
+/* DONT DISPLAY AJAX LOADING... */
+#ajaxBusy {display: none !important;}
+
+
+/* END HEADER RULES ====================================================== */
+
+
+
+
+
+/* FOOTER RULES ====================================================== */
+
+.logo-footer {
+	background: url('/arquivos/flaminga-footer.png') no-repeat;
+	height: 152px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 96px;
+	right: 52px;
+	top: -152px;
+}
+
+.footerContainer {
+	background: #262626;
+	bottom: 0px;
+	color:#989898;
+	margin: 100px 0 0;
+	padding: 40px 0 20px;
+	position: absolute;
+	width: 100%;
+}
+
+	.footerContainer .container {margin:0 auto; width:980px;}
+
+	.footerContainer .colunsContainer a {
+		color:#989898;
+		text-decoration: underline;
+	}
+
+	.footerContainer .colunsContainer a:hover {color:#fff;}
+
+
+	.footerContainer .column {
+		border-right: 1px solid #3B3B3B;
+		float: left;
+		height: 220px;
+		text-align: center;
+		width: 240px;
+	}
+
+	.footerContainer .column.guidesize {display: none;}
+
+/* COM A COLUNA DO PROVADOR ATIVAp
+	.footerContainer .column {
+		border-right: 1px solid #3b3b3b;
+		float: left;
+		height: 200px;
+		text-align: center;
+		width: 194px;
+	}
+end COM A COLUNA DO PROVADOR ATIVA */
+
+		.footerContainer .column.last {border:none; margin:0; padding:0;}
+
+	.footerContainer .listContainer .list {
+		height: auto;
+		font-style: italic;
+		margin: 10px 0;
+		text-align: center;
+	}
+
+		.footerContainer .listContainer.faleConosco .list {margin: 10px 0 20px;}
+
+	.footerContainer .titulo {
+		color: white;
+		font-size: 12px;
+		letter-spacing: 3px;
+		line-height: 20px;
+		height: 40px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.footerContainer h2.formas-pagto {margin-top:20px;}
+
+	.footerContainer .autoHeight {height: auto;}
+
+	.footerContainer .listContainer {margin: 10px auto;}
+
+	.footerContainer .storePartners {
+		background: url('/arquivos/sprite-stamps-footer.png') no-repeat;
+		display: block;
+		text-indent: -9999px;
+		width:171px;
+		margin: 0 auto;
+	}
+
+		.footerContainer .storePartners.security {
+			background-position: 0 0;
+			height: 58px;
+			margin-bottom: 30px;
+		}
+
+		.footerContainer .storePartners.creditcards {
+			background-position: 0 -66px;
+			height: 30px;
+			margin-top: 20px;
+		}
+
+
+.socialMedia {
+	margin: 40px auto 0;
+	height: 35px;
+	width: 115px;
+}
+
+	.socialMedia .icoSocial {
+		float:left;
+		margin:0 10px 0 0;
+		height:31px;
+		width:31px;
+	}
+
+	.socialMedia .icoSocial:hover {text-decoration: underline; padding:0 0 5px 0;}
+
+	.socialMedia .icoSocial a {
+		background: url('sprite-social-media.png') no-repeat;
+		display: block;
+		height:31px;
+		text-indent: -9999px;
+		width:31px;
+	}
+
+	.socialMedia .icoSocial.last {margin:0;}
+
+	.socialMedia .icoSocial.facebook a {background-position: 0 0;}
+	.socialMedia .icoSocial.twitter a {background-position: -51px 0;}
+	.socialMedia .icoSocial.youtube a {background-position: -102px 0;}
+	.socialMedia .icoSocial.vimeo a {background-position: -152px 0;}
+
+.copyright {
+	margin: 45px auto 0;
+	letter-spacing: 4px;
+	font-size: 12px;
+	height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 170px;
+}
+
+.credits {
+	float: right;
+	height: 20px;
+	margin: 0 30px 0 0;
+	width: auto;
+}
+	.credits .company {float:left;}
+	.credits .eNext {
+		background: url('/arquivos/logo-enext.png') no-repeat;
+		display: block;
+		height:14px;
+		width:44px;
+		text-indent: -9999px;
+	}
+	.credits .cherryplus {
+		background: url('/arquivos/logo-cherryplus.png') no-repeat;
+		display: block;
+		height:14px;
+		margin: 0 0 0 20px;
+		text-indent: -9999px;
+		width:74px;
+	}
+	.credits .uberDigital {
+		background: url('/arquivos/logo-uber-digital.png') no-repeat;
+		display: block;
+		height: 20px;
+		margin: 0 0 0 20px;
+		text-indent: -9999px;
+		width: 71px;
+	}
+	.credits .vtex {
+		background: url('/arquivos/logo-vtex.png') no-repeat;
+		display: block;
+		height: 15px;
+		margin: 0;
+		text-indent: -9999px;
+		width: 68px;
+	}
+
+/* END FOOTER RULES ====================================================== */

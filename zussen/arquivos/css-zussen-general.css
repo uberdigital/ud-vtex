@@ -1,0 +1,434 @@
+/* RESET VTEX */
+#ajaxBusy,
+.ui-autocomplete {display: none !important;}
+/* end RESET VTEX */
+
+
+body {
+	background: url('bg-miolo.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {font-weight:bold;}
+
+.bigger {font-size: 1.1em;}
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
+.amount-items-in-cart {display: none;}
+
+.shadow {
+  -moz-box-shadow:    5px 7px 12px -3px #E1E1E1;
+  -webkit-box-shadow: 5px 7px 12px -3px #E1E1E1;
+  box-shadow:         5px 7px 12px -3px #E1E1E1;
+}
+
+.shadow-black {
+	-moz-box-shadow: 7px 7px 16px -7px black;
+	-webkit-box-shadow: 7px 7px 16px -7px black;
+	box-shadow: 7px 7px 16px -7px black;
+}
+
+
+/* SUBTEMPLATES ======================================================== */
+
+
+/* HEADER */
+.home .header {
+	background: url('banner-topo2.jpg') center top;
+	height: 500px;
+	width: 100%;
+}
+
+.header {
+	background: url('banner-topo2.jpg') center top;
+	height: 500px;
+	width:100%;
+}
+	.header .container-top {
+		background: white;
+		height: 84px;
+		margin: 0 auto;
+		padding: 10px 10px 0 10px;
+		width: 950px;
+	}
+	
+	.header .container-top .column-left {float: left;}
+	.header .container-top .column-right {float: right; width: 750px;}
+	
+	.header .container-top .main-logo {margin-top: 5px;}
+		.header .container-top .main-logo a {
+			background: url('logo-zussen.png') no-repeat;
+			display: block;
+			height: 61px;
+			text-indent: -9999px;
+			width: 176px;
+		}
+
+	.header .container-top .main-infos {
+    	height: 26px;
+	}
+		.header .container-top .main-infos a {
+			color:black;
+			font-size: 14px;
+			text-decoration: none;
+			text-transform: capitalize;
+		}
+		.header .container-top .main-infos ul {float: right;}
+		.header .container-top .main-infos ul li {
+			float: left;
+			font-size: 13px;
+			margin-right: 30px;
+			height: 19px;
+			padding-top: 7px;
+		}
+		.header .container-top .main-infos ul li.login a {text-decoration: underline;}
+		.header .container-top .main-infos ul li.login .welcome {display: none;}
+		.header .container-top .main-infos ul li.meu-carrinho {
+			background: url('ico-cart.png') no-repeat top right;
+			width: 120px;
+		}
+		.header .container-top .main-infos ul li.numero-pecas {
+			background: url('ico-cabide.png') no-repeat right 3px;
+			padding-right: 35px;
+		}
+		.header .container-top .main-infos .resgata-numero-pecas {font-size: 12px;}
+		.header .container-top .main-infos ul li.last {margin-right:0;}
+
+	.header .container-top .main-menu {
+		border-bottom: 1px solid black;
+		border-top: 1px solid black;
+		font-size: 16px;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+		.header .container-top .main-menu .menu-store {
+			float: left;
+			font-family: 'Libre Baskerville', serif;
+			width: 570px;
+		}
+		.header .container-top .main-menu .opcao {
+			float: left;
+			margin: 0 25px 0 0;
+			padding: 10px 0;
+			position: relative;
+		}
+		.header .container-top .main-menu .opcao.last {margin-right: 0;}
+			.header .container-top .main-menu .opcao a {
+				color:black;
+				text-decoration: none;
+			}
+			.header .container-top .main-menu .opcao a:hover {
+				text-decoration: underline;
+			}
+			.header .container-top .main-menu .opcao .submenu {
+				background: white;
+				display: none;
+				font-size: 12px;
+				padding: 10px 30px 10px 10px;
+				position: absolute;
+				text-transform: capitalize;
+				top: 35px;
+			}
+
+				.header .container-top .main-menu .opcao .submenu li {margin:10px 0;}
+
+		.header .container-top .main-menu .container-search {
+			float: right;
+			height: 26px;
+			margin: 6px 0 0;
+			width: 160px;
+		}
+			.header .container-search .busca legend,
+			.header .container-search .busca label,
+			.header .container-search .busca select {display: none;}
+
+			.header .container-search .fulltext-search-box {
+				background: url('bg-buscar-topo.png') no-repeat left top;
+				border: 0;
+				float: left;
+				height: 21px;
+				padding: 2px 0 0 5px;
+				width: 132px;
+			}
+			.header .container-search .btn-buscar {
+				background: url('bt-buscar-topo.png') no-repeat;
+				border: none;
+				cursor: pointer;
+				float: left;
+				height: 23px;
+				margin: 0;
+				padding: 0;
+				text-indent: -9999px;
+				width: 20px;
+			}
+
+	.banner-destaques .banner {
+	    display: inline;
+	    padding-right: 30px;
+	}
+	.banner-destaques .banner.last {padding-right: 0;}
+/* end HEADER */
+
+/* FOOTER */
+.footer {
+	background: black;
+	color:white;
+	font-size: 13px;
+	padding:30px 0 20px;
+}
+	.footer a {
+		color:white;
+		text-decoration: none;
+	}
+	.footer a:hover {text-decoration: underline;}
+
+	.footer .column-one {float: left;}
+
+	.footer .container-footer {
+		margin: 0 auto;
+		width: 900px;
+	}
+
+	.footer .menu-user-footer {font-size: 11px;}
+
+	.footer .menu-user-footer li {
+		float: left;
+		height: 19px;
+		margin-right: 20px;
+		padding-top: 6px;
+	}
+	.footer .menu-user-footer li.meu-carrinho {
+		background: url('ico-cart-footer.png') no-repeat right top;
+		padding-right: 27px;
+	}
+	.footer .menu-user-footer li.numero-pecas {
+		background: url('ico-cabide-footer.png') no-repeat right top;
+		padding-right: 35px;
+	}
+	.footer .menu-user-footer li.last {margin-right: 0;}
+
+	.menu-user-footer.institucional {
+		border-top: 1px solid white;
+		font-size: 13px;
+		margin-top: 30px;
+		padding: 10px 0 0;
+	}
+
+	.footer .container-menu-site {
+		margin-top: 20px;
+	}
+
+	.footer .container-menu-site .column-menu-site {
+	    float:left;
+	    margin-right:50px;
+	    width: auto;
+	}
+
+	.footer .container-menu-site .column-menu-site li {
+		font-size: 14px;
+		margin: 12px 0;
+	}
+
+	.footer .container-menu-site .column-menu-site li.title-options {
+	    border-top: 1px solid;
+	    border-bottom: 1px solid;
+	    font-family: 'Libre Baskerville', serif;
+	    padding: 5px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-size: 14px;
+	}
+	.footer .container-menu-site .column-menu-site li.title-options a:hover {text-decoration: none;}
+
+	.footer .column-two {
+	    float: right;
+	    font-size: 11px;
+	    text-align: center;
+	    width: 180px;
+	}
+		.footer .column-two .logo-footer {
+		    background:url('logo-zussen-footer.png') no-repeat;
+		    height:61px;
+		    margin-bottom:30px;
+		    text-indent: -9999px;
+		    width:176px;
+		}
+		.footer .column-two ul li {margin:15px 0}
+
+	.footer .seals-footer {margin-top:40px;}
+		.footer .seals-footer .selos-seguranca {float: left;}
+		.footer .seals-footer .selos-empresas {
+		    float: right;
+		    margin-top: 30px;
+		}
+			.footer .seals-footer .selos-empresas a {margin-right:10px;}
+/* end FOOTER */
+
+/* end SUBTEMPLATES ======================================================== */
+
+
+.banner-destaques {margin-bottom: 15px;}
+
+.container-bloco-listagem.depoimentos {margin-top: 40px;}
+
+
+/* LISTAGEM DE PRODUTOS */
+.container-main {
+    margin: 0 auto;
+    padding: 15px 0 50px;
+    width: 990px;
+}
+	.container-main .list-title {
+	    border-top: 1px solid;
+	    border-bottom: 1px solid;
+	    font-family: 'Libre Baskerville', serif;
+	    margin:0 0 15px 0;
+	    padding: 5px 0;
+	    text-transform: uppercase;
+	}
+	.container-main .list-products h2 {display: none;}
+
+	.container-main .list-products a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.container-main .list-products li {
+		float: left;
+		margin-right: 30px;
+		text-align: center;
+		width: 173px;
+	}
+		.container-main li .desc-product {
+			font-family: 'Libre Baskerville', serif;
+			margin: 10px 0 0;
+			line-height: 20px;
+		}
+		.container-main li .desc-product .product-price {
+		    display: block;
+		    font-weight: bold;
+		    padding: 6px 0 0 0;
+		}
+	.container-main .list-products li.last {margin-right: 0;}
+
+	.container-main .banners-home {margin:50px 0;}
+
+	.container-main .banners-home .banner {
+	    float: left;
+	    margin-right: 35px;
+	}
+	.container-main .banners-home .banner.last {margin-right: 0;}
+
+/* end LISTAGEM DE PRODUTOS /*
+
+
+/* INSTITUCIONAL */
+.institucional h2 {
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+    font-family: 'Libre Baskerville', serif; 
+    font-size: 21px; margin: 0 0 15px 0; 
+    padding: 10px 0 7px; 
+    text-transform: uppercase;
+}
+
+.institucional p {
+	font-size: 13px;
+	line-height: 16px;
+	margin-bottom: 14px;
+}
+/* end INSTITUCIONAL */
+
+
+/* DEPOIMENTOS */
+.depoimentos h2 {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 21px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 7px;
+	text-transform: uppercase;
+}
+
+	.depoimentos .chamada-depoimento {
+	    display: block;
+	    margin-top: 5px;
+	}
+	.depoimentos .container-main p {
+	    font-size: 13px;
+	}
+
+.depoimentos .box-depoimento {
+	margin-top:40px;
+	text-align: justify;
+}
+	.depoimentos .box-depoimento .titulo-depoimento {
+		border-bottom: 1px solid black;
+		display: block;
+		font-family: 'Libre Baskerville', serif;
+		font-size: 18px;
+		margin: 0 0 15px 0;
+		padding: 10px 0 7px;
+		text-transform: uppercase;	
+	}
+	.depoimentos .box-depoimento p {
+		font-size: 13px;
+		font-style: italic;
+		margin-bottom: 15px;
+	}
+
+	.depoimentos .box-depoimento .nome-autor-depoimento {
+		font-style: normal;
+		font-size: 13px;
+		font-weight: bold;
+	}
+/* END DEPOIMENTOS */
+
+
+
+
+/* NEWSLETTER */
+.newsletter h2 {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 21px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 7px;
+	text-transform: uppercase;
+}
+.newsletter .newsletter-title {display: none;}
+
+.newsletter .container-newsletter {margin:20px 0 0 0;}
+
+.newsletter .container-newsletter p {
+    font-size: 13px;
+    margin-bottom:10px;
+}
+.newsletter .newsletter-client-name,
+.newsletter .newsletter-client-email {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 23px;
+    margin-right:10px;
+    padding: 5px;
+    width: 250px;
+}
+
+.newsletter .newsletter-button-ok {
+	background: url('/arquivos/btn-enviar.jpg') no-repeat;
+	border: none;
+	cursor: pointer;
+	height: 39px;
+	margin-top: 30px;
+	text-indent: -9999px;
+	width: 147px;
+}
+
+/* end NEWSLETTER */

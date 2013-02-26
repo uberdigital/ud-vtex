@@ -1,0 +1,200 @@
+.container-product-name {
+	background: url('/arquivos/bg-product-name.jpg') center top;
+	height: 81px;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.container-procuct-presentation {
+    margin: 0 auto;
+    padding-top: 60px;
+    width: 940px;
+}
+
+.container-product .container-product-name .productName {
+	font-size: 40px;
+	letter-spacing: -1px;
+}
+
+.container-procuct-presentation .column-main {
+    float: left;
+    width: 590px;
+}
+.container-procuct-presentation .column-buy {
+    float: right;
+    width: 190px;
+}
+
+#include {float: right;}
+
+#image-main {
+	height: 353px;
+	width: 342px;
+}
+
+#show .thumbs li {margin-bottom:20px;}
+
+
+.column-buy .container-product-size .title {
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 10px;
+	word-spacing: -4px;
+}
+.column-buy .container-product-size .specification {display: none;}
+
+.column-buy .container-product-size .select.skuList {
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0px 2px 7px -1px #ccc;
+	-webkit-box-shadow: 0px 2px 7px -1px #ccc;
+	box-shadow: 0px 2px 7px -1px #ccc;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+	width: 160px;
+}
+        .column-buy .container-product-size .select.skuList {text-align:center;}
+    .column-buy .container-product-size .select.skuList input {display:none;}
+    .column-buy .container-product-size .select.skuList label {
+        color:#aaa;
+        cursor:pointer;
+        font-family: 'Share Tech Mono', sans-serif;
+        padding: 0 10px;
+    }
+    .column-buy .container-product-size .select.skuList label:hover {color:black;}
+    .column-buy .container-product-size .select.skuList label.sku-picked {color:black;}
+
+
+.column-buy .descricao-preco em {
+    display: block;
+    margin: 5px 0;
+}
+	.column-buy .descricao-preco .valor-de {
+	    text-decoration: line-through;
+	    color: #999;
+	}
+	.column-buy .descricao-preco .valor-por {
+	    font-size: 18px;
+	    font-weight:bold;
+	    margin: 10px 0;
+	
+	    vertical-align: top;
+}
+		.column-buy .descricao-preco .valor-por .skuBestPrice {color: #ed1c24;font-size: 27px;vertical-align: baseline;}
+
+		.column-buy .descricao-preco .valor-dividido {
+		    font-size: 13px;
+		    font-weight: bold;
+		}
+		.column-buy .descricao-preco .preco-a-vista {
+		    font-size: 13px;
+		    font-weight: bold;
+		}
+
+.column-buy .container-product-buy .buy-button {
+	background: url('/arquivos/btn-compre-agora.jpg') no-repeat;
+	display: block;
+	height: 54px;
+	text-indent: -9999px;
+	width: 157px;
+}
+
+.column-buy .container-product-buy .unavailable-button {
+	background: #f5f5f5;
+	border-radius: 5px;
+	color: #aaa;
+	text-align: center;
+	padding: 15px 0;
+	width: 157px;
+}
+
+.column-buy .container-product-links {
+    color: #aaa;
+    font-size: 11px;
+    margin: 20px 0;}
+	.column-buy .container-product-links a {
+	    color: #aaa;
+	    text-decoration: none;
+	    font-size: 11px;
+	}
+
+.column-buy .container-product-buy .notifyme {
+    background: #f8f8f8;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.column-buy .container-product-buy #notifymeClientName,
+.column-buy .container-product-buy #notifymeClientEmail {width: 140px;}
+
+	.column-buy .container-product-buy .notifyme .notifymetitle {
+	    font-weight: bold;
+	    margin-bottom: 5px;
+	    text-transform: lowercase;
+	}
+	.column-buy .container-product-buy .notifyme-form p {
+	    margin: 10px 0;
+	    font-size: 11px;
+	}
+	.column-buy .container-product-buy .notifyme .btn-ok {
+		background: rgb(224, 224, 224);
+		border: none;
+		font-weight: bold;
+		margin-top: 10px;
+		padding: 5px 20px;
+	}
+
+.container-product-description {
+	background: url('/arquivos/bg-product-description.jpg') no-repeat center top;
+	padding: 30px 0 100px;
+}
+
+.container-product-description .container-columns {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.container-product-description .column-description {
+	color: #ababab;
+	float: left;
+	font-size: 13px;
+	line-height: 16px;
+	width: 555px;
+}
+	.container-product-description .column-description .title {
+		background: url('/arquivos/txt-product-description.png') no-repeat;
+		display: block;
+		height: 53px;
+		margin-bottom: 20px;
+		text-indent: -9999px;
+		width: 171px;
+	}
+
+.container-product-description .column-specification .title {
+	background: url('/arquivos/txt-product-specification.png') no-repeat;
+	display: block;
+	height: 43px;
+	margin-bottom: 20px;
+	text-indent: -9999px;
+	width: 277px;
+}
+.container-product-description .column-description p {margin-bottom:14px;}
+
+
+.container-product-description .column-specification {
+	color: #ababab;
+    float: right;
+    font-size: 13px;
+    line-height: 16px;
+    width: 280px;
+}
+	.container-product-description #caracteristicas {
+		background: url('/arquivos/bg-bottom-specification.png') no-repeat center bottom #f3f3f3;
+		border-radius: 5px;
+		padding: 20px 10px 30px 10px;
+		width: 256px;
+	}
+	.container-product-description .column-specification .group.Medidas, 
+	.container-product-description .column-specification .name-field.Medidas {display:none;}

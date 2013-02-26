@@ -1,0 +1,495 @@
+.titSecaoContainer {
+	margin: 0 30px 10px;
+	width: 990px;
+}
+
+.produto .containerFixed {
+	padding-top: 25px;
+	width: 100%;
+}
+
+.produto .container-breadcrumb {margin: 0 0 20px 20px;}
+
+.produto .container-breadcrumb:before, .produto .container-breadcrumb:after { content: ""; display: table; }
+.produto .container-breadcrumb:after { clear: both; }
+.produto .container-breadcrumb { *zoom: 1; }
+
+.produto .container-breadcrumb ul li {
+    float: left;
+    list-style-image: url('/arquivos/arrow_list.gif');
+    list-style-position: inside;
+    font-size: 11px;
+    padding-left: 5px;
+    text-align: left;
+}
+.produto .container-breadcrumb ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+.produto .containerProduto {padding-bottom: 50px;}
+
+.galeriaProduto {
+	float:left;
+	width: 100%;
+}
+	.galeriaProduto .listaFotos {display:table; margin-bottom:50px;}
+	.galeriaProduto .listaFotos.last {margin-bottom:0;}
+	.galeriaProduto .listaFotos li {
+		float: left;
+		padding: 0 10px 0 0;
+		width:230px;
+	}
+		.galeriaProduto .listaFotos li.last-child {margin-right:0; padding-right: 0;}
+
+
+.infosProduto {
+	background: #fff;
+	float: right;
+	padding: 10px;
+	width:27%;
+	/* background: url('/arquivos/bg-branco-transparente.png');
+	position: absolute;
+	right: 20px;
+	z-index: 30; */	
+}
+
+#descricao-abas {display: none;}
+
+.apresentacao {width:72%;}
+
+@media screen and (min-width: 1500px) {
+ .apresentacao {width: 78%;}
+ .infosProduto {width:20%;}
+}
+
+
+	.infosProduto .descRow {margin-bottom: 15px;}
+		.infosProduto .descRow select {
+		    background: none repeat scroll 0 0 white;
+		    border: 1px solid #E1E1E1;
+		    height: 30px;
+		    padding: 5px 0 5px 10px;
+		    width: 100px;
+		}
+		.infosProduto .descRow.midias-sociais-produto li {
+			float: left;
+			margin-right: 10px;
+			position: relative;
+			z-index: 999;
+		}
+		.infosProduto .descRow .topic {margin: 30px 0 0;}
+		.infosProduto .descRow .topic li.specification {
+		    border-bottom:1px solid #b7b7b7;
+            margin-bottom:10px;
+		    padding-bottom:10px;
+		    text-transform:uppercase;
+		}
+		.infosProduto .descRow .select {background: #e2e2e2; padding: 10px; text-align: center; width: 43px;}
+		.infosProduto .descRow .select.skuList {
+			background: none;
+			padding: 0;
+			text-align: left;
+			width: auto;
+		}
+
+		/* ABAS DESCRICAO */
+		.infosProduto .ui-tabs .ui-tabs-hide,
+		.container-descricao #caracteristicas h4,
+		.container-descricao #caracteristicas .name-field,
+		#b .dtSkuCompleteName {display: none;}
+
+		.infosProduto .ui-tabs .ui-tabs-nav li .titulo-detalhes {color: #555; width: 80px; text-align: center;}
+		.infosProduto .ui-tabs .ui-tabs-nav li.ui-tabs-selected .titulo-detalhes {background: white; color: #555; border: 1px solid #B7B7B7; border-bottom: none; position: relative; z-index: 2;width: 80px;text-align: center;}
+		.infosProduto .ui-tabs .ui-tabs-panel {
+			border-top: 1px solid #CCC;
+			margin-top: -1px;
+		}
+		.infosProduto .ui-tabs-panel > div {
+		    /* height: 60px;
+		    overflow: auto; */
+		    padding-top: 20px;
+		    position: relative;
+		    z-index: 1;
+		}
+		#b h3 {margin-bottom:10px; font-weight:bold;}
+		#b dd {line-height:12px; margin-bottom:5px;}
+		/* end ABAS DESCRICAO */
+
+
+	.infosProduto .productName {font-size: 24px;}
+	.infosProduto .productBrand {color:#999;}
+		.infosProduto .productBrand a {
+			color: #555;
+			font-size: 11px;
+			text-decoration: none;
+		}
+	.infosProduto .titleDesc {
+		border-bottom:1px solid #d8d8d8;
+		display: block;
+		font-size: 10px;
+		margin-bottom: 10px;
+		padding-bottom:12px;
+		text-transform: uppercase;
+	}
+	.infosProduto .productDescriptionShort {
+		font-size: 12px;
+		font-style: italic;
+	}
+	.infosProduto .productColors .color {
+		float:left;
+		margin-right: 15px;
+	}
+	.infosProduto .linkDescProd {
+		color:#666;
+		font-size: 12px;
+		font-style: italic;
+	}
+	.infosProduto .skuBestPrice {
+		display: block;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.infosProduto .valor-dividido {font-size:13px;}
+	.infosProduto .economia-de {display: none;}
+	.infosProduto .buy-button {
+		background: url('btnComprarSprite-produto.png') no-repeat;
+		display: block;
+		text-indent: -99999px;
+		height: 27px;
+		width: 270px;
+	}
+	.infosProduto .buy-button:hover {background-position: 0 -27px;}
+	.infosProduto .buyContainer .price {color:#fff;}
+
+
+/* VTEX ========== */
+#include {display: none;}
+
+.thumbs.listaFotos li:first-child,
+.thumbs.listaFotos li:first-child + li {display: none;}
+
+.thumbs li {
+	float: left;
+	margin: 0 0 5px 0;
+}
+
+.thumbs.listaFotos li a img {
+	cursor:url('/arquivos/zoomin.png'), -moz-zoom-in !important;
+	height:350px;
+	padding:0 0 5px 5px;
+	width:230px;
+}
+
+.zoom-fotos {
+	position: absolute !important;
+	z-index: 10;
+	cursor: url('/arquivos/zoomout.png'), -moz-zoom-out !important;
+	top: 0 !important;
+	left: 0 !important;
+	padding: 0 !important;
+	height: 1257px !important;
+	width: 838px !important;
+}
+
+.valor-de {text-decoration: line-through;}
+
+.notifyme {
+	background: whiteSmoke;
+	padding: 10px;
+}
+
+.notifymetitle {
+	font-weight: bold;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+}
+.notifyme-form p {
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.notifyme-client-name,
+.notifyme-client-email {
+	border:1px solid gray;
+	width:200px
+}
+
+.notifyme-client-email {
+	display: block;
+	margin: 10px 0;
+}
+
+body.produto #botaoZoom {cursor: default;}
+
+
+
+/* REVIEW */
+
+.user-review {
+	border-top: 1px solid #E1E1E1;
+	font-size: 12px;
+	padding-top: 20px;
+}
+
+.user-review h4 {
+	background: url('/arquivos/ico-titulo.png') no-repeat top left;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	height: 19px;
+	letter-spacing: 2px;
+	padding: 5px 0 0 30px;
+}
+
+.user-review .media span {display: block;}
+
+/* User opinion */
+#resenha{margin-top:18px;}
+#resenha .avaliacao {padding:11px;}
+
+.emptyRatingStar,
+.filledRatingStar{
+	float: left;
+	height:18px;
+	width:18px;
+}
+.filledRatingStar{background-position:0 -34px;}
+.rating-produto,
+.rating-demonstrativo,
+.rating-wrapper .rating{height:18px;width:87px;}
+.ratingStar,
+.rating-produto,
+.rating-demonstrativo,
+.rating-wrapper div{background-image:url("/arquivos/sprite-stars.gif");background-repeat:no-repeat;display:block;text-indent:-999em;}
+.a05,
+.a10,
+.avaliacao05,
+.avaliacao10{background-position:0 -34px;}
+.a15,
+.a20,
+.avaliacao15,
+.avaliacao20{background-position:0 -68px;}
+.a25,
+.a30,
+.avaliacao25,
+.avaliacao30{background-position:0 -102px;}
+.a35,
+.a40,
+.avaliacao35,
+.avaliacao40{background-position:0 -136px;}
+.a45,
+.a50,
+.avaliacao45,
+.avaliacao50{background-position:0 -171px;}
+
+.rating-avalie-wrapper {margin-top: 5px;margin-bottom: 10px;clear: both;}
+
+.media span{
+	display:block;
+}
+
+.media em{
+	display:block;
+	margin-top:6px;
+}
+
+#spnRatingProdutoBottom,
+.media em span {
+	float: left;
+	margin-right: 10px;
+}
+
+#opcoes-avalie {
+	clear: both;
+	margin-top: 20px;
+}
+
+#opcoes-avalie p {display: none;}
+
+.avalie-produto {
+	border-top: 1px solid #E1E1E1;
+	border-bottom: 1px solid #E1E1E1;
+	clear: both;
+	margin: 20px 0;
+	padding: 20px 0 10px;
+}
+
+/* carrossel padrao =============== */
+.list_carousel {margin: 0; position:relative; width: 360px;}
+	.list_carousel h2 {display: none;}
+	.list_carousel ul {margin: 0; padding: 0; list-style: none; display: block;}
+	.list_carousel li {text-align: center; padding: 0; margin: 6px; display: block;	float: left;}
+	.list_carousel.responsive {height:320px; width: auto; margin-left: 0;}
+	.list_carousel li .imgProduto {width: 156px; height: 250px; overflow: hidden;}
+	.list_carousel li .imgProduto img {height: 234px; width: 156px;}
+
+#carrosselRelacionados li {font-size:11px; height:320px; margin:0 25px; position: relative; width:126px;}
+	#carrosselRelacionados li a {height: 100%; position: absolute; text-indent: -9999px; width: 100%;}
+
+.containerControles {background: black; height: 30px; position: absolute; top: 110px; width: 29px; z-index: 2;}
+	.containerControles a {display: block; text-indent: -999999px; width: 100%; height: 100%;}
+	.containerControles.left {background: url('carousel-prev.png') no-repeat; left:0;}
+	.containerControles.left:hover {background-position: 0 -30px;}
+	.containerControles.right {background: url('carousel-next.png') no-repeat; right:0;}
+	.containerControles.right:hover {background-position: 0 -30px;}
+.containerDescProd {color:#333; font-family: Georgia, Times, serif; font-size: 13px; margin: 15px 0 0;}
+	.containerDescProd .prodName {height: 35px;}
+	.containerDescProd .prodDesc {display: none;}
+	.containerDescProd .prodPrice {font-size: 10px;}
+	.containerDescProd .prodPrice .valueProd {font-size:14px;}
+/* end carrossel padrao =============== */
+
+#opcoes-avalie {display: none;}
+
+.links-resenha-usuario{clear:both;padding-top:30px;}
+
+.resenhas {line-height:1.1em;margin-top:30px;}
+.resenhas .quem li {padding-top:11px;}
+
+.resenhas .dados .email-resenha,
+.resenhas .dados .cidade-resenha {
+	font-style: italic;
+	border-left: 1px solid dimGray;
+	padding-left: 7px;
+	margin-left: 7px;
+}
+
+.resenhas .quem .opt-texto {clear:both;}
+.resenhas .quem .rating-wrapper div {
+	float: left;
+	margin:5px 0;
+}
+.resenhas .quem .rating-wrapper strong {display: none;}
+
+ul.rating{display: none;}
+
+.avalie-produto{float:left;margin-right:100px;padding-top:20px;overflow:hidden;width:200px;}
+
+.voteRatingStar{float:left;margin-right:10px;}
+
+.avalie-produto h5{font-weight:bold;}
+
+#opcoes-avalie p{display:none;}
+
+.rating-avalie-wrapper{overflow:hidden;padding:5px 0;}
+
+#resenha a{text-decoration:underline;}
+
+#ulPubliqueResenha {clear: both;}
+
+#resenha .publique a {
+	background: #333;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 0;
+	width: 160px;
+}
+
+#resenha .publique a:hover {background: #666;}
+
+#resenha .ver-todos-comentarios {text-align: right;}
+#resenha .ver-todos-comentarios a {display:none;}
+
+#resenha #publishUserReview .header {padding:7px;margin-bottom:13px;border:1px solid #E6E6E6;background-color: #fff;}
+#resenha #publishUserReview .ranking .opiniaoInfo,
+#resenha #publishUserReview .ranking .ratingTitulo,
+#resenha #publishUserReview .footer,
+#resenha #publishUserReview h1{display:none;}
+#resenha #publishUserReview .close {float: right;margin-top: -30px;width: 15px;}
+#resenha #publishUserReview .close a {text-decoration: none;background: url("http://www.fastshoes.com.br/Control/ArquivoExibir.aspx?IdArquivo=164696") no-repeat; display:block; font-size:0; height:15px;width: 15px;color: transparent;text-indent:-9999px;}
+#resenha #publishUserReview h2 {color: #555;font-size:14px;margin-bottom:13px;text-transform: uppercase;font-weight: bold;font-style: italic;}
+
+#resenha .formUserComment {font-family: Arial, sans-serif;}
+
+#resenha #publishUserReview .grp {margin-bottom:9px;}
+
+#resenha #publishUserReview .fTitulo label,
+#resenha #publishUserReview .fComentario label {width:67px;float:left;font-weight:bold;}
+
+#resenha #publishUserReview .fComentario textarea {width: 290px;height: 120px;}
+#resenha #publishUserReview .avaliar a {background: #555; height: 18px; padding-top: 6px; width: 103px; display: block; color: white; text-decoration: none; text-align: center; font-size: 12px;}
+#resenha #publishUserReview .ranking .opiniaoRating label{float:left;font-weight:bold;margin-right:5px;}
+#resenha #publishUserReview .aviso-resenha {text-align:left;clear: both;padding:11px 0;color:#999;font-size:11px;}
+
+.considera-util,
+.bts{overflow:hidden;padding:10px 0;}
+
+.opiniao-ajudou .bts{padding-top: 5px;}
+	.opiniao-ajudou .bts .sim a,
+	.opiniao-ajudou .bts .nao a {color:dimGray;}
+	.opiniao-ajudou .bts .sim a:hover,
+	.opiniao-ajudou .bts .nao a:hover {color:#333;}
+	.opiniao-ajudou ul.bts li {
+		display: inline;
+		margin-right: 10px;
+	}
+.resenha{clear:both;padding-top:20px;}
+
+
+
+/* OUTRAS PECAS E MAIS VISITADOS */
+.produto .container-controles-produto {
+	margin: 0 0 100px 30px;
+	width: 990px;
+}
+
+.produto .container-controles-produto .titulo-controles-produto {
+	background: url('/arquivos/titulo-controles-produto-qvvt.png') no-repeat;
+	height: 23px;
+	text-indent: -9999px;
+	width: 990px;
+}
+
+.produto .container-colunas-controles h4 {
+	border-bottom: 1px solid #999;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.produto .container-colunas-controles .imgProduto a img {
+    height: 150px;
+    width: 100px;
+}
+
+.produto .container-colunas-controles ul {margin-top:40px;}
+
+.produto .container-colunas-controles li {
+    float:left;
+    font-size:13px;
+    margin-right:30px;
+    width:100px;
+}
+
+.produto .container-colunas-controles li a {color: #555; text-decoration:none;}
+
+.produto .coluna-outras-pecas {
+	background: url('/arquivos/divisoria-controles-produto.png') no-repeat left center;
+	float: right;
+	height: 315px;
+	margin-left: 80px;
+	padding-left: 80px;
+	width: 400px;
+}
+	.produto .coluna-outras-pecas h2 {display: none;}
+	
+.produto .coluna-mais-visitados {
+    float: left;
+    height:247px;
+    width: 400px;
+}
+
+.produto .nomeProduto {margin-bottom: 5px;}
+.produto .container-colunas-controles li .nomeProduto a {color:#999;}
+.produto .container-colunas-controles li .precoProduto {font-size:12px;}
+/* end OUTRAS PECAS E MAIS VISITADOS */
+
+
+.produto .containerAvaliacao {padding: 0 30px;}
+
+.historico-produto {display: none;}

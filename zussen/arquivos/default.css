@@ -1,0 +1,1505 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+
+#ajaxBusy {display: none !important;}
+
+body {
+	background: url('/arquivos/bg-miolo.jpg');
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {font-weight:bold;}
+
+hr,
+.searchWrapper {display: none;}
+
+.bigger {font-size: 1.1em;}
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
+.amount-items-in-cart {display: none;}
+
+.shadow {
+  -moz-box-shadow:    5px 7px 12px -3px #E1E1E1;
+  -webkit-box-shadow: 5px 7px 12px -3px #E1E1E1;
+  box-shadow:         5px 7px 12px -3px #E1E1E1;
+}
+
+.shadow-black {
+	-moz-box-shadow: 7px 7px 16px -7px black;
+	-webkit-box-shadow: 7px 7px 16px -7px black;
+	box-shadow: 7px 7px 16px -7px black;
+}
+
+/* SUBTEMPLATES ======================================================== */
+
+
+/* HEADER */
+#ctl00_TopBar_TopBar1_pnlTopBarAssincrono,
+.menuwrap,
+.history,
+.sidebar {
+    display: none;
+}
+
+.mainContentWrapper {
+	background: url('/arquivos/banner-topo.jpg') repeat-x top;
+	width:100%;
+}
+
+	.header {
+		background: white;
+		height: 84px;
+		margin: 0 auto;
+		padding: 10px 10px 0 10px;
+		width: 950px;
+		/* SHADOW */
+		-moz-box-shadow: 7px 7px 16px -7px black;
+		-webkit-box-shadow: 7px 7px 16px -7px black;
+		box-shadow: 7px 7px 16px -7px black;
+		/* END SHADOW */
+	}
+	.header h1 a {
+		background: url('/arquivos/logo-zussen.png') no-repeat;
+		display: block;
+		height: 61px;
+		text-indent: -9999px;
+		width: 176px;
+	}
+
+	.header h1 {
+		height: 61px;
+		float: left;
+		width: 176px;
+	}
+		.header h1 + div {
+			float: left;
+			width: 770px;
+		}
+
+	.mainContentWrapper div.content {
+		background: none;
+		margin: 315px auto 50px auto;
+		padding-bottom: 70px;
+		width: 990px;
+	}
+
+	/* FIX DO CONTENT REPLICADO TELA DE CADASTRO */
+	.mainContentWrapper div.content.cadastro {background: none; margin: 0; padding-bottom: 0; width:auto;}
+	/* end FIX DO CONTENT REPLICADO TELA DE CADASTRO */
+
+.servicos {
+	display: table;
+	font-family: 'Libre Baskerville', serif;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-size: 16px;
+	margin: 17px 0 0 20px;
+	text-transform: uppercase;
+	width:750px;
+}
+	.servicos .opcao {
+	    float: left;
+	    margin: 0 25px 0 0;
+	    padding: 10px 0;
+	}
+		.servicos .opcao a {
+			color: black;
+			text-decoration: none;
+		}
+
+#ctl00_TopBar_TopBar1_pnlTopBarAssincrono,
+.welcome,
+.menu-user,
+.menuwrap,
+.loginmsg {
+	display: none;
+}
+
+/* end HEADER */
+
+/* FOOTER */
+.footer {
+	background: black;
+	color:white;
+	font-size: 13px;
+	padding:30px 0 20px;
+}
+	.footer a {
+		color:white;
+		text-decoration: none;
+	}
+	.footer a:hover {text-decoration: underline;}
+
+	.footer .column-one {float: left;}
+
+	.footer .container-footer {
+		margin: 0 auto;
+		width: 900px;
+	}
+
+	.footer .menu-user-footer li {
+		float: left;
+		height: 19px;
+		margin-right: 30px;
+		padding-top: 6px;
+	}
+	.footer .menu-user-footer li.meu-carrinho {
+		background: url('/arquivos/ico-cart-footer.png') no-repeat right top;
+		padding-right: 27px;
+	}
+	.footer .menu-user-footer li.numero-pecas {
+		background: url('/arquivos/ico-cabide-footer.png') no-repeat right top;
+		padding-right: 35px;
+	}
+	.footer .container-menu-site {
+		margin-top: 20px;
+	}
+
+	.footer .container-menu-site .column-menu-site {
+	    float:left;
+	    margin-right:50px;
+	    width: auto;
+	}
+
+	.footer .container-menu-site .column-menu-site li {
+		font-size: 14px;
+		margin: 12px 0;
+	}
+
+	.footer .container-menu-site .column-menu-site li.title-options {
+	    border-top: 1px solid;
+	    border-bottom: 1px solid;
+	    font-family: 'Libre Baskerville', serif;
+	    padding: 5px 0;
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-size: 14px;
+	}
+	.footer .container-menu-site .column-menu-site li.title-options a:hover {text-decoration: none;}
+
+	.footer .column-two {
+	    float: right;
+	    font-size: 11px;
+	    text-align: center;
+	    width: 180px;
+	}
+		.footer .column-two .logo-footer {
+		    background:url('/arquivos/logo-zussen-footer.png') no-repeat;
+		    height:61px;
+		    margin-bottom:30px;
+		    text-indent: -9999px;
+		    width:176px;
+		}
+		.footer .column-two ul li {margin:15px 0}
+
+	.footer .seals-footer {margin-top:40px;}
+		.footer .seals-footer .selos-seguranca {float: left;}
+		.footer .seals-footer .selos-empresas {
+		    float: right;
+		    margin-top: 30px;
+		}
+			.footer .seals-footer .selos-empresas a {margin-right:10px;}
+/* end FOOTER */
+
+/* end SUBTEMPLATES ======================================================== */
+
+.checkout .content h2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.header-steps {
+	background: white;
+	height: 84px;
+	margin: 0 auto;
+	padding: 10px 10px 0 10px;
+	width: 950px;
+	/* SHADOW */
+	-moz-box-shadow: 7px 7px 16px -7px black;
+	-webkit-box-shadow: 7px 7px 16px -7px black;
+	box-shadow: 7px 7px 16px -7px black;
+	/* END SHADOW */
+}
+.header-steps h1 a {
+	background: url('/arquivos/logo-zussen.png') no-repeat;
+	display: block;
+	height: 61px;
+	text-indent: -9999px;
+	width: 176px;
+}
+
+.header-steps h1 {
+	height: 61px;
+	float: left;
+	width: 176px;
+}
+	.header-steps h1 + div.steps {
+		float: right;
+        margin-top:30px;
+	}
+	div.steps ul {margin-right:30px;}
+	div.steps ul:before, div.steps ul:after { content: ""; display: table; }
+    div.steps ul:after { clear: both; }
+    div.steps ul { *zoom: 1; } 
+	.header-steps h1 + div.steps ul li {
+	    color: #ccc;
+	    float:left;
+	    font-size:18px;
+	    margin-right:20px;
+	}
+	.header-steps h1 + div.steps ul li.ativo {color:#555;}
+	.header-steps h1 + div.steps ul li.last {margin-right:0;}
+
+
+/* CARRINHO =========================================== */
+
+/* carrinho vazio */
+.carrinho .carrinho-vazio h3 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.carrinho .carrinho-vazio p {
+	font-size: 14px;
+	margin: 0 0 14px 0;
+	line-height: 16px;
+	width: 620px;
+}
+
+.carrinho .carrinho-vazio .continuar-comprando a {
+	color: black;
+	font-size: 14px;
+}
+/* end carrinho vazio */
+
+.carrinho .loading {padding: 10px 10px 10px 0;}
+
+.carrinho .content h2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.carrinho .bts.top {
+    display: none;
+}
+
+.carrinho .carrinhoTable {
+    margin-top:30px;
+}
+	.carrinho .carrinhoTable .servico,
+	.carrinho .carrinhoTable .vale-presente label {display: none;}
+
+.carrinho .carrinhoTable thead {
+    border-bottom: 1px solid black;
+}
+
+	.carrinho .carrinhoTable thead th {
+		font-family: 'Libre Baskerville', serif;
+		font-size: 14px;
+		padding-bottom: 5px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 165px;
+	}
+	.carrinho .carrinhoTable thead th.produto {
+		text-align: left;
+		width: 400px;
+	}
+	.carrinho .carrinhoTable thead .excluir {width:100px;}
+
+.carrinho .carrinhoTable a.sku-imagem {
+    display: block;
+    width: 75px;
+    height: 113px;
+    overflow: hidden;
+    float: left;
+}
+
+.carrinho .carrinhoTable a.sku-imagem img {
+    width: 75px;
+    height: 113px;
+}
+
+.carrinho .carrinhoTable a.sku-imagem + h4 {
+    float: left;
+    margin: 30px 0 0 10px;
+    font-size: 13px;
+}
+
+.carrinho .carrinhoTable a.sku-imagem + h4 br {display:none;}
+
+.carrinho .carrinhoTable a.sku-imagem + h4 a {
+    display: block;
+    color:black;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:5px;
+    text-decoration:none;
+}
+
+.carrinho .carrinhoTable tbody tr {border-bottom: 1px solid #999;}
+
+.carrinho .carrinhoTable tbody td {
+	padding: 10px 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.carrinho .carrinhoTable tbody td.produto {text-align: left;}
+
+.carrinho .carrinhoTable tbody td s {color: #999;}
+
+.carrinho .carrinhoTable tbody td a.excluir {
+    background: url('/arquivos/bt-excluir.png') no-repeat;
+    display: block;
+    height:29px;
+    margin:0 auto;
+    text-indent: -9999px;
+    width: 29px;
+}
+.carrinho .carrinhoTable .boxQuantidade {text-align: center;}
+.carrinho .carrinhoTable .controle-quantidade {display: none;}
+
+.carrinho .carrinhoTable tfoot .subtotal {display: none;}
+
+.carrinho .carrinhoTable tfoot tr {
+	border-bottom: 1px solid #999;
+	height: 60px;
+}
+
+.carrinho .carrinhoTable tfoot tr td {
+	font-size: 13px;
+    padding: 10px 0;
+    vertical-align: middle;
+}
+
+.carrinho .carrinhoTable tfoot tr td legend {
+    font-size: 16px;
+    float: left;
+    width: 80px;
+}
+
+.carrinho .carrinhoTable tfoot tr td.txt-frete,
+.carrinho .carrinhoTable tfoot tr td.vale-presente,
+.carrinho .carrinhoTable tfoot tr td.valor-total {
+    font-weight:bold;
+    padding-right: 10px;
+    text-align: right;
+}
+.carrinho .carrinhoTable .frete-gratis a {display:none;}
+
+.carrinho .carrinhoTable .grp.fCep label {display: none;}
+.carrinho .carrinhoTable .msgValCEP {
+    float: left;
+    display: block;
+    margin-left: 10px;
+    height: 18px;
+    padding-top: 5px;
+}
+.carrinho .carrinhoTable .grp.fCep {
+    float: left;
+}
+
+.carrinho .carrinhoTable .bt {
+	background: #555;
+	border: 0;
+	color: white;
+}
+
+.carrinho .carrinhoTable .bt {
+    background: #555;
+    border: 0;
+    color: white;
+}
+.carrinho .carrinhoTable div.valor-parcelado {
+    text-align: right;
+}
+.carrinho .carrinhoTable tfoot tr td:last-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+ul.bottom {margin: 20px 0;}
+ul.bottom:before, ul.bottom:after { content: ""; display: table; }
+ul.bottom:after { clear: both; }
+ul.bottom { *zoom: 1; }
+
+.bts.bottom .continuar-comprando {float:left; padding-top:20px;}
+    .bts.bottom .continuar-comprando a {color:black; font-size:12px;}
+    
+.bts.bottom .finalizar-compra {float:right; margin-left:30px;}
+    .bts.bottom .finalizar-compra a {
+        background:url('/arquivos/bt-finalizar-compra.png') no-repeat;
+        display:block;
+        height: 59px;
+        text-indent:-9999px;
+        width: 223px;
+    }
+
+/* LOGIN ============================================== */
+
+.login hr {display: none;}
+
+.login .content h2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	margin: 0 0 15px 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.login .content h4 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+.login .mainWrapper:before,
+.login .mainWrapper:after { content: ""; display: table; }
+.login .mainWrapper:after { clear: both; }
+.login .mainWrapper { *zoom: 1; margin-top:50px;}
+
+.login .sign-in {
+	float: left;
+	margin-left: 40px;
+	width: 450px;
+}
+	.login .sign-in #ctl00_Conteudo_ctrlLogin_ctrLogin {width: 100%;}
+
+	.login .sign-in .wrapper p {
+	    font-size: 14px;
+	    font-weight: bold;
+	}
+	.login .sign-in .wrapper .sign-in-core {
+	    margin-top: 10px;
+	}
+	.login .sign-in .grp {
+	    margin:10px 0;
+	    font-size: 12px;
+	    width: 100%;
+	}
+	.login .sign-in label {
+	    display: block;
+	    margin-bottom: 5px;
+	}
+	.login .sign-in .fitext {
+	    border:1px solid #ccc;
+	    border-radius:3px 3px 3px 3px;
+	    height:20px;
+	    width:360px;
+	}
+	.login .sign-in .login-email-links {display:none;}
+	
+	.login .login-senha-links {
+		font-size:11px;
+		margin-top:5px;
+	}
+		.login .login-senha-links a {color:black;}
+
+	.login .sign-in .btw.continuar {
+		text-align: right;
+		width: 365px;
+	}
+		.login .sign-in .btw.continuar .fisubmit {
+		    background: url('/arquivos/bt-continuar.png');
+		    border: 0;
+		    cursor: pointer;
+		    height: 33px;
+		    text-indent: -9999px;
+		    width: 131px;
+		}
+
+.login .register-info {
+	float: right;
+	font-size: 14px;
+	line-height: 16px;
+	margin-right: 40px;
+	width: 350px;
+}
+	.login .register-info .vantagens {
+		display: none;
+	}
+	.login .register-info .criar-conta {
+		display: block;
+		margin-top:30px;
+	}
+	.login .register-info .criar-conta .bt {
+	    background:url('/arquivos/bt-quero-cadastrar.png') no-repeat;
+	    display:block;
+	    height:38px;
+	    text-indent:-9999px;
+	    width:350px;
+	}
+
+.login .aviso-erro p,
+.login .sign-in .aviso-erro {display: none;}
+/* end LOGIN ========================================== */
+
+/* MINHA CONTA */
+
+.box.informacoes-conta,
+.minhas-opinioes {display:none;}
+
+.minha-conta .breadcrumb, .minha-conta .menuwrap, .minha-conta .searchWrapper,
+.minha-conta .welcome {display: none;}
+
+.meus-pedidos-detalhes .breadcrumb, .meus-pedidos-detalhes .menuwrap, .meus-pedidos-detalhes .searchWrapper,
+.meus-pedidos-detalhes .welcome {display: none;}
+
+.minha-conta {font-size: 12px;}
+
+.minha-conta h2 {display: none;}
+
+.minha-conta .nav {
+	float: left;
+	margin: 0 auto 50px auto;
+	font-size: 12px;
+	height: 150px;
+	padding: 0 20px;
+	overflow: hidden;
+}
+
+.minha-conta .nav h3 {
+    background:#f1f1f1;
+    padding:3px;
+}
+
+.minha-conta .nav ul {
+    margin:10px 0 20px;
+}
+
+.minha-conta .nav li {
+padding: 0 0 5px 0;
+}
+
+.minha-conta .nav a {
+    color:#555;
+}
+
+.minha-conta .nav ul:last-child {display: none;}
+
+.minha-conta .abas {display:table; margin-bottom:20px;}
+	.minha-conta .abas li {
+	    float: left;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+    .minha-conta .abas li a {color:#555}
+
+.minha-conta .area-root {
+    font-size: 12px;
+    margin: 315px auto 0 auto;
+    width: 990px;
+}
+
+.minha-conta .dados {
+	margin: 0 0 20px 0;
+	display: table;
+}
+	.minha-conta .dados dt {
+		clear: left;
+		float: left;
+		font-weight: bold;
+		height: 25px;
+		width: 200px;
+	}
+	.minha-conta .dados dd {float: left;}
+
+.minha-conta .area-3-2-3 {display: table;}
+
+	.minha-conta .area-3-2-3 h3,
+	.minha-conta .area-3-2-3 .meus-dados {display: none;}
+
+	.minha-conta .area-3-2-3 .bts {
+		clear: both;
+		height: 35px;
+		margin: 0;
+	}
+
+	.minha-conta .area-3-2-3 .bts .bt {margin:0; display: inline;}
+	.minha-conta .area-3-2-3 .bts li.editar {
+		float: left;
+		margin: 0 0 0 10px;
+	}
+	.minha-conta .area-3-2-3 .bts li.alterar-senha {float: left;}
+
+	.minha-conta .area-3-2-3 .bts .bt {
+		background: #555;
+		color:white;
+		font-size: 12px;
+		display: inline;
+		margin: 0;
+		padding: 6px;
+	
+		text-decoration: none;
+}
+
+
+	.minha-conta .area-3-2-3 .vales {
+		clear: both;
+		padding: 10px 0;
+	}
+
+.minha-conta .area-3-2-5 dd {border-bottom:1px solid #D1D1D1; padding-bottom:10px;}
+.minha-conta .area-3-2-5 dd a {color:#555;}
+.minha-conta .area-3-2-5 dd a:hover {color:#333;}
+.minha-conta .area-3-2-5 dt {
+	font-weight: bold;
+	margin: 0 0px 2px;
+	padding: 20px 0 5px;
+}
+/* END MINHA CONTA ==================================== */
+
+/* EDITAR CONTA */
+
+.minha-conta.editar-conta h2 {
+	display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.editar-conta .meus-dados {display:none;}
+
+.editar-conta .nao-altera em,
+.editar-conta .permission-sel {display: none;}
+
+.editar-conta .nao-altera span, .editar-conta label {
+    float:left;
+    text-align:right;
+    width:200px;
+    margin-right: 20px;
+    font-weight:bold;
+}
+.editar-conta .grp {
+    padding:3px;
+    margin:5px 0;
+}
+.editar-conta .grp.fSexo .fSexo label {
+    float:none;
+    margin-left: 5px;
+    width:auto;
+}
+
+.editar-conta .grp.fSite {display: none;}
+
+.editar-conta .bt {
+	background: #555;
+	border: none;
+	color: white;
+	font-size: 12px;
+	display: inline;
+	margin: 0;
+	padding: 6px;
+	text-decoration: none;
+}
+.editar-conta .bts {
+    width: 300px;
+    margin: 20px auto 30px auto;
+}
+.editar-conta .bts li {
+    float: left;
+    margin-right: 10px;
+}
+
+.editar-conta .fitext,
+.editar-conta .fipassword {
+	border-radius: 4px;
+    border: 1px solid #E5E5E5;
+    height: 25px;
+    margin-top: 5px;
+    padding: 0 3px;
+    font-size: 12px;
+    width: 160px;
+}
+
+.editar-conta .fitext.telefone {width: 90px !important;}
+
+.editar-conta .grp.fData.fDataNasc .fitext {
+    width: 35px;
+    margin-right: 5px;
+}
+.editar-conta fieldset legend span {
+    display: none;
+}
+/* END EDITAR CONTA =================================== */
+
+
+/* CADASTRO =================================== */
+.cadastro-cliente .content {
+	font-size: 13px;
+}
+
+.cadastro-cliente .content h2 {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.cadastro-cliente p {
+    font-size:14px;
+    font-weight:bold;
+    margin: 0 0 14px 0;
+}
+
+.cadastro-cliente .frmTipoPessoa {
+	background: #f1f1f1;
+	border: 1px solid #e1e1e1;
+	margin: 10px 0;
+	padding: 10px;
+}
+.cadastro-cliente .frmTipoPessoa legend {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.cadastro-cliente .grp {
+    margin: 20px 0 0;
+}
+.cadastro-cliente .fitext {
+    width: 200px !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 20px;
+    margin-bottom: 4px;
+    padding-left: 4px;
+}
+
+.cadastro-cliente .fitext.DDD {width: 40px !important;}
+
+.cadastro-cliente .fitext.cep-prefixo {width:130px !important;}
+.cadastro-cliente .fitext.cep-sufixo {width:50px !important;}
+
+.cadastro-cliente .fitext.dia,
+.cadastro-cliente .fitext.mes,
+.cadastro-cliente .fitext.ano {width:60px !important;}
+
+.cadastro-cliente label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cadastro-cliente label.sexo-m {display: inline;}
+    .cadastro-cliente label.sexo-m span {padding-right:15px;}
+
+.cadastro-cliente label.sexo-f {display: inline;}
+
+.cadastro-cliente .thickbox {display:none;}
+
+.cadastro-cliente .nao-cep,
+.cadastro-cliente .formato,
+.cadastro-cliente .exp {
+    font-size: 11px;
+    color: black;
+}
+.cadastro-cliente .frmPessoaFisica {
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+.cadastro-cliente .frmPessoaDadosAcesso {
+    border: 1px solid #e1e1e1; 
+    margin: 30px 0 0;
+    padding: 10px;
+}
+
+.cadastro-cliente .frmPessoaFisica legend,
+.cadastro-cliente .frmPessoaDadosAcesso legend {font-family: 'Libre Baskerville', serif;font-size: 16px;text-transform: uppercase;padding: 0 10px;}
+
+.cadastro-cliente .grp.fApelido {display: none;}
+
+
+.cadastro-cliente .grp.fSexo {clear:both;}
+
+.cadastro-cliente .grp.fTelCom,
+.cadastro-cliente .areaAvisos legend,
+.cadastro-cliente .areaAvisos p {display: none;}
+
+.cadastro-cliente .continuar-usuario {margin-top: 20px;}
+
+.cadastro-cliente .bt.fisubmit {
+    background: url('/arquivos/bt-quero-cadastrar.png') no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 38px;
+    text-indent: -9999px;
+    width: 350px;
+}
+
+.cadastro-cliente .aviso-erro {margin:20px 0;}
+    .cadastro-cliente .aviso-erro ul li {
+        list-style-type: disc;
+        list-style-position: inside;
+        margin: 5px 0;
+        font-size: 11px;
+        padding-left: 10px;
+    }
+
+.frmPessoaJuridica {
+    border: 1px solid #e1e1e1; padding: 10px;
+    margin: 30px 0;
+}
+.frmPessoaJuridica legend {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    text-transform: uppercase; padding: 0 10px;
+}
+.isento label {display: inline;}
+
+/* end CADASTRO =================================== */
+
+
+
+/* CATALOGO ENDERECOS ================================================================================ */
+.endereco-compra .identificacao {font-size: 14px;}
+
+.endereco-compra .endereco h2 {display: none;}
+
+.endereco-compra .lista-endereco fieldset legend {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.endereco-compra .menuwrap,
+.endereco-compra .searchWrapper {display: none;}
+
+.endereco-compra .bt.fisubmit {
+    background: #555;
+    border: none;
+    color:white;
+    cursor: pointer;
+    display: inline;
+    margin: 0;
+    padding: 10px 30px;
+}
+.endereco-compra .bts {margin-top: 30px;}
+.endereco-compra .bts .voltar{display: none;}
+.endereco-compra .bts .continuar {margin-left: 190px;}
+.endereco-compra .content label {
+	width: 170px;
+	display: block;
+	float: left;
+	text-align: right;
+	padding-top: 4px;
+	margin-right: 20px;
+}
+.endereco-compra .grp {
+    margin: 5px 0;
+    padding: 5px 0;
+}
+.endereco-compra .fitext {
+    border: 1px solid #E5E5E5;  height: 25px;  margin-top: 5px;  padding: 0 3px;  font-size: 12px;  width: 160px;
+}
+.endereco-compra .cadastro-endereco h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.endereco-compra .grp.fCep .cep-prefixo {width:110px;}
+.endereco-compra .grp.fCep .cep-sufixo {width:39px;}
+.endereco-compra .grp.fCep .nao-cep {color:#555; font-size:11px;}
+.endereco-compra .grp.fCep .nao-cep:hover {text-decoration:underline;}
+.endereco-compra .cadastro-endereco legend span {
+    font-weight: bold;
+}
+.endereco-compra .cadastro-endereco legend {margin-bottom: 20px;}
+
+.checkout.endereco-compra div.cadastro-endereco {
+	border-top: 1px solid #999;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.endereco-compra .address-list:before, .endereco-compra .address-list:after { content: ""; display: table; }
+.endereco-compra .address-list:after { clear: both; }
+.endereco-compra .address-list { *zoom: 1; }
+
+.endereco-compra .address-list li {
+	float: left;
+	font-size: 13px;
+	margin-right: 20px;
+	width: 300px;
+}
+    .endereco-compra .address-list li address {
+        line-height: 16px;
+        margin-top: 10px;
+    }
+    .endereco-compra .address-list li address strong {
+        margin: 7px 0;
+        display: block;
+        font-size: 15px;
+    }
+.endereco-compra .select-address a {
+    background: #555;
+    color: white;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+}
+.endereco-compra .select-address a:hover {background:#999;}
+
+.endereco-compra .endereco .bts {margin-top: 10px;}
+	.endereco-compra .endereco .bts a {color: #555;}
+/* end CATALOGO ENDERECOS ================================================================================ */
+
+
+/* ALTERAR SENHA ========================================================================================= */
+.minha-conta.alterar-senha h2 {
+	display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.minha-conta.alterar-senha .outras-opcoes {display:none;}
+
+.minha-conta.alterar-senha .alterar-senha {
+    font-size: 14px;
+}
+.minha-conta.alterar-senha .alterar-senha legend {display:none;}
+
+.minha-conta.alterar-senha .alterar-senha .grp {
+    height: 50px;
+    margin: 10px 0;
+}
+.minha-conta.alterar-senha .alterar-senha .grp label {display:block; margin-bottom:4px}
+.minha-conta.alterar-senha .alterar-senha .grp .fipassword {border:1px solid #ccc; border-radius:4px; height:20px; width:200px;}
+
+.minha-conta.alterar-senha .alterar-senha .esqueci-senha {
+    font-size: 11px;
+    color: #555;
+}
+
+.minha-conta.alterar-senha .alterar-senha .btw.alterar-senha .fisubmit {
+    background: #555;
+    border: none;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+}
+/* end ALTERAR SENHA ===================================================================================== */
+
+
+/* ESQUECI SENHA ========================================================================================= */
+
+.minha-conta.esqueci-senha h2 {
+	display: block;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.minha-conta.esqueci-senha .outras-opcoes {display:none;}
+
+.minha-conta.esqueci-senha .esqueci-senha {
+    font-size: 14px;
+}
+.minha-conta.esqueci-senha .esqueci-senha legend {display:none;}
+
+.minha-conta.esqueci-senha .esqueci-senha .grp {
+    height: 50px;
+    margin: 10px 0;
+}
+.minha-conta.esqueci-senha .esqueci-senha .grp label {display:block; margin-bottom:4px}
+.minha-conta.esqueci-senha .esqueci-senha .grp .fitext {border:1px solid #ccc; border-radius:4px; height:20px; width:200px;}
+
+.minha-conta.esqueci-senha .esqueci-senha .esqueci-senha {
+    font-size: 11px;
+    color: #555;
+}
+
+.minha-conta.esqueci-senha .esqueci-senha .btw .fisubmit {
+    background: #555;
+    border: none;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+}
+/* end ESQUECI SENHA ========================================================================================= */
+
+
+
+/* PAGAMENTO ============================================================================================= */
+.checkout.forma-pagamento .dados-pagamento h3 {
+    font-weight: bold;
+    margin: 30px 0 10px;
+}
+
+.checkout.forma-pagamento table.valor-compra th {
+    font-size:12px;
+	height: 25px;
+	padding-right: 20px;
+	text-align: right;
+}
+.checkout.forma-pagamento table.valor-compra td {font-size: 13px;font-weight: bold;}
+
+.checkout.forma-pagamento .dados-pagamento {
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.checkout.forma-pagamento .tit {
+    margin: 10px 0;
+}
+    .checkout.forma-pagamento .tit strong {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .checkout.forma-pagamento .tit span {font-size:13px;}
+
+.checkout.forma-pagamento .lista-formas-pagamento li label strong {
+    display: none;
+}
+.checkout.forma-pagamento .lista-formas-pagamento li label .firadio {
+    float: left;
+    margin: 30px 0 20px 0;
+    width: 20px;
+}
+.checkout.forma-pagamento .lista-formas-pagamento li label img {
+    display: block;
+    margin-left: 10px;
+    float: left;
+}
+
+.checkout.forma-pagamento .wrapper h3 {
+    background: #f0f0f0;
+    margin: 20px 0 10px;
+    padding: 10px;
+}
+.checkout.forma-pagamento .formapagamento-descricao {
+    clear: both;
+    padding: 20px 0;
+    display: block;
+}
+
+.checkout.forma-pagamento .voltar {display: none;}
+
+.checkout.forma-pagamento .footer {margin-top: 50px;}
+
+fieldset.continuar .fibutton {
+    background: #555;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+/* end PAGAMENTO ============================================================================================= */
+
+
+/* MEUS PEDIDOS ============================================================================================== */
+.meus-pedidos .breadcrumb, .meus-pedidos .menuwrap, .meus-pedidos .searchWrapper,
+.meus-pedidos .welcome {display: none;}
+
+.ajax__calendar .ajax__calendar_container {margin-left: -1px;}
+
+.meus-pedidos-detalhes .breadcrumb, .meus-pedidos-detalhes .menuwrap, .meus-pedidos-detalhes .searchWrapper,
+.meus-pedidos-detalhes .welcome {display: none;}
+
+
+.content-meuspedidos .abas {display:table; margin-bottom:20px;}
+	.content-meuspedidos .abas li {
+	    float: left;
+	    margin-right: 10px;
+	    font-size: 14px;
+	}
+	.content-meuspedidos .abas li a {color:#555}
+
+.content-meuspedidos {
+	position: relative !important;
+	border-left: 1px solid #E3E3E3 !important;
+	padding-left: 30px !important;
+	width: 770px !important;
+}
+	.content-meuspedidos .menu-pedidos li {padding-bottom: 10px;}
+	.content-meuspedidos .tabela-pedidos {margin: 20px 0;}
+	.content-meuspedidos .filtrar .ok {
+		float: right;
+		padding: 20px 0 0;
+		text-align: left;
+	}
+	.content-meuspedidos .filtrar .grp {margin: 10px 0;}
+	.content-meuspedidos .filtrar legend {
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+.minha-conta.meus-pedidos .searchWrapper,
+.minha-conta.meus-pedidos h2 {display: none;}
+
+.minha-conta.meus-pedidos .nav {
+    float: left;
+    margin: 315px auto 50px auto;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+.minha-conta.meus-pedidos .nav h3 {
+    background:#f1f1f1;
+    padding:3px;
+}
+
+.minha-conta.meus-pedidos .nav ul {
+    margin:10px 0 20px;
+}
+
+.minha-conta.meus-pedidos .nav a {
+    color:#555;
+}
+
+.minha-conta.meus-pedidos .content.content-meuspedidos {
+    float: left;
+}
+.minha-conta.meus-pedidos .footer {
+    clear: both;
+}
+
+.minha-conta.meus-pedidos .nav li {padding: 0 0 5px 0;}
+
+.meus-pedidos .tabela-pedidos h3 {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+}
+
+.meus-pedidos .tabela-pedidos thead th {
+	background: #eaeaea;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px;
+	text-align: left;
+}
+
+.meus-pedidos .tabela-pedidos tbody td {
+	font-size: 12px;
+	padding: 8px;
+	text-align: left;
+}
+.meus-pedidos .tabela-pedidos tbody td.pedido {text-align: center;}
+
+	.meus-pedidos .tabela-pedidos .tbLinks li {padding: 0 0 10px;}
+	.meus-pedidos .tabela-pedidos tbody td .tbLinks a {color:dimGray;}
+	.meus-pedidos .tabela-pedidos tbody td .tbLinks a:hover {color: #555;}
+
+.meus-pedidos .filtrar {
+	margin-left: 115px;
+	padding-top: 0px;
+	width: 470px;
+}
+
+.meus-pedidos-detalhes .informacoes-entrega .pedido-numero {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.meus-pedidos-detalhes .box-dados-pedido {
+	border-top: 1px solid #999;
+	font-size: 13px;
+	margin: 20px 0 0;
+	padding-top: 20px;
+}
+
+.meus-pedidos-detalhes .box-dados-pedido dt {
+     clear: left;
+     float: left;
+     font-weight: bold;
+     padding: 0 0 5px 0;
+     width: 165px;
+}
+
+.meus-pedidos-detalhes .box-dados-pedido dd {
+padding: 0 0 5px 0;
+}
+
+.meus-pedidos-detalhes .descricao-entrega h4, .meus-pedidos-detalhes .endereco-entrega h4 {
+     display: none;
+}
+
+.meus-pedidos-detalhes .rastrear-entrega a {
+     color: dimGray;
+     background: none;
+     text-decoration: underline ! important;
+     display: inline;
+     padding: 0;
+     text-align: left;
+     margin: 0;
+     text-transform: capitalize;
+}
+
+.meus-pedidos-detalhes .voltar, .meus-pedidos-detalhes .informacoes-entrega {
+     padding-bottom: 11px;
+}
+
+.meus-pedidos-detalhes .descricao-compra {
+     margin: 11px 0px 17px;
+     width: 100%;
+}
+
+.meus-pedidos-detalhes .descricao-compra thead {
+     color: #333;
+     background: #eaeaea;
+     font-size: 13px;
+}
+
+.meus-pedidos-detalhes .descricao-compra tfoot {
+     font-weight: bold;
+}
+
+.meus-pedidos-detalhes .descricao-compra tfoot th {
+     text-align: right;
+}
+
+.meus-pedidos-detalhes .descricao-compra th, .meus-pedidos-detalhes .descricao-compra td {
+     border-bottom: 1px solid #eaeaea;
+     padding: 10px 3px;
+}
+
+.meus-pedidos-detalhes .descricao-compra tfoot th, .meus-pedidos-detalhes .descricao-compra tfoot td {
+     border-bottom: medium none;
+}
+
+.meus-pedidos-detalhes .descricao-entrega {
+     clear: both;
+}
+
+.meus-pedidos-detalhes .dados-pagamento .wrapper, .meus-pedidos-detalhes .endereco-entrega, .meus-pedidos-detalhes .dados-entrega, .meus-pedidos-detalhes .descricao-entrega, .meus-pedidos-detalhes .pagamento-endereco {
+     clear: both;
+     padding-top: 11px;
+}
+
+.meus-pedidos-detalhes .pagamento-endereco {
+	font-size: 12px;
+	line-height: 14px;
+	margin: 20px 0 0;
+}
+
+.meus-pedidos-detalhes .pagamento-endereco strong {font-weight: bold;}
+.meus-pedidos-detalhes .pagamento-endereco legend {font-size: 14px;}
+.meus-pedidos-detalhes .pagamento-endereco .imprimir {color:dimGray;}
+.meus-pedidos-detalhes .pagamento-endereco .imprimir:hover {color:#333;}
+
+.meus-pedidos-detalhes .valor-compra th {
+	font-weight: bold;
+	text-align: right ! important;
+}
+
+.meus-pedidos-detalhes .valor-compra td {padding: 10px;}
+
+.meus-pedidos-detalhes .dados-pagamento h3 {
+	display: block;
+	background: #EAEAEA;
+	padding: 10px;
+}
+
+.meus-pedidos-detalhes .voltar .bt {
+	background: #555;
+	color: white;
+	display: block;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+}
+
+.rastrear-pedido {
+
+}
+
+.rastrear-pedido .pedido-numero {
+font-weight: bold;
+font-size:16px;
+padding-bottom:10px
+}
+
+.rastrear-pedido .content {
+     text-align: left;
+}
+
+.rastrear-pedido dd {padding:0 0 5px 0;}
+
+.rastrear-pedido dt {
+     clear: left;
+     float: left;
+     padding: 0 0 5px 0;
+     font-weight: bold;
+     width: 165px;
+}
+
+.rastrear-pedido .tracking {
+     margin: 11px 0px;
+     width: 100%;
+}
+
+.rastrear-pedido .tracking thead {
+     color: #FF7E00;
+     font-size: 13px;
+}
+
+.rastrear-pedido .tracking th, .rastrear-pedido .tracking td {
+	border-bottom: 1px solid #555;
+	padding: 5px;
+}
+
+.rastrear-pedido .informacoes-entrega {
+     margin-bottom: 11px;
+}
+
+.rastrear-pedido .endereco-entrega dl {
+     margin-top: 11px;
+}
+
+.rastrear-pedido .voltar {
+     clear: both;
+     padding: 15px 0px;
+}
+
+.rastrear-pedido .voltar .bt {
+	background: #555;
+	color: white;
+	display: block;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 100px;
+}
+/* end MEUS PEDIDOS ============================================================================================== */
+
+/* FALE CONOSCO */
+.fale-conosco h2 {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 21px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 7px;
+	text-transform: uppercase;
+}
+
+.bts .voltar,
+.fale-conosco .box-outras-opcoes,
+.fale-conosco .wrapper legend {display: none;}
+
+.fale-conosco label {
+    height: 20px;
+    display: block;
+    font-size: 13px;
+}
+
+.fale-conosco .grp {margin: 10px 0 20px;}
+
+.fale-conosco .fitext {
+    height: 23px;
+    width: 250px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.fale-conosco .DDD.fitext {width: 45px;}
+.fale-conosco .telefone.fitext {width: 195px;}
+
+.fale-conosco textarea {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	width: 240px;
+}
+.fale-conosco .bts .enviar .bt {
+	background: url('/arquivos/btn-enviar.jpg') no-repeat;
+	display: block;
+	height: 39px;
+	text-indent: -9999px;
+	width: 147px;
+}
+
+.fale-conosco .aviso-erro {
+    font-size: 13px;
+    margin: 20px 0;
+}
+	.fale-conosco .aviso-erro li {
+	    font-size:12px;
+	    list-style-type:disc;
+	    list-style-position:inside;
+	    margin:10px 0;
+	}
+/* end FALE CONOSCO */

@@ -1,0 +1,47 @@
+/* banner central home ========= */
+.home .containerGeral {width:100% !important;}
+
+.bannerSuperDestaque {
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	height: 471px;
+	width: 100%;
+}
+
+.pager-banner-central {
+	display: table;
+	height: 30px;
+	margin: 20px auto 40px auto;
+	text-align:center;
+	width: auto;
+}
+
+.pager-banner-central a {
+	background: url('bullet-pager.png') no-repeat;
+	display: block;
+	float: left;
+	height: 13px;
+	margin: 0 10px 0 0;
+	width: 13px;
+	text-indent: -99999px;
+}
+
+.pager-banner-central a.activeSlide {background-position: 0px -13px;}
+
+#bannerSuperDestaque div {
+	width:100% !important;
+}
+
+#bannerSuperDestaque div a {
+	display: block;
+	height: 450px;
+	margin: 0 auto;
+	text-indent: -99999px;
+	width: 100% !important;	
+}
+
+#banner-central1 a {background: url('/arquivos/soft_opening1.jpg') no-repeat top center;}
+#banner-central2 a {background: url('/arquivos/como_usar.jpg') no-repeat top center;}
+#banner-central3 a {background: url('/arquivos/creare1.jpg') no-repeat top center;}
+/* end banner central home ========= */

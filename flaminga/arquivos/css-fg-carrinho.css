@@ -1,0 +1,93 @@
+.checkout .title {
+	display: block;
+	font-size: 24px;
+	margin-bottom: 45px;
+}
+
+.stepsCarrinho {
+	height:90px;
+	margin-bottom:50px;
+}
+	.stepsCarrinho .stepsContainer {
+		margin: 0 auto;
+		width: 900px;
+	}
+	.stepsCarrinho .step {
+		display: block;
+		float:left;
+		height:90px;
+		margin-right: 90px;
+		text-indent: -99999px;
+	}
+	.stepsCarrinho .step.resumo {
+		background: url('step1.png') no-repeat;
+		width: 152px;
+	}
+	.stepsCarrinho .step.login {
+		background: url('step2.png') no-repeat;
+		width: 114px;
+	}
+	.stepsCarrinho .step.entrega {
+		background: url('step3.png') no-repeat;
+		width: 67px;
+	}
+	.stepsCarrinho .step.pagamento {
+		background: url('step4.png') no-repeat;
+		width: 88px;
+	}
+	.stepsCarrinho .step.confirmacao {
+		background: url('step5.png') no-repeat;
+		width: 104px;
+	}
+	.stepsCarrinho .step.ativo {
+		opacity:0.3;
+		filter:alpha(opacity=30);
+	}
+	.stepsCarrinho .step.last {margin-right: 0;}
+
+/* LOGIN ==================== */
+.loginContainer {margin: 90px 0 30px;}
+	.loginContainer .linkBtn {
+		margin:0 auto;
+		padding:5px 10px;
+		width:153px;
+	}
+	.loginContainer .column {
+		float:left;
+		margin-right: 10%;
+		text-align: center;
+		width:45%;
+	}
+		.loginContainer .column .obs {
+			font-size: 12px;
+			font-style: italic;
+		}
+		.loginContainer .column.last {margin-right: 0;}
+
+	.loginContainer .loginRow {
+		height: 100px;
+		margin-bottom:55px;
+	}
+
+.formLogin {
+	margin: 0 auto;
+	width: 380px;
+}
+	.formLogin .columnLogin {
+		float:left;
+		margin-right: 15px;
+		width:170px;
+	}
+		.formLogin .textLogin {
+			border:1px solid #7d7d7d;
+			color:#666;
+			padding:3px;
+		}
+		.formLogin .boxForgetPassword {
+			font-size: 12px;
+			margin: 0 3px 0 0;
+			padding:5px 0 0;
+			text-align: right;
+		}
+
+		.formLogin .boxForgetPassword a {color:#888}

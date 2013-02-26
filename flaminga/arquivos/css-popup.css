@@ -1,0 +1,53 @@
+body.popup.pop-servico .continuar.top,
+body.popup.pop-servico .thickbox.more,
+body.popup.pop-servico .footer {display: none;}
+
+body.popup.pop-servico {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	height: 300px;
+	padding: 10px;
+	width: 460px;
+}
+
+body.popup.pop-servico .header {margin-bottom: 30px;}
+
+body.popup.pop-servico .header h1 a {
+	background: url('/arquivos/logo-flaminga.png') no-repeat;
+	display: block;
+	height: 57px;
+	margin: 10px auto 0;
+	text-indent: -9999px;
+	width: 177px
+}
+
+body.popup.pop-servico .close {display: none;}
+
+body.popup.pop-servico .wrapper h2 {
+	display: none;
+}
+body.popup.pop-servico .box-info h3 {display: none;}
+body.popup.pop-servico .wrapper h4 {
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+body.popup.pop-servico .frmServicos {
+    margin: 10px 0 20px;
+    background: #f1f1f1;
+    padding: 10px;
+    width: 100%;
+}
+body.popup.pop-servico .frmServicos .grp {margin: 10px 0;}
+	body.popup.pop-servico .frmServicos .grp label em {display: none;}
+	body.popup.pop-servico .frmServicos .grp label span {border-left:1px solid; padding-left:5px}
+
+body.popup.pop-servico fieldset.continuar .btnSaveService {
+	background: url('/arquivos/bt-seleciona-servico.png');
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: block;
+	height: 25px;
+	text-indent: -9999px;
+	width: 100px;
+}

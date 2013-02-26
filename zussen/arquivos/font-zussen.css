@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Libre Baskerville'), local('LibreBaskerville-Regular'), url(http://themes.googleusercontent.com/static/fonts/librebaskerville/v1/pR0sBQVcY0JZc_ciXjFsK5gtRqbDAavNCEBluaoIIJc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Libre Baskerville Bold'), local('LibreBaskerville-Bold'), url(http://themes.googleusercontent.com/static/fonts/librebaskerville/v1/kH7K4InNTm7mmOXXjrA5v5HBV7zGPK_SGwFjOykAVjn3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'), url(http://themes.googleusercontent.com/static/fonts/librebaskerville/v1/QHIOz1iKF3bIEzRdDFaf5SO-5kXrvlsa0llgP70kI5w.woff) format('woff');
+}

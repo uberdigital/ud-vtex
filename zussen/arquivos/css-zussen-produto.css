@@ -1,0 +1,167 @@
+.container-main .productName {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 21px;
+	margin: 0 0 15px 0;
+	padding: 10px 0 7px;
+	text-transform: uppercase;
+}
+
+.container-product .images-column {
+	float: left;
+	width: 320px;
+}
+
+	#image {
+		height: 451px;
+		width: 300px;
+	}
+
+	.container-product .images-column img {
+		-moz-box-shadow: 7px 7px 16px -7px #aaa;
+		-webkit-box-shadow: 7px 7px 16px -7px #aaa;
+		box-shadow: 7px 7px 16px -7px #aaa;
+	}
+	.container-product .thumbs {
+		margin: 20px 0 0 0;
+	}
+		.container-product .thumbs li {
+			float: left;
+			margin: 0 20px 0 0;
+		}
+		.container-product .thumbs li.last {margin-right: 0;}
+
+
+.container-product .infos-column {
+	float: right;
+	width: 590px;
+}	
+	.container-product .infos-column .info-columns-container {margin-bottom: 30px;}
+
+	.container-product .infos-column .information-box {
+	    font-size: 16px;
+	    height: 130px;
+	    margin-top:30px;
+	}
+	.container-product .infos-column .information-box.first {margin-top:0;}
+		.container-product .infos-column .information-box .title-box,
+		.container-product .infos-column .information-box .specification {
+		    border-bottom: 1px solid black;
+		    font-family: 'Libre Baskerville', serif;
+		    font-size: 14px;
+		    margin-bottom: 10px;
+		    padding-bottom: 7px;
+		    text-transform: uppercase;
+		}
+		.container-product .infos-column .information-box p {
+			line-height: 16px;
+			margin:0 0 14px 0;
+		}
+		.container-product .infos-column .information-box .sku-selector {width: 200px;}
+		.container-product .infos-column .information-box input.sku-selector {display:none}
+	    .select label {border: 1px solid gray;cursor: pointer;font-size: 12px; margin-right:10px;padding: 3px 5px;}
+	    .select label.sku-picked {background: #999;color: white;}
+	    .select label.item_unavaliable {
+            zoom: 1;
+            filter: alpha(opacity=50);
+            opacity: 0.5;
+	        cursor: default;
+	    }
+	
+	.container-product .infos-column .size-column {
+	    float: right;
+	    width: 250px;
+	}
+	.container-product .infos-column .details-column {
+	    float: left;
+	    width: 250px;
+	}
+
+	/* ESPECIFICACOES */	
+	.container-especificacoes #caracteristicas table,
+	.container-especificacoes #caracteristicas .group {display: none;}
+
+	.container-especificacoes #caracteristicas table {margin:20px 0;}
+	.container-especificacoes #caracteristicas .group.Descricao + table {display:block; font-size:12px;}
+	.container-especificacoes #caracteristicas .group.Descricao + table th {text-align:left; font-weight:bold; padding-bottom:5px; width:130px;}
+
+	.container-product .notifyme {
+	    margin-top: -30px;
+	    background: white;
+	    padding: 10px;
+	    font-size: 12px;
+	    text-transform: lowercase;
+	}
+		.container-product .notifyme h3 {font-weight:bold; text-transform:uppercase; margin-bottom:5px}
+
+	.container-product .infos-column .product-price-container {display: none;}
+
+		.container-product .infos-column .product-price-container .valor-dividido {
+			display: inline !important;
+		}
+			.container-product .infos-column .product-price-container .valor-dividido label {font-weight: bold;}
+
+	.container-product .infos-column .product-price-container .valor-de {
+		font-style: italic;
+		padding-bottom: 10px;
+		text-decoration: line-through;
+	}
+
+	.container-product .infos-column .container-dica-zussen {
+		font-size: 16px;
+		text-align: center;
+	}
+	.container-product .infos-column .container-dica-zussen .title-dica {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		display: block;
+		font-family: 'Libre Baskerville', serif;
+		margin: 0 0 15px 0;
+		padding: 7px 0;
+		text-transform: uppercase;
+	}
+
+	/* TAMANHOS */
+	.container-tamanho-produto #caracteristicas h4,
+	.container-tamanho-produto #caracteristicas table {display: none;}
+	.container-tamanho-produto #caracteristicas .group.Tamanhos + table .name-field {display:none}
+	.container-tamanho-produto #caracteristicas .group.Tamanhos + table {
+	    margin-top:10px;
+	    font-size:12px;
+	    display:block;
+	}
+
+	/* MEDIDAS */
+	.container-medidas .group, .container-medidas table {display:none;}
+	.container-medidas .group.Medidas + table {display:block;}
+	.container-medidas .group.Medidas + table th {font-weight:bold; padding-bottom:10px;}
+	.container-medidas .group.Medidas + table td {padding-left:10px;}
+
+	/* DICA DA ZUSSEN */
+	.container-dica-zussen .group,
+	.container-dica-zussen table {display: none;}
+	.container-dica-zussen .group.Dica-Zussen + table {display:block;}
+	.container-dica-zussen .group.Dica-Zussen + table .name-field {display: none;}
+
+	.container-product .infos-column .product-price-container .economia-de,
+	.container-product .infos-column .product-price-container .preco-a-vista {display: none !important;}
+
+	.container-product .buy-button {
+		background: url('bt-comprar.png') no-repeat;
+		display: block;
+		height: 59px;
+		text-indent: -9999px;
+		width:193px;
+	}
+
+.container-quem-viu-viu-tambem {margin-top: 70px;}
+	.container-quem-viu-viu-tambem h3 {font-size: 21px;}
+
+	.container-main .container-quem-viu-viu-tambem h2 {
+	    display: block;
+	    border-bottom: 1px solid black; border-top: 1px solid black; font-family: 'Libre Baskerville', serif; font-size: 21px; margin: 0 0 15px 0; padding: 10px 0 7px; text-transform: uppercase;
+	}
+	.container-main .container-quem-viu-viu-tambem li .desc-product {
+	    font-size:16px
+	}

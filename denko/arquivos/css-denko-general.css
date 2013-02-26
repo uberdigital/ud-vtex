@@ -1,0 +1,429 @@
+/* RESET VTEX */
+#ajaxBusy,
+.ui-autocomplete {display: none !important;}
+/* end RESET VTEX */
+
+body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
+.font-spc {
+	font-family: 'Share Tech Mono', sans-serif;
+	text-transform: uppercase; 
+	word-spacing:-2px;
+}
+
+.inner-shadow {
+	background: url('/arquivos/divisoria-breadcrumb.jpg') no-repeat center top;
+	padding-top:36px;
+	width:1152px;
+}
+
+/* HEADER ================================================================ */
+.home .header {
+	background:url('/arquivos/banner-topo.jpg') no-repeat center top;
+	border-bottom: 5px solid #ed1c24;
+	height: 572px;
+	width:100%;
+}
+.container-header {
+	margin:0 auto;
+	width:940px;
+}
+	.container-header a,
+	.container-footer a {color:black; text-decoration: none;}
+
+	.container-header a:hover,
+	.container-footer a:hover {color:black; text-decoration: none;}
+
+	.container-header .row-one {
+		height: 60px;
+		margin-bottom: 3px;
+	}
+	.container-header .row-one a:hover {text-decoration: underline;}
+	
+	.container-header .row-one .menu-container {
+		background: white;
+		border: 1px solid #f1f1f1;
+		float: left;
+		font-size: 11px;
+		height: 36px;
+		padding-top: 21px;
+		width: 683px;
+	}
+		.container-header .row-one .menu-container .container-menu-small {
+		    float: left;
+		    margin-left: 10px;
+		    padding-top: 5px;
+		}
+		.container-header .row-one .menu-container .container-menu-small .option {
+		    float: left;
+		    margin-right: 15px;
+		}
+		.container-header .row-one .menu-container .container-facebook {
+		    float: left;
+		    height: 20px;
+		    margin-left: 30px;
+		    width: 100px;
+		}
+	.container-header .row-one .search-container {
+		background: #ed1c24;
+		float: right;
+		height: 59px;
+		width:252px;
+	}
+	.container-header .row-one .busca legend,
+	.container-header .row-one .busca label,
+	.container-header .row-one .busca select {display: none;}
+
+	.container-header .row-one .search-container .fulltext-search-box {
+		background: url('/arquivos/bg-buscar-input.png') no-repeat left top;
+		border: none;
+		color: white;
+		float: left;
+		font-family: 'Share Tech Mono', sans-serif;
+		font-size: 16px;
+		height: 59px;
+		margin: 0;
+		padding: 0 0 0 10px;
+		text-transform: uppercase;
+		width: 200px;
+	}
+	.container-header .row-one .search-container .fulltext-search-box.noBg {background: none;}
+	
+	.container-header .row-one .search-container .btn-buscar {
+	    background: url('/arquivos/bt-buscar.png') no-repeat;
+	    border: none;
+	    cursor: pointer;
+	    float: right;
+	    margin: 0 0 0 0;
+	    padding: 0;
+	    height: 59px;
+	    text-indent: -9999px;
+	    width: 42px;
+	}
+
+	.container-header .row-two {font-size: 12px;}
+
+	.container-header .row-two .main-menu .option {
+	    background: white;
+	    border: 1px solid #f1f1f1;
+	    float: left;
+	    height:103px;
+	    margin-right: 3px;
+	    position:relative;
+	}
+
+	.container-header .row-two .main-menu .option a {
+		bottom: 10px;
+		padding-top: 80px;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+	}
+	.container-header .row-two .main-menu .option:hover {background:#ed1c24;}
+	.container-header .row-two .main-menu .option:hover a {color:white;}
+	.container-header .row-two .main-menu .option.carrinho a {
+		bottom: 20px;
+		padding-top: 70px;
+	}
+
+	.container-header .row-two .main-menu .logo-denko {
+		height: 103px;
+		width: 265px;
+	}
+	.container-header .row-two .main-menu .logo-denko h1 a {
+		background: url('/arquivos/logo-denko.png') no-repeat;
+		display: block;
+		height: 106px;
+		padding: 0;
+		position: static;
+		text-indent: -9999px;
+		width: 267px;
+	}
+
+	.container-header .row-two .main-menu .conheca-denko {width:123px;}
+	.container-header .row-two .main-menu .produtos {width:102px;}
+	.container-header .row-two .main-menu .como-funciona {width:102px;}
+	.container-header .row-two .main-menu .dna-denko {width:114px;}
+	.container-header .row-two .main-menu .empresas-frotistas {width:114px;}
+	.container-header .row-two .main-menu .carrinho {
+		background: url('/arquivos/menu-carrinho.png') no-repeat white center center;
+		margin-right: 0;
+		width: 87px;
+	}
+
+	.container-header .row-two .main-menu .option .drop-produtos {
+	    background: white;
+	    display:none;
+	    position: absolute;
+	    top: 104px;
+	    width: 208px;
+	}
+
+	.container-header .row-two .main-menu .option .drop-produtos a {
+		display: block;
+		height: 54px;
+		position: static;
+		padding: 0;
+		text-indent: -9999px;
+		width: 208px;
+	}
+		.container-header .row-two .main-menu .option .drop-produtos li {margin-bottom: 1px;}
+		.container-header .row-two .main-menu .option .drop-produtos li.last {margin-bottom: 0;}
+		.container-header .drop-produtos .drop-jaquetas {background: url('/arquivos/drop-jaquetas.jpg') no-repeat;}
+		.container-header .drop-produtos .drop-coletes {background: url('/arquivos/drop-coletes.jpg') no-repeat;}
+		.container-header .drop-produtos .drop-acessorios {background: url('/arquivos/drop-acessorios.jpg') no-repeat;}
+
+		.container-header .drop-produtos .drop-jaquetas:hover {background-position: 0 -54px;}
+		.container-header .drop-produtos .drop-coletes:hover {background-position: 0 -54px;}
+		.container-header .drop-produtos .drop-acessorios:hover {background-position: 0 -54px;}
+/* end HEADER ================================================================ */
+
+
+
+/* FOOTER ==================================================================== */
+#footer.footer {border-top: 15px solid #ed1c24;}
+
+.footer .container-footer {
+    margin: 20px auto 30px auto;
+    width: 940px;
+}
+	.footer .container-footer .row-one {
+	    border-bottom: 1px solid #ccc;
+	    padding-bottom: 10px;
+	    margin-bottom: 15px;
+	}
+	.footer .main-menu {
+	    color:#3a3a3a;
+	    font-size: 12px;
+	    margin-bottom:10px;
+	}
+		.footer .main-menu .option {
+		    float:left;
+		    border-right:1px solid #3a3a3a;
+		    margin-right:10px;
+		    padding-right:10px;
+		    word-spacing:-2px;
+		}
+		.footer .main-menu .option.last {
+		    border-right:none;
+		    margin-right:0;
+		    padding-right:0;
+		}
+
+.footer .menu-institucional {
+    float:left;
+    font-size:12px;
+}
+	.footer a:hover {text-decoration: underline;}
+
+	.footer .menu-institucional.atendimento-cliente {width:170px;}
+	.footer .menu-institucional.sobre-nos {width:110px;}
+	.footer .menu-institucional .title-menu {margin-bottom:10px;}
+	.footer .menu-institucional .option {margin:0 0 10px 0;}
+	.footer .menu-institucional .option a {color: #c0c0c0;}
+
+/* end FOOTER ================================================================ */
+
+
+
+
+
+
+/* HOME ================================================= */
+.content .row-products {
+	background: url('/arquivos/bg-home-produtos.png') no-repeat center top;
+	height: 400px;
+	padding-top: 45px;
+	width: 100%;
+}
+
+.content .row-products .msg-institutos {
+	background: url('/arquivos/frase-institutos-home.png') no-repeat;
+	height: 35px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	width: 911px;
+}
+
+.content .row-products .container-products {margin: 30px auto 0 auto; width: 940px;}
+
+.content .row-products .container-products .list-products > h2 {display: none;}
+
+.content .row-products .container-products ul li {
+	float:left;
+	height: 278px;
+	margin-right: 45px;
+	position: relative;
+	width: 186px;
+}
+.content .row-products .container-products ul li:last-child {margin-right: 0;}
+
+.content .row-products .container-infos {
+	background: url('/arquivos/bg-price-carousel.jpg') no-repeat left top;
+	padding-top: 10px;
+	height: 76px;
+	width: 182px;
+}
+	.content .row-products .container-infos .column-left {
+	    float: left;
+	    margin-left: 15px;
+	    overflow: hidden;
+	    width: 80px;
+	}
+		.content .row-products .container-infos .price-product {
+			font-size: 13px;
+			margin-top: 3px;
+		}
+		.content .row-products .container-infos .price-product sup {font-size:10px; padding-right:2px; vertical-align:top;}
+
+			.content .row-products .container-infos h3 {
+			    margin: 0 auto 5px;
+			    text-align: center;
+			    width: 95%;
+			}
+	.content .row-products .container-products ul li .ico-more {
+		display: none;
+		position: absolute;
+		left: 50px;
+		top: 60px;
+	}
+	.content .row-products .container-products ul li:hover .ico-more {display: block;}
+	.content .row-products .container-infos .column-right {
+	    float: right;
+	    margin: 0 15px 0 0;
+	    width: 69px;
+	 }
+	.content .row-products .container-infos .column-right .btn-comprar {
+		background: url('/arquivos/bt-comprar.png') no-repeat;
+		display: block;
+		height: 20px;
+		text-indent: -9999px;
+		width: 69px;
+	}
+	.content .row-products .container-products ul li:hover .btn-comprar {background: url('/arquivos/bt-comprar_over.png') no-repeat;}
+
+	.content .row-products .container-products .btn-prev-carousel {
+		background: url('/arquivos/btn-prev-carousel.png') no-repeat;
+		display: block;
+		height: 27px;
+		width: 26px;
+		text-indent: -9999px;
+	}
+	.content .row-products .container-products .btn-prev-carousel.disabled {
+		background: url('/arquivos/btn-prev-carousel-disabled.png') no-repeat;
+		cursor: default;
+	}
+
+	.content .row-products .container-products .btn-next-carousel {
+		background: url('/arquivos/btn-next-carousel.png') no-repeat;
+		display: block;
+		height: 27px;
+		width: 26px;
+		text-indent: -9999px;
+	}
+	.content .row-products .container-products .btn-next-carousel.disabled {
+		background: url('/arquivos/btn-next-carousel-disabled.png') no-repeat;
+		cursor: default;
+	}
+
+	.content .row-products .btn-prev-carousel {float: left;}
+	.content .row-products .btn-next-carousel {float: right;}
+	.content .row-products .pager-carousel {
+		float: left;
+		margin-left: 5px;
+		text-align: center;
+		width: 130px;
+	}
+	.content .row-products .pager-carousel a {
+		background: url('/arquivos/bullet-off.png') no-repeat center center;
+		display:-moz-inline-stack;
+		display:inline-block;
+		zoom:1;
+		*display:inline;
+		height: 26px;
+		margin: 0 5px 0;
+		text-indent: -9999px;
+		width: 9px;
+	}
+	.content .row-products .pager-carousel a.selected {background: url('/arquivos/bullet-on.png') no-repeat center center;}
+	.content .row-products .container-controles-carousel {
+	    margin: 0 auto;
+	    width: 190px;
+	}
+
+
+.content .row-company {
+    background:url('/arquivos/bg-home-institucional.png') no-repeat center top;
+    height:576px;
+    width:100%;
+}
+	.content .row-company .container-institucional {
+		margin: 0 auto;
+		padding-top: 51px;
+		width: 940px;
+	}
+	.content .row-company .container-institucional .solucoes-denko-empresas a {
+		background: url('/arquivos/solucoes-denko-empresas.jpg') no-repeat;
+		display: block;
+		height:189px;
+		margin: 0 auto;
+		text-indent: -9999px;
+		width:935px;
+	}
+
+	.content .row-company .container-institucional .chamada-video {
+	    background:url('/arquivos/frase-home-acidentes.png') no-repeat;
+		height:23px;
+		margin: 80px 0 0 20px;
+	    text-indent:-9999px;
+	    width:424px;
+	}
+	.content .row-company .container-institucional .container-videos {
+		position: relative;
+		margin: 20px auto 0;
+		padding:0 25px;
+		width: 815px;
+	}
+	.content .row-company .container-institucional .container-videos .video {
+		float: left;
+		height: 138px;
+		margin: 0 15px;
+		width: 240px;
+	}
+
+	.content .row-company .container-institucional .container-videos .btn-prev-carousel {
+		background: url('/arquivos/btn-prev2-carousel.png') no-repeat;
+		display: block;
+		height: 27px;
+		width: 26px;
+		text-indent: -9999px;
+			position: absolute;
+			top: 60px;
+			left: -0;
+	}
+	.content .row-company .container-institucional .container-videos .btn-prev-carousel.disabled {
+		background: url('/arquivos/btn-prev2-carousel-disabled.png') no-repeat;
+		cursor: default;
+	}
+
+	.content .row-company .container-institucional .container-videos .btn-next-carousel {
+		background: url('/arquivos/btn-next2-carousel.png') no-repeat;
+		display: block;
+		height: 27px;
+		width: 26px;
+		text-indent: -9999px;
+		position: absolute;
+		top: 60px;
+		right: 0;
+	}
+	.content .row-company .container-institucional .container-videos .btn-next-carousel.disabled {
+		background: url('/arquivos/btn-next2-carousel-disabled.png') no-repeat;
+		cursor: default;
+	}
+/* end HOME ============================================== */
