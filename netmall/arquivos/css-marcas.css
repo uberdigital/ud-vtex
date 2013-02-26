@@ -1,0 +1,41 @@
+.titulo-marcas {
+	border-bottom: 1px solid;
+	color: #777;
+	font-size: 28px;
+	font-family: 'Archivo Narrow', Arial, sans-serif;
+	margin: 40px 0;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.bloco-marca {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	float: left;
+	min-height: 270px;
+	width: 160px;
+}
+	.bloco-marca .title-letra {
+		background:black;
+		color:white;
+		font-family: 'Cinzel', serif;
+		font-size: 21px;
+		padding:5px;
+		font-weight: 700;
+		display: block;
+		height: 19px;
+		width: 20px;
+		text-align: center;
+}
+	.bloco-marca ul.lista-letras {
+		margin:0;
+		padding:0;
+	}
+	.bloco-marca ul.lista-letras li {
+		margin: 10px 0;
+		list-style-type: none;
+		list-style-position: inside;
+	}
+
+	.bloco-marca ul.lista-letras a {color:black;}
+	.bloco-marca ul.lista-letras a:hover {text-decoration: underline;}

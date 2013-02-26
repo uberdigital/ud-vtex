@@ -1,0 +1,318 @@
+.didyoumean {font-size: 11px; font-style: italic; margin: 10px 0;}
+.didyoumean a {color:black;}
+
+.sidebar-busca-categoria {
+	color: #555;
+	float: left;
+	padding: 10px 0 0 0;
+	width: 240px;
+}
+
+	.sidebar-busca-categoria .menu-navegue {display: none;}
+
+	.sidebar-busca-categoria a {color:#555;}
+
+	.sidebar-busca-categoria .search-single-navigator h3 {
+		font-family: 'Archivo Narrow', Arial, sans-serif;
+		font-size: 14px;
+		padding: 6px 6px 15px 6px;
+		text-transform: uppercase;
+		margin-top: 15px;
+		background: url('/arquivos/border-headers-filtro.png') left bottom no-repeat;
+	}
+
+	.sidebar-busca-categoria h4 a {
+		display: list-item;
+		font-size: 12px;
+		list-style-image: url('/arquivos/ico-item-filtro.png');
+		list-style-position: inside;
+		margin: 5px 0 5px 5px;
+	}
+
+	.sidebar-busca-categoria .search-single-navigator li {
+		font-size: 12px;
+		list-style-image: url('ico-item-filtro.png');
+		list-style-position: inside;
+		margin: 5px 0 5px 10px;
+	}
+
+	.search-multiple-navigator label {
+	    display: block;
+	    margin: 3px 0;
+	}
+
+	.search-multiple-navigator h4,
+	.search-multiple-navigator h5 {
+		font-family: 'Archivo Narrow', Arial, sans-serif;
+		font-size: 14px;
+		padding: 6px 6px 10px 6px;
+		text-transform: uppercase;
+		background: url('/arquivos/border-headers-filtro.png') left bottom no-repeat;
+	}
+
+	.sidebar-busca-categoria h5 {
+		font-family: 'Archivo Narrow', Arial, sans-serif;
+		font-size: 14px;
+		padding: 6px 6px 15px 6px;
+		text-transform: uppercase;
+		margin-top: 15px;
+		background: url('/arquivos/border-headers-filtro.png') left bottom no-repeat;
+	}
+
+	.sidebar-busca-categoria .ver-filtros {
+		display: block;
+		font-size: 11px;
+		margin: 10px 0 0 20px;
+	}
+
+	.sidebar-busca-categoria h4 a {
+	    font-size: 12px;  list-style-position: inside; margin: 5px 0 5px 9px;
+	    display: list-item;
+	    list-style-image: url('/arquivos/ico-item-filtro.png');
+	}
+
+.wrapper-resultado-busca {
+	float: left;
+	margin-left:30px;
+	width:690px;
+}
+
+/* hide */
+.wrapper-resultado-busca .searchResultsTime,
+.wrapper-resultado-busca p.compare,
+.wrapper-resultado-busca .prateleira .compare-product-checkbox,
+.wrapper-resultado-busca .prateleira label,
+.wrapper-resultado-busca .prateleira .wrapperAmountInCart {display: none;}
+
+	.wrapper-resultado-busca .vitrine.resultItemsWrapper,
+	 {display: table;}
+
+	.wrapper-resultado-busca .main > .sub {
+		border-bottom: 1px dashed black;
+		padding-bottom: 20px;
+	}
+
+	.wrapper-resultado-busca .main {
+		position: relative;
+		width:100%;
+	}
+	.wrapper-resultado-busca .main .pager.top {
+		position: absolute;
+		top:0;
+		right:0;
+		width:auto;
+	}
+	.wrapper-resultado-busca .main .pager.bottom {
+		position: absolute;
+		bottom:20px;
+		right:0;
+		width:auto;
+	}
+
+	.wrapper-resultado-busca .resultado-busca-filtro:before,
+	.wrapper-resultado-busca .resultado-busca-filtro:after { content: ""; display: table; }
+	.wrapper-resultado-busca .resultado-busca-filtro:after { clear: both; }
+	.wrapper-resultado-busca .resultado-busca-filtro {
+		*zoom: 1;
+		color:#555;
+		text-transform: uppercase;
+		width: 485px;
+	}
+		.wrapper-resultado-busca .resultado-busca-filtro select {
+			background-color: white;
+			border: 2px solid #bbb;
+			height: 30px;
+		}
+		.wrapper-resultado-busca .resultado-busca-filtro .filterBy {float: left;}
+		.wrapper-resultado-busca .resultado-busca-filtro .orderBy {float: right;}
+
+	.wrapper-resultado-busca .pager ul.pages {
+		border-bottom:2px solid #ccc;
+		border-left:2px solid #ccc;
+		border-top:2px solid #ccc;
+		display: table;
+	}
+		.wrapper-resultado-busca .pager ul.pages li.previous,
+		.wrapper-resultado-busca .pager ul.pages li.next,
+		.wrapper-resultado-busca .pager ul.pages li.first,
+		.wrapper-resultado-busca .pager ul.pages li.last {display: none;}
+		.wrapper-resultado-busca .pager ul.pages li.page-number {
+			border-right:2px solid #ccc;
+			cursor: pointer;
+			display: inline;
+			float: left;
+			height: 20px;
+			padding-top: 6px;
+			text-align: center;
+			width:30px;
+		}
+		.wrapper-resultado-busca .pager ul.pages li.page-number:hover,
+		.wrapper-resultado-busca .pager ul.pages li.page-number.pgCurrent {
+			background: #ff7d22;
+			color:white;
+		}
+
+		.wrapper-resultado-busca .prateleira {
+			display: table;
+			margin-top:20px;
+		}
+
+		.wrapper-resultado-busca .prateleira ul {
+			display: table;
+			list-style: none;
+			margin: 0 0 50px 0;
+			padding: 0;
+		}
+		.wrapper-resultado-busca .prateleira li {
+			display: block;
+			float: left;
+			font-size: 12px;
+			height: 370px;
+			margin: 6px 20px 0 20px;
+			padding: 0;
+			position: relative;
+			text-align: center;
+			width:190px;
+		}
+			.wrapper-resultado-busca .prateleira li:hover .containerDescProd a {text-decoration: underline;}
+
+		.wrapper-resultado-busca .prateleira .imgProduto {overflow: hidden; width:190px;}
+		.wrapper-resultado-busca .prateleira .imgProduto a img {
+			height: 260px !important;
+			width: 190px !important;
+		}
+		.wrapper-resultado-busca .prateleira .containerDescProd {font-size: 1.1em;}
+		.wrapper-resultado-busca .prateleira .prodName {
+			color:black;
+			font-size: 1.1em;
+		}
+			.wrapper-resultado-busca .prateleira a {
+				color:inherit;
+			}
+		.wrapper-resultado-busca .prateleira .prodDesc .brand {
+			font-weight: bold;
+			text-transform: uppercase;
+			padding: 2px 0 4px;
+		}
+		.wrapper-resultado-busca .prateleira .prodPrice {
+			color:#ff4800;
+			padding:3px 0;
+		}
+
+
+
+/* MENU DEPARTAMENTO ====================================================================== */
+.resultado-busca .menu-departamento h3 {
+	font-family: 'Archivo Narrow', Arial, sans-serif;
+	font-size: 14px;
+	padding: 6px 6px 15px 6px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	background: url('/arquivos/border-headers-filtro.png') left bottom no-repeat;
+}
+
+.resultado-busca .menu-departamento ul {
+    margin:10px 0 20px;
+}
+
+.resultado-busca .menu-departamento ul li {
+    font-size: 12px;
+    list-style-image: url('/arquivos/ico-item-filtro.png');
+    list-style-position: inside;
+    margin: 10px 0 0 10px;
+}
+
+.resultado-busca .menu-departamento ul li.filtro-ativo {
+	color: #AAA;
+	margin-left: 20px;
+	text-decoration: underline;
+}
+
+.resultado-busca .menu-departamento ul li.lista-completa {
+    font-size:11px;
+    list-style-image:none;
+    margin-top:10px;
+}
+
+.resultado-busca .menu-departamento a:hover {text-decoration:underline;}
+/* end MENU DEPARTAMENTO ====================================================================== */
+
+
+
+/* MENU DEPARTAMENTO ====================================================================== */
+.departamento  .menu-departamento h3 {
+	font-family: 'Archivo Narrow', Arial, sans-serif;
+	font-size: 14px;
+	padding: 6px 6px 15px 6px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	background: url('/arquivos/border-headers-filtro.png') left bottom no-repeat;
+}
+
+.departamento .menu-departamento a {color:#555;}
+
+.departamento .menu-departamento ul {
+    margin:10px 0 20px;
+}
+
+.departamento .menu-departamento ul li {
+    font-size: 12px;
+    list-style-image: url('/arquivos/ico-item-filtro.png');
+    list-style-position: inside;
+    margin: 10px 0 0 10px;
+}
+
+.departamento .menu-departamento h4 {
+    font-size: 13px;
+    margin: 10px 0 0 10px;
+}
+
+.departamento .menu-departamento ul li.filtro-ativo {
+	color: #AAA;
+	margin-left: 20px;
+	text-decoration: underline;
+}
+
+.departamento .menu-departamento ul li.lista-completa {
+    font-size:11px;
+    list-style-image:none;
+    margin-top:10px;
+}
+
+.departamento .menu-departamento a:hover {text-decoration:underline;}
+
+
+
+/* FILTRO TAMANHOS TOPO */
+.container-tamanhos-topo {
+    background: url('/arquivos/bg-filtro-tamanhos.png') no-repeat;
+    height: 73px;
+    margin-bottom: 30px;
+    position: relative;
+}
+	.container-tamanhos-topo .ver-filtros {
+		color: gray;
+		float: left;
+		margin: 0 5px 5px 0;
+		border: 1px solid #e1e1e1;
+		padding: 5px;
+		font-size: 10px;
+	}
+
+	.container-tamanhos-topo ul {
+	    position: absolute;
+	    left: 390px;
+	    top: 25px;
+	}
+		.container-tamanhos-topo ul li {
+		    float: left;
+		    margin: 0 5px 5px 0;
+		    border: 1px solid #e1e1e1;
+		    padding: 5px;
+		    font-size: 10px;
+		}
+		.container-tamanhos-topo ul li:hover {background: #e1e1e1;}
+			.container-tamanhos-topo ul li a {
+			    color: gray;
+			}
+/* END FILTRO TAMANHOS TOPO */

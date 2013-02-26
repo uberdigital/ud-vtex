@@ -1,0 +1,73 @@
+/* ESPIAR =================== */
+#TB_window a {color: #555;}
+
+#productImages {
+    width: 292px;
+    float: left;
+}
+
+#show .thumbs {
+    width: 260px;
+    display: table;
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+#show .thumbs li {
+    border:1px solid #ccc;
+    float: left;
+    list-style-type: none;
+    margin-right:3px;
+}
+    #show .thumbs li img {
+        height: 61px;
+        width: 47px;
+    }
+
+#produto {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+#produto .productName {font-size:21px;}
+#produto #title,
+#productAddToList,
+#productRating,
+#productDescription,
+#productViewDetails {display: none;}
+
+#produto .productDescription {margin: 20px 0;}
+
+#produto .buy-button {
+    background: url('/arquivos/bt-comprar.png') no-repeat;
+    height: 52px;
+    text-indent: -9999px;
+    width: 245px;
+    margin: 0 0 0 290px;
+}
+
+#productBuy .valor-de {display:none !important;}
+#productBuy .valor-por {
+    font-size:18px;
+    font-weight:bold;
+}
+#productBuy .valor-dividido {
+    color:#555;
+    font-size:18px;
+}
+#productBuy .economia-de {font-size:11px;margin: 0 auto 40px 290px;display: block;border-bottom: 1px dashed;padding-bottom: 20px;}
+
+#include,
+#image img {
+    height: 332px;
+    width: 260px;
+}
+
+#include {border:1px solid #ccc;}
+
+#productQuickView .notifyme-form {border:1px solid #c1c1c1;}
+
+#productDescription {margin: 20px 0;}
+
+#productSelection li {list-style-type: none;}
+#productSelection .select.skuList label {padding: 0 10px 0 3px;}
+/* end ESPIAR ================ */
