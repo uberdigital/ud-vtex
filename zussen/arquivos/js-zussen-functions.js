@@ -13,6 +13,7 @@ jQuery(document).ready(function($) {
 	/* end SUBMENU */
 
 	if ($("body").attr("class") == "resultado-busca") {
-		$("h5:contains('Marca')").hide()
+		$("h5:contains('Marca')").hide();
+		$("h5:contains('Marca') + ul").hide();
 	}
 });
