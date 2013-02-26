@@ -1,20 +1,30 @@
 /* TOP BAR */
 
 .topbar	{color: #fff; font-size: 12px; padding: 0;}
-.topbar .topbar-container{margin: 0 auto; width: 1280px;}
-.topbar .topbar-container .banner-topbar{width: 775px; float: left;}
-.topbar .topbar-container .myshoes-news{background: #d82f8a; float: right; height: 35px; width: 505px;}
+.topbar .topbar-container{margin: 0 auto;  background:url('bg-topbar.png') no-repeat;width: 1280px;}
+.topbar .topbar-container .lado-left{background:url('bg-banner-topo.png') repeat-x; width:150px; float:left; height: 35px;}
+.topbar .topbar-container .lado-right{width:150px; float:right; height: 35px;}
+.topbar .topbar-container .center-line{background:url('bg-banner-topo.png') repeat-x; width:170px; float: left; height: 35px;}
+.topbar .topbar-container .banner-topbar{float: left; width:450px;padding: 12px 0;text-transform: uppercase;text-align: center;}
+.topbar .topbar-container .myshoes-news{background: #d82f8a; float: left; height: 35px; width: 358px;}
 .topbar .topbar-container .post-news{padding: 10px 10px 0 15px; float: left; width: 130px;}
 .topbar .topbar-container .post-news .shoes-name{ text-transform: uppercase; float: left; margin-top: 2px;}
-.topbar .topbar-container .post-news .postal-icon{background:url('../arquivos/postal-icon-topbar.png') no-repeat; float: left; height: 16px; margin-right: 5px; width: 20px; }
+.topbar .topbar-container .post-news .postal-icon{background:url('postal-icon-topbar.png') no-repeat; float: left; height: 16px; margin-right: 5px; width: 20px; }
 .topbar .topbar-container .insert-email{float: left; padding: 5px 0;}
-.topbar .topbar-container .insert-email .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; width: 215px;}
+.topbar .topbar-container .insert-email .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; width: 165px;}
 .topbar .topbar-container .insert-email .submit-newslatter{ position: relative; right: 25px; background:url('../arquivos/tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer;}
 
 /* END TOP BAR */
 
 /* HEADER */
 
-.header{width: 980px; padding:15px 0; margin: 0 auto;}
+.header{width: 980px; padding:15px 0; margin: 0 auto; height: 130px;}
+.header .box-container-header{height: 90px; display: block;}
+.header .box-container-header .logo-header{float: left; margin-right: 62px;}
+.header .box-container-header .hello-visitante{float: left; margin-right: 80px;}
+.header .box-container-header .box-right{float: left;}
+.header .box-container-header .box-right .atendimento{width: 430px; margin-right: 10px;}
+.header .box-container-header .box-right .bag-redes{width: 130px;}
+
 
 /* END HEADER */
