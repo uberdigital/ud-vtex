@@ -1,0 +1,15 @@
+/* primary styles ===========================
+   Author: Ivan Richard Roncatto
+   ========================================== */
+
+/* html tags rules */
+body:{font-family: Arial, Helvetica, sans-serif; font-size:12px;}
+a {text-decoration: none; color: #d0d0d0;}
+/* end html tags rules */
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
