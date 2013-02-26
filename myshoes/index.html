@@ -3,36 +3,58 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>My Shoes</title>
+	<link rel="stylesheet" href="arquivos/css-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-general.css" />
+	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+
+	<!-- ########## Google Fonts ########## -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 	<!-- ########## Styles  ########## -->
-	<link rel="stylesheet" href="arquivos/template.css">
-	<link rel="stylesheet" href="arquivos/reset.css">
-	<link rel="stylesheet" href="arquivos/basics.css">
+
 	<!-- ########## scripts  ########## -->
 
 </head>
 <body>
 <!--######### Start TopBar #########-->
-<div id="topbar">
+<div class="topbar">
 	<div class="topbar-container clearfix">
-		<ul>
-			<li><img src="arquivos/frete-gratis-topbar.png" alt="Imagem"/></li>
-			<li></li>
-			<li></li>
-		</ul>
+		<div class="banner-topbar"><img src="arquivos/frete-gratis-topbar.png" alt="Imagem"/></div>
+		<!--######### Myshoes-News #########-->
+		<div class="myshoes-news">
+			<ul>
+				<li class="post-news">
+					<span class="postal-icon"></span>
+					<span class="shoes-name">My Shoes News</span>
+				</li>
+				<li class="insert-email">
+					<form action="" class="">
+						<input type="text" class="text-newslatter" value="Insira seu e-mail" onblur="if(this.value == '') { this.value='Insira seu e-mail'}" onfocus="if (this.value == 'Insira seu e-mail') {this.value=''}" />
+						<input type="submit" class="submit-newslatter" />
+					</form>
+				</li>
+			</ul>
+		</div><!--######### Myshoes-News #########-->
 	</div>
 </div>
 <!--######### End TopBar ###########-->
-
-<!--######### Start Header #########-->
-
-<!--######### End Header ###########-->
-
-<!--######### Start Content ########-->
-
-<!--######### End Content ##########-->
-
-<!--######### Start Footer #########-->
-
-<!--######### End Footer ###########-->
+<!--######### Start Container General #########-->
+<div class="container-general">
+	<!--######### Start Header #########-->
+	<div class="header clearfix">
+		
+	</div>
+	<!--######### End Header ###########-->
+	<!--######### Start Content ########-->
+	<div class="content clearfix">
+		
+	</div>
+	<!--######### End Content ##########-->
+	<!--######### Start Footer #########-->
+	<div class="footer clearfix">
+		
+	</div>
+	<!--######### End Footer ###########-->
+</div>
+<!--######### End Container General #########-->
 </body>
 </html>
