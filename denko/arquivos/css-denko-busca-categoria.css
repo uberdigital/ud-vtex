@@ -23,24 +23,68 @@ p.compare,
 
 
 .container-filter-results .wrapper-filter {
-    float: left;
-    font-family: 'Share Tech Mono', sans-serif;
-    word-spacing: -2px;
-    width: 130px;
+	font-family: 'Share Tech Mono', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	word-spacing: -1px;
 }
-	.container-filter-results .wrapper-filter a {color:#999; text-decoration: none;}
+	.container-filter-results .wrapper-filter a {color:#999; font-size: 12px; text-decoration: none;display: block;padding: 2px 0;}
 	.container-filter-results .wrapper-filter a:hover {text-decoration: underline;}
+	
+	.container-filter-results .wrapper-filter h3,
+	.container-filter-results .wrapper-filter h3 a {color:#000; font-size: 13px;}
 
+	.container-filter-results .wrapper-filter h4 {margin: 0 0 0 10px;}
+	
+	.container-filter-results .wrapper-filter h3 + ul,
+	.container-filter-results .wrapper-filter h4 + ul,
+	.container-filter-results .wrapper-filter h5 + ul {margin: 5px 0 20px 10px;}
+	
+	.container-filter-results .wrapper-filter h3,
+	.container-filter-results .wrapper-filter h5 {
+	    background:url('/arquivos/arrow-list-down.png') no-repeat 0 4px;
+	    padding-left:10px;
+	}
 
-.container-filter-results .resultItemsWrapper {margin: 30px auto 0 auto; width: 940px;}
+.container-filter-results .resultItemsWrapper {margin: 30px auto 0 auto; width: 740px;}
 
-.resultado-busca-filtro {
-	width: 320px;
+.container-filter-results .resultado-busca-filtro {
 	font-family: 'Share Tech Mono', sans-serif;
 	text-transform: uppercase;
 	word-spacing: -2px;
 	letter-spacing: -1px;
 }
+	.container-filter-results .resultado-busca-filtro .wrapper-results {
+		float: left;
+		margin-left: 20px;
+		width: 740px;
+	}
+
+	.wrapper-filter h5 {
+	    margin-top: 10px;
+	}
+
+	.container-filter-results .resultado-busca-filtro .pager {position: absolute; right: 0;}
+	.container-filter-results .resultado-busca-filtro .pager.top {top:0;}
+	.container-filter-results .resultado-busca-filtro .pager.bottom {bottom:25px;}
+
+	.container-filter-results .resultado-busca-filtro .pages li {
+	    float: left;
+	    font-family: 'Share Tech Mono', sans-serif;
+	    margin:0 5px;
+	    text-transform: uppercase;
+	}
+
+	.container-filter-results .resultado-busca-filtro .pages li.first,
+	.container-filter-results .resultado-busca-filtro .pages li.last {display:none;}
+
+	.container-filter-results .resultado-busca-filtro .pages li.pgCurrent {color:#ed1c24}
+
+/* clearfix */
+.pages:before, .pages:after { content: ""; display: table; }
+.pages:after { clear: both; }
+.pages { *zoom: 1; }
+/* end clearfix */
 
 .container-filter-results .resultItemsWrapper .vitrine ul li {
 	float:left;
