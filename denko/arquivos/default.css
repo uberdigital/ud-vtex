@@ -321,6 +321,13 @@ small {font-size: 0.9em; font-style: italic; letter-spacing: normal; text-transf
 
 .carrinho .loading {padding: 10px 10px 10px 0;}
 
+.carrinho .aviso-erro {
+    color: red;
+    margin: 20px 0;
+    font-size: 12px;
+    text-align: right;
+}
+
 .carrinho .content h2 {
 	margin: 0 0 15px 0;
 	padding: 10px 0;
@@ -413,7 +420,11 @@ small {font-size: 0.9em; font-style: italic; letter-spacing: normal; text-transf
     width: 29px;
 }
 .carrinho .carrinhoTable .boxQuantidade {text-align: center;}
+
 .carrinho .carrinhoTable .controle-quantidade {display: none;}
+.carrinho .carrinhoTable .controle-quantidade {font-size: 10px;}
+.carrinho .carrinhoTable .controle-quantidade li {margin:0 0 5px 0;}
+.carrinho .carrinhoTable .controle-quantidade a {color:black;}
 
 .carrinho .carrinhoTable tfoot .subtotal {display: none;}
 

@@ -1,19 +1,21 @@
 $(function() {
 	// REMOVE E INSERE PALAVRA NO CAMPO DE BUSCA 
 
-	$('.fulltext-search-box').val(' ');
+	// $('.fulltext-search-box').val(' ');
 
-	$('.fulltext-search-box').focus(function() {
-		if ($(this).val() == ' ') {
-			$(this).addClass('noBg');
-		}
-	});
-	$('.fulltext-search-box').blur(function() {
-		if ($(this).val() == ' ') {
-			$(this).removeClass('noBg');
-			$(this).val(' ');
-		}
-	});
+	// $('.fulltext-search-box').focus(function() {
+	// 	if ($(this).val() == ' ') {
+	// 		$(this).addClass('noBg');
+	// 	}
+	// });
+	// $('.fulltext-search-box').blur(function() {
+	// 	if ($(this).val() == ' ') {
+	// 		$(this).removeClass('noBg');
+	// 		$(this).val(' ');
+	// 	}
+	// });
+
+	$('#amount-cart').load('/no-cache/QuantidadeItensCarrinho.aspx .amount-items-em');
 
 	// MENU DROP-DOWN DE PRODUTOS
 	$('.start-drop').mouseover(function() {

@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	var linksFiltro = $(".navigation a");
+	var linksFiltro = $(".wrapper-filter a");
 
 	$(linksFiltro).html(function(i, html) {
 	    return html.replace(/ \(\d*\)/, "");

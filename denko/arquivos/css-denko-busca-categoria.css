@@ -12,6 +12,7 @@ p.compare,
 
 .container-filter-results {
     margin: 0 auto;
+    position: relative;
     width: 940px;
 }
 
@@ -27,6 +28,8 @@ p.compare,
 	font-size: 13px;
 	text-transform: uppercase;
 	word-spacing: -1px;
+	float: left;
+	width: 180px;
 }
 	.container-filter-results .wrapper-filter a {color:#999; font-size: 12px; text-decoration: none;display: block;padding: 2px 0;}
 	.container-filter-results .wrapper-filter a:hover {text-decoration: underline;}
@@ -64,21 +67,37 @@ p.compare,
 	    margin-top: 10px;
 	}
 
-	.container-filter-results .resultado-busca-filtro .pager {position: absolute; right: 0;}
-	.container-filter-results .resultado-busca-filtro .pager.top {top:0;}
-	.container-filter-results .resultado-busca-filtro .pager.bottom {bottom:25px;}
+	.menu-navegue {margin: 0 0 10px 0;}
 
-	.container-filter-results .resultado-busca-filtro .pages li {
+	.search-multiple-navigator {margin-top: 10px;}
+
+	.refino-marca label {
+		display: block;
+		margin: 5px 0;
+	}
+
+	.wrapper-results {
+	    float: left;
+	    margin-left: 20px;
+	    padding: 0 0 20px;
+	    width: 740px;
+	}
+
+	.pager {position: absolute; right: 0;}
+	.pager.top {top: 25px;}
+	.pager.bottom {bottom:25px;}
+
+	.pages li {
 	    float: left;
 	    font-family: 'Share Tech Mono', sans-serif;
 	    margin:0 5px;
 	    text-transform: uppercase;
 	}
 
-	.container-filter-results .resultado-busca-filtro .pages li.first,
-	.container-filter-results .resultado-busca-filtro .pages li.last {display:none;}
+	.pages li.first,
+	.pages li.last {display:none;}
 
-	.container-filter-results .resultado-busca-filtro .pages li.pgCurrent {color:#ed1c24}
+	.pages li.pgCurrent {color:#ed1c24}
 
 /* clearfix */
 .pages:before, .pages:after { content: ""; display: table; }
