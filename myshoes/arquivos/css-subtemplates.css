@@ -18,7 +18,7 @@
 
 /* HEADER */
 
-.header{width: 1280px; padding:0; margin: 0 auto; height: 130px;}
+.header{ padding:0; margin: 0 auto; height: 130px;}
 .header .wrapper-header{width: 980px; margin: 0 auto; padding: 20px 0;}
 .header .box-container-header{display: block;}
 .header .box-container-header .logo-header{float: left; margin-right: 50px;}
@@ -119,3 +119,49 @@
 /* End Acompanhe */
 
 /* END CONTENT */
+
+/* START FOOTER */
+
+.footer{width: 1280px; margin: 0 auto; padding: 0; }
+/* start relacionamento */
+.footer .wrapper-relacionamento{margin: 0 auto; width: 1280px; background: #000; height: 45px;}
+.footer .wrapper-relacionamento .relacionamento{width: 980px; margin: 0 auto; color: #fff; font-family:'Open Sans', sans-serif; font-size: 12px; text-transform: uppercase; position: relative;}
+.footer .wrapper-relacionamento .relacionamento .acompanhe-myshoes{float: left; padding:16px 0;}
+.footer .wrapper-relacionamento .relacionamento .acesse-blog{float: left; padding:16px 0; margin-left: 70px;}
+.footer .wrapper-relacionamento .relacionamento .acesse-blog .rss{width: 12px; height: 14px; float: left; margin-right: 12px; background:url('icons.png') no-repeat; background-position: -81px -100px;}
+.footer .wrapper-relacionamento .relacionamento .receba-novidades{float: right; padding:7px 0 7px 7px;}
+.footer .wrapper-relacionamento .relacionamento .receba-novidades .post{width: 20px; height: 15px; float: left; margin-right: 12px; background:url('icons.png') no-repeat; background-position: -70px -4px; position: relative; top: 9px;}
+.footer .wrapper-relacionamento .relacionamento .insert-email{float: left; padding: 5px 0; width: 180px;}
+.footer .wrapper-relacionamento .relacionamento .form-newslatter{height: 25px;}
+.footer .wrapper-relacionamento .relacionamento .submit-newslatter{ position: relative; right: -157px; background:url('tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer; top: -22px;}
+.footer .wrapper-relacionamento .relacionamento .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; width: 165px;}
+.footer .wrapper-relacionamento .relacionamento .titles-relacionamento{float: left; margin-right: 15px;}
+.footer .wrapper-relacionamento .relacionamento .receba{padding-top: 11px;}
+.footer .wrapper-relacionamento .relacionamento .icons-relacionamento{width: 12px; height: 14px; float: left; margin-right: 12px; background:url('icons.png') no-repeat;}
+.footer .wrapper-relacionamento .relacionamento .fb{background-position: -8px -100px;}
+.footer .wrapper-relacionamento .relacionamento .tw{background-position: -26px -100px;}
+.footer .wrapper-relacionamento .relacionamento .pin{background-position: -43px -99px;}
+.footer .wrapper-relacionamento .relacionamento .inst{background-position: -63px -100px;}
+/* end relacionamento */
+
+/* start nav-footer */
+.footer .wrapper-nav-footer{margin: 0 auto; width: 1280px; padding: 20px 0; background: #f2f2f2;}
+.footer .navegador-footer{width: 980px; margin: 0 auto; font-family:'Open Sans', sans-serif; position: relative;}
+.footer .navegador-footer .menu-footer{float: left; width: 500px; height: 250px;}
+.footer .navegador-footer .formas-pag{float: left; width: 243px; height: 250px;}
+.footer .navegador-footer .formas-pag .pagamento{margin-bottom: 60px;}
+.footer .navegador-footer .fb-like{float: left;}
+.footer .navegador-footer .line-up{display: block; float: left; margin-bottom: 20px;}
+.footer .navegador-footer .line-down{display: block; float: left; margin-bottom: 10px;}
+.footer .navegador-footer .nav-title{font-size: 16px; text-transform: uppercase; font-style: italic; margin-bottom: 8px;}
+.footer .navegador-footer .menu-footer ul li{margin-bottom: 6px;}
+.footer .navegador-footer .menu-footer .footer-links{padding-left: 10px; color:#000; padding-bottom: 5px; font-size: 10px;}
+.footer .navegador-footer .menu-footer .footer-links:hover {text-decoration: underline;}
+.footer .navegador-footer .line-up .institucional{float: left; width: 220px;}
+.footer .navegador-footer .line-up .atendimento{float: left; width: 240px;}
+.footer .navegador-footer .line-down .parceiros{float: left; width: 220px;}
+.footer .navegador-footer .line-down .televendas{float: left; width: 240px;}
+.footer .navegador-footer .line-down .televendas .icon-phone{width: 20px; height: 18px; float: left; margin-right: 4px; background:url('icons.png') no-repeat; background-position: 0px -4px; }
+.footer .navegador-footer .line-down .televendas .phone{font-size: 10px;}
+
+/* END FOOTER */
