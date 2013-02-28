@@ -70,9 +70,52 @@
 
 .content{width: 100%;}
 .content .super-banner{height: 500px; margin: 0 auto; width: 1280px;}
-.content .wrapper-colection{height: 300px; margin: 0 auto; width: 1280px; padding: 30px 0; background:url('line-head-content.png') repeat-x 0 35px;}
-.content .colection{margin: 0 auto; width: 980px; }
-.content .colection .head-colection{padding: 0 225px;}
+.content .wrapper-colection{margin: 0 auto; width: 1280px; padding: 30px 0; background:url('line-head-content.png') repeat-x 0 35px;}
+.content .colection-content{border-bottom: 1px solid #d0d0d0; margin-bottom: 20px;}
+.content .colection{margin: 0 auto; width: 980px;}
+.content .colection .head-colection{padding: 0 190px; margin-bottom: 30px;}
 .content .colection .head-colection .title-head{text-transform: uppercase; font-size: 18px; text-align: center; font-style: italic; background: #fff;}
+.content .colection .carrosel-colection{height: 300px; position: relative;}
+.content .colection .carrosel-colection .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 140px;}
+.content .colection .carrosel-colection .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 140px;}
+.content .colection .carrosel-colection .carrosel{float: left;display: inline; padding: 0 50px;}
+.content .colection .carrosel-colection .carrosel ul li{float: left;}
+.content .colection .carrosel-colection .carrosel .lista-colection{height: 300px; width: 175px; margin:0 15px;}
+.content .colection .carrosel-colection .carrosel .lista-colection .img-prod{width: 175px; height: 190px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
+.content .colection .carrosel-colection .carrosel .lista-colection .descricao-prod{float: left; width: 175px; text-align: center;}
+.content .colection .carrosel-colection .carrosel .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
+.content .colection .carrosel-colection .carrosel .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
+.content .colection .carrosel-colection .carrosel .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
+.content .colection .carrosel-colection .carrosel .descricao-prod .price-terms{display: block; font-style: italic;}
+
+/* Banners */
+.content .banners-content{margin-bottom: 20px;}
+.content .banners-content .banners{width: 980px; margin: 0 auto;}
+.content .banners-content .banners .big-banner{float: left; margin-right: 20px; margin-bottom: 20px;}
+.content .banners-content .banners .medium-banner{float: left; margin-bottom: 20px;} 
+.content .banners-content .medium-banner .medium-banner-top{margin-bottom: 20px;}
+
+/* End Banners */
+
+/* Acompanhe */
+
+.content .acompanhe-content{border-bottom: 1px solid #d0d0d0; margin-bottom: 20px; background: url('line-head-content.png') repeat-x 0 6px;}
+.content .acompanhe{margin:0 auto; width: 980px;}
+.content .acompanhe .head-acompanhe{padding: 0 330px; margin-bottom: 30px; position: relative;}
+.content .acompanhe .head-acompanhe .title-head{text-transform: uppercase; font-size: 18px; text-align: center; font-style: italic; background: #fff;}
+.content .acompanhe .head-acompanhe .icon-instegram{background:url('icons.png') no-repeat; background-position: -176px -31px; float: left; height: 26px; width: 25px; margin: 0 0 0 15px;}
+.content .acompanhe .carrosel-acompanhe{height: 280px; position: relative;}
+.content .acompanhe .carrosel-acompanhe .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 120px;}
+.content .acompanhe .carrosel-acompanhe .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 140px;}
+.content .acompanhe .carrosel-acompanhe .carrosel{float: left;display: inline; padding: 0 40px;}
+.content .acompanhe .carrosel-acompanhe .carrosel ul li{float: left;}
+.content .acompanhe .carrosel-acompanhe .carrosel .lista-acompanhe{background: #f0f0f0; height: 240px; width: 200px; margin:0 5px; padding: 5px 5px; }
+.content .acompanhe .carrosel-acompanhe .carrosel .image-acompanhe{width: 200px; height: 200px; margin-bottom: 15px; float: left; border-bottom:1px dotted #d0d0d0;}
+.content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe{float: left; width: 175px; text-align: center; margin-left: 10px;}
+.content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .heart{background:url('icons.png') no-repeat; background-position: -132px -6px; float: left; height: 13px; width: 15px;}
+.content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .comments{background:url('icons.png') no-repeat; background-position: -148px -6px; float: left; height: 13px; width: 15px;}
+.content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .acompanhe-number{float: left; margin-right: 20px; margin-left: 5px;}
+
+/* End Acompanhe */
 
 /* END CONTENT */
