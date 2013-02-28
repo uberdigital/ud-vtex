@@ -12,19 +12,67 @@
 .topbar .topbar-container .post-news .postal-icon{background:url('postal-icon-topbar.png') no-repeat; float: left; height: 16px; margin-right: 5px; width: 20px; }
 .topbar .topbar-container .insert-email{float: left; padding: 5px 0;}
 .topbar .topbar-container .insert-email .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; width: 165px;}
-.topbar .topbar-container .insert-email .submit-newslatter{ position: relative; right: 25px; background:url('../arquivos/tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer;}
+.topbar .topbar-container .insert-email .submit-newslatter{ position: relative; right: 25px; background:url('tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer;}
 
 /* END TOP BAR */
 
 /* HEADER */
 
-.header{width: 980px; padding:15px 0; margin: 0 auto; height: 130px;}
-.header .box-container-header{height: 90px; display: block;}
-.header .box-container-header .logo-header{float: left; margin-right: 62px;}
-.header .box-container-header .hello-visitante{float: left; margin-right: 80px;}
+.header{width: 1280px; padding:0; margin: 0 auto; height: 130px;}
+.header .wrapper-header{width: 980px; margin: 0 auto; padding: 20px 0;}
+.header .box-container-header{display: block;}
+.header .box-container-header .logo-header{float: left; margin-right: 50px;}
+.header .box-container-header .hello-visitante{float: left; margin-right: 50px; margin-top: 10px; width: 120px;}
+.header .box-container-header .hello-visitante .hello{margin-bottom: 3px;}
+.header .box-container-header .hello-visitante span{float: left;}
+.header .box-container-header .hello-visitante .login-here{color:#e2007a;}
 .header .box-container-header .box-right{float: left;}
-.header .box-container-header .box-right .atendimento{width: 430px; margin-right: 10px;}
-.header .box-container-header .box-right .bag-redes{width: 130px;}
+.header .box-container-header .box-right .atendimento{margin-right: 10px; float: left; width: 485px; padding-top: 2px;}
+.header .box-container-header .box-right .atendimento .nav-atendimento{float: left; margin-bottom: 15px;}
+.header .box-container-header .box-right .atendimento .nav-atendimento .option{border-right: 1px solid #000; float: left; font-size: 11px; margin-left: 10px; padding-right: 10px;}
+.header .box-container-header .box-right .atendimento .nav-atendimento .first{margin-left: 0;}
+.header .box-container-header .box-right .atendimento .nav-atendimento .last{margin-right: 0; border-right: none; padding-right: 0;}
+.header .box-container-header .box-right .atendimento .nav-atendimento .option a{text-transform: uppercase; color: #000;}
+.header .box-container-header .box-right .atendimento .nav-atendimento .option a:hover{text-decoration: underline;}
+.header .box-container-header .box-right .atendimento .contact-search{float: left;}
+.header .box-container-header .box-right .atendimento .contact-search .phone-contact{float: left; margin-right: 20px; margin-top: 7px;}
+.header .box-container-header .box-right .atendimento .contact-search .search-header{float: left; position: relative;}
+.header .box-container-header .box-right .atendimento .contact-search .search-header .text-search{border-radius: 20px; border:1px solid #d0d0d0; float: left; font-family:'Open Sans', sans-serif; font-size:12px; margin: 0; height: 25px; padding-left: 15px; outline: none; width: 245px; }
+.header .box-container-header .box-right .atendimento .contact-search .search-header .btn-search {background:url('icons.png') no-repeat; background-position: -50px -3px; border:none; cursor: pointer; width: 15px; height: 19px; position: relative; top: 5px; right: 26px; text-indent: -9999px;} 
+.header .box-container-header .box-right .atendimento .contact-search .icon-phone{background:url('icons.png') no-repeat; background-position: 0 -3px; width: 20px; margin-right: 5px; height: 20px; float: left;}
+.header .box-container-header .box-right .atendimento .contact-search .phone-televendas{font-size: 12px; float: left; margin-top: 3px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais{height: 20px; margin-bottom: 12px; width: 100px; float: right;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .icons{background:url('icons.png') no-repeat; height: 15px; width: 18px; float: left; margin-right: 2px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .facebook{background-position: 0 -98px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .twitter{background-position: -20px -98px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .pinterest{background-position: -40px -98px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .instegram{background-position: -60px -98px;}
+.header .box-container-header .box-right .bag-redes .redes-sociais .rss{background-position: -80px -98px;}
+.header .box-container-header .box-right .bag-redes{float: left; width: 135px;}
+.header .box-container-header .box-right .bag{ width: 118px; float: right;}
+.header .box-container-header .box-right .bag-redes .bag-icon{ background:url('icons.png') no-repeat; background-position: -25px -3px; float: left; height: 18px; margin-right: 4px; width: 18px;} 
+.header .box-container-header .box-right .bag-redes .my-bag{float: left; margin-top: 4px; margin-right: 4px;}
+.header .box-container-header .box-right .bag-redes .items-bag{float: left; margin-top: 4px; color: #e2007a; font-weight: bold;}
 
+/* START NAV */
+
+.header .wrapper-nav{background: #000; width: 1280px; margin:0 auto;height: 34px;}
+.header .nav-header{ width: 980px; margin:0 auto;}
+.header .nav-header .menu-item{ float: left; color: #fff; padding: 11px 15px; margin-right: 5px;}
+.header .nav-header .menu-item a{ color: #fff; text-transform: uppercase; font-family:'Open Sans', sans-serif; font-weight: bold;}
+.header .nav-header .last{margin-right: 0;}
+
+/* END START NAV */
 
 /* END HEADER */
+
+/* START CONTENT */
+
+.content{width: 100%;}
+.content .super-banner{height: 500px; margin: 0 auto; width: 1280px;}
+.content .wrapper-colection{height: 300px; margin: 0 auto; width: 1280px; padding: 30px 0; background:url('line-head-content.png') repeat-x 0 35px;}
+.content .colection{margin: 0 auto; width: 980px; }
+.content .colection .head-colection{padding: 0 225px;}
+.content .colection .head-colection .title-head{text-transform: uppercase; font-size: 18px; text-align: center; font-style: italic; background: #fff;}
+
+/* END CONTENT */
