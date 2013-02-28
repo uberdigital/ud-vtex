@@ -64,7 +64,7 @@
     }
     .column-buy .container-product-size .select.skuList label:hover {color:black;}
     .column-buy .container-product-size .select.skuList label.sku-picked {color:black;}
-
+    .column-buy .container-product-size .select.skuList label.combination_unavaliable {display:none;}
 
 .column-buy .descricao-preco em {
     display: block;

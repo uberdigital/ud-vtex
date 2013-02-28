@@ -322,25 +322,14 @@
 	.footerContainer .colunsContainer a:hover {color:#fff;}
 
 
-	.footerContainer .column {
-		border-right: 1px solid #3B3B3B;
-		float: left;
-		height: 220px;
-		text-align: center;
-		width: 240px;
-	}
-
-	.footerContainer .column.guidesize {display: none;}
-
-/* COM A COLUNA DO PROVADOR ATIVAp
-	.footerContainer .column {
+    .footerContainer .column {
 		border-right: 1px solid #3b3b3b;
 		float: left;
 		height: 200px;
 		text-align: center;
-		width: 194px;
+		width: 200px;
 	}
-end COM A COLUNA DO PROVADOR ATIVA */
+        .footerContainer .column.guidesize {width: 150px;}
 
 		.footerContainer .column.last {border:none; margin:0; padding:0;}
 

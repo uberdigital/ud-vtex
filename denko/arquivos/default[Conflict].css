@@ -77,12 +77,11 @@ small {font-size: 0.9em; font-style: italic; letter-spacing: normal; text-transf
 .content {margin: 0 auto; position: relative;width: 940px;}
 .searchWrapper {display: none;}
 
-.content h2 {margin: 20px 0;}
-
-.content > h2 {
+.content h2 {
 	background: url('/arquivos/divisorias.jpg') no-repeat -40px 20px;
 	height: 40px;
 	font-family: 'Share Tech Mono', sans-serif;
+	margin: 20px 0;
 	text-transform: uppercase;
 	word-spacing: -2px;
 }
@@ -129,17 +128,10 @@ small {font-size: 0.9em; font-style: italic; letter-spacing: normal; text-transf
 .steps li.ativo {background-position-y: -45px;}
 .steps li.last {margin-right: 0;}
 
-#ctl00_TopBar_TopBar1_liIdentificacao,
-#ctl00_TopBar_ComercioTopBar_liIdentificacao {width: 96px;}
-
-#ctl00_TopBar_TopBar1_liEntregaEmbalagem,
-#ctl00_TopBar_ComercioTopBar_liEntregaEmbalagem {background-position-x: -128px; width: 51px;}
-
-#ctl00_TopBar_TopBar1_liPagamento,
-#ctl00_TopBar_ComercioTopBar_liPagamento {background-position-x: -215px; width: 67px;}
-
-#ctl00_TopBar_TopBar1_liConfirmacao,
-#ctl00_TopBar_ComercioTopBar_liConfirmacao {background-position-x: -307px; width: 81px;}
+#ctl00_TopBar_TopBar1_liIdentificacao {width: 96px;}
+#ctl00_TopBar_TopBar1_liEntregaEmbalagem {background-position-x: -128px; width: 51px;}
+#ctl00_TopBar_TopBar1_liPagamento {background-position-x: -215px; width: 67px;}
+#ctl00_TopBar_TopBar1_liConfirmacao {background-position-x: -307px; width: 81px;}
 
 .container-header {
 	margin:0 auto;
@@ -347,16 +339,17 @@ small {font-size: 0.9em; font-style: italic; letter-spacing: normal; text-transf
 .carrinho #ctl00_TopBar_TopBar1_divHeader {display: none;}
 
 /* carrinho vazio */
-.carrinho-vazio {padding: 60px 0 30px;}
-.carrinho .carrinho-vazio h3 {font-weight: bold;}
+.carrinho .carrinho-vazio h3 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
 .carrinho .carrinho-vazio p {
-	font-size: 12px;
-	margin: 10px 0 14px 0;
+	font-size: 14px;
+	margin: 0 0 14px 0;
 	line-height: 16px;
 	width: 620px;
 }
-
-.carrinho .carrinho-vazio .bts {margin-top:50px;}
 
 .carrinho .carrinho-vazio .continuar-comprando a {
 	color: black;
@@ -578,20 +571,10 @@ ul.bottom:after { clear: both; }
 ul.bottom { *zoom: 1; }
 /* end CARRINHO */
 
-.aviso-erro {font-size: 11px; margin:20px 0;}
-	.aviso-erro p {font-weight:bold; margin:20px 0 10px 0;}
-	.aviso-erro ul {margin:10px 0 0;}
-	.aviso-erro li {
-	    list-style-type: square;
-	    list-style-position: inside;
-	    margin:5px 0;
-	    padding-left:10px;
-	}
 
 /* LOGIN */
 	.login .vantagens,
-	.login-email-links,
-	.login #ctl00_TopBar_TopBar1_divHeader {display:none;}
+	.login-email-links {display:none;}
 
 	.login .mainWrapper {
 	    color:#999;
@@ -669,7 +652,6 @@ ul.bottom { *zoom: 1; }
 	}
 /* end LOGIN */
 
-.voltar a {color:#999; font-size: 11px; text-decoration:none;}
 
 /* CADASTRO */
 
@@ -740,6 +722,15 @@ ul.bottom { *zoom: 1; }
 	width: 129px;
 }
 
+.cadastro-cliente .aviso-erro {font-size: 11px;}
+	.cadastro-cliente .aviso-erro p {font-weight:bold; margin:20px 0 10px 0;}
+	.cadastro-cliente .aviso-erro ul {margin:10px 0 0;}
+	.cadastro-cliente .aviso-erro li {
+	    list-style-type: square;
+	    list-style-position: inside;
+	    margin:5px 0;
+	    padding-left:10px;
+	}
 /* end CADASTRO */
 
 /* CADASTRO ENDERECO */
@@ -749,214 +740,11 @@ ul.bottom { *zoom: 1; }
     margin-bottom: 20px;
 }
 
-.cadastro-endereco legend {margin-bottom: 20px;}
-
-.endereco-compra .grp {margin: 20px 0;}
+.endereco-compra .grp {margin: 10px 0;}
 	.endereco-compra .grp label {
 	    display: block;
 	    font-size:13px;
 	    margin-bottom:3px;
 	}
-	.endereco-compra .grp .fitext {
-		border: 1px solid #e1e1e1;
-		border-radius: 4px;
-		height: 20px;
-		padding: 0 5px;
-		width: 210px !important;
-	}
-	.endereco-compra .grp .fitext.cep-prefixo {width:100px !important;}
-    .endereco-compra .grp .fitext.cep-sufixo {width:50px !important;}
-	.endereco-compra .grp a {color: #999; font-size:11px;}
-    .endereco-compra .voltar {display:none;}
-
-	.endereco-compra .continuar .fisubmit {
-	    background: url('/arquivos/bt-gravar.jpg') no-repeat;
-	    border: none;
-	    cursor: pointer;
-	    height: 40px;
-	    text-indent: -999px;
-	    width: 129px;
-	}
+	.endereco-compra .grp .fitext {width: 210px !important;}
 /* end CADASTRO ENDERECO */
-
-/* ESCOLHA DE ENDERECO */
-.endereco-compra .lista-endereco legend {font-weight: bold;margin-bottom: 30px;}
-
-.endereco-compra .cadastro-endereco h3 {
-    background: url('/arquivos/divisorias.jpg') no-repeat -40px 20px;
-    height: 70px;
-    font-family: 'Share Tech Mono', sans-serif;
-    margin: 20px 0;
-    text-transform: uppercase;
-    word-spacing: -2px;
-}
-
-.select-address .bt {
-    background: #999;
-    color: white;
-    margin-bottom: 10px;
-    padding: 10px;
-    display: block;
-    border-radius: 4px;
-    text-align: center;
-    text-decoration: none;
-    width: 70px;
-}
-
-.address-list {font-size:12px;}
-	.address-list li {
-	    float: left;
-	    width: 190px;
-	    border-right: 1px solid #ccc;
-	    padding-right: 10px;
-	    margin-right: 30px;
-	}
-	.address-list li:last-child {border-right:none;}
-
-	.address-list address strong {
-	    font-weight: bold;
-	    display: block;
-	    margin-bottom: 10px;
-	}
-	.address-list address p {line-height:16px; font-size:11px; text-transform: uppercase;}
-	.address-list .bts a {background:#e1e1e1; border-radius: 4px; color:#666; display:block; padding:5px 0; text-align: center; text-decoration:none; width:50px;}
-/* end ESCOLHA DE ENDERECO */
-
-
-/* FORMAS DE PAGAMENTO */
-.checkout.forma-pagamento .voltar {display:none;}
-
-.checkout.forma-pagamento table.valor-compra {font-size:12px;}
-
-.checkout.forma-pagamento table.valor-compra th {height: 25px; padding-right: 20px; text-align: right;}
-	.checkout.forma-pagamento table.valor-compra td {font-weight: bold;}
-
-.formaPagamentoWrapper .lista-formas-pagamento.lista-bandeiras li {
-	display: inline;
-	margin-right: 40px;
-}
-.formaPagamentoWrapper .lista-bandeiras li label strong {display: none;}
-
-.checkout.forma-pagamento .lista-formas-pagamento img {margin-left: 4px; vertical-align: middle;}
-
-.formaPagamentoWrapper fieldset.selec-cartoes legend,
-.formaPagamentoWrapper fieldset.info-cartao legend,
-.formaPagamentoWrapper fieldset.radio-cartao legend {display: none;}
-
-.dados-pagamento h3 {
-    font-size: 13px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-.pagamento .tit {
-    background: url('/arquivos/divisorias.jpg') no-repeat -40px 0;
-    font-family: 'Share Tech Mono', sans-serif;
-    font-size: 16px;
-    margin: 20px 0 40px;
-    padding-top:30px;
-    text-transform: uppercase;
-    word-spacing: -2px;
-}
-
-.pagamento .tit span {display:none;}
-
-.checkout.forma-pagamento .aviso-erro {color: red;}
-
-.checkout.forma-pagamento .formaPagamentoWrapper {
-    margin-bottom:30px;
-}
-
-.checkout.forma-pagamento .formaPagamentoWrapper h3,
-.boleto-wrapper h3 {
-    border-bottom: 1px solid #e1e1e1;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-}
-.checkout.forma-pagamento .footer {
-    margin-top: 50px;
-}
-
-.formaPagamentoWrapper fieldset.info-cartao a.tbstarted {display: none;}
-
-.formaPagamentoWrapper .credit-card-info label {
-	float: left;
-	font-size: 12px;
-	margin-top: 2px;
-	width: 220px;
-}
-
-#ctl00_Conteudo_ctrlFormaPagamento_DadosFormaPagamamentoCartao {margin: 30px 0 50px;}
-
-.checkout.forma-pagamento .pagamento-cartao-wrapper .fitext {border: 1px solid #e1e1e1;border-radius: 4px;height: 20px;width: 220px;}
-
-.checkout.forma-pagamento .lista-formas-pagamento img {
-	margin-left: 4px;
-	vertical-align: middle;
-}
-
-.checkout.forma-pagamento .formapagamento-descricao {font-size: 12px;}
-	.checkout.forma-pagamento .formapagamento-descricao em {
-		border-right: 1px solid #333;
-		margin-right:10px;
-		padding-right:10px;
-	}
-
-.checkout.forma-pagamento fieldset.mensagem-cartao {display: none;}
-.checkout.forma-pagamento fieldset {margin:20px 0 0;}
-.checkout.forma-pagamento fieldset.voltar .bt {display: none;}
-
-.opc-parcelamento {clear:both; margin-top:20px;}
-.opc-parcelamento legend {font-size: 12px; margin-bottom: 3px;}
-
-.checkout.forma-pagamento .continuar .fibutton {
-    background: #666;
-    color:white;
-    cursor: pointer;
-    display: block;
-    margin: 40px auto 60px;
-    border: none;
-    padding: 10px;
-    border-radius: 4px;
-    text-transform: uppercase;
-}
-/* end FORMAS DE PAGAMENTO */
-
-/* CONFIRMACAO PAGAMENTO */
-#ctl00_Conteudo_divConfirmacaoAguarde {padding: 20px 0 0; text-align: center;}
-#ctl00_TopBar_TopBar1_pnlTopBarAssincrono, .welcome, .menu-user, .menuwrap {display: none;}
-.checkout.finaliza-compra .history {display: none;}
-
-.checkout.finaliza-compra .servicos {display: none;}
-.checkout.finaliza-compra .history {display: none;}
-.checkout.finaliza-compra .content {padding: 10px 0 60px 0;}
-.checkout.finaliza-compra .order-number {
-background: #f7f7f7;
-color: black;
-display: block;
-font-size: 15px;
-margin: 20px 0;
-padding: 10px 20px;
-text-align: center;
-text-transform: uppercase;
-width: 300px;
-}
-.checkout.finaliza-compra .success.sucess .info {
-    font-size: 11px;
-    margin-top:30px;
-    padding-bottom: 5px;
-}
-#ctl00_Conteudo_lnkBoleto {
-    font-size: 13px;
-    color: #333;
-}
-.checkout.finaliza-compra .success.sucess .info p.lnkBoleto {margin: 10px 0;}
-
-
-#ctl00_Conteudo_divConfirmacaoAguarde {padding: 20px 0 0; text-align: center;}
-
-.checkout.finaliza-compra .sucess {font-size: 12px;line-height: 14px;}
-
-.checkout.finaliza-compra .continuar-comprando {background:#e1e1e1; cursor:pointer; padding:10px; text-align:center; width:200px}
-.checkout.finaliza-compra .continuar-comprando a {color:black; text-decoration:none;}
-/* end CONFIRMACAO PAGAMENTO */
