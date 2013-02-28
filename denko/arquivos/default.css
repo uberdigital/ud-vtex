@@ -906,6 +906,9 @@ ul.bottom { *zoom: 1; }
 .checkout.forma-pagamento fieldset {margin:20px 0 0;}
 .checkout.forma-pagamento fieldset.voltar .bt {display: none;}
 
+.checkout.forma-pagamento .boleto-wrapper,
+.checkout.forma-pagamento .debito-wrapper {display: none;}
+
 .opc-parcelamento {clear:both; margin-top:20px;}
 .opc-parcelamento legend {font-size: 12px; margin-bottom: 3px;}
 
@@ -971,4 +974,7 @@ ul.bottom { *zoom: 1; }
 
 .checkout.finaliza-compra .continuar-comprando {background:#e1e1e1; cursor:pointer; padding:10px; text-align:center; width:200px}
 .checkout.finaliza-compra .continuar-comprando a {color:black; text-decoration:none;}
+
+.checkout.finaliza-compra .boleto-wrapper,
+.checkout.finaliza-compra .debito-wrapper {display: none;}
 /* end CONFIRMACAO PAGAMENTO */
