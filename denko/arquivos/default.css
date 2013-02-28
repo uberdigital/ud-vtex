@@ -931,15 +931,27 @@ ul.bottom { *zoom: 1; }
 .checkout.finaliza-compra .history {display: none;}
 .checkout.finaliza-compra .content {padding: 10px 0 60px 0;}
 .checkout.finaliza-compra .order-number {
-background: #f7f7f7;
-color: black;
-display: block;
-font-size: 15px;
-margin: 20px 0;
-padding: 10px 20px;
-text-align: center;
-text-transform: uppercase;
-width: 300px;
+	background: #f7f7f7;
+	color: black;
+	display: block;
+	font-size: 15px;
+	margin: 20px 0;
+	padding: 10px 20px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 300px;
+}
+.checkout.finaliza-compra .print-boleto a {
+	display: block;
+	margin: 20px 0;
+	cursor: pointer;
+	background: #e1e1e1;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 13px;
+	color: black;
+	text-decoration: none;
+	width: 390px;
 }
 .checkout.finaliza-compra .success.sucess .info {
     font-size: 11px;
