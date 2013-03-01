@@ -131,7 +131,7 @@
 .footer .wrapper-relacionamento .relacionamento .insert-email{float: left; padding: 5px 0; width: 180px;}
 .footer .wrapper-relacionamento .relacionamento .form-newslatter{height: 25px;}
 .footer .wrapper-relacionamento .relacionamento .submit-newslatter{ position: relative; right: -157px; background:url('tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer; top: -22px;}
-.footer .wrapper-relacionamento .relacionamento .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; width: 165px;}
+.footer .wrapper-relacionamento .relacionamento .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; outline: none; width: 165px;}
 .footer .wrapper-relacionamento .relacionamento .titles-relacionamento{float: left; margin-right: 15px;}
 .footer .wrapper-relacionamento .relacionamento .receba{padding-top: 11px;}
 .footer .wrapper-relacionamento .relacionamento .icons-relacionamento{width: 12px; height: 14px; float: left; margin-right: 12px; background:url('icons.png') no-repeat;}

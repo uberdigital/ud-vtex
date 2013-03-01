@@ -23,16 +23,16 @@
 .wrapper-vitrine .sidebar-resultado .filtro .order{float: left; margin-top: 5px; margin-right: 5px; font-weight: bold;}
 .wrapper-vitrine .sidebar-resultado .filtro .order-by{float: left; width: 265px;}
 .wrapper-vitrine .sidebar-resultado .filtro .filter-by{float: left; width: 165px; margin-left: 50px;}
-.wrapper-vitrine .sidebar-resultado .filtro .nav-pag-vitrine{float: right;}
-.wrapper-vitrine .sidebar-resultado .filtro .nav-pag{float: left; background: #fff; margin-right: 5px; padding: 6px 10px; cursor: pointer;border: 1px solid #d3d3d3;}
-.wrapper-vitrine .sidebar-resultado .filtro .last{margin-right: 0;}
-.wrapper-vitrine .sidebar-resultado .filtro .anterior{float: left; background:url('icons.png') no-repeat; background-position: -94px -7px;  margin-right: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
-.wrapper-vitrine .sidebar-resultado .filtro .proximo{float: left; background:url('icons.png') no-repeat; background-position: -107px -7px;  margin-left: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
-.wrapper-vitrine .sidebar-resultado .filtro .selected{background: #000; color:#fff;}
 .wrapper-vitrine .sidebar-resultado .filtro .order-by .select-order{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 180px; outline: none; padding-left: 8px;}
 .wrapper-vitrine .sidebar-resultado .filtro .filter-by .select-filter{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 60px; outline: none; padding-left: 8px;}
+.filtro .nav-pag-vitrine{float: right;}
+.filtro .nav-pag{float: left; background: #fff; margin-right: 5px; padding: 6px 10px; cursor: pointer;border: 1px solid #d3d3d3;}
+.filtro .last{margin-right: 0;}
+.filtro .anterior{float: left; background:url('icons.png') no-repeat; background-position: -94px -7px;  margin-right: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+.filtro .proximo{float: left; background:url('icons.png') no-repeat; background-position: -107px -7px;  margin-left: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+.filtro .selected{background: #000; color:#fff;}
 
-.wrapper-vitrine .sidebar-resultado .resultado{margin-bottom: 20px;}
+.wrapper-vitrine .sidebar-resultado .resultado{margin-bottom: 20px; border-bottom: 1px solid #d0d0d0;}
 .sidebar-resultado .resultado ul li{float: left;}
 .sidebar-resultado .resultado .lista-colection{height: 300px; width: 180px; margin:0 5px;}
 .sidebar-resultado .resultado .lista-colection .img-prod{width: 175px; height: 190px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
@@ -41,7 +41,34 @@
 .sidebar-resultado .resultado .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
 .sidebar-resultado .resultado .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
 .sidebar-resultado .resultado .descricao-prod .price-terms{display: block; font-style: italic;}
+.nav-pag-bottom{margin-bottom: 20px;}
+.nav-pag-bottom .nav-pag{float: left; background: #fff; margin-right: 5px; padding: 6px 10px; cursor: pointer;border: 1px solid #d3d3d3;}
+.nav-pag-bottom .nav-pag-vitrine{float: right;}
+.nav-pag-bottom .selected{background: #000; color:#fff;}
+.nav-pag-bottom .nav-pag-vitrine .last{margin-right: 0;}
+.nav-pag-bottom .nav-pag-vitrine .anterior{float: left; background:url('icons.png') no-repeat; background-position: -94px -7px;  margin-right: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+.nav-pag-bottom .nav-pag-vitrine .proximo{float: left; background:url('icons.png') no-repeat; background-position: -107px -7px;  margin-left: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+
 /* End Resultado */
+
+/* Start Ultimo Produto Visto */
+
+.product-last-seen{float: left; width: 940px; border:1px solid #d0d0d0; padding: 20px;}
+.product-last-seen .title-head{text-transform: uppercase; font-size: 18px; display: block; font-style: italic; margin-bottom: 30px;}
+.product-last-seen .carrosel-colection{position: relative;}
+.product-last-seen .carrosel-colection .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 60px;}
+.product-last-seen .carrosel-colection .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 60px;}
+.product-last-seen .carrosel-colection .carrosel{float: left;display: inline; padding: 0 30px;}
+.product-last-seen .carrosel-colection .carrosel ul li{float: left;}
+.product-last-seen .carrosel-colection .carrosel .lista-colection{height: 170px; width: 100px; margin:0 21px;}
+.product-last-seen .carrosel-colection .carrosel .lista-colection .img-prod{width: 100px; height: 100px; margin-bottom: 10px; float: left;}
+.product-last-seen .carrosel-colection .carrosel .lista-colection .descricao-prod{float: left; width: 100px; text-align: center;}
+.product-last-seen .carrosel-colection .carrosel .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
+.product-last-seen .carrosel-colection .carrosel .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
+.product-last-seen .carrosel-colection .carrosel .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
+.product-last-seen .carrosel-colection .carrosel .descricao-prod .price-terms{display: block; font-style: italic;}
+
+/* Start Ultimo Produto Visto */
 
 /* END CONTENT VITRINE */
 
