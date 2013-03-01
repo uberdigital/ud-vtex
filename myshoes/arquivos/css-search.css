@@ -6,7 +6,37 @@
 .wrapper-vitrine{width: 980px; margin:0 auto;}
 
 /* Start Sidebar Search */
-.wrapper-vitrine .sidebar-search{float: left; width: 200px; margin-right: 20px; background: #ccc; height: 300px;}
+.wrapper-vitrine .sidebar-search{float: left; width: 200px; margin-right: 20px; margin-bottom: 20px;}
+.sidebar-search .title-head{border-bottom:1px solid #d0d0d0; text-transform: uppercase; font-size: 18px; display: block; font-style: italic; padding-bottom: 10px; padding-left: 10px;}
+.sidebar-search .boxes{padding: 20px; float: left; border-bottom: 1px solid #d0d0d0; width: 160px;}
+.sidebar-search .sub-title{text-transform: uppercase; font-size: 14px; display: block; margin-bottom: 20px;}
+.sidebar-search .size-number{border-right: 1px dotted #6f6f6f; float: left; padding:0 9px;}
+.sidebar-search .size-tab .last{border-right:0;}
+.sidebar-search .size-tab .first{padding-left: 0;}
+.sidebar-search .size-tab{margin-bottom: 10px; float: left;}
+.sidebar-search .size-tab a{color:#545454;}
+.sidebar-search .selected{color:#e2007a!important;}
+.sidebar-search .color-tab{margin-bottom: 10px; float: left; width: 162px;}
+.sidebar-search .color{float: left; margin: 0 4px; width: 17px; height: 17px; border: 1px solid rgb(179, 179, 179);background: #d0d0d0;}
+.sidebar-search .color-tab .first{margin-left: 0;}
+.color-tab .branco{background: #fff;}
+.color-tab .preto{background: #000;}
+.color-tab .cinza{background: #d0d0d0;}
+.color-tab .vermelho{background: #E41111;}
+.color-tab .laranja{background: #E97103;}
+.color-tab .amarelo{background: #F5E316;}
+.color-tab .azul{background: #45539a;}
+.color-tab .turqueza{background: #52cfc8;}
+.color-tab .turqueza-escuro{background: #2cbc9c;}
+.color-tab .pele{background: #ecddb1;}
+.color-tab .roma{background: #ff9e7c;}
+.color-tab .roxo{background: #db74d7;}
+.sidebar-search .normal{margin-left: 10px;}
+.sidebar-search .normal li{margin-bottom: 10px;}
+.sidebar-search .normal li a{color: #545454;}
+.sidebar-search .normal .selected{color: #e2007a; font-weight: bold;}
+.sidebar-search .small-banners{float: left; margin-top: 20px;padding: 10px;}
+.sidebar-search .small-banners .banner1{margin-bottom: 20px;}
 /* Start Sidebar Search */
 
 /* Start Resultado */
@@ -37,6 +67,7 @@
 .sidebar-resultado .resultado .lista-colection{height: 300px; width: 180px; margin:0 5px;}
 .sidebar-resultado .resultado .lista-colection .img-prod{width: 175px; height: 190px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
 .sidebar-resultado .resultado .lista-colection .descricao-prod{float: left; width: 175px; text-align: center;}
+.sidebar-resultado .resultado .descricao-prod a{color:#000;}
 .sidebar-resultado .resultado .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
 .sidebar-resultado .resultado .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
 .sidebar-resultado .resultado .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
@@ -63,6 +94,7 @@
 .product-last-seen .carrosel-colection .carrosel .lista-colection{height: 170px; width: 100px; margin:0 21px;}
 .product-last-seen .carrosel-colection .carrosel .lista-colection .img-prod{width: 100px; height: 100px; margin-bottom: 10px; float: left;}
 .product-last-seen .carrosel-colection .carrosel .lista-colection .descricao-prod{float: left; width: 100px; text-align: center;}
+.product-last-seen .carrosel-colection .carrosel .descricao-prod a{color: #000;}
 .product-last-seen .carrosel-colection .carrosel .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
 .product-last-seen .carrosel-colection .carrosel .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
 .product-last-seen .carrosel-colection .carrosel .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
