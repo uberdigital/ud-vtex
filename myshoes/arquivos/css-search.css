@@ -14,9 +14,33 @@
 .wrapper-vitrine .sidebar-resultado .wrapper-breadcrumbs{margin-bottom: 15px;}
 .wrapper-vitrine .sidebar-resultado .breadcrumbs{color:#545454; font-size: 11px;}
 .wrapper-vitrine .sidebar-resultado .breadcrumbs span{float: left; margin-right: 5px;}
-.wrapper-vitrine .sidebar-resultado .breadcrumbs li{float: left; color:#545454;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs li{float: left;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs li a{color:#545454;}
 .wrapper-vitrine .sidebar-resultado .breadcrumbs .seta{margin: 0 5px;}
 .wrapper-vitrine .sidebar-resultado .breadcrumbs .selected a{font-weight: bold; color: #000;}
+
+.wrapper-vitrine .sidebar-resultado .filtro{background: #f6f6f6; border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; margin-bottom: 15px; padding: 10px 10px;}
+.wrapper-vitrine .sidebar-resultado .filtro .order{float: left; margin-top: 5px; margin-right: 5px; font-weight: bold;}
+.wrapper-vitrine .sidebar-resultado .filtro .order-by{float: left; width: 265px;}
+.wrapper-vitrine .sidebar-resultado .filtro .filter-by{float: left; width: 165px; margin-left: 50px;}
+.wrapper-vitrine .sidebar-resultado .filtro .nav-pag-vitrine{float: right;}
+.wrapper-vitrine .sidebar-resultado .filtro .nav-pag{float: left; background: #fff; margin-right: 5px; padding: 6px 10px; cursor: pointer;border: 1px solid #d3d3d3;}
+.wrapper-vitrine .sidebar-resultado .filtro .last{margin-right: 0;}
+.wrapper-vitrine .sidebar-resultado .filtro .anterior{float: left; background:url('icons.png') no-repeat; background-position: -94px -7px;  margin-right: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+.wrapper-vitrine .sidebar-resultado .filtro .proximo{float: left; background:url('icons.png') no-repeat; background-position: -107px -7px;  margin-left: 10px; padding: 6px 5px; margin-top: 7px; cursor: pointer;}
+.wrapper-vitrine .sidebar-resultado .filtro .selected{background: #000; color:#fff;}
+.wrapper-vitrine .sidebar-resultado .filtro .order-by .select-order{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 180px; outline: none; padding-left: 8px;}
+.wrapper-vitrine .sidebar-resultado .filtro .filter-by .select-filter{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 60px; outline: none; padding-left: 8px;}
+
+.wrapper-vitrine .sidebar-resultado .resultado{margin-bottom: 20px;}
+.sidebar-resultado .resultado ul li{float: left;}
+.sidebar-resultado .resultado .lista-colection{height: 300px; width: 180px; margin:0 5px;}
+.sidebar-resultado .resultado .lista-colection .img-prod{width: 175px; height: 190px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
+.sidebar-resultado .resultado .lista-colection .descricao-prod{float: left; width: 175px; text-align: center;}
+.sidebar-resultado .resultado .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
+.sidebar-resultado .resultado .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
+.sidebar-resultado .resultado .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
+.sidebar-resultado .resultado .descricao-prod .price-terms{display: block; font-style: italic;}
 /* End Resultado */
 
 /* END CONTENT VITRINE */
