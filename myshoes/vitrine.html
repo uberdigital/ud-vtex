@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="arquivos/css-reset.css" />
 	<link rel="stylesheet" href="arquivos/css-general.css" />
 	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+	<link rel="stylesheet" href="arquivos/css-search.css" />
 
 	<!-- ########## Google Fonts ########## -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
@@ -39,14 +40,13 @@
 		</div><!--######### End Myshoes-News #########-->
 		<div class="lado-right"></div>
 	</div>
-</div>
-<!--######### End TopBar ###########-->
+</div><!--######### End TopBar ###########-->
 <!--######### Start Container General #########-->
 <div class="container-general">
 	<!--######### Start Header #########-->
 	<div class="header clearfix">
-		<!--######### Start Box Content Header #########-->
 		<div class="wrapper-header">
+			<!--######### Start Box Content Header #########-->
 			<div class="box-container-header clearfix">
 				<div class="logo-header">
 					<h1 ant="My Shoes"><a href="#"><img src="arquivos/logo-top.png" alt="My Shoes" title="My Shoes" /></a></h1>
@@ -55,6 +55,7 @@
 					<span class="hello">Olá visitante!</span>
 					<span><a href="#" class="login-here">Faça o seu login aqui.</a></span>
 				</div>
+				<!--######### Start Box Right #########-->
 				<div class="box-right">
 					<div class="atendimento">
 						<ul>
@@ -96,7 +97,7 @@
 							</li>
 						</ul>
 					</div>
-				</div>
+				</div><!--######### End Box Right #########-->
 			</div><!--######### End Box Content Header #########-->
 		</div><!--######### End Box Content Header #########-->
 		<!--######### Start Nav Header #########-->	
@@ -113,141 +114,69 @@
 				<li class="menu-item"><a href="#">Acessórios</a></li>
 				<li class="menu-item last"><a href="#">Sale</a></li>
 			</ul>
-		</div><!--######### End Nav Header #########-->	
-	</div>
-	<!--######### End Header ###########-->
-	<!--######### Start Content ########-->
+		</div><!-- End Nav Header -->	
+	</div><!-- End Header -->
+	<!-- Start Content -->
 	<div class="content clearfix">
-		<div class="super-banner"><img src="arquivos/banner1.png" alt="banner" /></div>	
-		<!--######### Start Wrapper Colection ########-->
-		<div class="wrapper-colection clearfix">
-			<!--######### Start colection content ########-->
-			<div class="colection-content clearfix">	
-				<!--######### Start colection ########-->
-				<div class="colection">
-					<div class="head-colection">
-						<h2 class="title-head">Coleção verão 2013 / worderful com julia block aguier</h2>
+		<div class="banner-top-vitrine"><img src="arquivos/banner2.png" alt="banner" /></div>
+		<!-- start vitrine -->
+		<div class="vitrine">
+			<!-- start wrapper-vitrine -->
+			<div class="wrapper-vitrine clearfix">
+			<!-- start sidebar search -->
+			<div class="sidebar-search"></div><!-- end sidebar search -->
+			<!-- start sidebar resultado -->
+			<div class="sidebar-resultado">
+				<!-- start breadcrumbs -->
+				<div class="wrapper-breadcrumbs clearfix">
+					<ul class="breadcrumbs">
+						<span>Você esta em:</span>
+						<li><a href="#">Home</a></li>
+						<span class="seta">></span>
+						<li class="selected"><a href="#">Departamento</a></li>
+					</ul>
+				</div><!-- end wrapper breadcrumbs -->
+				<!-- start filtro -->
+				<div class="filtro clearfix">
+					<!-- start order by -->
+					<div class="order-by">
+						<span class="order">Ordenar por</span>
+						<form action="" class="form-order">
+							<select name="" id="">
+								<option value="" class="name-order">Lançamentos</option>
+								<option value="" class="name-order">Tamanhos</option>
+								<option value="" class="name-order">Cores</option>
+								<option value="" class="name-order">Preços</option>
+							</select>
+						</form>
+					</div><!-- end order by -->
+					<!-- start filter by -->
+					<div class="filter-by">
+						<span class="order">Itens por página</span>
+						<form action="" class="form-filter">
+							<select name="" id="">
+								<option value="" class="name-order">16</option>
+								<option value="" class="name-order">17</option>
+								<option value="" class="name-order">18</option>
+								<option value="" class="name-order">19</option>
+							</select>
+						</form>
+					</div><!-- end filter by -->
+					<div class="nav-pag-vitrine">
+						<ul>
+							<li class="nav-pag">1</li>
+							<li class="nav-pag">2</li>
+							<li class="nav-pag selected">3</li>
+							<li class="nav-pag">4</li>
+							<li class="nav-pag">5</li>
+						</ul>
 					</div>
-					<!--######### Start carrosel colecao ########-->
-					<div class="carrosel-colection">
-						<div class="btn-prev" alt="" class="prev"></div>
-						<div class="carrosel">
-							<ul>
-								<li class="lista-colection">
-									<di class="img-prod"><img src="arquivos/produto1.png" alt="Produto1" /></di>
-									<div class="descricao-prod">
-										<span class="name-prod">Nome do Produto</span>
-										<span class="price-prod">R$ 350,00</span>
-										<span class="price-terms">12x de R$31,00</span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><img src="arquivos/produto1.png" alt="Produto1" /></di>
-									<div class="descricao-prod">
-										<span class="name-prod">Nome do Produto</span>
-										<span class="price-of">De R$450,00</span>
-										<span class="price-prod">R$ 350,00</span>
-										<span class="price-terms">12x de R$31,00</span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><img src="arquivos/produto1.png" alt="Produto1" /></di>
-									<div class="descricao-prod">
-										<span class="name-prod">Nome do Produto</span>
-										<span class="price-prod">R$ 350,00</span>
-										<span class="price-terms">12x de R$31,00</span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><img src="arquivos/produto1.png" alt="Produto1" /></di>
-									<div class="descricao-prod">
-										<span class="name-prod">Nome do Produto</span>
-										<span class="price-prod">R$ 350,00</span>
-										<span class="price-terms">12x de R$31,00</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="btn-next" alt="" class="next"></div>
-					</div><!--######### End carrosel colecao ########-->
-				</div><!--######### End colection ########-->
-			</div><!--######### End colection content ########-->
-			<!--######### Start Banners ########-->
-			<div class="banners-content clearfix">
-				<ul class="banners">
-					<li class="big-banner">
-						<a href="#"><img src="arquivos/big-banner.png" alt="Big Banner" /></a>
-					</li>
-					<li class="medium-banner">
-						<div class="medium-banner-top"><a href="#"><img src="arquivos/medium-banner1.png" alt="Medium Top Banner" /></a></div>
-						<div class="medium-banner-bottom"><a href="#"><img src="arquivos/medium-banner2.png" alt="Medium Bottom Banner" /></a></div>
-					</li>
-				</ul>
-			</div><!--######### End Banners ########-->
-			<div class="acompanhe-content clearfix">
-				<div class="acompanhe">
-					<div class="head-acompanhe">
-						<span class="icon-instegram"></span>
-						<h2 class="title-head">Acompanhe no Instegram</h2>
-					</div>		
-					<div class="carrosel-acompanhe">
-						<div class="btn-prev" alt="" class="prev"></div>
-						<div class="carrosel">
-							<ul>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<img src="arquivos/instegram1.png" alt="" />
-									</div>
-									<div class="dados-acompanhe">
-										<span class="comments"></span>
-										<span class="acompanhe-number">54</span>
-										<span class="heart"></span>
-										<span class="acompanhe-number">3</span>
-									</div>
-								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<img src="arquivos/instegram1.png" alt="" />
-									</div>
-									<div class="dados-acompanhe">
-										<span class="comments"></span>
-										<span class="acompanhe-number">54</span>
-										<span class="heart"></span>
-										<span class="acompanhe-number">3</span>
-									</div>
-								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<img src="arquivos/instegram1.png" alt="" />
-									</div>
-									<div class="dados-acompanhe">
-										<span class="comments"></span>
-										<span class="acompanhe-number">54</span>
-										<span class="heart"></span>
-										<span class="acompanhe-number">3</span>
-									</div>
-								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<img src="arquivos/instegram1.png" alt="" />
-									</div>
-									<div class="dados-acompanhe">
-										<span class="comments"></span>
-										<span class="acompanhe-number">54</span>
-										<span class="heart"></span>
-										<span class="acompanhe-number">3</span>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="btn-next" alt="" class="next"></div>	
-					</div>
-				</div>
-			</div>
-		</div><!--######### End Wrapper Colection ########-->
-	</div>
-	<!--######### End Content ##########-->
-	<!--######### Start Footer #########-->
+				</div><!-- end filtro -->
+			</div><!-- end sidebar resultado -->
+			</div><!-- end wrapper-vitrine -->
+		</div><!-- end vitrine -->
+	</div><!-- End Content -->
+	<!-- Start Footer -->
 	<div class="footer clearfix">
 		<div class="wrapper-relacionamento">
 			<!--######### Start Relacionamento #########-->
@@ -337,7 +266,7 @@
 				</div>
 			</div>
 		</div><!--######### End wrapper nav footer ###########-->
-	</div><!--######### End Footer ###########-->
-</div><!--######### End Container General #########-->
+	</div><!-- End Footer -->
+</div><!-- End Container General -->
 </body>
 </html>

@@ -1,0 +1,24 @@
+
+/* START CONTENT VITRINE */
+
+.content .banner-top-vitrine{margin: 0 auto; width: 1280px;}
+.vitrine{margin:20px 0;}
+.wrapper-vitrine{width: 980px; margin:0 auto;}
+
+/* Start Sidebar Search */
+.wrapper-vitrine .sidebar-search{float: left; width: 200px; margin-right: 20px; background: #ccc; height: 300px;}
+/* Start Sidebar Search */
+
+/* Start Resultado */
+.wrapper-vitrine .sidebar-resultado{float: right; width: 760px;}
+.wrapper-vitrine .sidebar-resultado .wrapper-breadcrumbs{margin-bottom: 15px;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs{color:#545454; font-size: 11px;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs span{float: left; margin-right: 5px;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs li{float: left; color:#545454;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs .seta{margin: 0 5px;}
+.wrapper-vitrine .sidebar-resultado .breadcrumbs .selected a{font-weight: bold; color: #000;}
+/* End Resultado */
+
+/* END CONTENT VITRINE */
+
+
