@@ -4,6 +4,7 @@
 /* end RESET VTEX */
 
 body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+strong {font-weight: bold;}
 
 /* clearfix */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
@@ -62,13 +63,27 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 		}
 		.container-header .row-one .menu-container .container-menu-small .option {
 		    float: left;
-		    margin-right: 15px;
+		    margin-right: 12px;
 		}
+		.container-header .row-one .menu-container .container-menu-small .option.last {margin-right:0;}
+
+		.container-header .row-one .boas-vindas {
+		    float: right;
+		    border-left: 1px solid;
+		    padding-left: 5px;
+		    margin-left: 5px;
+		    text-transform: none;
+        }
+        
+		.container-header .row-one .boas-vindas .welcome {display: none;}
+
+		.container-header .row-one .boas-vindas strong + em {border-left:1px solid; padding-left:5px;}
+
 		.container-header .row-one .menu-container .container-facebook {
 		    float: left;
 		    height: 20px;
-		    margin-left: 30px;
-		    width: 100px;
+		    margin-left: 10px;
+		    width: 80px;
 		}
 	.container-header .row-one .search-container {
 		background: #ed1c24;
@@ -117,6 +132,7 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 	    height:103px;
 	    margin-right: 3px;
 	    position:relative;
+	    z-index: 2;
 	}
 
 	.container-header .row-two .main-menu .option a {
@@ -229,6 +245,9 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 	.footer .menu-institucional .option {margin:0 0 10px 0;}
 	.footer .menu-institucional .option a {color: #c0c0c0;}
 
+.footer .row-two {position: relative;}
+	.footer .row-two .creditos-footer {position:absolute; bottom: 0; right: 0;}
+	.footer .row-two .creditos-footer ul li {float: left; margin-right: 20px;}
 /* end FOOTER ================================================================ */
 
 

@@ -87,7 +87,7 @@ body.institucional .column-right {
 		body.institucional .column-right .container-testes-jari {color:#ababab;}
 		
 		body.institucional .column-right .container-testes-jari .sprite-titles {
-			background: url('/arquivos/sprite-dna-denko') no-repeat;
+			background: url('/arquivos/sprite-dna-denko.png') no-repeat;
 			margin: 30px 0 10px;
 			text-indent: -9999px;
 		}

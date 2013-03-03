@@ -1,0 +1,25 @@
+.institucional .container-institucional {
+    color:#ababab;
+    margin: 0 auto;
+    padding: 10px;
+    width: 920px;
+}
+    .institucional .container-institucional p.intro {font-size:1.5em; margin-bottom:25px; text-align:left;}
+    .institucional .container-institucional p {font-size:12px; line-height:16px; margin-bottom:14px; text-align:justify;}
+    .institucional .container-institucional p img {margin: 0 auto; display: block;}
+    .institucional .container-institucional ul.lista li {line-height:14px; list-style: square; list-style-position: inside; margin:5px 0; padding-left:10px;}
+    
+.institucional .titulo-pagina {
+    background: url('/arquivos/bg-product-name.jpg') center top;
+    font-size: 28px;
+    height: 70px;
+    margin: 0 auto 40px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.institucional .intro {
+    color: black;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}

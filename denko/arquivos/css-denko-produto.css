@@ -64,7 +64,7 @@
     }
     .column-buy .container-product-size .select.skuList label:hover {color:black;}
     .column-buy .container-product-size .select.skuList label.sku-picked {color:black;}
-    .column-buy .container-product-size .select.skuList label.combination_unavaliable {display:none;}
+	.column-buy .container-product-size .select.skuList label.combination_unavaliable {cursor:default; text-decoration: line-through;}
 
 .column-buy .descricao-preco em {
     display: block;
@@ -81,7 +81,7 @@
 	
 	    vertical-align: top;
 }
-		.column-buy .descricao-preco .valor-por .skuBestPrice {color: #ed1c24;font-size: 27px;vertical-align: baseline;}
+		.column-buy .descricao-preco .valor-por .skuBestPrice {}
 
 		.column-buy .descricao-preco .valor-dividido {
 		    font-size: 13px;
@@ -91,6 +91,12 @@
 		    font-size: 13px;
 		    font-weight: bold;
 		}
+		
+		.column-buy .descricao-preco .skuBestInstallmentValue {
+            color: #ed1c24;
+            font-size: 27px;
+            vertical-align: baseline;
+        }
 
 .column-buy .container-product-buy .buy-button {
 	background: url('/arquivos/btn-compre-agora.jpg') no-repeat;
@@ -158,10 +164,10 @@
 
 .container-product-description .column-description {
 	color: #ababab;
-	float: left;
+	/* float: left; */
 	font-size: 13px;
 	line-height: 16px;
-	width: 555px;
+	/* width: 555px; */
 }
 	.container-product-description .column-description .title {
 		background: url('/arquivos/txt-product-description.png') no-repeat;
@@ -184,6 +190,7 @@
 
 
 .container-product-description .column-specification {
+    display:none;
 	color: #ababab;
     float: right;
     font-size: 13px;
