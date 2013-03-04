@@ -41,29 +41,30 @@
 
 /* avaliações e comentários */
 
-.box-avaliacao{display: block;float: left;width: 100%;border-bottom: 1px solid #d0d0d0;padding-bottom: 20px;}
+.box-avaliacao{display: block; float: left; border-bottom: 1px solid #d0d0d0; padding-bottom: 20px; width: 100%;}
 .avaliacoes-comentarios{margin-bottom: 20px; position: relative; }
 .avaliacoes-comentarios #tabs{height: 29px;}
 .avaliacoes-comentarios .btn-nav{background: #fff; color: #6f6f6f; font-weight: bold; padding:7px 30px; border: 1px solid #d0d0d0; border-bottom: none; float: left; text-transform: uppercase;}
 .avaliacoes-comentarios .tab-conteudo{border: 1px solid #d0d0d0; float: left;}
 .avaliacoes-comentarios .title ul li{float: left; margin-right: 3px;}
 .avaliacoes-comentarios .tab-conteudo p{padding: 25px; font-size: 12px; line-height: 19px; color: #7f7f7f;}
-.avaliacoes-comentarios .media-avaliacao{float: left; width: 508px; position: relative;}
-.avaliacoes-comentarios .media-avaliacao .title{margin-bottom: 30px; display: block; font-weight: bold; }
-.avaliacoes-comentarios .media-avaliacao .title .icon-hearts{background:url('icons.png') no-repeat; background-position: -7px -322px; width: 79px; height: 15px;float: left;}
-.avaliacoes-comentarios .media-avaliacao .hearts{background:url('icons.png') no-repeat; background-position: -7px -303px; width: 80px; height: 95px;float: left; margin-right: 10px;}
-.avaliacoes-comentarios .media-avaliacao ul li{margin-right: 10px;}
-.avaliacoes-comentarios .media-avaliacao .posicao span{height: 2px; width: 328px; background: #969696; margin-top: 5px; float: left; margin-right: 5px;}
-.avaliacoes-comentarios .media-avaliacao .posicao .avaliacao{float: left; margin-bottom: 8px;}
-.avaliacoes-comentarios .avalie-produto{float: right; width: 300px;}
-.avaliacoes-comentarios .avalie-produto .avalie{display: block; font-weight: bold; float: none; margin-bottom: 10px;}
-.avaliacoes-comentarios .avalie-produto .icon-hearts{background:url('icons.png') no-repeat; background-position: -7px -342px; width: 100%; height: 15px;float: left;}
-.avalie-produto .form-avaliacao{float: left; margin-top: 10px;}
-.form-avaliacao .radio-select{float: none!important; margin-top: 8px;}
-.avalie-produto .form-avaliacao .radio{ margin: 0 5px 0 0;}
-.avalie-produto .form-avaliacao .btn-enviar{background:url('icons.png') no-repeat; background-position: -5px -209px; width: 157px; height: 26px;border: none;text-indent: -9999px;cursor: pointer; margin-top: 15px;}
+.avaliacoes-comentarios .avaliacao{float: left; width: 500px; }
+.avaliacoes-comentarios .avalie-produto{float: right; width: 260px;}
+.avaliacoes-comentarios .title-avaliacao{font-weight: bold; float: left; width: 100%; margin-bottom: 20px;}
+.avaliacoes-comentarios .title-avaliacao .title-media{float: left; margin-right: 10px;}
+.avaliacoes-comentarios .heart-pontuacao{float: left; margin-right: 10px; background:url('icons.png') no-repeat; background-position: -8px -323px; width: 80px; height: 73px;}
+.avaliacoes-comentarios .title-avaliacao .icons{background:url('icons.png') no-repeat; background-position: -8px -323px; width: 80px; height: 14px;float: left;}
+.votos-avaliacao{float: left;}
+.votos-avaliacao ul li{margin-bottom: 3px;}
+.votos-avaliacao .line{float: left; height: 2px; width: 260px; background: #6f6f6f; margin-top: 6px; margin-right: 5px;}
 
-.comentarios{float: left; margin: 20px 0; width: 100%;}
+.avalie-produto .title-avaliacao-produto{display: block; float: left; padding-bottom: 10px; width: 200px; font-weight: bold;}
+.avalie-produto .ajustado-down{float: left; background:url('icons.png') no-repeat; background-position: -8px -323px; width: 80px; height: 14px; margin-bottom: 10px;}
+.avalie-produto .form-avaliacao{float: left; width: 250px;}
+.avalie-produto .form-avaliacao ul li{float: left; width: 170px; margin-bottom: 8px;}
+.avalie-produto .form-avaliacao ul li span{margin-top: 1px; float: left; margin-left: 5px;}
+.avalie-produto .form-avaliacao input[type="radio"]{float: left; margin: 0;}
+.avalie-produto .form-avaliacao .btn-enviar-avaliacao{margin-top: 10px; background:url('icons.png') no-repeat; background-position: -5px -209px; width: 157px; height: 25px; border: none;text-indent: -9999px; cursor: pointer;}
 
 
 /* END PRODUTO COMENTÁRIOS */
