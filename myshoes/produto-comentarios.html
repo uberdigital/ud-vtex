@@ -3,26 +3,38 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>My Shoes</title>
+	
+	<!-- styles -->
 	<link rel="stylesheet" href="arquivos/css-reset.css" />
 	<link rel="stylesheet" href="arquivos/css-general.css" />
 	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+	<link rel="stylesheet" href="arquivos/css-search.css" />
+	<link rel="stylesheet" href="arquivos/css-product.css" />
+	<link rel="stylesheet" href="arquivos/css-jquery-ui.css">
 
-	<!-- ########## Google Fonts ########## -->
+	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
-	<!-- ########## Styles  ########## -->
 
-	<!-- ########## scripts  ########## -->
+	<!-- scripts -->
 	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
 	<script language="javascript" src="arquivos/js-jquery.cycle.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.ui.core.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.widget.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.tabs.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+    		$("#tabs").tabs();
+  		});
+  	</script>
 </head>
 <body>
-<!--######### Start TopBar #########-->
+<!-- start topBar -->
 <div class="topbar">
 	<div class="topbar-container clearfix">
 		<div class="lado-left"></div>
 		<div class="banner-topbar"><span id="bannerTopo" class="banner-topo">Frete Grátis para todo o Brasil nas compras acima de R$ 99,99</span></div>
 		<div class="center-line"></div>
-		<!--######### Myshoes-News #########-->
+		<!-- myshoes-news -->
 		<div class="myshoes-news">
 			<ul>
 				<li class="post-news">
@@ -36,17 +48,16 @@
 					</form>
 				</li>
 			</ul>
-		</div><!--######### End Myshoes-News #########-->
+		</div><!-- end myshoes-news -->
 		<div class="lado-right"></div>
 	</div>
-</div>
-<!--######### End TopBar ###########-->
-<!--######### Start Container General #########-->
+</div><!-- end topBar -->
+<!-- start container general -->
 <div class="container-general">
-	<!--######### Start Header #########-->
+	<!-- start header -->
 	<div class="header clearfix">
-		<!--######### Start Box Content Header #########-->
 		<div class="wrapper-header">
+			<!-- start box content header -->
 			<div class="box-container-header clearfix">
 				<div class="logo-header">
 					<h1 ant="My Shoes"><a href="#"><img src="arquivos/logo-top.png" alt="My Shoes" title="My Shoes" /></a></h1>
@@ -55,6 +66,7 @@
 					<span class="hello">Olá visitante!</span>
 					<span><a href="#" class="login-here">Faça o seu login aqui.</a></span>
 				</div>
+				<!-- start box right -->
 				<div class="box-right">
 					<div class="atendimento">
 						<ul>
@@ -96,10 +108,10 @@
 							</li></a>
 						</ul>
 					</div>
-				</div>
-			</div><!--######### End Box Content Header #########-->
-		</div><!--######### End Box Content Header #########-->
-		<!--######### Start Nav Header #########-->	
+				</div><!-- end box right -->
+			</div><!-- end box content header -->
+		</div><!-- end box content header -->
+		<!-- start nav header -->	
 		<div class="wrapper-nav">
 			<ul class="nav-header">
 				<li class="menu-item"><a href="#">Campanha</a></li>
@@ -113,135 +125,162 @@
 				<li class="menu-item"><a href="#">Acessórios</a></li>
 				<li class="menu-item last"><a href="#">Sale</a></li>
 			</ul>
-		</div><!--######### End Nav Header #########-->	
-	</div>
-	<!--######### End Header ###########-->
-	<!--######### Start Content ########-->
+		</div><!-- end nav header -->	
+	</div><!-- end header -->
+	<!-- etart content -->
 	<div class="content clearfix">
-		<div class="super-banner"><img src="arquivos/banner1.png" alt="banner" /></div>	
-		<!--######### Start Wrapper Colection ########-->
-		<div class="wrapper-colection clearfix">
-			<!--######### Start colection content ########-->
-			<div class="colection-content clearfix">	
-				<!--######### Start colection ########-->
-				<div class="colection">
-					<div class="head-colection">
-						<h2 class="title-head">Coleção verão 2013 / worderful com julia block aguier</h2>
-					</div>
-					<!--######### Start carrosel colecao ########-->
-					<div class="carrosel-colection">
-						<a href="#"><div class="btn-prev" alt="" class="prev"></div></a>
-						<div class="carrosel">
-							<ul>
-								<li class="lista-colection">
-									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" /></a></di>
-									<div class="descricao-prod">
-										<span class="name-prod"><a href="#">Nome do Produto</a></span>
-										<span class="price-prod"><a href="#">R$ 350,00</a></span>
-										<span class="price-terms"><a href="#">12x de R$31,00</a></span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" /></a></di>
-									<div class="descricao-prod">
-										<span class="name-prod"><a href="#">Nome do Produto</a></span>
-										<span class="price-prod"><a href="#">R$ 350,00</a></span>
-										<span class="price-terms"><a href="#">12x de R$31,00</a></span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" /></a></di>
-									<div class="descricao-prod">
-										<span class="name-prod"><a href="#">Nome do Produto</a></span>
-										<span class="price-prod"><a href="#">R$ 350,00</a></span>
-										<span class="price-terms"><a href="#">12x de R$31,00</a></span>
-									</div>
-								</li>
-								<li class="lista-colection">
-									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" /></a></di>
-									<div class="descricao-prod">
-										<span class="name-prod"><a href="#">Nome do Produto</a></span>
-										<span class="price-prod"><a href="#">R$ 350,00</a></span>
-										<span class="price-terms"><a href="#">12x de R$31,00</a></span>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<a href="#"><div class="btn-next" alt="" class="next"></div></a>
-					</div><!--######### End carrosel colecao ########-->
-				</div><!--######### End colection ########-->
-			</div><!--######### End colection content ########-->
-			<!--######### Start Banners ########-->
-			<div class="banners-content clearfix">
-				<ul class="banners">
-					<li class="big-banner">
-						<a href="#"><img src="arquivos/big-banner.png" alt="Big Banner" /></a>
-					</li>
-					<li class="medium-banner">
-						<div class="medium-banner-top"><a href="#"><img src="arquivos/medium-banner1.png" alt="Medium Top Banner" /></a></div>
-						<div class="medium-banner-bottom"><a href="#"><img src="arquivos/medium-banner2.png" alt="Medium Bottom Banner" /></a></div>
-					</li>
+		<div class="banner-top-vitrine"><img src="arquivos/banner2.png" alt="banner" /></div>
+		<!-- start vitrine -->
+		<div class="vitrine">
+			<div class="wrapper-breadcrumbs-comment clearfix">
+				<ul class="breadcrumbs">
+					<span>Você esta em:</span>
+					<li><a href="#">Home</a></li>
+					<span class="seta">&gt;</span>
+					<li class="selected"><a href="#">Departamento</a></li>
 				</ul>
-			</div><!--######### End Banners ########-->
-			<div class="acompanhe-content clearfix">
-				<div class="acompanhe">
-					<div class="head-acompanhe">
-						<span class="icon-instegram"></span>
-						<h2 class="title-head">Acompanhe no Instegram</h2>
-					</div>		
-					<div class="carrosel-acompanhe">
-						<a href="#"><div class="btn-prev" alt="" class="prev"></div></a>
+			</div>
+			<!-- start wrapper vitrine -->
+			<div class="wrapper-vitrine clearfix">
+				<!-- start produto descricao -->
+				<div class="produto-descricao clearfix">
+					<div class="images-left"></div>
+					<!-- start descricao right -->
+					<div class="descricao-right">
+						<div class="name-product">
+							<h2 class="name">Nome do Produto</h2>
+							<div class="ref">
+								<span>REF: DD0315</span>
+								<span>Avalie este produto</span>
+								<span>Descrição do Produto</span>
+							</div>
+						</div>
+						<div class="price-product">
+							<div class="condicao-price">
+								<div class="valor">
+									<span class="de">de R$000,00</span>
+									<span class="por">Por R$ 000,00</span>
+								</div>
+								<span class="ate">12x de R$00,00</span>
+							</div>
+							<div class="condicao-shipping">Frete Grátis</div>
+						</div>
+						<div class="size-color">
+							<div class="color-product">
+								<span>1. Selecione a cor</span>
+							</div>
+							<div class="size-product">
+								<span>2. Selecione o tamanho</span>
+							</div>
+						</div>
+						<div class="buy-product">
+							<div class="buy">
+								3.<a href="#" class="btn-buy">Comprar</a>
+							</div>
+							<a href="#"><div class="calcule-shipping"><span class="icon-shipping"></span>Calcule o prazo de entrega</div></a>
+						</div>
+					</div><!-- end descricao right -->
+				</div><!-- end produto descricao -->
+				<!-- start compre junto -->
+				<div class="compre-junto clearfix">
+					<h2 class="title-head clearfix">Compre Junto</h2>
+						<div class="condicoes-compre-junto">	
+							<div class="product1"><img src="arquivos/produto-compre-junto1.png" alt="" /></div>
+							<span class="mais"></span>
+							<div class="product2"><img src="arquivos/produto-compre-junto1.png" alt="" /></div>
+							<div class="total-comprejunto">
+								<span class="names-comprejunto">Nome do Produto 1 + Nome do Produto 2</span>
+								<span class="price-comprejunto">Compre junto: R$ 759,90</span>
+								<span class="economize-comprejunto">Economize: R$ 105,90</span>
+								<span class="parcelas-comprejunto">ou 10X de R$ 39,99</span>
+							</div>
+							<span class="igual"></span>
+							<span><a href="#" class="btn-comprejunto">Compre Junto</a></span>
+						</div>
+				</div><!-- end compre junto -->
+				<!-- star avaliacoes e comentários -->
+				<div class="avaliacoes-comentarios clearfix">
+					<div id="tabs">
+						<ul>
+							<li><a href="#tabs-1" class="btn-nav">Descrição</a></li>
+							<li><a href="#tabs-2" class="btn-nav">Avaliações e Comentários</a></li>
+						</ul>
+						<div id="tabs-1" class="tab-conteudo">
+							<p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lt to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+						</div>
+						<div id="tabs-2" class="tab-conteudo">
+							
+						</div>
+					</div>
+				</div><!-- end avaliacoes e comentários -->
+				<!-- start product last seen -->
+				<div class="product-last-seen clearfix">
+					<h2 class="title-head">Últimos produtos vistos</h2>
+					<!-- start carrosel product last seen -->
+					<div class="carrosel-colection clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
 						<div class="carrosel">
 							<ul>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<a href="#"><img src="arquivos/instegram1.png" alt="" /></a>
-									</div>
-									<div class="dados-acompanhe">
-										<a href="#"><span class="comments"></span><span class="acompanhe-number">54</span></a>
-										<a href="#"><span class="heart"></span><span class="acompanhe-number">3</span></a>
-									</div>
-								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<a href="#"><img src="arquivos/instegram1.png" alt="" /></a>
-									</div>
-									<div class="dados-acompanhe">
-										<a href="#"><span class="comments"></span><span class="acompanhe-number">54</span></a>
-										<a href="#"><span class="heart"></span><span class="acompanhe-number">3</span></a>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
 									</div>
 								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<a href="#"><img src="arquivos/instegram1.png" alt="" /></a>
-									</div>
-									<div class="dados-acompanhe">
-										<a href="#"><span class="comments"></span><span class="acompanhe-number">54</span></a>
-										<a href="#"><span class="heart"></span><span class="acompanhe-number">3</span></a>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
 									</div>
 								</li>
-								<li class="lista-acompanhe">
-									<div class="image-acompanhe">
-										<a href="#"><img src="arquivos/instegram1.png" alt="" /></a>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
 									</div>
-									<div class="dados-acompanhe">
-										<a href="#"><span class="comments"></span><span class="acompanhe-number">54</span></a>
-										<a href="#"><span class="heart"></span><span class="acompanhe-number">3</span></a>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
 									</div>
 								</li>
 							</ul>
 						</div>
-						<a href="#"><div class="btn-next" alt="" class="next"></div></a>
-					</div>
-				</div>
-			</div>
-		</div><!--######### End Wrapper Colection ########-->
-	</div>
-	<!--######### End Content ##########-->
-	<!--######### Start Footer #########-->
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel product last seen -->
+				</div><!-- end product last seen -->
+			</div><!-- start wrapper vitrine -->	
+		</div><!-- end vitrine -->
+	</div><!-- end content -->
+	<!-- start footer -->
 	<div class="footer clearfix">
 		<div class="wrapper-relacionamento">
-			<!--######### Start Relacionamento #########-->
+			<!-- start relacionamento -->
 			<div class="relacionamento">
 				<ul>
 					<li class="acompanhe-myshoes">
@@ -266,9 +305,9 @@
 						</div>
 					</li>
 				</ul>
-			</div><!--######### End Relacionamento #########-->
+			</div><!-- end relacionamento -->
 		</div>
-		<!--######### Start wrapper nav footer ###########-->
+		<!-- start wrapper nav footer -->
 		<div class="wrapper-nav-footer">
 			<div class="navegador-footer clearfix">
 				<div class="menu-footer">
@@ -327,8 +366,8 @@
 					<img src="arquivos/fb-image.png" alt="" />
 				</div>
 			</div>
-		</div><!--######### End wrapper nav footer ###########-->
-	</div><!--######### End Footer ###########-->
-</div><!--######### End Container General #########-->
+		</div><!-- end wrapper nav footer -->
+	</div><!-- end footer -->
+</div><!-- end container general -->
 </body>
 </html>

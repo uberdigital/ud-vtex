@@ -49,6 +49,7 @@
 .header .box-container-header .box-right .bag-redes .redes-sociais .rss{background-position: -80px -98px;}
 .header .box-container-header .box-right .bag-redes{float: left; width: 135px;}
 .header .box-container-header .box-right .bag{ width: 118px; float: right;}
+.header .box-container-header .box-right a .bag {color:#000;}
 .header .box-container-header .box-right .bag-redes .bag-icon{ background:url('icons.png') no-repeat; background-position: -25px -3px; float: left; height: 18px; margin-right: 4px; width: 18px;} 
 .header .box-container-header .box-right .bag-redes .my-bag{float: left; margin-top: 4px; margin-right: 4px;}
 .header .box-container-header .box-right .bag-redes .items-bag{float: left; margin-top: 4px; color: #e2007a; font-weight: bold;}
@@ -81,6 +82,7 @@
 .content .colection .carrosel-colection .carrosel .lista-colection{height: 300px; width: 175px; margin:0 15px;}
 .content .colection .carrosel-colection .carrosel .lista-colection .img-prod{width: 175px; height: 190px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
 .content .colection .carrosel-colection .carrosel .lista-colection .descricao-prod{float: left; width: 175px; text-align: center;}
+.content .colection .carrosel-colection .carrosel .lista-colection a{color:#000;}
 .content .colection .carrosel-colection .carrosel .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
 .content .colection .carrosel-colection .carrosel .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
 .content .colection .carrosel-colection .carrosel .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
@@ -103,13 +105,14 @@
 .content .acompanhe .head-acompanhe .title-head{text-transform: uppercase; font-size: 18px; text-align: center; font-style: italic; background: #fff;}
 .content .acompanhe .head-acompanhe .icon-instegram{background:url('icons.png') no-repeat; background-position: -176px -31px; float: left; height: 26px; width: 25px; margin: 0 0 0 15px;}
 .content .acompanhe .carrosel-acompanhe{height: 280px; position: relative;}
-.content .acompanhe .carrosel-acompanhe .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 120px;}
-.content .acompanhe .carrosel-acompanhe .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 140px;}
+.content .acompanhe .carrosel-acompanhe .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 110px;}
+.content .acompanhe .carrosel-acompanhe .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 110px;}
 .content .acompanhe .carrosel-acompanhe .carrosel{float: left;display: inline; padding: 0 40px;}
 .content .acompanhe .carrosel-acompanhe .carrosel ul li{float: left;}
 .content .acompanhe .carrosel-acompanhe .carrosel .lista-acompanhe{background: #f0f0f0; height: 240px; width: 200px; margin:0 5px; padding: 5px 5px; }
 .content .acompanhe .carrosel-acompanhe .carrosel .image-acompanhe{width: 200px; height: 200px; margin-bottom: 15px; float: left; border-bottom:1px dotted #d0d0d0;}
 .content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe{float: left; width: 175px; text-align: center; margin-left: 10px;}
+.content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe a{color:#000;}
 .content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .heart{background:url('icons.png') no-repeat; background-position: -132px -6px; float: left; height: 13px; width: 15px;}
 .content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .comments{background:url('icons.png') no-repeat; background-position: -148px -6px; float: left; height: 13px; width: 15px;}
 .content .acompanhe .carrosel-acompanhe .carrosel .dados-acompanhe .acompanhe-number{float: left; margin-right: 20px; margin-left: 5px;}
