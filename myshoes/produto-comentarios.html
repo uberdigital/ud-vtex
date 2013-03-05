@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="arquivos/css-jquery-ui.css">
 
 	<!-- google fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
 
 	<!-- scripts -->
 	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
@@ -129,7 +129,6 @@
 	</div><!-- end header -->
 	<!-- etart content -->
 	<div class="content clearfix">
-		<div class="banner-top-vitrine"><img src="arquivos/banner2.png" alt="banner" /></div>
 		<!-- start vitrine -->
 		<div class="vitrine">
 			<div class="wrapper-breadcrumbs-comment clearfix">
@@ -150,9 +149,15 @@
 						<div class="name-product">
 							<h2 class="name">Nome do Produto</h2>
 							<div class="ref">
-								<span>REF: DD0315</span>
-								<span>Avalie este produto</span>
-								<span>Descrição do Produto</span>
+								<span class="cod-ref alinha">REF: DD0315</span>
+								<span class="barra alinha">|</span>
+								<span class="avalie-prod alinha">
+									<ul>
+										<a href="#"><li>Avalie este produto</li>
+										<li><span class="avaliacao"></span>(20)</li></a>
+									</ul>
+								</span>
+								<span class="desc-produto alinha"><a href="#">+ Descrição do Produto</a></span>
 							</div>
 						</div>
 						<div class="price-product">
@@ -167,10 +172,27 @@
 						</div>
 						<div class="size-color">
 							<div class="color-product">
-								<span>1. Selecione a cor</span>
+								<span class="item">1.</span>
+								<span class="cor">Selecione a cor</span>
+								<ul class="selection-cor">
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato selected"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+								</ul>
 							</div>
 							<div class="size-product">
-								<span>2. Selecione o tamanho</span>
+								<span class="item">2.</span>
+								<span class="tamanho">Selecione o tamanho</span>
+								<ul class="size-tab">
+									<li class="size-number first"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#" class="selected">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number last"><a href="#">33</a></li>
+								</ul>
 							</div>
 						</div>
 						<div class="buy-product">
@@ -178,6 +200,13 @@
 								3.<a href="#" class="btn-buy">Comprar</a>
 							</div>
 							<a href="#"><div class="calcule-shipping"><span class="icon-shipping"></span>Calcule o prazo de entrega</div></a>
+						</div>
+						<div class="social">
+							<ul class="social-align">
+								<a href="#" alt="facebook"><li class="icon-social facebook">facebook</li></a>
+								<a href="#" alt="pinterest"><li class="icon-social pinterest">Pinterest</li></a>
+								<a href="#" alt="email"><li class="icon-social email">Email</li></a>
+							</ul>
 						</div>
 					</div><!-- end descricao right -->
 				</div><!-- end produto descricao -->
@@ -198,7 +227,7 @@
 							<span><a href="#" class="btn-comprejunto">Compre Junto</a></span>
 						</div>
 				</div><!-- end compre junto -->
-				<!-- star avaliacoes e comentários -->
+				<!-- start avaliacoes e comentários -->
 				<div class="avaliacoes-comentarios clearfix">
 					<div id="tabs">
 						<ul>
@@ -206,7 +235,9 @@
 							<li><a href="#tabs-2" class="btn-nav">Avaliações e Comentários</a></li>
 						</ul>
 						<div id="tabs-1" class="tab-conteudo">
-							<p>but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lt to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
 						</div>
 						<div id="tabs-2" class="tab-conteudo">
 							<div class="box-avaliacao">
@@ -250,10 +281,162 @@
 										</ul>
 									</li><!-- end avaliacao produto -->
 								</ul>
+							</div>
+							<!-- start comentarios -->
+							<div class="comentarios">
+								<div class="title-comentarios">
+									<span>Comentários (20)</span>
+								</div>
+								<ul class="box-comment">
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto otimo"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto bom"></span>
+											<span>Bom</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto regular"></span>
+											<span>Regular</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+								</ul>
+							</div><!-- end comentarios -->
+							<div class="all-comment">
+								<div class="btn-all-comment">Ver todos os comentários</div>
 							</div>	
 						</div>
 					</div>
 				</div><!-- end avaliacoes e comentários -->
+				<!-- start quem viu -->
+				<div class="quem-viu clearfix">
+					<h2 class="title-head-quem-viu">Quem viu, viu também</h2>
+					<!-- start carrosel quem viu -->
+					<div class="carrosel-content clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
+						<div class="carrosel">
+							<ul>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel quem viu -->	
+				</div>
+				<!-- end quem viu -->
+				<!-- start quem comprou -->
+				<div class="quem-comprou clearfix">
+					<h2 class="title-head-quem-comprou">Quem comprou, comprou também</h2>
+					<!-- start carrosel quem viu -->
+					<div class="carrosel-content clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
+						<div class="carrosel">
+							<ul>
+								<li class="lista-colection">
+									<div class="box-aba-desconto"><span>00%</span></div>
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel quem viu -->	
+				</div>
+				<!-- end quem comprou -->  
 				<!-- start product last seen -->
 				<div class="product-last-seen clearfix">
 					<h2 class="title-head">Últimos produtos vistos</h2>

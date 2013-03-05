@@ -85,7 +85,7 @@
 /* Start Ultimo Produto Visto */
 
 .product-last-seen{float: left; width: 938px; border:1px solid #d0d0d0; padding: 20px;}
-.product-last-seen .title-head{text-transform: uppercase; font-size: 18px; display: block; font-style: italic; margin-bottom: 30px; border-bottom: none;}
+.product-last-seen .title-head{text-transform: uppercase; font-size: 18px; color: #545454; display: block; font-style: italic; margin-bottom: 30px; border-bottom: none;}
 .product-last-seen .carrosel-colection{position: relative;}
 .product-last-seen .carrosel-colection .btn-prev{background:url('icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 60px;}
 .product-last-seen .carrosel-colection .btn-next{background:url('icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 60px;}
