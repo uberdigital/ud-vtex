@@ -2,7 +2,9 @@
 /* START CONTENT VITRINE */
 
 .content .banner-top-vitrine{margin: 0 auto; width: 1280px;}
+.wrapper-content{margin:0 0 20px 0;}
 .vitrine{margin:20px 0;}
+.wrapper-breadcrumbs-comment{ border-bottom: 1px solid #d0d0d0; padding: 14px 0; width: 1280px; margin: 0 auto;}
 .wrapper-vitrine{width: 980px; margin:0 auto;}
 
 /* Start Sidebar Search */
