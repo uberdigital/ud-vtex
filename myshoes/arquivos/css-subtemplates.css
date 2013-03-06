@@ -56,10 +56,11 @@
 
 /* START NAV */
 
-.header .wrapper-nav{background: #000; width: 1280px; margin:0 auto;height: 34px;}
+.header .wrapper-nav{background: #000; width: 1280px; margin:0 auto;height: 38px;}
 .header .nav-header{ width: 980px; margin:0 auto;}
-.header .nav-header .menu-item{ float: left; color: #fff; padding: 11px 15px; margin-right: 5px;}
-.header .nav-header .menu-item a{ color: #fff; text-transform: uppercase; font-family:'Open Sans', sans-serif; font-weight: bold;}
+.header .nav-header .menu-item{ float: left; color: #fff;}
+.header .nav-header .menu-item a{ color: #fff; text-transform: uppercase; font-family:'Open Sans', sans-serif; font-weight: bold; float: left; padding: 12px 17px;}
+.header .nav-header .menu-item a:hover{ color: #f5c2d7; text-transform: uppercase; font-family:'Open Sans', sans-serif; font-weight: bold;  padding: 12px 17px;padding: 12px 16px; border-bottom: 2px solid rgb(226, 36, 158); border-right: 1px solid rgb(65, 65, 65); border-left: 1px solid #414141;}
 .header .nav-header .last{margin-right: 0;}
 
 /* END START NAV */
@@ -136,6 +137,7 @@
 .footer .wrapper-relacionamento .relacionamento .submit-newslatter{ position: relative; right: -157px; background:url('tobar-btn-newslatter.png') no-repeat; border: none; text-indent: -9999px; width: 20px; height: 20px; cursor: pointer; top: -22px;}
 .footer .wrapper-relacionamento .relacionamento .text-newslatter{border: 1px solid #fff; background: none; border-radius: 3px; color: #fff; font-style: italic; height: 20px; padding-left: 10px; outline: none; width: 165px;}
 .footer .wrapper-relacionamento .relacionamento .titles-relacionamento{float: left; margin-right: 15px;}
+.footer .wrapper-relacionamento .relacionamento .titles-relacionamento a{color: #fff;}
 .footer .wrapper-relacionamento .relacionamento .receba{padding-top: 11px;}
 .footer .wrapper-relacionamento .relacionamento .icons-relacionamento{width: 12px; height: 14px; float: left; margin-right: 12px; background:url('icons.png') no-repeat;}
 .footer .wrapper-relacionamento .relacionamento .fb{background-position: -8px -100px;}

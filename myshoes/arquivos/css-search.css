@@ -50,9 +50,9 @@
 .breadcrumbs .selected a{font-weight: bold; color: #000;}
 
 .wrapper-vitrine .sidebar-resultado .filtro{background: #f6f6f6; border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; margin-bottom: 15px; padding: 10px 10px;}
-.wrapper-vitrine .sidebar-resultado .filtro .order{float: left; margin-top: 5px; margin-right: 5px; font-weight: bold;}
+.wrapper-vitrine .sidebar-resultado .filtro .order{float: left; margin-top: 8px; margin-right: 10px; font-weight: bold;}
 .wrapper-vitrine .sidebar-resultado .filtro .order-by{float: left; width: 265px;}
-.wrapper-vitrine .sidebar-resultado .filtro .filter-by{float: left; width: 165px; margin-left: 50px;}
+.wrapper-vitrine .sidebar-resultado .filtro .filter-by{float: left; width: 185px; margin-left: 30px;}
 .wrapper-vitrine .sidebar-resultado .filtro .order-by .select-order{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 180px; outline: none; padding-left: 8px;}
 .wrapper-vitrine .sidebar-resultado .filtro .filter-by .select-filter{height: 25px; border: 1px solid #d0d0d0; color: #545454; width: 60px; outline: none; padding-left: 8px;}
 .filtro .nav-pag-vitrine{float: right;}

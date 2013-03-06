@@ -9,13 +9,24 @@
 	<link rel="stylesheet" href="arquivos/css-general.css" />
 	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
 	<link rel="stylesheet" href="arquivos/css-search.css" />
-
+	<link rel="stylesheet" href="arquivos/css-dropkick.css" />
+	
 	<!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
 
 	<!-- scripts -->
 	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	<script language="javascript" src="arquivos/js-jquery.cycle.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.dropkick-1.0.0.js" type="text/javascript"></script>
+
+	<script type="text/javascript" charset="utf-8">
+    $(document).ready(function(){
+    	$('.order-by select').dropkick();
+    	$('.filter-by select').dropkick();
+    });
+  </script>
+	
 </head>
 <body>
 <!--######### Start TopBar #########-->
@@ -239,7 +250,7 @@
 						<div class="order-by">
 							<span class="order">Ordenar por</span>
 							<form action="" class="form-filter">
-								<select name="" id="" class="select-order">
+								<select name="" id="" class="select-order default">
 									<option value="" class="name-order">Lançamentos</option>
 									<option value="" class="name-order">Tamanhos</option>
 									<option value="" class="name-order">Cores</option>
@@ -251,7 +262,7 @@
 						<div class="filter-by">
 							<span class="order">Itens por página</span>
 							<form action="" class="form-filter">
-								<select name="" id="" class="select-filter">
+								<select name="" id="" class="select-filter default">
 									<option value="" class="name-order">16</option>
 									<option value="" class="name-order">17</option>
 									<option value="" class="name-order">18</option>
@@ -530,7 +541,7 @@
 					</li>
 					<li class="acesse-blog">
 						<span class="rss"></span>
-						<span class="titles-relacionamento">Acesse nosso blog</span>
+						<span class="titles-relacionamento"><a href="#">Acesse nosso blog</a></span>
 					</li>
 					<li class="receba-novidades">
 						<span class="post"></span>
