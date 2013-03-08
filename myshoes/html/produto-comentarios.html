@@ -1,0 +1,599 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>My Shoes</title>
+	
+	<!-- styles -->
+	<link rel="stylesheet" href="arquivos/css-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-general.css" />
+	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+	<link rel="stylesheet" href="arquivos/css-search.css" />
+	<link rel="stylesheet" href="arquivos/css-product.css" />
+	<link rel="stylesheet" href="arquivos/css-jquery-ui.css">
+
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- scripts -->
+	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.cycle.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.ui.core.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.widget.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.tabs.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+    		$("#tabs").tabs();
+  		});
+  	</script>
+</head>
+<body>
+<!-- start topBar -->
+<div class="topbar">
+	<div class="topbar-container clearfix">
+		<div class="lado-left"></div>
+		<div class="banner-topbar"><span id="bannerTopo" class="banner-topo">Frete Grátis para todo o Brasil nas compras acima de R$ 99,99</span></div>
+		<div class="center-line"></div>
+		<!-- myshoes-news -->
+		<div class="myshoes-news">
+			<ul>
+				<li class="post-news">
+					<span class="postal-icon"></span>
+					<span class="shoes-name">My Shoes News</span>
+				</li>
+				<li class="insert-email">
+					<form action="" class="form-newslatter">
+						<input type="text" class="text-newslatter" value="Insira seu e-mail" onblur="if(this.value == '') { this.value='Insira seu e-mail'}" onfocus="if (this.value == 'Insira seu e-mail') {this.value=''}" />
+						<input type="submit" class="submit-newslatter" />
+					</form>
+				</li>
+			</ul>
+		</div><!-- end myshoes-news -->
+		<div class="lado-right"></div>
+	</div>
+</div><!-- end topBar -->
+<!-- start container general -->
+<div class="container-general">
+	<!-- start header -->
+	<div class="header clearfix">
+		<div class="wrapper-header">
+			<!-- start box content header -->
+			<div class="box-container-header clearfix">
+				<div class="logo-header">
+					<h1 ant="My Shoes"><a href="#"><img src="arquivos/logo-top.png" alt="My Shoes" title="My Shoes" /></a></h1>
+				</div>
+				<div class="hello-visitante">
+					<span class="hello">Olá visitante!</span>
+					<span><a href="#" class="login-here">Faça o seu login aqui.</a></span>
+				</div>
+				<!-- start box right -->
+				<div class="box-right">
+					<div class="atendimento">
+						<ul>
+							<li class="nav-atendimento">
+								<ul>
+									<li class="option first"><a href="#">Central de Atendimento</a></li>
+									<li class="option"><a href="#">Nossas Lojas</a></li>
+									<li class="option"><a href="#">Meu Cadastro</a></li>
+									<li class="option last"><a href="#">Meus Pedidos</a></li>
+								</ul>
+							</li>
+							<li class="contact-search">
+								<div class="phone-contact">
+									<span class="icon-phone"></span>
+									<span class="phone-televendas">Televendas (11) 0000.0000</span>
+								</div>
+								<div class="search-header">
+									<form action="" class="form-search-header">
+										<input type="text" class="text-search" value="Digite o que procura..." onblur="if(this.value == '') { this.value='Digite o que procura...'}" onfocus="if (this.value == 'Digite o que procura...') {this.value=''}" />
+										<input type="submit" class="btn-search" />
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="bag-redes">
+						<ul>
+							<li class="redes-sociais">
+								<span><a href="#"  class="icons facebook" alt="facebook"></a></span>
+								<span><a href="#"  class="icons twitter" alt="twitter"></a></span>
+								<span><a href="#"  class="icons pinterest" alt="pinterest"></a></span>
+								<span><a href="#"  class="icons instegram" alt="instegram"></a></span>
+								<span><a href="#"  class="icons rss" alt="rss"></a></span>
+							</li>
+							<a href="#"><li class="bag">
+								<span class="bag-icon"></span>
+								<span class="my-bag">Minha Sacola</span>
+								<span class="items-bag">(1)</span>
+							</li></a>
+						</ul>
+					</div>
+				</div><!-- end box right -->
+			</div><!-- end box content header -->
+		</div><!-- end box content header -->
+		<!-- start nav header -->	
+		<div class="wrapper-nav">
+			<ul class="nav-header">
+				<li class="menu-item"><a href="#">Campanha</a></li>
+				<li class="menu-item"><a href="#">Novidades</a></li>
+				<li class="menu-item"><a href="#">Essentials</a></li>
+				<li class="menu-item"><a href="#">Sandálias</a></li>
+				<li class="menu-item"><a href="#">Peep Toes</a></li>
+				<li class="menu-item"><a href="#">Scarpins</a></li>
+				<li class="menu-item"><a href="#">Anabelas</a></li>
+				<li class="menu-item"><a href="#">Flats</a></li>
+				<li class="menu-item"><a href="#">Acessórios</a></li>
+				<li class="menu-item last"><a href="#">Sale</a></li>
+			</ul>
+		</div><!-- end nav header -->	
+	</div><!-- end header -->
+	<!-- etart content -->
+	<div class="content clearfix">
+		<!-- start vitrine -->
+		<div class="wrapper-content">
+			<div class="wrapper-breadcrumbs-comment clearfix">
+				<ul class="breadcrumbs">
+					<span>Você esta em:</span>
+					<li><a href="#">Home</a></li>
+					<span class="seta">&gt;</span>
+					<li><a href="#">Departamento</a></li>
+					<span class="seta">&gt;</span>
+					<li class="selected"><a href="#">Nome do Produto</a></li>
+				</ul>
+			</div>
+			<!-- start wrapper vitrine -->
+			<div class="wrapper-vitrine clearfix">
+				<!-- start produto descricao -->
+				<div class="produto-descricao clearfix">
+					<div class="images-left"></div>
+					<!-- start descricao right -->
+					<div class="descricao-right">
+						<div class="name-product">
+							<h2 class="name">Nome do Produto</h2>
+							<div class="ref">
+								<span class="cod-ref alinha">REF: DD0315</span>
+								<span class="barra alinha">|</span>
+								<span class="avalie-prod alinha">
+									<ul>
+										<a href="#"><li>Avalie este produto</li>
+										<li><span class="avaliacao"></span>(20)</li></a>
+									</ul>
+								</span>
+								<span class="desc-produto alinha"><a href="#">+ Descrição do Produto</a></span>
+							</div>
+						</div>
+						<div class="price-product">
+							<div class="condicao-price">
+								<div class="valor">
+									<span class="de">de R$000,00</span>
+									<span class="por">Por R$ 000,00</span>
+								</div>
+								<span class="ate">12x de R$00,00</span>
+							</div>
+							<div class="condicao-shipping">Frete Grátis</div>
+						</div>
+						<div class="size-color">
+							<div class="color-product">
+								<span class="item">1.</span>
+								<span class="cor">Selecione a cor</span>
+								<ul class="selection-cor">
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+									<li class="cor-sapato selected"><a href="#"><img src="arquivos/cor-sapato.png" alt="" /></a></li>
+								</ul>
+							</div>
+							<div class="size-product">
+								<span class="item">2.</span>
+								<span class="tamanho">Selecione o tamanho</span>
+								<ul class="size-tab">
+									<li class="size-number first"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#" class="selected">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number"><a href="#">33</a></li>
+									<li class="size-number last"><a href="#">33</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="buy-product">
+							<div class="buy">
+								3.<a href="#" class="btn-buy">Comprar</a>
+							</div>
+							<a href="#"><div class="calcule-shipping"><span class="icon-shipping"></span>Calcule o prazo de entrega</div></a>
+						</div>
+						<div class="social">
+							<ul class="social-align">
+								<a href="#" alt="facebook"><li class="icon-social facebook">facebook</li></a>
+								<a href="#" alt="pinterest"><li class="icon-social pinterest">Pinterest</li></a>
+								<a href="#" alt="email"><li class="icon-social email">Email</li></a>
+							</ul>
+						</div>
+					</div><!-- end descricao right -->
+				</div><!-- end produto descricao -->
+				<!-- start compre junto -->
+				<div class="compre-junto clearfix">
+					<h2 class="title-head clearfix">Compre Junto</h2>
+						<div class="condicoes-compre-junto">	
+							<div class="product1"><img src="arquivos/produto-compre-junto1.png" alt="" /></div>
+							<span class="mais"></span>
+							<div class="product2"><img src="arquivos/produto-compre-junto1.png" alt="" /></div>
+							<div class="total-comprejunto">
+								<span class="names-comprejunto">Nome do Produto 1 + Nome do Produto 2</span>
+								<span class="price-comprejunto">Compre junto: R$ 759,90</span>
+								<span class="economize-comprejunto">Economize: R$ 105,90</span>
+								<span class="parcelas-comprejunto">ou 10X de R$ 39,99</span>
+							</div>
+							<span class="igual"></span>
+							<span><a href="#" class="btn-comprejunto">Compre Junto</a></span>
+						</div>
+				</div><!-- end compre junto -->
+				<!-- start avaliacoes e comentários -->
+				<div class="avaliacoes-comentarios clearfix">
+					<div id="tabs">
+						<ul>
+							<li><a href="#tabs-1" class="btn-nav">Descrição</a></li>
+							<li><a href="#tabs-2" class="btn-nav">Avaliações e Comentários</a></li>
+						</ul>
+						<div id="tabs-1" class="tab-conteudo">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec turpis non tellus tempus porttitor. Phasellus odio sapien, posuere sodales lobortis at, volutpat et arcu. Praesent sed sem ipsum, at laoreet ipsum. Integer in mi non felis pulvinar feugiat at non tellus. Donec tristique lectus eget diam vehicula varius. Pellentesque ac lacus tellus, et semper ligula. Praesent ornare laoreet diam ut blandit.</p>
+						</div>
+						<div id="tabs-2" class="tab-conteudo">
+							<div class="box-avaliacao">
+								<ul>
+									<!-- start avaliacao -->
+									<li class="avaliacao">
+										<ul>
+											<li class="title-avaliacao">
+												<span class="title-media">Média de Avaliações</span>
+												<span class="icons ajustado-right"></span>
+											</li>
+											<li class="icons heart-pontuacao"></li>
+											<li class="votos-avaliacao">
+												<ul>
+													<li><span class="line"></span><span class="votos">10 votos</span></li>
+													<li><span class="line"></span><span class="votos">10 votos</span></li>
+													<li><span class="line"></span><span class="votos">10 votos</span></li>
+													<li><span class="line"></span><span class="votos">10 votos</span></li>
+													<li><span class="line"></span><span class="votos">10 votos</span></li>
+												</ul>
+											</li>
+										</ul>											
+									</li><!-- end avaliacao -->
+									<!-- start avaliacao produto -->
+									<li class="avalie-produto">
+										<ul>
+											<li class="title-avaliacao-produto">
+												<span>Avalie este Produto</span>
+											</li>
+											<li><span class="ajustado-down"></span></li>
+											<li>
+												<form action="" class="form-avaliacao">
+													<ul>
+														<li><input type="radio" class="radio" /><span>Tenho interesse</span></li>
+														<li><input type="radio" class="radio" /><span>Não tenho interesse</span></li>
+														<li><input type="radio" class="radio" /><span>Já tenho este produto</span></li>
+														<li><input type="submit" class="btn-enviar-avaliacao" /></li>
+													</ul>
+												</form>
+											</li>
+										</ul>
+									</li><!-- end avaliacao produto -->
+								</ul>
+							</div>
+							<!-- start comentarios -->
+							<div class="comentarios">
+								<div class="title-comentarios">
+									<span>Comentários (20)</span>
+								</div>
+								<ul class="box-comment">
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto otimo"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto bom"></span>
+											<span>Bom</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto regular"></span>
+											<span>Regular</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+									<li>
+										<div class="name-comment"><span>Antonio José</span> - São Paulo - SP - 25/02/2013 às 15:30</div>
+										<div class="votos-comment">
+											<span class="icone-voto"></span>
+											<span>Ótimo</span>
+										</div>
+										<div class="descricao-comment">O produto chegou no prazo correto, com uma ótima embalagem, voltarei a comprar nesta loja! </div>
+									</li>
+								</ul>
+							</div><!-- end comentarios -->
+							<div class="all-comment">
+								<div class="btn-all-comment">Ver todos os comentários</div>
+							</div>	
+						</div>
+					</div>
+				</div><!-- end avaliacoes e comentários -->
+				<!-- start quem viu -->
+				<div class="quem-viu clearfix">
+					<h2 class="title-head-quem-viu">Quem viu, viu também</h2>
+					<!-- start carrosel quem viu -->
+					<div class="carrosel-content clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
+						<div class="carrosel">
+							<ul>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel quem viu -->	
+				</div>
+				<!-- end quem viu -->
+				<!-- start quem comprou -->
+				<div class="quem-comprou clearfix">
+					<h2 class="title-head-quem-comprou">Quem comprou, comprou também</h2>
+					<!-- start carrosel quem viu -->
+					<div class="carrosel-content clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
+						<div class="carrosel">
+							<ul>
+								<li class="lista-colection">
+									<div class="box-aba-desconto"><span>00%</span></div>
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<div class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="130" height="130"></a></div>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+										<span class="price-of"><a href="#">12x de R$00,00</a></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel quem viu -->	
+				</div>
+				<!-- end quem comprou -->  
+				<!-- start product last seen -->
+				<div class="product-last-seen clearfix">
+					<h2 class="title-head">Últimos produtos vistos</h2>
+					<!-- start carrosel product last seen -->
+					<div class="carrosel-colection clearfix">
+						<a href="#"><div class="btn-prev" alt=""></div></a>
+						<div class="carrosel">
+							<ul>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+								<li class="lista-colection">
+									<di class="img-prod"><a href="#"><img src="arquivos/produto1.png" alt="Produto1" width="100" height="100"></a></di>
+									<div class="descricao-prod">
+										<span class="name-prod"><a href="#">Nome do Produto</a></span>
+										<span class="price-of"><a href="#">De R$450,00</a></span>
+										<span class="price-prod"><a href="#">por R$ 350,00</a></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#"><div class="btn-next" alt=""></div></a>
+					</div><!-- end carrosel product last seen -->
+				</div><!-- end product last seen -->
+			</div><!-- start wrapper vitrine -->	
+		</div><!-- end vitrine -->
+	</div><!-- end content -->
+	<!-- start footer -->
+	<div class="footer clearfix">
+		<div class="wrapper-relacionamento">
+			<!-- start relacionamento -->
+			<div class="relacionamento">
+				<ul>
+					<li class="acompanhe-myshoes">
+						<span class="titles-relacionamento">Acompanhe My Shoes</span>
+						<a href="#"><span class="icons-relacionamento fb"></span></a>
+						<a href="#"><span class="icons-relacionamento tw"></span></a>
+						<a href="#"><span class="icons-relacionamento pin"></span></a>
+						<a href="#"><span class="icons-relacionamento inst"></span></a>
+					</li>
+					<li class="acesse-blog">
+						<span class="rss"></span>
+						<span class="titles-relacionamento"><a href="#">Acesse nosso blog</a></span>
+					</li>
+					<li class="receba-novidades">
+						<span class="post"></span>
+						<span class="titles-relacionamento receba">Receba novidades e promoções</span>
+						<div class="insert-email">	
+							<form action="" class="form-newslatter">
+								<input type="text" class="text-newslatter" value="Insira seu e-mail" onblur="if(this.value == '') { this.value='Insira seu e-mail'}" onfocus="if (this.value == 'Insira seu e-mail') {this.value=''}" />
+								<input type="submit" class="submit-newslatter" />
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div><!-- end relacionamento -->
+		</div>
+		<!-- start wrapper nav footer -->
+		<div class="wrapper-nav-footer">
+			<div class="navegador-footer clearfix">
+				<div class="menu-footer">
+					<div class="line-up clearfix">
+						<div class="institucional">
+							<h2 class="nav-title">Institucional</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Sobre a My Shoes</a></li>
+								<li><a href="#" class="footer-links">Campanha</a></li>
+								<li><a href="#" class="footer-links">Nossas Lojas</a></li>
+								<li><a href="#" class="footer-links">Politica de Privacidade</a></li>
+								<li><a href="#" class="footer-links">Trabalhe Conosco</a></li>
+								<li><a href="#" class="footer-links">Mídia</a></li>
+							</ul>
+						</div>
+						<div class="atendimento">
+							<h2 class="nav-title">Central de atendimento</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Trocas e Devoluções</a></li>
+								<li><a href="#" class="footer-links">Prazos de Entrega</a></li>
+								<li><a href="#" class="footer-links">Meus Pedidos</a></li>
+								<li><a href="#" class="footer-links">Formas de Pagamento</a></li>
+								<li><a href="#" class="footer-links">Fale Conosco</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="line-down clearfix">
+						<div class="parceiros">
+							<h2 class="nav-title">parceiros</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Franquias</a></li>
+								<li><a href="#" class="footer-links">Multimarcas</a></li>
+							</ul>
+						</div>
+						<div class="televendas">
+							<h2 class="nav-title">Televendas</h2>
+							<span class="icon-phone"></span>
+							<span class="phone">(11) 0000.0000</span>
+						</div>
+					</div>
+					<div class="direitos clearfix">© 2013, My Shoes. Todos os direitos reservados.</div>
+				</div>
+				<div class="formas-pag">
+					<ul>
+						<li class="pagamento">
+							<h2 class="nav-title">Formas de Pagamento</h2>
+							<img src="arquivos/formas-pagamento.png" alt="" />
+						</li>
+						<li class="compra-segura">
+							<h2 class="nav-title">Compra Segura</h2>
+							<img src="arquivos/digicert.png" alt="" />
+						</li>
+					</ul>
+				</div>
+				<div class="fb-like">
+					<img src="arquivos/fb-image.png" alt="" />
+				</div>
+			</div>
+		</div><!-- end wrapper nav footer -->
+	</div><!-- end footer -->
+</div><!-- end container general -->
+</body>
+</html>

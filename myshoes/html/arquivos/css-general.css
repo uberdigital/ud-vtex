@@ -1,0 +1,11 @@
+/* html tags rules */
+body {font-family:'Open Sans', sans-serif; font-size:12px;}
+a {text-decoration: none; color: #000;}
+/* end html tags rules */
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
