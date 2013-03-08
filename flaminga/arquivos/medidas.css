@@ -1,0 +1,116 @@
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+body {
+    font-family: Georgia, serif;
+    font-size:13px;
+}
+
+.configurar-medidas .container-configura-medidas {display: none;}
+
+.medidas .menu-provador {
+    margin: 20px auto;
+    width: 210px;
+}
+    .medidas .menu-provador .opcao {
+        display: block;
+        padding-right: 30px;  
+        float: left;
+        border-right: 1px solid #eaeaea;
+        margin-right: 30px;
+    }
+    .medidas .menu-provador .opcao a {cursor:default;}
+    .medidas .menu-provador .opcao.last {border:none; padding-right:0; margin-right:0;}
+
+    .medidas .menu-provador .tipos-fisicos {opacity: 0.5; filter: alpha(opacity=50); /* For IE8 and earlier */;}
+    .medidas .menu-provador .tipos-fisicos:hover {opacity: 1; filter: alpha(opacity=100); /* For IE8 and earlier */;}
+        .medidas .menu-provador .tipos-fisicos a {cursor:pointer;}
+
+.container-configura-medidas {
+    border-top:1px solid #eaeaea;
+    border-bottom:1px solid #eaeaea;
+    margin: 0 auto;
+    padding:20px 0;
+    width: 960px;
+}
+.wrapper-form-medidas {
+    margin: 0 auto;
+    width: 760px;
+}
+.wrapper-campos {
+    float: left;
+    margin: 20px 50px 0 0;
+}
+    .wrapper-campos .linha-campo {
+        border-bottom:1px solid #eaeaea;
+        padding:10px 0;
+        width:215px;
+    }
+        .wrapper-campos .linha-campo .label-campo {
+            font-family: serif;
+            font-style: italic;
+            color: #333;
+        }
+        .wrapper-campos .linha-campo .label-campo.comeco {
+            display: inline-block; *display: block;
+            text-align: right;
+            width:95px;
+        }
+        .wrapper-campos .linha-campo input {
+            margin:0 5px;
+            width:50px;
+        }
+        .container-botao-salvar {
+            margin: 30px auto 0;
+            width: 118px;
+        }
+        .container-botao-salvar .btn-salvar-medidas {
+            background: url('btn-salvar.png');
+            border: none;
+            cursor: pointer;
+            display: block;
+            height: 27px;
+            text-indent: -9999px;
+            width: 118px;
+        }
+.coluna-imagem-ilustracao {float: left;}
+
+.wrapper-exibe-campos {
+    float:left;
+    margin:0 0 0 10px;
+}
+.titulo-insira-medidas {
+    margin: 30px 0;
+    text-align: center;
+    width: 570px;
+}
+.titulo-medidas {
+    margin: 20px 0;
+    text-align: center;
+    width: 420px;
+}
+
+.linha-mostra {font-weight: bold;}
+
+.nome-medida {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.linha-mostra.altura {margin-top: 3px;}
+.linha-mostra.busto {margin-top: 58px;}
+.linha-mostra.cintura {margin-top: 40px;}
+.linha-mostra.quadril {margin-top: 29px;}
+.linha-mostra.entre-pernas {margin-top: 52px;}
+.linha-mostra.sapato {margin-top: 78px;}
+
+
+/* MODAL */
+.modal.mostrar-medidas .container-configura-medidas {width: 410px;}
+.modal.mostrar-medidas .container-configura-medidas .wrapper-form-medidas {width: 100%;}
+
+.modal .container-configura-medidas {border: none; margin-top: 0px; padding: 0px; width: 760px;}
+.modal .titulo-insira-medidas {margin: 20px 0; width: auto;}
+.modal .container-botao-salvar {margin: 20px auto 0;}
+/* end MODAL */

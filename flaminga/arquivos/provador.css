@@ -1,0 +1,244 @@
+body {
+	font-family: Georgia, 'Times New Roman', serif; font-size:13px;
+	font-size:12px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.footerContainer {
+	background: #262626;
+	bottom: 0px;
+	color:#989898;
+	margin: 100px 0 0;
+	padding: 40px 0 20px;
+	position: relative;
+	width: 100%;
+}
+
+.containerGeral, 
+.containerFixed {padding-bottom: 100px !important;}
+
+/* ABERTURA ESPACO PROVADOR */
+.container-provador {
+    margin: 20px auto;
+    width: 960px;
+}
+
+.container-provador .titulo-provador {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.wrapper-provador {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 30px 0;
+    margin: 40px 0 50px;
+}
+	.wrapper-provador .coluna-foto {
+		float: left;
+		width: 510px;
+	}
+
+	.wrapper-provador .coluna-informacoes {
+	    width: 410px;
+	    float: left;
+	}
+		.coluna-informacoes .texto-introducao {
+		    background: url('arquivos/txt-introducao.png') no-repeat;
+		    height: 99px;
+		    width: 409px;
+		    text-indent: -9999px;
+		}
+
+	.wrapper-provador .container-escolha {
+		font-style: italic;
+		line-height: 18px;
+		margin-top: 70px;
+		text-align: center;
+	}
+
+		.wrapper-provador .container-escolha .icone {margin-bottom: 30px;}
+			.wrapper-provador .container-escolha .icone a {opacity: 0.5; filter: alpha(opacity=50);}
+			.wrapper-provador .container-escolha .icone a:hover {opacity: 1; filter: alpha(opacity=100);}
+
+		.wrapper-provador .container-escolha .coluna-tipos-fisicos {
+			border-right: 1px solid #eaeaea;
+			float: left;
+			margin-right: 20px;
+			padding-right: 20px;
+			width: 190px;
+		}
+		.wrapper-provador .container-escolha a {color: inherit; text-decoration: none;}
+		.wrapper-provador .container-escolha a:hover {text-decoration: underline;}
+
+
+/* QUIZ ############### */
+.quiz .container-quiz {
+    margin: 0 auto;
+    width: 960px;
+}
+	.quiz .container-navegacao-quiz a {text-decoration:none;}
+
+	.quiz .header-quiz {
+	    margin:20px 0;
+	    width:600px;
+	}
+	.quiz .header-quiz .titulo-quiz {
+	    float:left;
+	    font-size:24px;
+	    margin-top:40px;
+	    text-transform:uppercase;
+	    letter-spacing:5px;
+	}
+	.quiz .header-quiz .menu-provador {
+	    float:right;
+	    width: 210px;
+	}
+	    .quiz .header-quiz .menu-provador .opcao {
+	        display: block;
+	        padding-right: 30px;  
+	        float: left;
+	        border-right: 1px solid #eaeaea;
+	        margin-right: 30px;
+	    }
+	    	.quiz .header-quiz .menu-provador .opcao a {cursor: default;}
+	    .quiz .header-quiz .menu-provador .opcao.last {border:none; padding-right:0; margin-right:0;}
+	    .quiz .header-quiz .menu-provador .opcao:hover {
+			opacity: 0.5; 
+			filter: alpha(opacity=50);
+		}
+			.quiz .header-quiz .menu-provador .tabela-medidas {opacity: 0.5; filter: alpha(opacity=50); /* For IE8 and earlier */;}
+            .quiz .header-quiz .menu-provador .tabela-medidas:hover {opacity: 1; filter: alpha(opacity=100); /* For IE8 and earlier */;}
+				.quiz .header-quiz .menu-provador .tabela-medidas a {cursor:pointer;}
+		
+	.quiz .wrapper-quiz {
+		border-top: 1px solid #eaeaea;
+		border-bottom: 1px solid #eaeaea;
+		margin: 0 auto 10px auto;
+		padding:10px 0 0px;
+		width: 960px;
+	}
+		.quiz .wrapper-quiz .coluna-imagem {
+		    float: left;
+		    width: 640px;
+		}
+		.quiz .wrapper-quiz .coluna-texto {
+			float: left;
+			font-size: 13px;
+			margin-left: 50px;
+			width: 240px;
+		}
+			.quiz .wrapper-quiz .coluna-texto p {
+			    font-style: italic;
+			    line-height: 18px;
+			    margin-bottom:14px;
+			}
+			.inicia-quiz {
+				margin-top:70px;
+			}
+
+
+		.wrapper-quiz .box-etapa {
+			text-align: center;
+		}
+			.wrapper-quiz .box-etapa .numero-etapa {
+			    font-size: 36px;
+			    font-style: italic;
+			    letter-spacing: 2px;
+			}
+			.wrapper-quiz .box-etapa .nome-etapa {
+				background: url('borda-etapa.png') repeat-x center center;
+				font-size: 21px;
+				margin: 10px auto;
+				letter-spacing: 2px;
+				height: 20px;
+				text-transform: uppercase;
+				width: 300px;
+			}
+			.wrapper-quiz .box-etapa .nome-etapa span {
+				background: white;
+				padding: 5px 40px;
+			}
+			.wrapper-quiz .box-etapa .nome-etapa .etapa {margin:0 40px}
+
+			.wrapper-quiz .box-etapa .escolha-biotipo {
+				font-size: 14px;
+				font-style: italic;
+			}
+
+			.wrapper-quiz .container-escolhas-biotipo ul {
+				margin: 40px auto;
+				width: 100%;
+			}
+
+			.wrapper-quiz .container-escolhas-biotipo .escolha {
+				float: left;
+				margin: 0 75px;
+				text-align: center;
+				width: 170px;
+			}
+			.wrapper-quiz .container-escolhas-biotipo .escolha.last {margin-right:0;}
+				.wrapper-quiz .container-escolhas-biotipo .escolha input {
+					display: block;
+					margin:10px auto 0;
+				}
+				.wrapper-quiz .container-escolhas-biotipo .escolha label {
+					color: #aaa;
+					display: block;
+					font-size: 14px;
+					font-style: italic;
+					line-height: 16px;
+					margin-top: 10px;
+				}
+					.wrapper-quiz .container-escolhas-biotipo .escolha label.imagem {margin-top:0;}
+			
+			.quiz .container-navegacao-quiz {
+				margin: 0 0 20px 0;
+				text-align: center;
+			}
+
+			.quiz .container-resposta-biotipo {
+				height: 540px;
+				margin:30px 0 0;
+				text-indent: -9999px;
+				width:960px;
+			}
+				.quiz .container-resposta-biotipo.oval {background: url('imagem-biotipo-oval.gif') no-repeat;}
+				.quiz .container-resposta-biotipo.ampulheta {background: url('imagem-biotipo-ampulheta.gif') no-repeat;}
+				.quiz .container-resposta-biotipo.ti {background: url('imagem-biotipo-ti.gif') no-repeat;}
+				.quiz .container-resposta-biotipo.triangulo {background: url('imagem-biotipo-triangulo.gif') no-repeat;}
+				.quiz .container-resposta-biotipo.retangulo {background: url('imagem-biotipo-retangulo.gif') no-repeat;}
+
+			.container-navegacao-quiz .navegacao {
+			    display: inline;
+			    padding-right: 70px;
+			}
+			.container-navegacao-quiz .navegacao.last {padding-right:0;}
+
+/* REPLACES ETAPA 1 */
+/* end REPLACES ETAPA 1 */
+
+/* REPLACES ETAPA 2 */
+/* end REPLACES ETAPA 2 */
+
+/* REPLACES ETAPA 3 */
+/* end REPLACES ETAPA 3 */
+
+/* REPLACES ETAPA 4 */
+/* end REPLACES ETAPA 4 */
+
+/* REPLACES ETAPA 5 */
+.etapa5 .wrapper-quiz .box-etapa .nome-etapa {text-transform: none;}
+.etapa5 .wrapper-quiz .container-escolhas-biotipo .escolha {
+	margin: 0 15px;
+	width: 150px;
+}
+/* end REPLACES ETAPA 5 */
+
+
+/* END QUIZ ############### */

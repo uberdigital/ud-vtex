@@ -6,7 +6,7 @@ function verificaModelos() {
 	}
 }
 
-jQuery(document).ready(function($) {
+$(document).ready(function() {
 	// Adicionando classes necessarias
 	$('#show').addClass('clearfix');
 	$('#show .thumbs').addClass('listaFotos');
@@ -52,5 +52,18 @@ jQuery(document).ready(function($) {
 	$('li.pinterest').html('<a target="_blank" href="http://pinterest.com/pin/create/button/?url='+urlProduto+'&media=http://'+pinnarRoot+pinnarImg+'&description=Loja%20virtual%20voltada%20para%20o%20p%C3%BAblico%20plus-size%20feminino%2C%20com%20marcas%20top%20de%20linha%2C%20muita%20qualidade%2C%20sofistica%C3%A7%C3%A3o%20e%20beleza.%20Confira%20nossos%20lan%C3%A7amentos!" class="pin-it-button" count-layout="none"><img border="0" src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>');
 
 	$('.containerAvaliacao').html('<div class="fb-comments" data-href="'+urlProduto+'"data-width="990" data-num-posts="15"></div>');
+
+    var verifica = $.cookie('cadastrado');
+    if (verifica == 'sim') {
+        $('<div class="links-medidas"><a id="startMedidas" class="iframe fancybox" href="/minhas-medidas/modal-mostrar-medidas">Acesse suas medidas</a></div>').appendTo('#b');
+		$("#startMedidas").fancybox({
+				'width'				: '90%',
+				'height'			: '90%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+    }
 
 });

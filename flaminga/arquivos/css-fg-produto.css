@@ -127,7 +127,7 @@
 			.suas-medidas .medida {font-weight:bold;} */
 
 			.links-medidas {margin-top:10px;}
-			    .links-medidas a {color:#999; font-size:11px; text-decoration:none;}
+			    .links-medidas a {background: #f2f2f2; color: #000; font-size: 11px; padding: 10px; text-align: center; text-decoration:none; text-transform:uppercase;}
 		/* end ABAS DESCRICAO */
 
 
