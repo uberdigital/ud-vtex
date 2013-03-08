@@ -1,6 +1,6 @@
 /* html tags rules */
 body {font-family:'Open Sans', sans-serif; font-size:12px;}
-a {text-decoration: none; color: #000;}
+a {text-decoration: none; color: #d0d0d0;}
 /* end html tags rules */
 
 /* clearfix */
@@ -9,3 +9,4 @@ a {text-decoration: none; color: #000;}
 .clearfix { *zoom: 1; }
 /* end clearfix */
 
+#ajaxBusy {font-size: 11px; position: absolute; color: white; background: #e83395; padding: 12px; top: 0; left: 0;}
