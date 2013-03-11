@@ -1,27 +1,37 @@
-<div class="content">
-        <h2>
-            Minha sacola de compras
-        </h2>
-        
-        <div id="ctl00_Conteudo_pnlCarrinho" class="painelCarrinho">
-    
-            <div id="ctl00_Conteudo_updcarrinho">
-        
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>My Shoes Carrinho</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="arquivos/css-reset.css" />
+    <link rel="stylesheet" href="arquivos/css-general.css" />
+    <link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+     <link rel="stylesheet" href="arquivos/css-default.css" />
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div class="content clearfix">
+        <div class="wrapper-content">
+            <div class="title-head-carrinho clearfix">
+                <h2>Minha sacola de compras</h2>
+            </div>
+            <!-- start wrapper carrinho -->
+            <div class="wrapper-carrinho clearfix">
+            <div class="conteudo-carrinho">
                     <ul class="bts top">
                         <li class="enviar-lista first" style="display:none;">
                             <a id="ctl00_Conteudo_lnkCartToList1" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="https://www.netmall.com.br:443/Site/Login.aspx?ReturnUrl=Carrinho.aspx">Salvar como Lista</a>
                             
                         </li>
                         <li class="continuar-comprando">
-                            <a id="ctl00_Conteudo_lnkContinuarCompra1" title="Comprar mais produtos" class="bt" href="http://www.netmall.com.br/busca/?fq=H:134">Comprar mais produtos</a>
+                            <a id="ctl00_Conteudo_lnkContinuarCompra1" title="Comprar mais produtos" class="bt" href="http://www.netmall.com.br/busca/?fq=H:134">Continuar Comprando</a>
                         </li>
                         <li class="finalizar-compra last">
-                            <a id="ctl00_Conteudo_lnkConcluirCompra1" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra1", "", true, "", "", false, true))'>Concluir compra</a>
+                            <a id="ctl00_Conteudo_lnkConcluirCompra1" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra1", "", true, "", "", false, true))'>Finalizar Compra</a>
                         </li>
                     </ul>
-                    
-                    
-                    
                     <table cellspacing="0" cellpadding="0" class="carrinhoTable">
                         <thead>
                             <tr>
@@ -35,34 +45,31 @@
                                     Quantidade
                                 </th>
                                 <th class="preco-unitario">
-                                    Valor Unitário
+                                    R$ Unitário
                                 </th>
                                 <th class="preco-total">
                                     Total
                                 </th>
-                                <td class="excluir">Remover item</td>
+                                <td class="excluir"></td>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr class="subtotal">
-                                <td colspan="4" class="txtSubTotal">
-                                    Subtotal:
-                                </td>
                                 <td colspan="2" class="preco-total">
                                     R$  59,90
+                                </td>
+                                <td colspan="4" class="txtSubTotal">
+                                    Subtotal:
                                 </td>
                             </tr>
                             <tr class="vale-presente">
                                 <td colspan="2" class="texto-vale-presente">
                                     <fieldset class="vale-presente">
-                                        <legend><span>
+                                        <div class="grp">
+                                            <legend><span>
                                             Desconto
                                         </span></legend>
-                                        <div class="grp">
-                                            <label>
-                                                Cupom de desconto
-                                                
-                                            </label>
+                                            <label>Digite aqui seu <span>Cupom Vale-Presente:</span></label>
                                             <input name="ctl00$Conteudo$txtCupom" type="text" maxlength="35" id="ctl00_Conteudo_txtCupom" class="vale-presente fitext">
                                             <span class="ok-carrinho">
                                                 <input type="submit" name="ctl00$Conteudo$Button2" value="Calcular" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Conteudo$Button2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Conteudo_Button2" title="Calcular" class="bt fisubmit"></span> <span class="reward-check">
@@ -71,12 +78,12 @@
                                         
                                     </fieldset>
                                 </td>
-                                <td colspan="2" class="vale-presente">
-                                    Desconto:
-                                </td>
                                 <td colspan="2" class="preco-total">
                                     (R$  0,00)
                                 </td>
+                                <td colspan="2" class="vale-presente">
+                                    Desconto:
+                                </td>   
                             </tr>
                             <tr class="cepline">
                                 <td colspan="2" class="texto-cepline">
@@ -84,7 +91,7 @@
                                         <legend><span>Calcular frete<br><small>Digite aqui seu CEP:</small></span></legend>
                                         <div class="grp fMulti fCep">
                                             <label class="cep-prefixo">
-                                                Digite o CEP e clique no botão OK
+                                                Digite o <span>CEP</span> para calcular o valor do frete:
                                                 
                                                 <a target="_blank" href="http://www.buscacep.correios.com.br/servicos/dnec/menuAction.do?Metodo=menuLogradouro" class="duvidaCep">
                                                     Não sei meu CEP
@@ -103,13 +110,13 @@
                                     </fieldset>
                                     
                                 </td>
-                                <td colspan="2" class="txt-frete">
-                                    Frete:
-                                </td>
                                 <td colspan="2" class="frete-gratis">
-                                    À Calcular - CEP de entrega não informado
+                                    Grátis
                                     
                                 </td>
+                                <td colspan="2" class="txt-frete">
+                                    Frete:
+                                </td> 
                             </tr>
                             <tr class="total">
                                 <td class="economizou">
@@ -117,12 +124,12 @@
                                 </td>
                                 <td class="atualizar-valores">
                                 </td>
-                                <td colspan="2" class="valor-total">
-                                    Total
-                                </td>
                                 <td colspan="2" class="valor">
                                     R$  59,90
                                 </td>
+                                <td colspan="2" class="valor-total">
+                                    Total
+                                </td> 
                             </tr>
                             
                             <tr class="valor-parcelado">
@@ -171,51 +178,74 @@
     
                             </script>
                             
-                                    <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="">
-            <td class="produto">
-                                            <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
-                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="/arquivos/ids/155977_3/003566002_1.jpg"></a>
-                                            <h4>
-                                                <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p">Calça jeans masculina classic - 42</a><br>
-                                                INDIGO RED</h4>
-                                            
-                                        </td>
-            <td class="servico">
-                                            
-                                        </td>
-            <td class="quantidade">
-                                            <fieldset>
-                                                <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
-                                                <ul class="controle-quantidade">
-                                                    <li class="adicionar-item">
-                                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
-                                                    <li class="remove-item">
-                                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
-                                                </ul>
-                                                <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
-                                            </fieldset>
-                                        </td>
-            <td class="preco-unitario">
-                                            
-                                            <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
-                                            <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
-                                        </td>
-            <td class="preco-total">
-                                            R$ 
-                                            59,90
-                                            
-                                            
-                                        </td>
-            <td class="excluir">
-                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
-                                        </td>
-        </tr>
-        
-                                
-                            
+                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+                                    <td class="produto">
+                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/produto-compre-junto1.png"></a>
+                                        <h4>
+                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+                                        </h4>
+                                    </td>
+                                    <td class="servico">                                   
+                                    </td>
+                                    <td class="quantidade">
+                                        <fieldset>
+                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+                                            <ul class="controle-quantidade">
+                                                <li class="adicionar-item">
+                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+                                                <li class="remove-item">
+                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+                                            </ul>
+                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+                                        </fieldset>
+                                    </td>
+                                    <td class="preco-unitario">                           
+                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+                                    </td>
+                                    <td class="preco-total">
+                                        R$ 59,90
+                                    </td>
+                                    <td class="excluir">
+                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+                                    </td>
+                                </tr>
+                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+                                    <td class="produto">
+                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/produto-compre-junto1.png"></a>
+                                        <h4>
+                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+                                        </h4>
+                                    </td>
+                                    <td class="servico">                                   
+                                    </td>
+                                    <td class="quantidade">
+                                        <fieldset>
+                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+                                            <ul class="controle-quantidade">
+                                                <li class="adicionar-item">
+                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+                                                <li class="remove-item">
+                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+                                            </ul>
+                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+                                        </fieldset>
+                                    </td>
+                                    <td class="preco-unitario">                           
+                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+                                    </td>
+                                    <td class="preco-total">
+                                        R$ 59,90
+                                    </td>
+                                    <td class="excluir">
+                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+                                    </td>
+                                </tr>               
                         </tbody>
-                    </table>
-                    
+                    </table>          
                     <ul class="bts bottom">
                         <li class="enviar-lista first" style="display:none;">
                             <a id="ctl00_Conteudo_lnkCartToList2" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="https://www.netmall.com.br:443/Site/Login.aspx?ReturnUrl=Carrinho.aspx">Salvar como Lista</a>
@@ -227,19 +257,10 @@
                         <li class="finalizar-compra last">
                             <a id="ctl00_Conteudo_lnkConcluirCompra2" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra2", "", true, "", "", false, true))'>Concluir compra</a>
                         </li>
-                    </ul>
-                
-    </div>
-            <div id="ctl00_Conteudo_progress" style="display:none;" role="status" aria-hidden="true">
-        
-                    <div class="loading">
-                        <p>
-                            Aguarde... 
-                        </p>
-                    </div>
-                
-    </div>
-        
-</div>
-        
-    </div>
+                    </ul>       
+                </div>
+            </div><!-- end wrapper carrinho -->
+        </div>
+    </div>  
+</body>
+</html>
