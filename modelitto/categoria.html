@@ -8,6 +8,7 @@
 	<!-- styles -->
 	<link rel="stylesheet" href="arquivos/css-modelitto-reset.css" />
 	<link rel="stylesheet" href="arquivos/css-modelitto-general.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-search.css" />
 	<!-- scripts -->
 	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
 </head>
@@ -61,75 +62,82 @@
 			</div><!-- end wrapper nav -->
 		</div><!-- end header container -->
 		<!-- start content container -->
-		<div class="content-container">
-			<div class="wrapper-big-banner clearfix">
-				<a href="#" class="banner">Banner 1</a>
-			</div>
-			<!-- medium banner -->
-			<div class="wrapper-medium-banner clearfix">
-				<div class="banner-left">
-					<a href="#"><img src="arquivos/medium-banner.png" alt="" /></a>
-				</div>
-			</div><!-- end medium banner -->
-			<!-- vitrine home -->
-			<div class="wrapper-vitrine-home clearfix">
-				<ul class="title-session clearfix">
-					<li class="line-left-vitrine"></li>
-					<li class="cat-title"><h3>Nome da vitrine</h3></li>
-					<li class="line-right-vitrine"></li>
+		<div class="content-container clearfix">
+			<div class="bredcrumbs clearfix">
+				<span class="youare">Você esta em:</span>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<span class="barra">/</span>
+					<li><a href="#">Roupas</a></li>
+					<span class="barra">/</span>
+					<li class="last">Vestidos</li>
 				</ul>
-				<!-- carossel vitrine -->
-				<div class="carossel-vitrine-home clearfix">
-					<div class="control prev"><a href="#"  class="">Anterior</a></div>
-					<div class="wrapper-carossel clearfix">
-						<ul class="vitrine-home">
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
-							<li class="list-collection">
-								<div class="img-product">
-									<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1" /></a>
-								</div>
-								<div class="desc-product"></div>
-							</li>
+			</div>
+			<!-- start filter nav -->
+			<div class="filter-nav clearfix">
+				<h3 class="categorias"><a href="#">Categorias</a></h3>
+				<ul class="categorias">
+					<li><a href="#">Beachwear (27)</a></li>
+					<li><a href="#">Beachwear (27)</a></li>
+					<li><a href="#">Beachwear (27)</a></li>
+					<li><a href="#">Beachwear (27)</a></li>
+					<li><a href="#">Beachwear (27)</a></li>
+					<li><a href="#">Beachwear (27)</a></li>
+				</ul>
+				<h3 class="categorias"><a href="#">Marcas</a></h3>
+				<ul class="categorias">
+					<li><a href="#">Amapo</a></li>
+					<li><a href="#">Amapo</a></li>
+					<li><a href="#">Amapo</a></li>
+					<li><a href="#">Amapo</a></li>
+					<li><a href="#">Amapo</a></li>
+					<li><a href="#">Amapo</a></li>
+				</ul>
+				<h3 class="categorias"><a href="#">Faixa de preço</a></h3>
+				<ul class="categorias">
+					<li><a href="#">Até R$ 50,00</a></li>
+					<li><a href="#">R$50,00 a R$100,00</a></li>
+					<li><a href="#">R$50,00 a R$100,00</a></li>
+					<li><a href="#">R$50,00 a R$100,00</a></li>
+					<li><a href="#">R$50,00 a R$100,00</a></li>
+				</ul>
+			</div><!-- end filter nav -->
+			<!-- start vitrine -->
+			<div class="vitrine clearfix">
+				<!-- start filtro -->
+				<div class="filtro clearfix">
+					<div class="itens itens-pag">
+						<span class="order">Itens por página</span>
+						<form action="" class="form-itens-pag">
+							<select name="" id="" class="select-filter">
+								<option value="" class="format-text">16</option>
+								<option value="" class="format-text">17</option>
+								<option value="" class="format-text">18</option>
+								<option value="" class="format-text">19</option>
+							</select>
+						</form>
+					</div>
+					<div class="itens order-price">
+						<span class="order">Ordenar por</span>
+						<form action="" class="form-order-preco">
+							<select name="" id="" class="select-filter">
+								<option value="" class="format-text">Preço</option>
+								<option value="" class="format-text">R$100,00</option>
+								<option value="" class="format-text">R$200,00</option>
+								<option value="" class="format-text">R$300,00</option>
+							</select>
+						</form>
+					</div>
+					<div class="itens nav-pagination">
+						<ul>
+							<li class="first select">1</li>
+							<li class="">2</li>
+							<li class="">3</li>
+							<li class="last">4</li>
 						</ul>
 					</div>
-					<div class="ver-todos-modelittos clearfix">
-						<div class="ver-todos">
-							<span class="icons icon-ver-modelitos"></span>
-							<a href="#">Ver todos os modelittos</a>
-						</div>
-						</div>
-					<div class="control next"><a href="#" class="">Próximo</a></div>
-				</div><!-- end vitrine carossel -->
-			</div><!-- end vitrine home -->
+				</div><!-- end filtro -->
+			</div><!-- end vitrine -->
 		</div><!-- end content container -->
 		<!-- start footer container -->
 		<div class="footer-container clearfix">

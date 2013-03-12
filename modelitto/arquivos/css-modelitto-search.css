@@ -1,0 +1,31 @@
+/* BUSCA CATEGORIA */
+
+.content-container .bredcrumbs{border-bottom: 1px solid #feeaf6; padding: 15px 1%; text-transform: uppercase; font-size: 10px; margin-bottom: 15px;}
+.content-container .bredcrumbs .barra{float:left; margin:0 5px;}
+.bredcrumbs .youare{float: left; margin-right: 5px;}
+.bredcrumbs li{float: left;}
+.bredcrumbs a{color: #000;}
+.bredcrumbs a:hover{text-decoration: underline;}
+.bredcrumbs .last{color: #ec008b; font-weight: bold;}
+
+/* filter nav */
+.content-container .filter-nav{float: left; padding-left: 1%; width: 12%;}
+.content-container .vitrine{float: left; margin: 0; padding:0 0 0 2%; width: 84%; height: 300px;}
+.filter-nav h3{padding: 6px 0; border-bottom: 1px solid #feeaf6; text-transform: uppercase; margin-bottom: 15px;}
+.filter-nav h3 a{color: #ec008b;}
+.filter-nav ul{margin-bottom: 20px;}
+.filter-nav ul li{padding-bottom: 15px; text-transform: uppercase;}
+.filter-nav ul li a{font-weight: 600; color: #000;}
+
+/* vitrine */
+
+.vitrine .filtro{display: block; padding: 3px 0; background: #fff9fc; border: 1px solid #feeaf6; position: relative;}
+.filtro .select-filter{outline: none; text-transform: uppercase; font-size: 10px; margin-top: 2px; border: 1px solid #d0d0d0; border-radius: 3px;}
+.form-itens-pag .select-filter{width: 50px;}
+.filtro .order{float: left; padding: 5px 20px; text-transform: uppercase; font-size: 11px;}
+.filtro .itens-pag .form-itens-pag{float: left;}
+.filtro .order-price{float: left; right: 20%; position: absolute;}
+.filtro .order-price .form-order-preco{float: right;}
+.filtro .nav-pagination{float: right;}
+.filtro .nav-pagination li{float: left;}
+

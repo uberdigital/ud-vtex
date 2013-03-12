@@ -24,7 +24,7 @@ h5{font-size: 10px;}
 
 /* wrapper header */
 .wrapper-header{background: #ec008b;}
-.header{margin:0 auto; width: 1024px; height: 50px; position: relative; padding: 25px 0;}
+.header{height: 50px; position: relative; padding: 25px 1%;}
 	.logo-header{background: url('logo-header.png') no-repeat; width: 420px; height: 71px; float: left; text-indent: -9999px;}
 	.wrapper-header .user-box{float: right; width: 285px;}
 		.user-box .user-acess {float: right; margin-bottom: 10px; position: relative;}
@@ -33,11 +33,11 @@ h5{font-size: 10px;}
 		.user-box .user-acess .my-bag{float: left; padding-left: 10px; width:150px;}
 		.my-bag .bag-top{background-position: 0px -4px;width: 20px;height: 23px;float: right;position: relative;top: -6px;}
 		.user-box .search-top{float: right; position: relative;}
-		.user-box .search-top .text-search{width: 263px; height: 19px; background: #fff; outline: none; border: 1px solid #fff; letter-spacing: 0.1em; padding: 1px 10px; color: #ec008b;text-transform: uppercase;}
+		.user-box .search-top .text-search{width: 263px; height: 19px; font-size: 10px; background: #fff; outline: none; border: 1px solid #fff; letter-spacing: 0.1em; padding: 1px 10px; color: #ec008b;text-transform: uppercase;}
 		.user-box .search-top .btn-submit-search{float: right; position: relative; width: 25px; height: 19px; border:none; text-indent: -9999px; background-color: #ec008b;top: -21px;right: 2px;background-position: -95px -9px; cursor: pointer;}
 /* wrapper nav */
 .wrapper-nav{background: #feeaf6;}
-	.nav{margin:0 auto; width: 1024px; height: 25px; position: relative; padding: 12.5px 0;}
+	.nav{height: 25px; position: relative; padding: 12px 1%;}
 		.nav-header{}
 		.nav-header li a{padding: 6px 11px; float: left; text-transform: uppercase; font-weight: 600;}
 		.nav-header li a:hover{text-decoration: underline;}
@@ -54,25 +54,68 @@ h5{font-size: 10px;}
 
 /* CONTENT CONTAINER */
 
-.content-container{width: 100%; position: relative;}
+.content-container{width: 100%; position: relative; background: #fff;}
 
 /* super banner */
 .wrapper-big-banner{width: 100%; background-color: #fff;}
-.wrapper-big-banner .banner{margin: 0 auto; width: 1024px; position: relative;}
+.wrapper-big-banner .banner{width: 100%; text-indent: -9999px; background: url('super-banner1.png') no-repeat center top; display: block; height: 457px;}
 .wrapper-medium-banner{width: 100%; background-color: #fff;margin: 0;overflow: hidden;text-align: center;}
 .wrapper-medium-banner .banner-left{width: 100% !important;}
 .wrapper-medium-banner .banner-right{width: 100% !important;}
 
 /* vitrine home */
 
-.wrapper-vitrine-home{margin: 40px 0;}
-.title-session{width: 1024px; margin:0 auto; position: relative;}
-.line-left{background: url('line-title-left.png') no-repeat; background-position: 0px 8px;height: 14px;float: left;width: 404px;}
-.line-right{background: url('line-title-right.png') no-repeat; background-position: 0px 8px;height: 14px;float: left;width: 404px;}
-.cat-title h3{background-position: 0px 8px;height: 14px;float: left; font-size: 16px; text-transform: uppercase; text-align: center; padding: 0 30px;}
-.wrapper-carossel{height: 300px; margin: 40px 0;}
-.vitrine-home{width:100%; margin: 0 auto;}
-.wrapper-carossel .list-collection{float: left; display: block; padding: 0; text-align: center; margin: 0 15px;}
+.wrapper-vitrine-home{margin: 40px 0; position: relative;}
+.wrapper-vitrine-home .title-session{ margin:0 auto; position: relative; width: 980px; background: url('line-vitrine-home.png') no-repeat center top; background-position: 0px 8px;}
+.wrapper-vitrine-home .cat-title{padding: 0 350px;}
+.wrapper-vitrine-home .cat-title h3{background: #fff; height: 14px; font-size: 21px; text-transform: uppercase; text-align: center; padding: 0 30px;}
+.wrapper-vitrine-home .wrapper-carossel{height: 300px; margin: 40px 0;}
+.vitrine-home{width:100%; margin: 0; display: block; padding: 0;}
+.wrapper-carossel .list-collection{float: left; display: block; padding: 0; text-align: center; margin: 0 15px; width: 170px;}
 .ver-todos-modelittos{width: 100%; margin: 0 auto; text-align: right;}
-.ver-todos{padding: 0 20px;}
-.icon-ver-modelitto{background-position: 0px 0px; width: 20px; height: 20px;}
+.ver-todos{position: absolute; top: 390px; right: 30px;}
+.ver-todos a{margin-top: 10px;}
+.icon-ver-modelitos{background-position: -123px -3px; width: 11px; height: 29px; float: left;margin-right: 10px; margin-top: -7px;}
+.carossel-vitrine-home .control{ top: 190px; z-index: 2; width: 30px; position: absolute; height: 30px; }
+.carossel-vitrine-home .control a{text-indent: -9999px; width: 100%; height: 100%; display: block;}
+.carossel-vitrine-home .prev{left: 0; background: url('btn-prev.png') no-repeat;}
+.carossel-vitrine-home .next{right: 0; background: url('btn-next.png') no-repeat;}
+
+
+/* CONTENT FOOTER */
+
+/* modelitto informa */
+.wrapper-modelitto-informa {background:#ec008b; padding: 20px 0; width: 100%; }
+.wrapper-modelitto-informa .cat-title{padding: 0 350px;}
+.wrapper-modelitto-informa .title-session{ margin:0 auto; position: relative; width: 980px; background: url('line-title-footer.png') no-repeat center top; background-position: 0px 8px;}
+.footer-container .cat-title h3{color: #fff; height: 14px; font-size: 21px; text-transform: uppercase; text-align: center; padding: 0 30px; background: #ec008b;}
+.cadastro-newslatter{width: 980px; margin: 0 auto; position: relative; padding-top: 20px; text-align: center; color:#fff; text-transform: uppercase;}
+.cadastro-newslatter .form-cadastro-newslatter{margin-top: 10px; }
+.form-cadastro-newslatter .input-text{width: 185px; height: 22px; padding: 0 10px; font-size: 10px; outline: none; border: none; text-transform: uppercase; margin-right: 10px;}
+.form-cadastro-newslatter .input-text{font-size/*\**/: 10px\9;}
+.form-cadastro-newslatter .submit-email{background: url('btn-cadastrar.png') no-repeat center top; height: 22px; width: 160px; border: none; cursor: pointer; text-indent: -9999px;}
+
+/* modelitto bottom footer */
+
+.wrapper-footer-bottom{ background: #fff; width: 98%; padding: 0 1%;}
+.fale-conosco{position: relative; padding: 25px 0; margin: 0 auto; width: 980px;}
+.fale-conosco .box{display: inline; height: 90px; float: left;}
+.fale-conosco .sub-title{text-transform: uppercase; margin-bottom: 15px; font-size: 14px; margin-top: 10px; display: block; text-align: center;}
+.fale-conosco .logo-footer{width: 4%;}
+.fale-conosco .contact{width: 27%; text-align: center; text-transform: uppercase;}
+.fale-conosco .contatos{font-size: 11px;}
+.fale-conosco .compre{width: 13%; text-align: center; margin-left: 75px;}
+.fale-conosco .site-seguro{width: 14%; text-align: center; margin-left: 105px;}
+.fale-conosco .redes-sociais{width: 13%; text-align: center; float: right;}
+.fale-conosco .redes-sociais .redes{padding-left: 10px; float: left;}
+.fale-conosco .redes-sociais .tw{height: 20px; width: 23px; float: left; background-position: -28px -6px;}
+.fale-conosco .redes-sociais .fb{height: 20px; width: 23px; float: left; background-position: -77px -6px; margin: 0 20px;}
+.fale-conosco .redes-sociais .inst{height: 20px; width: 23px; float: left; background-position: -53px -6px;}
+
+.nav-footer{ position: relative; padding: 25px 0; background: url('line-nav-footer.png') no-repeat center top; width: 980px; margin: 0 auto;}
+.nav-footer .navegador{}
+.nav-footer .navegador .lista{float: left; padding:0 1.8%; border-right: 1px solid #d0d0d0;text-transform: uppercase;font-size: 11px;}
+	.nav-footer .navegador .last{border-right: none; padding-right: 0;}
+	.nav-footer .navegador .first{padding-left: 0;}
+		.nav-footer .navegador a{color:#3c3c3c;}
+		.nav-footer .navegador a:hover{text-decoration: underline;}
