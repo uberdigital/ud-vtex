@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Modelitto</title>
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!-- styles -->
+	<link rel="stylesheet" href="arquivos/css-modelitto-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-general.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-search.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-product.css" />
+	<link rel="stylesheet" href="arquivos/css-jquery-ui.css" />
+	<!-- scripts -->
+	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.ui.core.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.widget.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.tabs.js" type="text/javascript"></script>
+
+	<!-- script run -->
+	<script>
+		$(function() {
+    		$("#tabs").tabs();
+  		});
+  	</script>
+</head>
+<body>
+	<div class="container">
+		<!-- start header container -->
+		<div class="header-container">
+			<!-- start wrapper head -->
+			<div class="wrapper-header clearfix">
+				<!-- start header -->
+				<div class="header">	
+					<h1><a href="#" class="logo-header" title="Modelitto">Modelitto</a></h1>
+					<!-- start user box -->
+					<div class="user-box">
+						<ul class="user-acess">
+							<li class="my-account"><a href="#" title="Minha Conta">Minha conta</a></li>
+							<li class="my-bag"><a href="#" title="Sacola de Compras">Sacola de compras <span class="icons bag-top"></span></a></li>
+						</ul>
+						<div class="search-top">
+							<form action="" class="search">
+								<input type="text" class="text-search" value="Digite sua busca" onblur="if(this.value == '') { this.value='Digite sua busca'}" onfocus="if (this.value == 'Digite sua busca') {this.value=''}"/>
+								<input type="submit" class="icons btn-submit-search" />
+							</form>
+						</div>
+					</div><!-- end user box -->
+				</div><!-- end header -->
+			</div><!-- end wrapper head -->
+			<!-- start wrapper nav -->
+			<div class="wrapper-nav clearfix">
+				<!-- start header -->
+				<div class="nav">
+					<ul class="nav-header">
+						<li><a href="#" class="first">Sale</a></li>
+						<li><a href="#">Novidades</a></li>
+						<li><a href="#">Designers</a></li>
+						<li><a href="#">Roupas</a></li>
+						<li><a href="#">Acessórios</a></li>
+						<li><a href="#">Sapatos</a></li>
+						<li><a href="#">Looks</a></li>
+						<li><a href="#">Trends</a></li>
+						<li><a href="#">Gifts</a></li>
+						<li><a href="#" class="last">Fashion Magazine</a></li>
+					</ul><!-- end nav header -->
+					<ul class="social-network-header">
+						<li class="blog-icon"><a href="#" class="icons blog" title="Blog">Blog</a></li>
+						<li><a href="#" class="icons twitter" title="Twitter">Twitter</a></li>
+						<li><a href="#" class="icons facebook" title="Facebook">Facebook</a></li>
+						<li class="last"><a href="#" class="icons instegram" title="Instegram">Instegram</a></li>
+					</ul>
+				</div><!-- end nav -->
+			</div><!-- end wrapper nav -->
+		</div><!-- end header container -->
+		<!-- start content container -->
+		<div class="content-container clearfix">
+			<div class="bredcrumbs clearfix">
+				<span class="youare">Você esta em:</span>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<span class="barra">/</span>
+					<li><a href="#">Roupas</a></li>
+					<span class="barra">/</span>
+					<li><a href="#">Vestidos</a></li>
+					<span class="barra">/</span>
+					<li class="last">Vestido Maral</li>
+				</ul>
+			</div>
+			<!-- start product -->
+			<div class="container-produto clearfix">
+				<div class="content-title">
+					<h1 class="title">Vestido Maral</h1>
+					<h3 class="sub-title">Ilka</h3>
+				</div>
+				<div class="content-images">
+					
+				</div>
+				<!-- start content-information -->
+				<div class="content-information clearfix">
+					<div class="box-information clearfix">
+						<h3 class="title-product">Informações do produto</h3>
+						<div id="tabs">
+							<ul>
+								<li><a href="#tabs-1" class="btn-nav">Descrição</a></li>
+								<li><a href="#tabs-2" class="btn-nav">Medidas</a></li>
+							</ul>
+							<div id="tabs-1" class="tab-conteudo">
+								<p>
+									Vestido em couro fake com forro, modelagem ampla.<br>
+									Detalhes em recortes a laser.<br> 
+									Sem Fechamento.<br>
+									Cor: Cobre.
+								</p>
+							</div>
+							<div id="tabs-2" class="tab-conteudo">
+								<p>
+									38 - Cintura: 41cm; Comprimento: 32cm<br>
+									40 - Cintura: 43cm; Comprimento: 32cm<br>
+									42 - Cintura: 47cm; Comprimento: 32cm
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="box-price-product clearfix">
+						<ul class="price clearfix">
+							<li class="parcelamento">
+								<span class="vezes">6x</span>de <span class="value">R$98,00</span>
+							</li>
+							<li class="desconto">
+								<span class="of">De: R$600,00</span><span class="by">Por: R$589,00</span>
+							</li>
+						</ul>
+						<div class="choice clearfix">
+							<div class="cor">
+								<div class="selected-color"><span class="number">1)</span>Escolha a cor</div>
+								<ul class="color-product">
+									<li class="item color selected"><a href="#"><img src="arquivos/cor-product.png" alt="" /></a></li>
+									<li class="item color"><a href="#"><img src="arquivos/cor-product.png" alt="" /></a></li>
+									<li class="item color last"><a href="#"><img src="arquivos/cor-product.png" alt="" /></a></li>
+								</ul>
+							</div>
+							<div class="tamanho">
+								<div class="selected-size"><span class="number">2)</span>Escolha o tamanho</div>
+								<ul class="size-product">
+									<li class="item size selected">p</li>
+									<li class="item size">m</li>
+									<li class="item size">g</li>
+									<li class="item size last">gg</li>
+								</ul>
+								<div class="size-tables"><a href="#">Tabela de tamanhos</a></div>
+							</div>
+							<div class="comprar">
+								<div class="buy-number"><span class="number">3)</span></div>
+								<div class="icons buy" title="Comprar">Comprar</div>
+							</div>
+						</div>
+					</div>
+					<div class="box-social-network clearfix">
+						<ul>
+							<li class="bnt-network">
+								<h3 class="title-network">Amou o look?<span>Mostre para as amigas!</span></h3>
+								<div class="buttons"></div>
+							</li>
+							<li class="comments-facebook">
+									
+							</li>
+						</ul>
+					</div>
+				</div><!-- end content-information -->
+				<!-- wrapper carrosel produto -->
+				<div class="wrapper-vitrine-home clearfix">
+					<ul class="title-session clearfix">
+						<li class="line-left-vitrine"></li>
+						<li class="cat-title"><h3>Quem viu, viu também</h3></li>
+						<li class="line-right-vitrine"></li>
+					</ul>
+					<!-- carossel vitrine -->
+					<div id="carossel-vitrine" class="carossel-vitrine clearfix">
+						<div class="control prev"><a href="#" class="">Anterior</a></div>
+						<div class="wrapper-carossel clearfix">
+							<ul class="vitrine-home">
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+								<li class="list-collection">
+									<div class="img-product">
+										<a href="#"><img src="arquivos/vitrine-product1.png" alt="" title="Produto 1"></a>
+									</div>
+									<div class="desc-product"></div>
+								</li>
+							</ul>
+						</div>
+						<div class="control next"><a href="#" class="">Próximo</a></div>
+					</div><!-- end vitrine carossel -->
+				</div><!-- end wrapper carossel produto -->
+			</div>
+		</div><!-- end content container -->
+		<!-- start footer container -->
+		<div class="footer-container clearfix">
+			<!-- start modelitto informa -->
+			<div class="wrapper-modelitto-informa clearfix">
+				<ul class="title-session clearfix">
+					<li class="cat-title"><h3>Modelitto Informa</h3></li>
+				</ul>
+				<div class="cadastro-newslatter clearfix">
+					<div class="sub-title-cadastro">CADASTRE-SE E FIQUE POR DENTRO das novidades DO MUNDO DA MODA</div>
+					<form action="" class="form-cadastro-newslatter">
+						<span><input type="text" class="input-text" value="Nome" onblur="if(this.value == '') { this.value='Nome'}" onfocus="if (this.value == 'Nome') {this.value=''}" /></span>
+						<span><input type="text" class="input-text" value="E-mail" onblur="if(this.value == '') { this.value='E-mail'}" onfocus="if (this.value == 'E-mail') {this.value=''}" /></span>
+						<span><input type="submit" class="submit-email" value="CADASTRAR" img /></span>
+					</form>
+				</div>	
+			</div><!-- end modelitto informa -->
+			<!-- start wrapper footer bottom -->
+			<div class="wrapper-footer-bottom clearfix">
+				<div class="fale-conosco clearfix">
+					<div class="box logo-footer">
+						<img src="arquivos/logo-footer.png" alt="" />
+					</div>
+					<div class="box contact">
+						<label class="sub-title">Fale com nossa personal stylist</label>
+						<label class="contatos">11 1234 1234  |  personal@modelitto.com</label>
+					</div>
+					<div class="box compre">
+						<label class="sub-title">Compre com</label>
+						<label><img src="arquivos/compre-conosco.png" title="Compre com" /></label>
+					</div>
+					<div class="box site-seguro">
+						<label class="sub-title">Site seguro</label>
+						<label><img src="arquivos/site-seguro.png" title="Site seguro" /></label>
+					</div>
+					<div class="box redes-sociais">
+						<label class="sub-title">Mais modelitto</label>
+						<label class="redes">
+							<a href="#" class="icons tw" title="Twitter"></a>
+							<a href="#" class="icons fb" title="Facebook"></a>
+							<a href="#" class="icons inst" title="Instegram"></a>
+						</label>
+					</div>
+				</div>
+				<!-- start nav footer -->
+				<div class="nav-footer clearfix">
+					<ul class="navegador">
+						<li class="lista first">2013</li>
+						<li class="lista"><a href="#">www.modelitto.com</a></li>
+						<li class="lista"><a href="#">Sobre Modelitto</a></li>
+						<li class="lista"><a href="#">Política de privacidade</a></li>
+						<li class="lista"><a href="#">Perguntas Frequentes</a></li>
+						<li class="lista"><a href="#">Trocas de devoluções</a></li>
+						<li class="lista last"><a href="#">Fale conosco</a></li>
+					</ul>
+				</div><!-- end nav footer -->
+			</div><!-- end wrapper footer bottom -->
+		</div><!-- end footer container -->
+	</div>
+</body>
+</html>

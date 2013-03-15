@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Modelitto</title>
+	<!-- google font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!-- styles -->
+	<link rel="stylesheet" href="arquivos/css-modelitto-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-general.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-search.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-product.css" />
+	<link rel="stylesheet" href="arquivos/css-modelitto-default.css" />
+	<link rel="stylesheet" href="arquivos/css-jquery-ui.css" />
+	<!-- scripts -->
+	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.ui.core.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.widget.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.tabs.js" type="text/javascript"></script>
+
+	<!-- script run -->
+	<script>
+		$(function() {
+    		$("#tabs").tabs();
+  		});
+  	</script>
+</head>
+<body>
+	<div class="container">
+		<!-- start header container -->
+		<div class="header-container">
+			<!-- start wrapper head -->
+			<div class="wrapper-header clearfix">
+				<!-- start header -->
+				<div class="header">	
+					<h1><a href="#" class="logo-header" title="Modelitto">Modelitto</a></h1>
+					<!-- start user box -->
+					<div class="user-box">
+						<ul class="user-acess">
+							<li class="my-account"><a href="#" title="Minha Conta">Minha conta</a></li>
+							<li class="my-bag"><a href="#" title="Sacola de Compras">Sacola de compras <span class="icons bag-top"></span></a></li>
+						</ul>
+						<div class="search-top">
+							<form action="" class="search">
+								<input type="text" class="text-search" value="Digite sua busca" onblur="if(this.value == '') { this.value='Digite sua busca'}" onfocus="if (this.value == 'Digite sua busca') {this.value=''}"/>
+								<input type="submit" class="icons btn-submit-search" />
+							</form>
+						</div>
+					</div><!-- end user box -->
+				</div><!-- end header -->
+			</div><!-- end wrapper head -->
+			<!-- start wrapper nav -->
+			<div class="wrapper-nav clearfix">
+				<!-- start header -->
+				<div class="nav">
+					<ul class="nav-header">
+						<li><a href="#" class="first">Sale</a></li>
+						<li><a href="#">Novidades</a></li>
+						<li><a href="#">Designers</a></li>
+						<li><a href="#">Roupas</a></li>
+						<li><a href="#">Acessórios</a></li>
+						<li><a href="#">Sapatos</a></li>
+						<li><a href="#">Looks</a></li>
+						<li><a href="#">Trends</a></li>
+						<li><a href="#">Gifts</a></li>
+						<li><a href="#" class="last">Fashion Magazine</a></li>
+					</ul><!-- end nav header -->
+					<ul class="social-network-header">
+						<li class="blog-icon"><a href="#" class="icons blog" title="Blog">Blog</a></li>
+						<li><a href="#" class="icons twitter" title="Twitter">Twitter</a></li>
+						<li><a href="#" class="icons facebook" title="Facebook">Facebook</a></li>
+						<li class="last"><a href="#" class="icons instegram" title="Instegram">Instegram</a></li>
+					</ul>
+				</div><!-- end nav -->
+			</div><!-- end wrapper nav -->
+		</div><!-- end header container -->
+		<!-- start content container -->
+		<div id="content-container" class="content-container clearfix">
+			<!-- start carrinho -->
+			<div class="wrapper-content">
+	            <div class="title-head-carrinho clearfix">
+	                <h2>sacola de compras</h2>
+	            </div>
+	            <div class="options-link-car clearfix">
+	            	<ul>
+	            		<li>Precisa de ajuda? ligue 11 1234 5648</li>
+	            		<li><a href="#">Dúvidas frequentes</a></li>
+	            		<li><a href="#">Embalagem</a></li>
+	            		<li class="last"><a href="#">Trocas de devoluções</a></li>
+	            	</ul>
+	            </div>
+	            <!-- start wrapper carrinho -->
+	            <div class="wrapper-carrinho clearfix">
+	            <div class="conteudo-carrinho">
+	                    <ul class="bts top">
+	                        <li class="enviar-lista first" style="display:none;">
+	                            <a id="ctl00_Conteudo_lnkCartToList1" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="https://www.netmall.com.br:443/Site/Login.aspx?ReturnUrl=Carrinho.aspx">Salvar como Lista</a>
+	                            
+	                        </li>
+	                        <li class="continuar-comprando">
+	                            <a id="ctl00_Conteudo_lnkContinuarCompra1" title="Comprar mais produtos" class="bt" href="http://www.netmall.com.br/busca/?fq=H:134">Continuar Comprando</a>
+	                        </li>
+	                        <li class="finalizar-compra last">
+	                            <a id="ctl00_Conteudo_lnkConcluirCompra1" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra1", "", true, "", "", false, true))'>Finalizar Compra</a>
+	                        </li>
+	                    </ul>
+	                    <table cellspacing="0" cellpadding="0" class="carrinhoTable">
+	                        <thead>
+	                            <tr>
+	                                <th class="produto">
+	                                    Produto
+	                                </th>
+	                                <th class="servico">
+	                                    
+	                                </th>
+	                                <th class="quantidade">
+	                                    Quantidade
+	                                </th>
+	                                <th class="preco-unitario">
+	                                    Valor Unitário
+	                                </th>
+	                                <th class="preco-total">
+	                                    Valor Total
+	                                </th>
+	                                <td class="excluir"></td>
+	                            </tr>
+	                        </thead>
+	                        <tfoot>
+	                            <tr class="subtotal">
+	                                <td colspan="2" class="preco-total">
+	                                    R$  59,90
+	                                </td>
+	                                <td colspan="4" class="txtSubTotal">
+	                                    Subtotal:
+	                                </td>
+	                            </tr>
+	                            <tr class="vale-presente">
+	                                <td colspan="2" class="texto-vale-presente">
+	                                    <fieldset class="vale-presente">
+	                                        <div class="grp">
+	                                            <legend><span>
+	                                            Desconto
+	                                        </span></legend>
+	                                            <label>Cupom de desconto</label>
+	                                            <input name="ctl00$Conteudo$txtCupom" type="text" maxlength="35" id="ctl00_Conteudo_txtCupom" class="vale-presente fitext">
+	                                            <span class="ok-carrinho">
+	                                                <input type="submit" name="ctl00$Conteudo$Button2" value="Calcular" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Conteudo$Button2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Conteudo_Button2" title="Calcular" class="bt fisubmit"></span> <span class="reward-check">
+	                                                    </span>
+	                                        </div>
+	                                        
+	                                    </fieldset>
+	                                </td>
+	                                <td colspan="2" class="preco-total">
+	                                    (R$  0,00)
+	                                </td>
+	                                <td colspan="2" class="vale-presente">
+	                                    Desconto:
+	                                </td>   
+	                            </tr>
+	                            <tr class="cepline">
+	                                <td colspan="2" class="texto-cepline">
+	                                    <fieldset id="ctl00_Conteudo_fieldsetCEP" class="cep">
+	                                        <legend><span>Calcular frete<br><small>Digite aqui seu CEP:</small></span></legend>
+	                                        <div class="grp fMulti fCep">
+	                                            <label class="cep-prefixo">
+	                                                Digite seu cep
+	                                                
+	                                                <a target="_blank" href="http://www.buscacep.correios.com.br/servicos/dnec/menuAction.do?Metodo=menuLogradouro" class="duvidaCep">
+	                                                    Não sei meu CEP
+	                                                </a>
+	                                            </label>
+	                                            <input name="ctl00$Conteudo$txtCep1" type="text" maxlength="5" id="ctl00_Conteudo_txtCep1" class="cep-prefixo fitext" size="5" onkeyup="SaltaCampo(ctl00_Conteudo_txtCep1,ctl00_Conteudo_txtCep2,5,event);">
+	                                            <input name="ctl00$Conteudo$txtCep2" type="text" maxlength="3" id="ctl00_Conteudo_txtCep2" class="cep-sufixo fitext" size="3">
+	                                            <span class="ok-carrinho">
+	                                                <input type="submit" name="ctl00$Conteudo$Button1" value="OK" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Conteudo$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Conteudo_Button1" title="OK" class="bt fisubmit"></span>
+	                                        </div>
+	                                        <span class="msgValCEP">
+	                                            <span id="ctl00_Conteudo_RegularExpressionValidator1" style="color:Red;visibility:hidden;">CEP inválido.</span>
+	                                            <span id="ctl00_Conteudo_RegularExpressionValidator2" style="color:Red;visibility:hidden;">CEP inválido.</span>
+	                                            
+	                                        </span>
+	                                    </fieldset>
+	                                    
+	                                </td>
+	                                <td colspan="2" class="frete-gratis">
+	                                    Grátis
+	                                    
+	                                </td>
+	                                <td colspan="2" class="txt-frete">
+	                                    Frete:
+	                                </td> 
+	                            </tr>
+	                            <tr class="total">
+	                                <td class="economizou">
+	                                    
+	                                </td>
+	                                <td class="atualizar-valores">
+	                                </td>
+	                                <td colspan="2" class="valor">
+	                                    R$  59,90
+	                                </td>
+	                                <td colspan="2" class="valor-total">
+	                                    Total
+	                                </td> 
+	                            </tr>
+	                            
+	                            <tr class="valor-parcelado">
+	                                <td colspan="6" class="valor-parcelado">
+	                                    <div id="ctl00_Conteudo_divValorParcelado" class="valor-parcelado">
+	                                        <p>
+	                                            Ou sem juros em até 
+	                                            <strong>
+	                                                2x de 
+	                                                R$ 
+	                                                29,95</strong>
+	                                        </p>
+	                                    </div>
+	                                </td>
+	                            </tr>
+	                        </tfoot>
+	                        <tbody>
+	                           <script language="javascript" type="text/javascript">
+	                                var _timer = 1000;
+	                                var _timeOutID;
+	                                var _quantidadeAnterior;
+	                                var _quantidadeAtual;
+
+	                                function alterarQuantidadeComTempo(caixaTexto, qa, qan) {
+
+	                                    _quantidadeAnterior = parseInt(qan);
+	                                    _quantidadeAtual = parseInt(qa.value);
+	                                    
+	                                    if (_quantidadeAtual != NaN && _quantidadeAtual > 0 && _quantidadeAnterior != _quantidadeAtual) {
+
+	                                        //cancela ação de alterar quantidade
+	                                        cancelarAcaoCarrinho();
+
+	                                        //altera a quantidade e registra o evento
+	                                        _timeOutID = setTimeout('__doPostBack(\'' + caixaTexto + '\')', _timer);
+	                                    }
+	                                }
+
+	                                //cancela ação de alterar quantidade
+	                                function cancelarAcaoCarrinho() {
+	                                    if (typeof (_timeOutID) == "number")
+	                                        clearTimeout(_timeOutID)
+	                                    else 
+	                                        void (0);
+	                                }
+	    
+	                            </script>
+	                            
+	                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+	                                    <td class="produto">
+	                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+	                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/produto-carrinho1.png"></a>
+	                                        <h4>
+	                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+	                                        </h4>
+	                                    </td>
+	                                    <td class="servico">                                   
+	                                    </td>
+	                                    <td class="quantidade">
+	                                        <fieldset>
+	                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+	                                            <ul class="controle-quantidade">
+	                                                <li class="adicionar-item">
+	                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+	                                                <li class="remove-item">
+	                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+	                                            </ul>
+	                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+	                                        </fieldset>
+	                                    </td>
+	                                    <td class="preco-unitario">                           
+	                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+	                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+	                                    </td>
+	                                    <td class="preco-total">
+	                                        R$ 59,90
+	                                    </td>
+	                                    <td class="excluir">
+	                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+	                                    </td>
+	                                </tr>
+	                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+	                                    <td class="produto">
+	                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+	                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/produto-carrinho1.png"></a>
+	                                        <h4>
+	                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="http://www.netmall.com.br/Calca_jeans_masculina_classic_003566002/p">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+	                                        </h4>
+	                                    </td>
+	                                    <td class="servico">                                   
+	                                    </td>
+	                                    <td class="quantidade">
+	                                        <fieldset>
+	                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+	                                            <ul class="controle-quantidade">
+	                                                <li class="adicionar-item">
+	                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+	                                                <li class="remove-item">
+	                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+	                                            </ul>
+	                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+	                                        </fieldset>
+	                                    </td>
+	                                    <td class="preco-unitario">                           
+	                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+	                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+	                                    </td>
+	                                    <td class="preco-total">
+	                                        R$ 59,90
+	                                    </td>
+	                                    <td class="excluir">
+	                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+	                                    </td>
+	                                </tr>               
+	                        </tbody>
+	                    </table>          
+	                    <ul class="bts bottom">
+	                        <li class="enviar-lista first" style="display:none;">
+	                            <a id="ctl00_Conteudo_lnkCartToList2" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="https://www.netmall.com.br:443/Site/Login.aspx?ReturnUrl=Carrinho.aspx">Salvar como Lista</a>
+	                            
+	                        </li>
+	                        <li class="continuar-comprando">
+	                            <a id="ctl00_Conteudo_lnkContinuarCompra2" title="Comprar mais produtos" class="bt" href="http://www.netmall.com.br/busca/?fq=H:134">Comprar mais produtos</a>
+	                        </li>
+	                        <li class="finalizar-compra last">
+	                            <a id="ctl00_Conteudo_lnkConcluirCompra2" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra2", "", true, "", "", false, true))'>Concluir compra</a>
+	                        </li>
+	                    </ul>       
+	                </div>
+	            </div><!-- end wrapper carrinho -->
+	        </div>
+			<!-- end carrinho -->
+		</div><!-- end content container -->
+		<!-- start footer container -->
+		<div class="footer-container clearfix">
+			<!-- start modelitto informa -->
+			<div class="wrapper-modelitto-informa clearfix">
+				<ul class="title-session clearfix">
+					<li class="cat-title"><h3>Modelitto Informa</h3></li>
+				</ul>
+				<div class="cadastro-newslatter clearfix">
+					<div class="sub-title-cadastro">CADASTRE-SE E FIQUE POR DENTRO das novidades DO MUNDO DA MODA</div>
+					<form action="" class="form-cadastro-newslatter">
+						<span><input type="text" class="input-text" value="Nome" onblur="if(this.value == '') { this.value='Nome'}" onfocus="if (this.value == 'Nome') {this.value=''}" /></span>
+						<span><input type="text" class="input-text" value="E-mail" onblur="if(this.value == '') { this.value='E-mail'}" onfocus="if (this.value == 'E-mail') {this.value=''}" /></span>
+						<span><input type="submit" class="submit-email" value="CADASTRAR" img /></span>
+					</form>
+				</div>	
+			</div><!-- end modelitto informa -->
+			<!-- start wrapper footer bottom -->
+			<div class="wrapper-footer-bottom clearfix">
+				<div class="fale-conosco clearfix">
+					<div class="box logo-footer">
+						<img src="arquivos/logo-footer.png" alt="" />
+					</div>
+					<div class="box contact">
+						<label class="sub-title">Fale com nossa personal stylist</label>
+						<label class="contatos">11 1234 1234  |  personal@modelitto.com</label>
+					</div>
+					<div class="box compre">
+						<label class="sub-title">Compre com</label>
+						<label><img src="arquivos/compre-conosco.png" title="Compre com" /></label>
+					</div>
+					<div class="box site-seguro">
+						<label class="sub-title">Site seguro</label>
+						<label><img src="arquivos/site-seguro.png" title="Site seguro" /></label>
+					</div>
+					<div class="box redes-sociais">
+						<label class="sub-title">Mais modelitto</label>
+						<label class="redes">
+							<a href="#" class="icons tw" title="Twitter"></a>
+							<a href="#" class="icons fb" title="Facebook"></a>
+							<a href="#" class="icons inst" title="Instegram"></a>
+						</label>
+					</div>
+				</div>
+				<!-- start nav footer -->
+				<div class="nav-footer clearfix">
+					<ul class="navegador">
+						<li class="lista first">2013</li>
+						<li class="lista"><a href="#">www.modelitto.com</a></li>
+						<li class="lista"><a href="#">Sobre Modelitto</a></li>
+						<li class="lista"><a href="#">Política de privacidade</a></li>
+						<li class="lista"><a href="#">Perguntas Frequentes</a></li>
+						<li class="lista"><a href="#">Trocas de devoluções</a></li>
+						<li class="lista last"><a href="#">Fale conosco</a></li>
+					</ul>
+				</div><!-- end nav footer -->
+			</div><!-- end wrapper footer bottom -->
+		</div><!-- end footer container -->
+	</div>
+</body>
+</html>

@@ -66,9 +66,9 @@ h5{font-size: 10px;}
 /* vitrine home */
 
 .wrapper-vitrine-home{margin: 40px 0; position: relative;}
-.wrapper-vitrine-home .title-session{ margin:0 auto; position: relative; width: 980px; background: url('line-vitrine-home.png') no-repeat center top; background-position: 0px 8px;}
-.wrapper-vitrine-home .cat-title{padding: 0 350px;}
-.wrapper-vitrine-home .cat-title h3{background: #fff; height: 14px; font-size: 21px; text-transform: uppercase; text-align: center; padding: 0 30px;}
+.title-session{ margin:0 auto; position: relative; width: 980px; background: url('line-vitrine-home.png') no-repeat center top; background-position: 0px 8px;}
+.cat-title{padding: 0 360px;}
+.cat-title h3{background: #fff; height: 14px; font-size: 21px; text-transform: uppercase; text-align: center; padding: 0 30px; font-family: Georgia, sans-serif;}
 .wrapper-vitrine-home .wrapper-carossel{height: 300px; margin: 40px 0;}
 .vitrine-home{width:100%; margin: 0; display: block; padding: 0;}
 .wrapper-carossel .list-collection{float: left; display: block; padding: 0; text-align: center; margin: 0 15px; width: 170px;}
@@ -76,17 +76,18 @@ h5{font-size: 10px;}
 .ver-todos{position: absolute; top: 390px; right: 30px;}
 .ver-todos a{margin-top: 10px;}
 .icon-ver-modelitos{background-position: -123px -3px; width: 11px; height: 29px; float: left;margin-right: 10px; margin-top: -7px;}
-.carossel-vitrine-home .control{ top: 190px; z-index: 2; width: 30px; position: absolute; height: 30px; }
-.carossel-vitrine-home .control a{text-indent: -9999px; width: 100%; height: 100%; display: block;}
-.carossel-vitrine-home .prev{left: 0; background: url('btn-prev.png') no-repeat;}
-.carossel-vitrine-home .next{right: 0; background: url('btn-next.png') no-repeat;}
+#carossel-vitrine{position: relative;}
+#carossel-vitrine .control{ top: 160px; z-index: 2; width: 30px; position: absolute; height: 30px; }
+#carossel-vitrine .control a{text-indent: -9999px; width: 100%; height: 100%; display: block;}
+#carossel-vitrine .prev{left: 0; background: url('btn-prev.png') no-repeat;}
+#carossel-vitrine .next{right: 0; background: url('btn-next.png') no-repeat;}
 
 
 /* CONTENT FOOTER */
 
 /* modelitto informa */
 .wrapper-modelitto-informa {background:#ec008b; padding: 20px 0; width: 100%; }
-.wrapper-modelitto-informa .cat-title{padding: 0 350px;}
+.wrapper-modelitto-informa .cat-title{padding: 0 340px;}
 .wrapper-modelitto-informa .title-session{ margin:0 auto; position: relative; width: 980px; background: url('line-title-footer.png') no-repeat center top; background-position: 0px 8px;}
 .footer-container .cat-title h3{color: #fff; height: 14px; font-size: 21px; text-transform: uppercase; text-align: center; padding: 0 30px; background: #ec008b;}
 .cadastro-newslatter{width: 980px; margin: 0 auto; position: relative; padding-top: 20px; text-align: center; color:#fff; text-transform: uppercase;}
@@ -98,9 +99,9 @@ h5{font-size: 10px;}
 /* modelitto bottom footer */
 
 .wrapper-footer-bottom{ background: #fff; width: 98%; padding: 0 1%;}
-.fale-conosco{position: relative; padding: 25px 0; margin: 0 auto; width: 980px;}
+.fale-conosco{position: relative; padding: 25px 0; margin: 0 auto; width: 980px; color: #3c3c3c;}
 .fale-conosco .box{display: inline; height: 90px; float: left;}
-.fale-conosco .sub-title{text-transform: uppercase; margin-bottom: 15px; font-size: 14px; margin-top: 10px; display: block; text-align: center;}
+.fale-conosco .sub-title{text-transform: uppercase; margin-bottom: 15px; font-size: 14px; margin-top: 10px; display: block; text-align: center; font-family: Georgia, sans-serif;}
 .fale-conosco .logo-footer{width: 4%;}
 .fale-conosco .contact{width: 27%; text-align: center; text-transform: uppercase;}
 .fale-conosco .contatos{font-size: 11px;}
