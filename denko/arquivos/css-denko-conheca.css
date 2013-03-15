@@ -1,0 +1,14 @@
+.content{}
+.container-institucional{margin: 0 auto; width: 940px; margin-bottom: 20px; background: #fff; font-family: Arial, Helvetica, sans-serif; }
+.sidebar-left{float: left; width: 575px;}
+.sidebar-right{float: right; width: 315px; position: relative;}
+.container-institucional .titulo-pagina{font-size: 24px; text-transform: uppercase; color: #f21a1d; line-height: 25px; font-weight: bold;}
+.itens{border-left: 1px solid #ababab; padding-left: 10px; float: left; margin-top: 20px;}
+.container-institucional .frases{font-size: 16px; text-transform: uppercase; color: #343434; font-weight: bold; margin: 40px 0; float: left;}
+.container-institucional .datas{float: left;}
+.container-institucional .datas li{margin-bottom: 20px; float: left;}
+.container-institucional .datas li p{width: 240px; margin:0; float: left; font-size: 11px; line-height: 12px;}
+.container-institucional .datas .last{margin-bottom: 0;}
+.container-institucional .datas span{float: left; margin-right: 10px; font-weight: bold; font-size: 13px; margin-top: 1px;}
+.container-institucional p{color: #ababab; margin: 25px 0; line-height: 18px;}
+.seta-down{background: url('../arquivos/seta-down.png') no-repeat; float: left; height: 10px; width: 10px; bottom: -10px; left: -2px; position: absolute;}
