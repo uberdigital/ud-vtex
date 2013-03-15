@@ -10,3 +10,42 @@ a {text-decoration: none; color: #d0d0d0;}
 /* end clearfix */
 
 #ajaxBusy {font-size: 11px; position: absolute; color: white; background: #e83395; padding: 12px; top: 0; left: 0;}
+
+.container-breadcrumb {padding: 0 0 15px 0;}
+.wrapper-breadcrumb {font-size: 11px;}
+    .wrapper-breadcrumb .index-breadcrumb {float: left;}
+
+.bread-crumb {float:}
+    .bread-crumb li {background:url('seta-lista-breadcrumb.png') no-repeat right 3px; float: left; margin-left:5px; padding-right:10px;}
+    .bread-crumb li.last {background:none; padding-right:0; font-weight:bold;}
+        .bread-crumb li a {color:black;}
+
+
+.atendimento .content {
+	margin: 20px auto;
+	height: 600px;
+	width: 980px;
+}
+
+.video-colecao .content {
+	width:100%;
+	background: black;
+}
+
+.video-colecao .content .wrapper-video {
+	height: 546px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 980px;
+}
+
+.content .super-banner a {
+    display: block;
+    background: url('/arquivos/sprite-super-banner.jpg') no-repeat center top;
+    height: 500px;
+    text-indent: -9999px;
+}
+
+.content .super-banner a:hover {background-position:center -501px;}
+
+.content .banner-full-width {height: 500px; margin: 0 auto; width: 942px;}

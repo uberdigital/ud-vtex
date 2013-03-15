@@ -1,0 +1,233 @@
+/*** Core SKU Product ***/
+.Cores label {background:url("/arquivos/sprite_cores_sku.png"); cursor: pointer; width:28px; height:28px; float:left; background-position: -805px -4px; text-indent:-9999px; margin-bottom:5px; text-transform: capitalize; margin-right:5px;}
+.Cores input{position: absolute; left: -99999em;}
+.Cores label.skuespec_Cores_opcao_Azul {background-position:-7px -4px;}
+.Cores label.skuespec_Cores_opcao_Amarelo {background-position:-43px -4px;}
+.Cores label.skuespec_Cores_opcao_Rosa {background-position:-79px -4px;}
+.Cores label.skuespec_Cores_opcao_Cobre {background-position:-115px -4px;}
+.Cores label.skuespec_Cores_opcao_Verde {background-position:-151px -4px; }
+.Cores label.skuespec_Cores_opcao_Vermelho {background-position:-187px -4px;}
+.Cores label.skuespec_Cores_opcao_Branco {background-position:-223px -4px;}
+.Cores label.skuespec_Cores_opcao_Bronze {background-position:-259px -4px;}
+.Cores label.skuespec_Cores_opcao_Caramelo {background-position:-295px -4px;}
+.Cores label.skuespec_Cores_opcao_Coral {background-position:-331px -4px;}
+.Cores label.skuespec_Cores_opcao_Dourado {background-position:-367px -4px;}
+.Cores label.skuespec_Cores_opcao_Fendi {background-position:-403px -4px;}
+.Cores label.skuespec_Cores_opcao_Laranja {background-position:-438px -4px;}
+.Cores label.skuespec_Cores_opcao_Marrom {background-position:-474px -4px;}
+.Cores label.skuespec_Cores_opcao_Nude {background-position:-510px -4px;}
+.Cores label.skuespec_Cores_opcao_Off-white {background-position:-546px -4px;}
+.Cores label.skuespec_Cores_opcao_Pink {background-position:-582px -4px;}
+.Cores label.skuespec_Cores_opcao_Prata {background-position:-618px -4px;}
+.Cores label.skuespec_Cores_opcao_Preto {background-position:-654px -4px;}
+.Cores label.skuespec_Cores_opcao_Rose {background-position:-690px -4px;}
+.Cores label.skuespec_Cores_opcao_Turquesa {background-position:-726px -4px;}
+.Cores label.skuespec_Cores_opcao_Verde-Agua {background-position:-762px -4px;}
+.Cores label.skuespec_Cores_opcao_Unica {background-position:-805px -4px;}
+.Cores label.skuespec_Cores_opcao_Marinho{background-position:-7px -4px;}
+.Cores label.skuespec_Cores_opcao_Tan{background-position: -1033px -4px;}
+.Cores label.skuespec_Cores_opcao_Marina{background-position: -919px -4px;}
+.Cores label.skuespec_Cores_opcao_Havana {background-position: -995px -4px;}
+.Cores label.skuespec_Cores_opcao_Acai {background-position: -844px -4px;}
+.Cores label.skuespec_Cores_opcao_Zaferano {background-position: -1071px -4px;}
+.Cores label.skuespec_Cores_opcao_Blush {background-position: -881px -4px;}
+.Cores label.skuespec_Cores_opcao_Mirtilo {background-position: -957px -4px;}
+.Cores label.skuespec_Cores_opcao_Pera {background-position: -1147px -4px;}
+.Cores label.skuespec_Cores_opcao_Roma {background-position: -1109px -4px;}
+
+#image-main {width: 360px;}
+#include {float: right;  width: 360px;}
+
+#show {width: 450px;}
+#show .thumbs {width: 60px;}
+#show .thumbs img {border:1px solid #eee; margin-bottom:5px;width:60px;}
+
+.wrapper-imagem {float: left; width: 455px;}
+.wrapper-infos {float: right; color: #545454;width: 505px;}
+.produto .content {margin: 20px auto; width: 980px;}
+.container-last-line {clear: both;}
+
+#produto {border-top: 1px solid #ccc; padding-top: 20px;}
+.productName {font-size: 20px; margin-bottom: 10px;}
+.sub-linha-nome {font-size: 11px;}
+.sub-linha-nome .wrapper-referencia {float: left; margin-right: 10px; border-right: 1px solid #ccc; padding-right: 10px;}
+.sub-linha-nome .wrapper-referencia .productReference {display: inline;}
+
+#spnRatingProdutoTop {
+    margin-left: 5px;
+    background: url('icons.png') no-repeat;
+    background-position: -7px -324px;
+    width: 81px;
+    height: 12px;
+    display:inline-block;
+    text-indent:-9999px;
+    margin-right: 5px;
+}
+#spnRatingProdutoTop.avaliacao0 {background-position: -7px -399px;}
+#spnRatingProdutoTop.avaliacao1 {background-position: -7px -383px;}
+#spnRatingProdutoTop.avaliacao2 {background-position: -7px -363px;}
+#spnRatingProdutoTop.avaliacao3 {background-position: -7px -343px;}
+#spnRatingProdutoTop.avaliacao4 {background-position: -7px -323px;}
+#spnRatingProdutoTop.avaliacao5 {background-position: -7px -303px;}
+
+.linha-preco-produto .valor-por {font-weight: bold; font-size: 1.1em; display: block;}
+.linha-preco-produto .valor-de {float: left; margin-right: 20px;}
+.linha-preco-produto .valor-dividido {color: #e2007a; clear: both; margin: 10px 0 4px; font-size: 1.4em;}
+.linha-preco-produto .economia-de {color: #999; font-style: italic;}
+
+.sub-linha-nome .wrapper-avaliacao {float:left;}
+.sub-linha-nome .wrapper-link-descricao {float: left; margin-left:30px}
+.sub-linha-nome .wrapper-link-descricao a {color:#646464;}
+.wrapper-infos .linha {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+.botao-comprar .buy-button {
+    background: url('/arquivos/icons.png') no-repeat; background-position: -4px -120px; width: 173px; height: 45px;  margin-left: 10px; text-indent: -9999px;
+}
+
+ul.topic {clear: both; display:table;}
+
+ul.topic.Cores {
+    padding: 10px 0;
+    clear: both;
+}
+.topic.Cores .specification {
+    display: block;
+    background: url('/arquivos/step-cor.png') no-repeat;
+    float: left;
+    height: 27px;
+    width: 93px;
+    text-indent: -9999px;
+}
+.topic .select.skuList {
+    float:left;
+    margin-left:20px;
+    width:350px;
+}
+
+.topic .select input{float:left; margin-left:-99999em;}
+
+.topic.Tamanhos .select label {
+    border-right: 1px dotted #CCC;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size:11px;
+    height: 18px;
+    margin-right: 10px;
+    padding-top: 6px;
+    padding-right:10px;
+    text-align: center;
+}
+
+.topic.Tamanhos .select label.item_unavaliable {color:#ccc; cursor:default; text-decoration:line-through;}
+.topic.Tamanhos .select label.item_unavaliable:hover {font-weight:normal;}
+
+.topic .select label:hover,
+.topic .select label.sku-picked {color:#e2007a; font-weight:bold;}
+
+.topic.Tamanhos {margin-top: 20px;}
+
+.topic.Tamanhos .specification {
+    display: block;
+    background: url('/arquivos/step-tamanho.png') no-repeat;
+    float: left;
+    height: 27px;
+    width: 100px;
+    text-indent: -9999px;
+}
+
+.linha-botao-comprar {
+    clear: both;
+    margin-top: 10px;
+}
+
+.linha-botao-comprar .numero-etapa {float:left;}
+.linha-botao-comprar .botao-comprar {float:left;}
+.unavailable-button {
+    padding: 15px 20px;
+    background: #eee;
+    border-radius: 3px;
+    text-align: center;
+    width: 132px;
+    margin-left: 10px;
+    float: left;
+}
+
+.notifyme {background: whiteSmoke; clear:both; padding: 10px; margin-top:20px;}
+.notifymetitle {font-weight: bold; text-transform: capitalize; padding-bottom: 10px;}
+.notifyme-form p {font-size: 12px; text-align: left; margin-bottom: 20px;}
+.notifyme-client-name, .notifyme-client-email {border:1px solid gray; width:200px}
+.notifyme-client-email {display: block; margin: 10px 0;}
+.linha-botao-comprar .container-link-entrega {clear: both; display: none;}
+.container-calcular-cep {float: right; position: relative; width: 240px;}
+
+#popupCalculoFreteWrapper a.shipping-value {
+  background: url('/arquivos/ico-prazo-entrega.png') no-repeat;
+  display: block;
+  height: 12px;
+  margin-top: 20px;
+  text-indent: -9999px;
+  width: 170px;
+}
+
+.container-last-line .info-zoom-produto {
+  background: url('/arquivos/ico-zoom-produto.png') no-repeat center 10px;
+  float: left;
+  width: 359px;
+  margin-left: 80px;
+  border-top: 1px dotted #eee;
+  padding: 20px 0;
+  text-indent: -9999px;
+}
+
+.container-social-media p {display: none;}
+.container-social-media .addthis_toolbox {float: right; padding-right: 5px; width: 145px;}
+
+.container-last-line .info-zoom-produto {float: left; width: 359px; margin-left: 80px; border-top: 1px dotted #eee; padding-top: 10px;}
+.container-last-line .container-social-media {float:right; width: 500px; border-top: 1px dotted #eee; padding-top: 10px;}
+
+#calculoFrete {background: #eee; border: 1px solid #ccc; display: none; padding: 10px; font-size: 11px; position: absolute; top: 60px; left: -250px; width: 470px;}
+#calculoFrete h1 {display:none;}
+#calculoFrete h2 {font-weight:bold;}
+#calculoFrete .content {margin:10px 0;}
+#calculoFrete a {color:#545454; text-decoration:underline;}
+#calculoFrete .header {position: relative;}
+#calculoFrete .header .close {position:absolute; top:5px; right:5px;}
+#calculoFrete .footer .close {display:none;}
+#calculoFrete table {border-top:1px solid #ccc; margin-top:20px;}
+#calculoFrete table th {font-weight:bold;  padding-top:10px;}
+#calculoFrete table th, #calculoFrete table td {text-align:center; padding:4px;}
+
+.container-descricao-avaliacao {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin:100px 0 30px;
+}
+
+.container-descricao-avaliacao h3 {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#545454;
+    margin-bottom:10px;
+}
+
+
+/* QUEM VIU, VIU TAMBEM... QUEM COMPROU, COMPROU TAMBEM */
+.prateleira {float: left;display: table; width: 980px;}
+.prateleira h2 {font-family: 'Century Gothic'; font-size: 15px; border-bottom: 1px solid #ccc; padding-bottom: 20px;}
+.prateleira ul {width: 880px; margin:20px auto;display: table;}
+.prateleira ul li{float: left;}
+.prateleira li{height: 300px; width: 135px; margin: 0 38px;}
+.prateleira li.last {margin-right:0;}
+.prateleira li .img-prod{width: 135px; height: 170px; margin-bottom: 20px; float: left; border-bottom:1px dotted #d0d0d0;}
+    .prateleira li .img-prod img {width: 135px; height: auto;}
+
+.prateleira li .descricao-prod{float: left; width: 135px; text-align: center;}
+    .prateleira li .descricao-prod a {color:black;}
+.prateleira .descricao-prod .name-prod{display: block; margin-bottom: 10px;}
+.prateleira .descricao-prod .price-of{display: block; margin-bottom: 5px; font-style: italic;}
+.prateleira .descricao-prod .price-prod{display: block; margin-bottom: 5px; font-weight: bold;}
+.prateleira .descricao-prod .price-terms{display: block; font-style: italic;}
+/* end QUEM VIU, VIU TAMBEM... QUEM COMPROU, COMPROU TAMBEM */

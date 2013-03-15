@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+<title>My Shoes</title>
+<link rel="stylesheet" href="/arquivos/css-reset.css" />
+<link rel="stylesheet" href="/arquivos/css-general.css" />
+<link rel="stylesheet" href="/arquivos/css-subtemplates.css" />
+<!-- 1024x768 -->
+<link rel='stylesheet' media='screen and (max-width: 1279px)' href='/arquivos/css-subtemplates-1024.css' />
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css' />
+
+<vtex:metaTags/>
+</head>
+
+<body>
+    <vtex:template id="topbar-uber" />
+    <div class="container-general">
+        <!-- Header -->
+        <vtex:template id="header-uber" />
+        <!-- end Header -->
+        
+        <!-- Content -->
+        <div class="content clearfix">
+        	<div class="super-banner">
+        		<vtex:contentPlaceHolder id="super-banners" />
+        	</div>
+        	<!--######### Start Wrapper Colection ########-->
+        	<div class="wrapper-colection clearfix">
+        		<!--######### Start colection content ########-->
+        		<div class="colection-content clearfix">	
+        			<!--######### Start colection ########-->
+        			<div class="colection">
+        				<div class="head-colection">
+        					<h2 class="title-head"><vtex:contentPlaceHolder id="nome-colecao" /></h2>
+        				</div>
+        				<!--######### Start carrosel colecao ########-->
+        				<div id="carrosselHome1" class="carrosel-colection">
+                            <vtex:contentPlaceHolder id="Colecao-2013" />
+                            <!-- div class="containerControle left"><a href="#" id="btn-carrossel1-prev" class="btnCarouselPrev hidden">anterior</a></div>
+            	            <div class="containerControle right"><a href="#" id="btn-carrossel1-next" class="btnCarouselNext">próximo</a></div -->
+        				</div><!--######### End carrosel colecao ########-->
+        			</div><!--######### End colection ########-->
+        		</div><!--######### End colection content ########-->
+        		<!--######### Start Banners ########-->
+        		<div class="banners-content clearfix">
+        			<ul class="banners">
+        				<li class="big-banner">
+        					<vtex:contentPlaceHolder id="bannerBig" />
+        				</li>
+        				<li class="medium-banner">
+        					<div class="medium-banner-top"><vtex:contentPlaceHolder id="bannerMedio1" /></div>
+        					<div class="medium-banner-bottom"><vtex:contentPlaceHolder id="bannerMedio2" /></div>
+        				</li>
+        			</ul>
+        		</div><!--######### End Banners ########-->
+        		<div class="acompanhe-content clearfix">
+        			<div class="acompanhe">
+        				<div class="head-acompanhe">
+        					<span class="icon-instegram"></span>
+        					<h2 class="title-head">Acompanhe no Instagram</h2>
+        				</div>		
+        				<div class="carrosel-acompanhe">
+        					<!-- div class="btn-prev prev"></div-->
+        					<div class="carrosel">
+        						<ul id="instafeed">
+        							
+        						</ul>
+        					</div>
+        					<!-- div class="btn-next next"></div-->
+        				</div>
+        			</div>
+        		</div>
+        	</div><!-- end Wrapper Colection -->
+        </div><!-- end Content  -->
+        
+        <vtex:template id="footer-uber" />
+    </div>
+    
+    <script src="/arquivos/js-jquery.cycle.js"></script>
+    <script src="/arquivos/js-jquery.carouFredSel-5.6.4-packed.js"></script>
+    <script type="text/javascript" src="/arquivos/instafeed.min.js"></script>
+    <script src="/arquivos/js-myshoes-functions.js"></script>
+    <script src="/arquivos/js-myshoes-home.js"></script>
+</body>
+</html>

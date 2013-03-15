@@ -1,12 +1,12 @@
 /* TOP BAR */
 
 .topbar	{color: #fff; font-size: 12px; padding: 0;}
-.topbar .topbar-container{background: #e83395; margin: 0 auto; width: 1280px;}
-.topbar .topbar-container .lado-left{background:url('/arquivos/bg-banner-topo.png') repeat-x; width:150px; float:left; height: 35px;}
+.topbar .topbar-container{background: #f2f2f2; margin: 0 auto; width: 1280px;}
+.topbar .wrapper-topbar {margin: 0 auto; width: 980px;}
 .topbar .topbar-container .lado-right{width:150px; float:right; height: 35px;}
-.topbar .topbar-container .center-line{background:url('/arquivos/bg-banner-topo.png') repeat-x; width:170px; float: left; height: 35px;}
-.topbar .topbar-container .banner-topbar {background: #e83395; float: left; width: 450px; padding: 11px 0; text-transform: uppercase; text-align: center;}
-.topbar .topbar-container .myshoes-news{background: #d82f8a; float: left; height: 35px;}
+.topbar .topbar-container .center-line{background: #f2f2f2; width:170px; float: left; height: 35px;}
+.topbar .topbar-container .banner-topbar {background: #f2f2f2; color: #545454;float: left; width: 450px; padding: 11px 0; text-transform: uppercase; text-align: center;}
+.topbar .topbar-container .myshoes-news{background: rgb(185, 185, 185); float: left; height: 35px;}
 .topbar .topbar-container .post-news{padding: 10px 10px 0 15px; float: left; width: 130px;}
 .topbar .topbar-container .post-news .shoes-name{ text-transform: uppercase; float: left; margin-top: 2px;}
 .topbar .topbar-container .post-news .postal-icon{background:url('/arquivos/postal-icon-topbar.png') no-repeat; float: left; height: 16px; margin-right: 5px; width: 20px; }
@@ -34,10 +34,13 @@
 .header .wrapper-header{width: 980px; margin: 0 auto; padding: 20px 0;}
 .header .box-container-header{display: block;}
 .header .box-container-header .logo-header{float: left; margin-right: 30px;}
-.header .box-container-header .hello-visitante{float: left; margin-right: 10px; margin-top: 10px; font-size: 11px; width: 140px;}
+.header .box-container-header .hello-visitante{float: left; margin-right: 10px; margin-top: 10px; font-size: 11px;width: 140px;}
+.header .box-container-header .hello-visitante .welcome {display:none;}
+.header .box-container-header .hello-visitante .loginmsg em a {display: block; color: #e2007a; font-weight: bold; margin-top: 3px; text-transform: capitalize;}
 .header .box-container-header .hello-visitante .hello{margin-bottom: 3px;}
-.header .box-container-header .hello-visitante span{float: left;}
 .header .box-container-header .hello-visitante .login-here{color:#e2007a;}
+#pnlNaoSeguro em {display:block; margin-top:2px; text-transform:capitalize;}
+#pnlNaoSeguro a {color:#e2007a;}
 .header .box-container-header .box-right{float: left;}
 .header .box-container-header .atendimento{margin-right: 10px; float: left; width: 485px; padding-top: 2px;}
 .header .box-container-header .atendimento .nav-atendimento{float: left; margin-bottom: 15px;}
@@ -115,9 +118,11 @@
 .content .banners-content{margin-bottom: 20px;}
 .content .banners-content .banners{width: 980px; margin: 0 auto;}
 .content .banners-content .banners .big-banner{float: left; margin-right: 20px; margin-bottom: 20px;}
+.content .banners-content .banners .big-banner.video {height: 393px; width: 700px; overflow: hidden;}
+.content .banners-content .banners .big-banner.banner-vertical {height: 393px; width: 240px;}
 .content .banners-content .banners .medium-banner{float: left; margin-bottom: 20px;} 
 .content .banners-content .medium-banner .medium-banner-top{margin-bottom: 20px;}
-
+.content .banners-content .banner-full-width .box-banner {text-align: center;}
 /* End Banners */
 
 /* Acompanhe */
@@ -126,7 +131,7 @@
 .content .acompanhe{margin:0 auto; width: 980px;}
 .content .acompanhe .head-acompanhe{padding: 0 330px; margin-bottom: 30px; position: relative;}
 .content .acompanhe .head-acompanhe .title-head{text-transform: uppercase; font-size: 18px; text-align: center; font-style: italic; background: #fff;}
-.content .acompanhe .head-acompanhe .icon-instegram{background:url('/arquivos/icons.png') no-repeat; background-position: -176px -31px; float: left; height: 26px; width: 25px; margin: 0 0 0 15px;}
+.content .acompanhe .head-acompanhe .icon-instegram{background:url('/arquivos/ico-instagram.png') no-repeat; float: left; height: 26px; width: 25px; margin: 0 0 0 15px;}
 .content .acompanhe .carrosel-acompanhe{float: left;display: inline; padding: 0 40px; height: 280px; position: relative;}
 .content .acompanhe .btn-prev{background:url('/arquivos/icons.png') no-repeat; background-position: -94px -6px; float: left; height: 12px; width: 10px; position: relative; top: 120px;}
 .content .acompanhe .btn-next{background:url('/arquivos/icons.png') no-repeat; background-position: -106px -6px; float: left; height: 12px; width: 10px; position: relative; top: 140px;}
@@ -172,7 +177,7 @@
 .footer .navegador-footer{width: 980px; margin: 0 auto; font-family:'Open Sans', sans-serif; position: relative;}
 .footer .navegador-footer .menu-footer{float: left; width: 420px; height: 250px;}
 .footer .navegador-footer .formas-pag{float: left; width: 230px; height: 250px;}
-.footer .navegador-footer .formas-pag .pagamento{margin-bottom: 60px;}
+.footer .navegador-footer .formas-pag .pagamento{margin-bottom: 90px;}
 .footer .navegador-footer .fb-like{background: white;float: left;}
 .footer .navegador-footer .line-up{display: block; float: left; margin-bottom: 20px;}
 .footer .navegador-footer .line-down{display: block; float: left; margin-bottom: 30px;}

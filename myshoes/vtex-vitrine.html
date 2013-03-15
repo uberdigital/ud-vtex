@@ -1,0 +1,513 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>My Shoes</title>
+	
+	<!-- styles -->
+	<link rel="stylesheet" href="arquivos/css-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-general.css" />
+	<link rel="stylesheet" href="arquivos/css-subtemplates.css" />
+	<link rel="stylesheet" href="arquivos/css-vitrine.css" />
+
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- scripts -->
+	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script language="javascript" src="arquivos/jquery.dropkick-1.0.0.js" type="text/javascript"></script>
+	<script href="arquivos/js-myshoes-busca.js"></script>
+	
+</head>
+<body>
+<!--######### Start TopBar #########-->
+<div class="topbar">
+	<div class="topbar-container clearfix">
+		<div class="lado-left"></div>
+		<div class="banner-topbar"><span id="bannerTopo" class="banner-topo">Frete Grátis para todo o Brasil nas compras acima de R$ 99,99</span></div>
+		<div class="center-line"></div>
+		<!--######### Myshoes-News #########-->
+		<div class="myshoes-news">
+			<ul>
+				<li class="post-news">
+					<span class="postal-icon"></span>
+					<span class="shoes-name">My Shoes News</span>
+				</li>
+				<li class="insert-email">
+					<form action="" class="form-newslatter">
+						<input type="text" class="text-newslatter" value="Insira seu e-mail" onblur="if(this.value == '') { this.value='Insira seu e-mail'}" onfocus="if (this.value == 'Insira seu e-mail') {this.value=''}" />
+						<input type="submit" class="submit-newslatter" />
+					</form>
+				</li>
+			</ul>
+		</div><!--######### End Myshoes-News #########-->
+		<div class="lado-right"></div>
+	</div>
+</div><!--######### End TopBar ###########-->
+<!--######### Start Container General #########-->
+<div class="container-general">
+	<!--######### Start Header #########-->
+	<div class="header clearfix">
+		<div class="wrapper-header">
+			<!--######### Start Box Content Header #########-->
+			<div class="box-container-header clearfix">
+				<div class="logo-header">
+					<h1 ant="My Shoes"><a href="#"><img src="arquivos/logo-top.png" alt="My Shoes" title="My Shoes" /></a></h1>
+				</div>
+				<div class="hello-visitante">
+					<span class="hello">Olá visitante!</span>
+					<span><a href="#" class="login-here">Faça o seu login aqui.</a></span>
+				</div>
+				<!--######### Start Box Right #########-->
+				<div class="box-right">
+					<div class="atendimento">
+						<ul>
+							<li class="nav-atendimento">
+								<ul>
+									<li class="option first"><a href="#">Central de Atendimento</a></li>
+									<li class="option"><a href="#">Nossas Lojas</a></li>
+									<li class="option"><a href="#">Meu Cadastro</a></li>
+									<li class="option last"><a href="#">Meus Pedidos</a></li>
+								</ul>
+							</li>
+							<li class="contact-search">
+								<div class="phone-contact">
+									<span class="icon-phone"></span>
+									<span class="phone-televendas">Televendas (11) 0000.0000</span>
+								</div>
+								<div class="search-header">
+									<form action="" class="form-search-header">
+										<input type="text" class="text-search" value="Digite o que procura..." onblur="if(this.value == '') { this.value='Digite o que procura...'}" onfocus="if (this.value == 'Digite o que procura...') {this.value=''}" />
+										<input type="submit" class="btn-search" />
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="bag-redes">
+						<ul>
+							<li class="redes-sociais">
+								<span><a href="#"  class="icons facebook" alt="facebook"></a></span>
+								<span><a href="#"  class="icons twitter" alt="twitter"></a></span>
+								<span><a href="#"  class="icons pinterest" alt="pinterest"></a></span>
+								<span><a href="#"  class="icons instegram" alt="instegram"></a></span>
+								<span><a href="#"  class="icons rss" alt="rss"></a></span>
+							</li>
+							<a href="#"><li class="bag">
+								<span class="bag-icon"></span>
+								<span class="my-bag">Minha Sacola</span>
+								<span class="items-bag">(1)</span>
+							</li></a>
+						</ul>
+					</div>
+				</div><!--######### End Box Right #########-->
+			</div><!--######### End Box Content Header #########-->
+		</div><!--######### End Box Content Header #########-->
+		<!--######### Start Nav Header #########-->	
+		<div class="wrapper-nav">
+			<ul class="nav-header">
+				<li class="menu-item"><a href="#">Campanha</a></li>
+				<li class="menu-item"><a href="#">Novidades</a></li>
+				<li class="menu-item"><a href="#">Essentials</a></li>
+				<li class="menu-item"><a href="#">Sandálias</a></li>
+				<li class="menu-item"><a href="#">Peep Toes</a></li>
+				<li class="menu-item"><a href="#">Scarpins</a></li>
+				<li class="menu-item"><a href="#">Anabelas</a></li>
+				<li class="menu-item"><a href="#">Flats</a></li>
+				<li class="menu-item"><a href="#">Acessórios</a></li>
+				<li class="menu-item last"><a href="#">Sale</a></li>
+			</ul>
+		</div><!-- End Nav Header -->	
+	</div><!-- End Header -->
+	<!-- Start Content -->
+
+	<div class="container-resultado-busca clearfix">
+		<div class="sidebar-busca-categoria">
+			<h2 class="titulo-sidebar archivo">Refinar busca</h2>
+			<div id="ctl00_Conteudo_ctl02_divSideBar" class="navigation">
+				<div id="ctl00_Conteudo_ctl02_divSideBarUnica1" class="menu-departamento">
+					<span class="rt"></span>
+					<span class="rb"></span>
+					<h3 class="scarpins">
+						<span></span>
+						<a href="http://loja.myshoes.com.br/departamento/scarpins/1000033" title="Scarpins">Scarpins</a>
+					</h3>
+					<h5 class="">Cores</h5>
+					<ul class="">
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Cobre" title="Cobre">Cobre (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Fendi" title="Fendi">Fendi (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Laranja" title="Laranja">Laranja (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Marinho" title="Marinho">Marinho (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Nude" title="Nude">Nude (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Preto" title="Preto">Preto (4)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Turquesa" title="Turquesa">Turquesa (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:%25c3%259anica" title="Única">Única (1)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Blush" title="Blush">Blush (2)</a></li>
+						<li class="last"><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_27:Havana" title="Havana">Havana (1)</a></li>
+					</ul>
+
+					<h5 class=" even">Especificação</h5>
+					
+					<ul class=" even">
+						<li class="last"><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_48:Salto+Alto" title="Salto Alto">Salto Alto (8)</a></li>
+					</ul>
+
+					<h5 class="">Tamanhos</h5>
+					
+					<ul class="">
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:33" title="33">33 (3)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:34" title="34">34 (5)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:35" title="35">35 (5)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:36" title="36">36 (4)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:37" title="37">37 (5)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:38" title="38">38 (4)</a></li>
+						<li><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:39" title="39">39 (4)</a></li>
+						<li class="last"><a href="http://loja.myshoes.com.br/busca/?fq=C:1000033/&amp;fq=spec_fct_35:40" title="40">40 (1)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- end sidebar-filtro -->
+
+		<div class="wrapper-resultado-busca">
+			<div class="wrapper-breadcrumb clearfix">
+				<div class="index-breadcrumb">Você está em:</div>
+				<!-- vtex.cmc:breadCrumb /-->
+				<div class="bread-crumb">
+					<ul>
+						<li><a title="NetMall" href="http://develop-netmall.vtexcommerce.com.br/">NetMall</a></li>
+						<li class="last"><strong><a title="teste" href="http://develop-netmall.vtexcommerce.com.br/busca/?ft=teste&amp;PS=24">Busca: teste</a>  </strong></li>
+					</ul>
+				</div>
+				<!-- end vtex.cmc:breadCrumb /-->
+			</div><!-- end wrapper-breadcrumb -->
+
+			<div class="main">
+				<p class="searchResultsTime">Produtos encontrados: 4<span class="resultado-busca-tempo"> em 8 ms</span></p>
+				<div class="sub">
+					<div class="resultado-busca-filtro">
+						<fieldset class="orderBy">
+							<label>Ordenar por:</label>
+							<select id="O" onchange="window.location.href= 'http://develop-netmall.vtexcommerce.com.br/busca/?PS=24' + '&amp;O=' + this.options[this.selectedIndex].value">
+								<option value="">Selecione</option>
+								<option value="OrderByPriceASC">Menor Preço</option>
+								<option value="OrderByPriceDESC">Maior Preço</option>
+								<option value="OrderByTopSaleDESC">Mais Vendidos</option>
+								<option value="OrderByReviewRateDESC">Mais bem Avaliados</option>
+								<option value="OrderByNameASC">A - Z</option>
+								<option value="OrderByNameDESC">Z - A</option>
+								<option value="OrderByReleaseDateDESC">Data de Lançamento</option>
+								<option value="OrderBySalePriceDESC">Desconto %</option>
+							</select>
+						</fieldset>
+						<fieldset class="filterBy">
+							Itens por página:
+							<select id="PS" onchange="window.location.href= '' + '&amp;PS=' + this.options[this.selectedIndex].value">
+								<option selected="selected" value="24">24</option>
+								<option value="48">48</option>
+								<option value="72">72</option>
+								<option value="96">96</option>
+							</select>
+						</fieldset>
+						<p class="compare">Produtos selecionados para comparar: <strong><span class="compare-selection-count" id="NumeroSuperior">0</span></strong><a title="Comparar" class="btn-comparar" href="#">Comparar</a></p>
+					</div>
+				</div>
+				<div class="vitrine resultItemsWrapper">
+					<div class="pager top" id="PagerTop_c8e7a04e12c1474ca7416e34deb64c48">
+						<ul class="pages">
+							<li class="first pgEmpty">primeiro</li>
+							<li class="previous pgEmpty">anterior</li>
+							<li class="page-number pgCurrent">1</li>
+							<li class="page-number">2</li>
+							<li class="page-number">3</li>
+							<li class="page-number">4</li>
+							<li class="page-number">5</li>
+							<li class="next pgEmpty">próximo</li>
+							<li class="last pgEmpty">último</li>
+						</ul>
+					</div>
+					<div id="ResultItems_c8e7a04e12c1474ca7416e34deb64c48" class="prateleira resultadoBusca">
+						<div class="prateleira resultadoBusca n3colunas">
+							<ul>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas past">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+							<ul>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas past">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+							</ul>
+
+							<ul>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+								<li class="roupas past">
+									<div class="imgProduto"><a href="#"><img src="./arquivos/produto1.png" width="175" height="180" alt="074"></a></div>
+									<div class="containerDescProd">
+										<div class="prodName"><a href="http://develop-netmall.vtexcommerce.com.br/TSHIRT_TESTE/p">Nome do produto Teste</a></div>
+										<div class="prodPrice">
+											<span class="preco-antigo">de R$300,00</span>
+											<span class="valueProd">R$ 50,00</span>
+											<span class="quantidade-parcela">3x de <span class="valor-parcela">R$ 16,66</span></span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="pager bottom" id="PagerBottom_c8e7a04e12c1474ca7416e34deb64c48">
+						<ul class="pages">
+							<li class="first pgEmpty">primeiro</li>
+							<li class="previous pgEmpty">anterior</li>
+							<li class="page-number pgCurrent">1</li>
+							<li class="page-number">2</li>
+							<li class="page-number">3</li>
+							<li class="page-number">4</li>
+							<li class="page-number">5</li>
+							<li class="next pgEmpty">próximo</li>
+							<li class="last pgEmpty">último</li>
+						</ul>
+					</div>
+				</div>
+				<p class="searchResultsTime">Produtos encontrados: 4<span class="resultado-busca-tempo"> em 8 ms</span></p>
+				<div class="sub">
+					<div class="resultado-busca-filtro">
+						<fieldset class="orderBy">
+							<label>Ordenar por:</label>
+							<select id="O" onchange="window.location.href= 'http://develop-netmall.vtexcommerce.com.br/busca/?PS=24' + '&amp;O=' + this.options[this.selectedIndex].value">
+								<option value="">Selecione</option>
+								<option value="OrderByPriceASC">Menor Preço</option>
+								<option value="OrderByPriceDESC">Maior Preço</option>
+								<option value="OrderByTopSaleDESC">Mais Vendidos</option>
+								<option value="OrderByReviewRateDESC">Mais bem Avaliados</option>
+								<option value="OrderByNameASC">A - Z</option>
+								<option value="OrderByNameDESC">Z - A</option>
+								<option value="OrderByReleaseDateDESC">Data de Lançamento</option>
+								<option value="OrderBySalePriceDESC">Desconto %</option>
+							</select>
+						</fieldset>
+						<fieldset class="filterBy">
+							Itens por página:
+							<select id="PS" onchange="window.location.href= '' + '&amp;PS=' + this.options[this.selectedIndex].value">
+								<option selected="selected" value="24">24</option>
+								<option value="48">48</option>
+								<option value="72">72</option>
+								<option value="96">96</option>
+							</select>
+						</fieldset>
+						<p class="compare">Produtos selecionados para comparar: <strong><span class="compare-selection-count" id="NumeroSuperior">0</span></strong><a title="Comparar" class="btn-comparar" href="#">Comparar</a></p>
+					</div>
+				</div>
+			</div>
+		</div><!-- end wrapper-resultado-busca -->
+	</div><!-- end container-resultado-busca -->
+		
+	<!-- start footer -->
+	<div class="footer clearfix">
+		<div class="wrapper-relacionamento">
+			<!-- start relacionamento -->
+			<div class="relacionamento">
+				<ul>
+					<li class="acompanhe-myshoes">
+						<span class="titles-relacionamento">Acompanhe My Shoes</span>
+						<a href="#"><span class="icons-relacionamento fb"></span></a>
+						<a href="#"><span class="icons-relacionamento tw"></span></a>
+						<a href="#"><span class="icons-relacionamento pin"></span></a>
+						<a href="#"><span class="icons-relacionamento inst"></span></a>
+					</li>
+					<li class="acesse-blog">
+						<span class="rss"></span>
+						<span class="titles-relacionamento"><a href="#">Acesse nosso blog</a></span>
+					</li>
+					<li class="receba-novidades">
+						<span class="post"></span>
+						<span class="titles-relacionamento receba">Receba novidades e promoções</span>
+						<div class="insert-email">	
+							<form action="" class="form-newslatter">
+								<input type="text" class="text-newslatter" value="Insira seu e-mail" onblur="if(this.value == '') { this.value='Insira seu e-mail'}" onfocus="if (this.value == 'Insira seu e-mail') {this.value=''}" />
+								<input type="submit" class="submit-newslatter" />
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div><!-- end relacionamento -->
+		</div>
+		<!-- start wrapper nav footer -->
+		<div class="wrapper-nav-footer">
+			<div class="navegador-footer clearfix">
+				<div class="menu-footer">
+					<div class="line-up clearfix">
+						<div class="institucional">
+							<h2 class="nav-title">Institucional</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Sobre a My Shoes</a></li>
+								<li><a href="#" class="footer-links">Campanha</a></li>
+								<li><a href="#" class="footer-links">Nossas Lojas</a></li>
+								<li><a href="#" class="footer-links">Politica de Privacidade</a></li>
+								<li><a href="#" class="footer-links">Trabalhe Conosco</a></li>
+								<li><a href="#" class="footer-links">Mídia</a></li>
+							</ul>
+						</div>
+						<div class="atendimento">
+							<h2 class="nav-title">Central de atendimento</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Trocas e Devoluções</a></li>
+								<li><a href="#" class="footer-links">Prazos de Entrega</a></li>
+								<li><a href="#" class="footer-links">Meus Pedidos</a></li>
+								<li><a href="#" class="footer-links">Formas de Pagamento</a></li>
+								<li><a href="#" class="footer-links">Fale Conosco</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="line-down clearfix">
+						<div class="parceiros">
+							<h2 class="nav-title">parceiros</h2>
+							<ul>
+								<li><a href="#" class="footer-links">Franquias</a></li>
+								<li><a href="#" class="footer-links">Multimarcas</a></li>
+							</ul>
+						</div>
+						<div class="televendas">
+							<h2 class="nav-title">Televendas</h2>
+							<span class="icon-phone"></span>
+							<span class="phone">(11) 0000.0000</span>
+						</div>
+					</div>
+					<div class="direitos clearfix">© 2013, My Shoes. Todos os direitos reservados.</div>
+				</div>
+				<div class="formas-pag">
+					<ul>
+						<li class="pagamento">
+							<h2 class="nav-title">Formas de Pagamento</h2>
+							<img src="arquivos/formas-pagamento.png" alt="" />
+						</li>
+						<li class="compra-segura">
+							<h2 class="nav-title">Compra Segura</h2>
+							<img src="arquivos/digicert.png" alt="" />
+						</li>
+					</ul>
+				</div>
+				<div class="fb-like">
+					<img src="arquivos/fb-image.png" alt="" />
+				</div>
+			</div>
+		</div><!-- end wrapper nav footer -->
+	</div><!-- end footer -->
+</div><!-- end container general -->
+</body>
+</html>

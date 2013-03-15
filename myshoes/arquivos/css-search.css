@@ -43,14 +43,6 @@
 
 /* Start Resultado */
 .wrapper-vitrine .sidebar-resultado{float: right; width: 760px;}
-.wrapper-breadcrumbs{margin-bottom: 15px;}
-.breadcrumbs{color:#545454; font-size: 11px;}
-.breadcrumbs span{float: left; margin-right: 5px;}
-.breadcrumbs li{float: left;}
-.breadcrumbs li a{color:#545454;}
-.breadcrumbs .seta{margin: 0 5px;}
-.breadcrumbs .selected a{font-weight: bold; color: #000;}
-
 .wrapper-vitrine .sidebar-resultado .filtro{background: #f6f6f6; border-top: 1px solid #d3d3d3; border-bottom: 1px solid #d3d3d3; margin-bottom: 15px; padding: 10px 10px;}
 .wrapper-vitrine .sidebar-resultado .filtro .order{float: left; margin-top: 8px; margin-right: 10px; font-weight: bold;}
 .wrapper-vitrine .sidebar-resultado .filtro .order-by{float: left; width: 265px;}

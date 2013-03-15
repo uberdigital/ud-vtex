@@ -1,0 +1,14 @@
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
+.video-colecao {background: url('/arquivos/bg-hotsite-inverno13.jpg') repeat-x #000;}
+	.video-colecao .wrapper-topo {margin: 20px auto 30px auto; width: 980px;}
+		.video-colecao .wrapper-topo h1 a {background:url('/arquivos/logo-nathalia-dill.png') no-repeat; display: block;height: 65px;text-indent: -9999px;width: 169px;}
+	.video-colecao .wrapper-video {margin: 0 auto; width: 980px;}
+	.video-colecao .wrapper-footer {color:#f9c39b; font-size:12px; margin: 20px auto; text-transform:uppercase; width: 980px;}
+		.video-colecao .wrapper-footer a {color:#f9c39b; text-decoration:none;}
+        .video-colecao .wrapper-footer .link-home {display: block; float: left;}
+        .video-colecao .wrapper-footer .direitos-autorais {display: block; float: right;}

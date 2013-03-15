@@ -112,12 +112,8 @@
 	.wrapper-resultado-busca .resultado-busca-filtro:before,
 	.wrapper-resultado-busca .resultado-busca-filtro:after { content: ""; display: table; }
 	.wrapper-resultado-busca .resultado-busca-filtro:after { clear: both; }
-	.wrapper-resultado-busca .resultado-busca-filtro {
-		*zoom: 1;
-		color:#555;
-		text-transform: uppercase;
-		width: 485px;
-	}
+	.wrapper-resultado-busca .resultado-busca-filtro {*zoom: 1; color:#555; text-transform: uppercase; width: 485px;}
+	
 		.wrapper-resultado-busca .resultado-busca-filtro select {
 			background-color: white;
 			border: 2px solid #bbb;
