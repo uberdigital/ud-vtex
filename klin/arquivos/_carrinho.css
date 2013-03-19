@@ -1,10 +1,12 @@
-.carrinho .history {display: none;}
+.carrinho .history,
+.carrinho .content > h2 {display: none;}
 
 .carrinho .aviso-erro {color: red; margin: 20px 0; width: 760px;}
 
 .carrinhoTable {background: white;width: 100%;}
-
 .carrinhoTable thead {background:#d3ebf4;}
+.carrinhoTable thead th.quantidade {width: 66px;}
+.carrinhoTable th.servico {text-align:center;}
 
 .carrinhoTable tbody td.excluir a.excluir {
     background: url('/arquivos/ico_lixeira.gif') no-repeat;
@@ -13,9 +15,87 @@
     text-indent: -9999px;
     width: 26px;
 }
+.carrinhoTable thead th, .carrinhoTable td {padding:10px; text-align:left;}
+.carrinhoTable tbody td.produto {color:#394c5c;}
+.carrinhoTable tbody td.produto h4 {display: inline;font-weight: normal;}
+.carrinhoTable tbody td.produto h4 br {display:none;}
+.carrinhoTable tbody td.produto h4 a {color:#394c5c; text-decoration: none;}
+.carrinhoTable tbody td.produto a img {vertical-align:middle;}
+.carrinhoTable tbody td.preco-unitario {text-align:center;}
+.carrinhoTable tbody td.preco-unitario s {color:#888; font-style:italic;}
+.carrinhoTable tbody td.preco-unitario s + span {font-weight: bold;}
 
-.carrinhoTable thead th,
-.carrinhoTable td {padding:10px; text-align:left;}
+.carrinhoTable tbody td.quantidade .boxQuantidade {
+    background: url('/arquivos/bg_qtde.gif') 0 0 no-repeat; width: 25px !important; 
+    display: inline;
+    font-size: 10px;
+    height: 19px !important; border: none; 
+    padding: 0;
+    text-align: center; 
+}
+
+.carrinhoTable td.quantidade {position: relative; text-align:center;}
+
+
+.carrinhoTable tbody td.quantidade .controle-quantidade {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.carrinhoTable tbody td.quantidade a.remove-item {
+	background: url('/arquivos/bt_menos.gif') no-repeat;
+	display: block;
+	left: 0;
+	height: 19px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 27px;
+	width: 20px;
+}
+
+.carrinhoTable tbody td.quantidade a.adicionar-item {
+	background: url('/arquivos/bt_mais.gif') no-repeat;
+	display: block;
+	left: 44px;
+	height: 19px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 27px;
+	width: 20px;
+}
+
+.carrinhoTable td.servico a.thickbox {
+    background: url('/arquivos/ico_presente.gif') no-repeat center;
+    display: block;
+    height: 32px;
+    margin:0 auto;
+    text-indent: -9999px;
+    width: 32px;
+}
+
+.carrinhoTable tfoot tr.vale-presente {background:#f4fafc;}
+.carrinhoTable tfoot tr.vale-presente td.preco-total {vertical-align:middle;}
+.carrinhoTable tfoot td.vale-presente {font-weight: bold;text-align: right; vertical-align: middle;}
+.carrinhoTable tfoot tr.total {background: #f4fafc;}
+.carrinhoTable tfoot td.txt-frete,
+.carrinhoTable tfoot td.valor-total {font-weight:bold; text-align: right;}
+.carrinhoTable tfoot td.txtSubTotal {font-weight: bold; text-align: right;}
+
+.carrinhoTable .texto-cepline legend span {font-weight: bold;}
+.carrinhoTable .texto-cepline .msgValCEP .alerta {margin: 10px 0 0; padding-left: 5px;}
+.carrinhoTable .texto-cepline .duvidaCep {color: #394c5c; padding: 0 12px;}
+.carrinhoTable .texto-cepline .cep-prefixo, .carrinhoTable .texto-cepline .cep-sufixo {height: 20px; padding: 0 0 0 5px;}
+
+.carrinho .grp.fCep .ok-carrinho .bt.fisubmit {
+	background: url('/arquivos/bt_calcular_frete.gif') no-repeat;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 37px;
+	text-indent: -9999px;
+	width: 148px;
+}
 
 .carrinho .bts {position: relative; height: 28px; margin-bottom: 10px;}
 .carrinho .bts .continuar-comprando {position: absolute; top: 0; left: 0;}
@@ -27,8 +107,35 @@
 
 .carrinho .vale-presente.fitext {height: 20px; padding: 0 0 0 5px; width: 226px;}
 .carrinho .ok-carrinho .bt.fisubmit {background:url('/arquivos/bt_utilizar_cupom.gif') no-repeat; border:none; display:inline-block; height:26px; text-indent:-9999px; width:119px;}
-.carrinho .grp.fCep .ok-carrinho .bt.fisubmit {background:none; text-indent:0;}
 
 .carrinho .painelCarrinho {padding-bottom: 40px;}
 
-.carrinhoTable tfoot tr.vale-presente {background:#f4fafc;}
+.carrinho .dica-carrinho {color: #394C5C; font-weight: normal; line-height: 14px; margin: 20px 0;}
+
+.carrinho #TB_window {
+    height:500px !important;
+    width:500px !important;
+}
+
+
+/* CARRINHO VAZIO */
+.carrinho .carrinho-vazio {font-size: 12px; margin: 0 auto; padding: 30px 0; text-align: center;}
+	.carrinho .carrinho-vazio h3 {margin-bottom:10px;}
+	.carrinho .carrinho-vazio .bts {margin: 30px auto; width: 145px;}
+/* end CARRINHO VAZIO */
+
+
+
+/* ESCOLHA DE SERVICOS */
+body.servico .history {display: none;}
+body.servico .continuar {padding: 10px 0;}
+body.servico .continuar .btnSaveService {background: url('/arquivos/bt_continuar.gif') no-repeat; border:none; cursor:pointer; display: block; height: 26px; text-indent: -9999px;width: 102px;}
+body.servico .wrapper h2 {font-size: 18px;}
+body.servico .more-products a {color: #394C5C;}
+body.servico .box-image {margin-top: 20px;}
+body.servico .box-garantia-extendida {background: #fff; border:1px solid #394C5C;; border-radius:10px; padding: 20px;}
+body.servico .box-garantia-extendida h3 {font-size:13px; margin-bottom:5px;}
+body.servico .box-garantia-extendida a {color:#394C5C; display:block; margin-bottom:20px;}
+body.servico .box-garantia-extendida .wrapper {font-size:11px;}
+body.servico .box-garantia-extendida .wrapper h4 {font-size:13px; margin-bottom:5px;}
+/* end ESCOLHA DE SERVICOS */
