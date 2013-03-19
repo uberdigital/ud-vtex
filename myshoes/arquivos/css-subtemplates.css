@@ -1,5 +1,4 @@
 /* TOP BAR */
-
 .topbar	{color: #fff; font-size: 12px; padding: 0;}
 .topbar .topbar-container{background: #f2f2f2; margin: 0 auto; width: 1280px;}
 .topbar .wrapper-topbar {margin: 0 auto; width: 980px;}
@@ -140,8 +139,8 @@
 .content .acompanhe .image-acompanhe{width: 200px; height: 200px; margin-bottom: 15px; float: left; border-bottom:1px dotted #d0d0d0;}
 	.content .acompanhe .image-acompanhe img {height:200px; width:200px;}
 .content .acompanhe .dados-acompanhe{float: left; width: 175px; text-align: center; margin-left: 10px;}
-.content .acompanhe .dados-acompanhe .heart{background:url('/arquivos/icons.png') no-repeat; background-position: -132px -6px; float: left; height: 13px; width: 15px;}
-.content .acompanhe .dados-acompanhe .comments{background:url('/arquivos/icons.png') no-repeat; background-position: -148px -6px; float: left; height: 13px; width: 15px;}
+.content .acompanhe .dados-acompanhe .heart{background:url('/arquivos/icons.png') no-repeat; background-position: -148px -6px; float: left; height: 13px; width: 15px;}
+.content .acompanhe .dados-acompanhe .comments{background:url('/arquivos/icons.png') no-repeat; background-position: -132px -6px; float: left; height: 13px; width: 15px;}
 .content .acompanhe .dados-acompanhe .acompanhe-number{float: left; margin-right: 20px; margin-left: 5px;}
 	.content .acompanhe .dados-acompanhe .acompanhe-number a {color:black;}
 
@@ -173,7 +172,7 @@
 /* end relacionamento */
 
 /* start nav-footer */
-.footer .wrapper-nav-footer{margin: 0 auto; width: 1280px; padding: 20px 0; background: #f2f2f2;}
+.footer .wrapper-nav-footer{margin: 0 auto; width: 1280px; padding: 20px 0 30px; background: #f2f2f2;}
 .footer .navegador-footer{width: 980px; margin: 0 auto; font-family:'Open Sans', sans-serif; position: relative;}
 .footer .navegador-footer .menu-footer{float: left; width: 420px; height: 250px;}
 .footer .navegador-footer .formas-pag{float: left; width: 230px; height: 250px;}
@@ -196,4 +195,19 @@
 .footer .wrapper-todos-direitos{margin: 0 auto; width: 1280px; padding: 20px 0; background: #f2f2f2;}
 .footer .wrapper-todos-direitos .direitos{margin:0 auto; width: 980px;}
 
+.created-by {clear:both; margin:0 auto 20px auto; width:980px;}
+	.created-by .uber-digital {
+	    display: inline-block;
+	    background: url('/arquivos/logo-uber-digital.png') no-repeat;
+	    height: 20px;
+	    text-indent:-9999px;
+	    width: 70px;
+	}
+	.created-by .vtex {
+	    display: inline-block;
+	    background: url('/arquivos/logo-vtex.png') no-repeat;
+	    height: 20px;
+	    text-indent:-9999px;
+	    width: 70px;
+	}
 /* END FOOTER */

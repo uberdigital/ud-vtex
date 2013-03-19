@@ -243,8 +243,9 @@ strong {font-weight: bold;}
 	.footer .menu-institucional.sobre-nos {width:110px;}
 	.footer .menu-institucional .title-menu {margin-bottom:10px;}
 	.footer .menu-institucional .option {margin:0 0 10px 0;}
-	.footer .menu-institucional .option a {color: #c0c0c0;}
-
+		.footer .menu-institucional .option a {color: #c0c0c0;}
+		.footer .menu-institucional .option img {padding-right: 5px;}
+	
 .footer .row-two {position: relative;}
 	.footer .row-two .creditos-footer {position:absolute; bottom: 0; right: 0;}
 	.footer .row-two .creditos-footer ul li {float: left; margin-right: 20px;}

@@ -59,6 +59,8 @@
     }
     .sidebar-busca-categoria ul.tamanhos li.last {border-right:none;}
 
+    .sidebar-busca-categoria .ver-filtros {clear: both; display: block;}
+
 .wrapper-resultado-busca {
     float: left;
     margin-left: 15px;

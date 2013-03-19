@@ -1,0 +1,34 @@
+.carrinho .history {display: none;}
+
+.carrinho .aviso-erro {color: red; margin: 20px 0; width: 760px;}
+
+.carrinhoTable {background: white;width: 100%;}
+
+.carrinhoTable thead {background:#d3ebf4;}
+
+.carrinhoTable tbody td.excluir a.excluir {
+    background: url('/arquivos/ico_lixeira.gif') no-repeat;
+    display: block;
+    height: 32px;
+    text-indent: -9999px;
+    width: 26px;
+}
+
+.carrinhoTable thead th,
+.carrinhoTable td {padding:10px; text-align:left;}
+
+.carrinho .bts {position: relative; height: 28px; margin-bottom: 10px;}
+.carrinho .bts .continuar-comprando {position: absolute; top: 0; left: 0;}
+	.carrinho .bts .continuar-comprando a {background:url('/arquivos/bt_comprar_mais_produtos.gif') no-repeat; display: block; height: 28px; text-indent:-9999px; width:145px;}
+.carrinho .bts .finalizar-compra {position: absolute; right: 0;}
+.carrinho .bts .finalizar-compra a {background:url('/arquivos/bt_continuar.gif') no-repeat; display:block; height:26px; text-indent:-9999px; width:102px;}
+.carrinho .bts .limpar-carrinho {display: block !important; position: absolute; left: 150px;}
+    .carrinho .bts .limpar-carrinho a {background:url('/arquivos/bt_limpar_carrinho.gif') no-repeat; display:block; height:28px; text-indent:-9999px; top:0; width:165px;}
+
+.carrinho .vale-presente.fitext {height: 20px; padding: 0 0 0 5px; width: 226px;}
+.carrinho .ok-carrinho .bt.fisubmit {background:url('/arquivos/bt_utilizar_cupom.gif') no-repeat; border:none; display:inline-block; height:26px; text-indent:-9999px; width:119px;}
+.carrinho .grp.fCep .ok-carrinho .bt.fisubmit {background:none; text-indent:0;}
+
+.carrinho .painelCarrinho {padding-bottom: 40px;}
+
+.carrinhoTable tfoot tr.vale-presente {background:#f4fafc;}
