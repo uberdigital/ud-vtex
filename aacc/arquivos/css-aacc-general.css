@@ -1,0 +1,65 @@
+/* http://www.uberdigital.com.br
+   AACC | 2013
+   Autor: Ivan Richard Roncatto
+*/
+
+/* CONTAINER */
+
+/* clearfix */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+/* end clearfix */
+
+
+body{font-family: Tahoma, 'sans-serif'; font-size: 12px;}
+h1{font-size: 20px;}
+h2{font-size: 16px;}
+h3{font-size: 14px;}
+h4{font-size: 11px;}
+
+a{color:#343434; text-decoration: none;}
+
+.container{background: url('bg-header-top.jpg') no-repeat center top;}
+.icons{background: url('icons.png') no-repeat;}
+
+
+/* HEADER */
+
+.header{padding: 30px 0; width: 1000px; margin:0 auto;}
+.header-content{margin-bottom: 20px;}
+	.header-content .logo-header{float: left;}
+		.logo-header .logo{}	
+	.header-content .busca-header{float: left; padding-top: 45px; width: 420px; margin: 0 5%;}
+		.busca-header .buscador{float: left; width: 420px;}
+			.buscador .input-buscar{height: 30px; width: 300px; border: 1px solid #010e71; padding: 0 10px; outline: none; margin-right: 5px;}
+			.buscador .btn-buscar{height: 30px; width: 85px;border: 1px solid #004b99; cursor: pointer; background-position:-7px -7px; text-indent: -9999px; outline: 1px solid #010e71;}
+		.busca-header .user-area{text-align: center; width: 420px; padding-top: 10px; float: left; color: #004b99; font-size: 11px;}
+			.user-area li{float: left; font-size: 11px;}
+			.user-area a{color: #004b99;}
+			.user-login span a{ text-decoration: underline; margin: 0 5px;}
+			.user-area .minha-conta{margin: 0 34px;}
+	.header-content .minha-sacola{float: right; position: relative; margin-top: 10px; width: 195px; text-transform: uppercase; font-family: 'Times New Roman', 'Sans-serif'; letter-spacing: 0.1em;}
+		.minha-sacola .sacola{background-position: -6px -43px; width: 66px; height: 85px; float: left;}
+		.minha-sacola .title-sacola{float: left; position: relative; top: 25px; right: -20px; width: 80px; font-size: 16px; color: #004b99; font-weight: bold;}
+		.minha-sacola .itens{float: left; position: relative; top: 30px; right: -21px; font-size: 14px; color: #5d5d5d; font-weight: bold;}
+
+/* nav header */
+
+.navegador{width: 1000px; margin: 0 auto;}
+.navegador li{float: left;}
+.navegador a{padding: 7px 27px; color: #fff; text-transform: uppercase; font-size: 14px; float: left; margin: 0 2px;}
+.navegador .first{margin-left: 0;}
+.navegador .last{margin-right: 0; padding: 7px 31px;}
+.navegador .last{padding/**\*/:7px 29px\9;}
+.navegador .sobre{background: #004b99;}
+.navegador .doacoes{background: #990016;}
+.navegador .produtos{background: #8c9900;}
+.navegador .projetos{background: #cc6010;}
+.navegador .voluntarios{background: #6a47ba;}
+.navegador .blog{background: #ca51c6;}
+
+
+/* content */
+
+.content{ margin:0 auto; width: 1000px; padding: 30px 0;}
