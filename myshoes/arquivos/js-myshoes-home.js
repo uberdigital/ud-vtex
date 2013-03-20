@@ -1,12 +1,14 @@
 $(function() {
-    $('#carrossel1 ul').carouFredSel({
-        auto:   false,
-        infinite: true,
-        scroll:     3,
-        width:  '100%',
-        prev:   '#btn-carrossel1-prev',
-        next:   '#btn-carrossel1-next'
-    });
+    if ($('#bannerSuperDestaque').length > 0) {
+        $('#bannerSuperDestaque')
+        .cycle({
+            fx:         'fade',
+            speed:      'slow',
+            timeout:    6000,
+            pause:      1,
+            pager:      '#paginacaoBanner'
+        });
+    }
 
     var userFeed = new Instafeed({
         get: 'user',

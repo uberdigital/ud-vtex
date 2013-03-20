@@ -1,0 +1,88 @@
+.parceiros .content {margin: 10px auto; width: 980px;}
+
+.parceiros .side-menu {float: left; margin-right:10px; width: 180px;}
+    .parceiros .side-menu h3 {font-size: 16px; font-style: italic; letter-spacing: 2px; padding-bottom: 15px; text-transform: uppercase;}
+    body.parceiros.franquias .side-menu .opcao-franquia a {color: #e2007a; font-weight: bold;}
+    body.parceiros.multimarcas .side-menu .opcao-multimarcas a {color: #e2007a; font-weight: bold;}
+
+.parceiros .menu-parceiros {border-bottom: 1px solid #ccc; border-top: 1px solid #ccc;}
+    .parceiros .menu-parceiros li {font-size: 11px; margin: 10px 0; padding: 0 0 0 20px;}
+        .parceiros .menu-parceiros li a {color: #545454;}
+        .parceiros .menu-parceiros li a:hover {color:#e2007a; font-weight:bold;}
+
+.parceiros .wrapper-parceiros {float: left; width: 760px;}
+.parceiros .conteudo-franquias {border-top: 1px solid #ccc; margin-top: 5px;}
+.parceiros .conteudo-franquias h2 {font-weight:bold; font-size:14px; margin-top:20px; padding-left:15px; text-transform:uppercase;}
+.parceiros .conteudo-franquias p {margin:14px 0 0; padding-left:15px;}
+.parceiros .conteudo-franquias .imagem-franquias {margin-top:20px;}
+
+.parceiros .coluna.coluna-esquerda h3 {
+    background: url('/arquivos/tit-franquias-coluna-esquerda.png') no-repeat;
+    display: block;
+    height: 15px;
+    text-indent: -9999px;
+    width: 276px;
+}
+
+.parceiros .coluna.coluna-direita h3 {
+    background: url('/arquivos/tit-franquias-coluna-direita.png') no-repeat;
+    display: block;
+    height: 15px;
+    text-indent: -9999px;
+    width: 283px;
+}
+
+.parceiros.franquias .informacoes-coluna {color:#545454; font-size:11px; margin-top: 20px; margin-bottom:60px;}
+.parceiros.franquias .informacoes-coluna .inscricao-temp {font-weight:bold; margin: 0; font-size:12px;}
+.parceiros.franquias .informacoes-coluna .inscricao-temp strong {color: #e2007a; font-size:1.1em;}
+
+.parceiros.franquias .informacoes-coluna ul {margin-top:20px;}
+    .parceiros.franquias .informacoes-coluna ul li {line-height:14px; list-style-type:disc; list-style-position:inside; margin:10px 0; padding-left:20px;}
+    .parceiros.franquias .informacoes-coluna .coluna.coluna-esquerda {float: left; width: 315px;}
+    .parceiros.franquias .informacoes-coluna .coluna.coluna-direita {float: right; width: 320px;}
+.parceiros.franquias .btn-franquia {
+    border: none;
+    background: #000;
+    color: white;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 7px 0;
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-family: 'Century Gothic',arial,sans-serif;
+    margin: 20px auto;
+    width: 250px;
+}
+
+
+/* REPRESENTANTES */
+.parceiros.multimarcas .lista-representantes{margin-top: 40px;}
+.parceiros.multimarcas .lista-representantes .lista{padding: 20px; border-top: 1px solid #d0d0d0;}
+.parceiros.multimarcas .lista-representantes .last{border-bottom: 1px solid #d0d0d0; margin-bottom: 40px;}
+.parceiros.multimarcas .info-representantes .btn-open{background: url('/arquivos/icons-lista.png') no-repeat; height: 20px; width: 22px; float: left; margin-right: 10px; cursor: pointer;}
+.parceiros.multimarcas .info-representantes .btn-open.btn-close{background-position: -23px 0;}
+.parceiros.multimarcas .info-representantes h3{color: #e2007a; margin-top: 5px; font-weight: bold; font-size: 12px; cursor: pointer; min-width: 350px;}
+.parceiros.multimarcas .info-representantes h3.color-black{color: #000; cursor: pointer;}
+.parceiros.multimarcas .info-representantes .info{display:none; margin-top: 15px; font-weight: 300; line-height: 16px; font-size: 12px; color: #545454; padding-left: 33px;}
+.parceiros.multimarcas .info-representantes .info strong{font-weight: bold;}
+.parceiros.multimarcas .info-representantes .info li{margin-bottom: 15px; margin-right: 100px; float: left;}
+.parceiros.multimarcas .lista .info-representantes{float: left; margin-right: 15px;}
+.parceiros.multimarcas .parceiros .nossos-representantes{border-top: 1px solid #d0d0d0; padding: 20px 0 0;}
+.parceiros.multimarcas .parceiros .nossos-representantes h2{font-weight: bold; color: #000; text-transform: uppercase; font-size: 16px; margin-bottom: 10px;}
+.parceiros.multimarcas .parceiros .nossos-representantes p{font-size: 12px; }
+.parceiros.multimarcas .parceiros .lista-representantes{margin-top: 40px;}
+.parceiros.multimarcas .parceiros .lista-representantes .lista{padding: 20px; border-top: 1px solid #d0d0d0;}
+.parceiros.multimarcas .parceiros .lista-representantes .last{border-bottom: 1px solid #d0d0d0; margin-bottom: 40px;}
+.parceiros.multimarcas .parceiros .info-representantes .btn-open{background: url('icons.png') no-repeat; background-position: -174px -33px; height: 20px; width: 22px; float: left; margin-right: 10px; cursor: pointer;}
+.parceiros.multimarcas .parceiros .info-representantes .btn-open.btn-close{background-position: -198px -33px;}
+.parceiros.multimarcas .parceiros .info-representantes h3{color: #e2007a; margin-top: 5px; font-weight: bold; font-size: 12px; cursor: pointer; min-width: 350px;}
+.parceiros.multimarcas .parceiros .info-representantes h3.color-black{color: #000; cursor: pointer;}
+.parceiros.multimarcas .parceiros .info-representantes .info{display:none; margin-top: 15px; font-weight: 300; line-height: 16px; font-size: 12px; color: #545454; padding-left: 33px;}
+.parceiros.multimarcas .parceiros .info-representantes .info strong{font-weight: bold;}
+.parceiros.multimarcas .parceiros .info-representantes .info li{margin-bottom: 15px; margin-right: 100px; float: left;}
+.parceiros.multimarcas .parceiros .lista .info-representantes{float: left; margin-right: 15px;}
+/* end REPRESENTANTES */

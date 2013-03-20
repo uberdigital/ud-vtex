@@ -15,7 +15,6 @@ a {text-decoration: none; color: #d0d0d0;}
 .wrapper-breadcrumb {font-size: 11px;}
     .wrapper-breadcrumb .index-breadcrumb {float: left;}
 
-.bread-crumb {float:}
     .bread-crumb li {background:url('seta-lista-breadcrumb.png') no-repeat right 3px; float: left; margin-left:5px; padding-right:10px;}
     .bread-crumb li.last {background:none; padding-right:0; font-weight:bold;}
         .bread-crumb li a {color:black;}
@@ -39,12 +38,16 @@ a {text-decoration: none; color: #d0d0d0;}
 	width: 980px;
 }
 
-.content .super-banner a {
+#paginacaoBanner {margin: -40px auto 30px auto; height: 13px; text-align: center; position: relative; width: 908px; z-index: 4;}
+#paginacaoBanner a {display: inline-block; background:url('/arquivos/sprite-bullets-banner.png') no-repeat; height: 132px; margin-right:5px; text-indent: -9999px;  width: 13px;}
+#paginacaoBanner a.activeSlide {background-position-x: -16px;}
+
+/* .content .super-banner a {
     display: block;
     background: url('/arquivos/sprite-super-banner.jpg') no-repeat center top;
     height: 500px;
     text-indent: -9999px;
-}
+} */
 
 .content .super-banner a:hover {background-position:center -501px;}
 
