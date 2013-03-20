@@ -6,11 +6,12 @@
 /* CONTAINER */
 
 /* clearfix */
+
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { *zoom: 1; }
-/* end clearfix */
 
+/* end clearfix */
 
 body{font-family: Tahoma, 'sans-serif'; font-size: 12px;}
 h1{font-size: 20px;}
@@ -20,13 +21,12 @@ h4{font-size: 11px;}
 
 a{color:#343434; text-decoration: none;}
 
-.container{background: url('bg-header-top.jpg') no-repeat center top;}
+.container-bg-top{background: url('bg-header-top.jpg') no-repeat center top;}
 .icons{background: url('icons.png') no-repeat;}
-
 
 /* HEADER */
 
-.header{padding: 30px 0; width: 1000px; margin:0 auto;}
+.header{padding: 30px 0 10px; width: 990px; margin:0 auto;}
 .header-content{margin-bottom: 20px;}
 	.header-content .logo-header{float: left;}
 		.logo-header .logo{}	
@@ -46,9 +46,9 @@ a{color:#343434; text-decoration: none;}
 
 /* nav header */
 
-.navegador{width: 1000px; margin: 0 auto;}
+.navegador{width: 990px; margin: 0 auto;}
 .navegador li{float: left;}
-.navegador a{padding: 7px 27px; color: #fff; text-transform: uppercase; font-size: 14px; float: left; margin: 0 2px;}
+.navegador a{padding: 7px 26px; color: #fff; text-transform: uppercase; font-size: 14px; float: left; margin: 0 2px;}
 .navegador .first{margin-left: 0;}
 .navegador .last{margin-right: 0; padding: 7px 31px;}
 .navegador .last{padding/**\*/:7px 29px\9;}
@@ -59,7 +59,52 @@ a{color:#343434; text-decoration: none;}
 .navegador .voluntarios{background: #6a47ba;}
 .navegador .blog{background: #ca51c6;}
 
-
 /* content */
 
-.content{ margin:0 auto; width: 1000px; padding: 30px 0;}
+.content{ margin:0 auto; width: 990px; padding: 0 0 30px;}
+	.banner-header{width: 990px;}
+	.vitrine{margin: 30px 0;}
+		.tab-navegacao{}
+		.tab-navegacao li{float: left; padding: 6px 159px 6px 62px; text-align: left; text-transform: uppercase; font-weight: bold; cursor: pointer;}
+		.tab-navegacao li.center{margin:0 6px;}
+		.tab-navegacao li.center{margin/**\*/:0 5px\9;} /* IE */
+		.tab-navegacao .mochila{background: #d2e1f1; border: 1px solid #004b99;}
+		.tab-navegacao .livros-revistas{background: #fcf8f5; border: 1px solid #f5dfcf;}
+		.tab-navegacao .outros-produtos{background: #f3faf3; border: 1px solid #e8ebcc;}
+
+		.content-vitrine{margin-top: 50px;}
+			.content-vitrine .list-product{float: left; text-align: center; margin-right: 54px;}
+			.content-vitrine .last{margin-right: 0;}	
+				.content-vitrine .image{margin-bottom: 25px;}
+				.content-vitrine .name-product{ font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;}
+				.content-vitrine .name-product a{color:#004b99;}
+				.content-vitrine .price-conditions{color:#464646; font-size: 11px; font-weight: bold;}
+
+/* footer */
+
+.footer{background: url('bg-footer.png') repeat-x center bottom;}
+.wrapper-footer{ width: 990px; margin: 0 auto; padding: 30px 0; height: 404px;}
+	.wrapper-footer .navegador-footer{margin-top: 120px; margin-bottom: 20px;}
+	.navegador-footer li{color: #373737;}
+	.navegador-footer .institucional{float: left; text-align: center; width: 246px;}
+	.navegador-footer .informacoes{float: left; text-align: center; width: 246px;}
+	.navegador-footer .fale-conosco{float: left; text-align: center; width: 246px;}
+	.navegador-footer .certificados{float: left; text-align: center; width: 246px;}
+		.certificados .icon-certificados{background: url('certificados.png') no-repeat; width: 135px; height: 55px; margin-left: 60px;}
+	.navegador-footer .links{padding-top: 20px; border-right: 2px solid #d7e89d; height: 120px;}
+	.navegador-footer .links .atendimento{ margin-bottom: 10px;}
+	.navegador-footer .links .email{ margin-bottom: 20px;}
+	.links .social-network-footer{margin-top: 10px; text-align: center; float: left; margin-left: 80px;}
+	.links .social-network-footer span{float: left; margin-right: 5px; width: 25px; height: 25px;}
+		.links .tw{background-position: -96px -9px; height: 25px; width: 30px; text-indent: -9999px; float: left;}
+		.links .fb{background-position: -125px -9px; height: 25px; width: 30px;text-indent: -9999px; float: left;}
+		.links .inst{background-position: -154px -9px; height: 25px; width: 30px;text-indent: -9999px; float: left;}
+	.navegador-footer .last{padding-top: 20px; border-right:none;}
+	.navegador-footer span{display: block; margin-bottom: 5px;}
+	.navegador-footer a:hover{text-decoration: underline;}
+	.title-nav-footer{text-transform: uppercase; letter-spacing: 0.1em; font-size: 14px; color: #373737;}
+	.formas-pagamento{padding: 0 60px;}
+		.formas-pagamento .bandeiras{background:url('bandeiras.jpg') no-repeat left; text-indent: -9999px; width: 660px; height: 40px; float: left; margin-top: 25px;}
+		.formas-pagamento .desenvolvedores{text-indent: -9999px; float: right; width: 130px; margin-top: 25px; height: 40px;}
+		.formas-pagamento .desenvolvedores .uber{background:url('desenvolvedores.jpg') no-repeat left;background-position: 0px 0px; text-indent: -9999px; height: 35px; width: 50px; float: left; margin-top: 5px;}
+		.formas-pagamento .desenvolvedores .vtex{background:url('desenvolvedores.jpg') no-repeat left;background-position: -63px 0px; text-indent: -9999px; height: 35px; width: 67px; float: right; margin-top: 5px;}
