@@ -1,5 +1,72 @@
 /* http://www.uberdigital.com.br
    AACC | 2013
-   Autor: Ivan Richard Roncatto;
+   Autor: Ivan Richard Roncatto
 */
 
+/* produtos */
+
+.wrapper-breadcrumb a {color:#555;}
+	.wrapper-breadcrumb li{ float: left; font-size: 11px; list-style-position: inside; margin: 0 8px 10px 0; padding-right: 8px; border-right: 1px solid #d0d0d0; text-transform: uppercase;}
+	.wrapper-breadcrumb li.last {background: none; margin-right:0; padding-right: none; border: none;}
+	.wrapper-breadcrumb li.last a {color:#000;}
+
+/* imagens produto */
+
+.imagens-produto{width: 500px; float: left; height: 450px; background: #f6f6f6;}
+
+/* detalhes compra */
+
+.detalhes-compra{width: 410px; float: right; margin-left: 55px;}
+.detalhes-compra .title-category{font-family: Georgia, "Sans-serif"; font-size: 12px; font-weight: bold; color: #787878; text-transform: uppercase;}
+.detalhes-compra .select.skuList{float: left; width: 350px; margin-top: 15px;}
+.detalhes-compra .select input{float: left; margin-left: -99999em; }
+
+	/* head */
+	.head h1{color: #363636; line-height: 24px;}
+	.detalhes-compra .ref{float: left; margin-right: 60px; margin-top: 15px; color: #646464;}
+	.detalhes-compra .social-network{float: left;}
+	/* price */
+	.price{font-family: Tahoma, "Sans-serif"; margin-top: 25px;}
+		.price .before{display: block; color: #939cac; font-size: 12px;}
+		.price .value{font-size: 16px; color: #514e86; font-weight: bold; margin-top: 15px;}
+	/* color */
+	.color{margin-top: 25px;}
+		.color .select label{float: left; }
+		.color label.skuespec_Cores_opcao_Preto{background-position: -654px -4px;}
+		.color label{background:url("sprite_cores_sku.png"); cursor: pointer; width:28px; height:28px; float:left; background-position: -805px -4px; text-indent:-9999px; text-transform: capitalize; margin-right:5px;}
+	/* size */
+	.size{margin-top: 25px;}
+		.size .select label{border: 1px solid #CCC; cursor: pointer; display: block; float: left; font-size: 11px; height: 12px; margin-right: 10px; padding: 4px 4px; width: 12px; text-align: center;}
+		.select .table-size{ float: right; margin-top: 5px;}
+		.select .table-size a:hover{ text-decoration: underline;}
+	/* buy */
+	.buy{margin-top: 25px;}
+		.buy .btn-buy{background-position: -7px -134px; cursor: pointer; height: 45px; width: 238px; text-indent: -9999px;}
+		.buy .add-wishlist{background-position: -6px -185px; cursor: pointer; height: 32px; width: 239px; text-indent: -9999px; margin-top: 5px;}
+
+	/* shipping */
+	.shipping{margin-top: 25px;}
+		.shipping .car-shipping{background-position: -186px -5px; width: 45px; height: 28px; float: left;}
+		.input-cep{float: left;}
+		.calc-shipping .cep1{height: 20px; border: 1px solid #d2d9e6; width: 100px; padding: 1px 5px; margin-left: 20px; outline: none;}
+		.calc-shipping .cep2{height: 20px; border: 1px solid #d2d9e6; width: 30px; padding: 1px 5px; margin-left: 3px; outline: none;}
+		.calcular {float: left;}
+		.calcular .btn-submit-shipping{background-position: -7px -224px; height: 24px; width: 115px; margin-left: 10px; border: none; cursor: pointer; text-indent: -9999px;}
+
+
+/* medidas descricao facebook comment */
+
+.descricao-produto{margin-top: 35px;}
+	
+	/* medidas descricao */
+	.medidas-descricao{width: 500px; float: left;}
+		.medidas-descricao .tab-conteudo{border: 1px solid #939cac; float: left; padding: 20px 10px; min-height: 70px; width: 478px;}
+		.medidas-descricao .tab-conteudo p{color: #494949; font-size: 12px; line-height: 18px;}
+		.medidas-descricao .title-product{font-size: 18px; text-transform: uppercase; margin-bottom: 10px; font-family: Georgia, sans-serif;}
+		.medidas-descricao .btn-nav{background: #fff; font-size: 11px; padding:5px 10px; color: #575757; border-bottom: none; float: left; text-transform: uppercase;}
+		.medidas-descricao .tabs-product{height: 30px;}
+
+	
+	/* facebook comment */
+	.facebook-comment{width: 410px; float: right; height: 136px; font-family: Tahoma, "Sans-serif";}
+	.facebook-comment h2{font-size: 11px; font-weight: bold; text-transform: uppercase;}
