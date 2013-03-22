@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>AACC</title>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="arquivos/css-aacc-reset.css" />
+	<link rel="stylesheet" href="arquivos/css-aacc-general.css" />
+	<link rel="stylesheet" href="arquivos/css-aacc-produto.css" />
+	<link rel="stylesheet" href="arquivos/css-aacc-jquery-ui.css" />
+	<link rel="stylesheet" href="arquivos/css-aacc-search.css" />
+	<link rel="stylesheet" href="arquivos/css-aacc-default.css" />
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800' rel='stylesheet' type='text/css'>
+	<!-- scripts -->
+	<script language="javascript" src="arquivos/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/jquery.ui.core.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.widget.js" type="text/javascript"></script>
+	<script language="javascript" src="arquivos/js-jquery.ui.tabs.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<!-- start container -->
+	<div class="container container-bg-top">
+		<!-- start header -->
+		<div class="header clearfix">
+			<ul class="header-content clearfix">
+				<li class="logo-header">
+					<h1 class="logo" title="AACC"><a href="#"><img src="arquivos/logo-header.png" alt="AACC" /></a></h1>
+				</li>
+				<li class="busca-header">
+					<div class="buscador">
+						<form action="" class="">
+							<span><input type="text" class="input-buscar" /></span>
+							<span><input type="submit" class="icons btn-buscar" /></span>
+						</form>
+					</div>
+					<ul class="user-area">
+						<li class="user-login">Olá, visitante<span><a href="#">clique aqui</a></span>para entrar</li>
+						<li class="minha-conta"><a href="#">Minha conta</a></li>
+						<li class="acampanhe-pedido"><a href="#">Acompanhe seu pedido</a></li>
+					</ul>
+				</li>
+				<li class="minha-sacola">
+					<div class="icons sacola"></div>
+					<span class="title-sacola">Minha sacola</span>
+					<span class="itens">(0) Itens</span>
+				</li>
+			</ul>
+			<ul class="navegador clearfix">
+				<li><a href="#" class="first sobre">Sobre AACC</a></li>
+				<li><a href="#" class="doacoes">Doações</a></li>
+				<li><a href="#" class="produtos">Nossos Produtos</a></li>
+				<li><a href="#" class="projetos">Nossos Projetos</a></li>
+				<li><a href="#" class="voluntarios">Seja um Voluntário</a></li>
+				<li><a href="#" class="last blog">Notícias & Blog</a></li>
+			</ul>
+		</div><!-- end header -->
+		<!-- start content -->
+		<div class="content clearfix">
+			<div class="wrapper-content">
+	            <div class="title-head-carrinho clearfix">
+	                <h2>sacola de compras</h2>
+	            </div>
+	            <!-- start wrapper carrinho -->
+	            <div class="wrapper-carrinho clearfix">
+		            <div class="conteudo-carrinho">
+		                    <ul class="bts top">
+		                        <li class="enviar-lista first" style="display:none;">
+		                            <a id="ctl00_Conteudo_lnkCartToList1" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="arquivos/image-carrinho1.jpeg">Salvar como Lista</a>
+		                            
+		                        </li>
+		                        <li class="continuar-comprando">
+		                            <a id="ctl00_Conteudo_lnkContinuarCompra1" title="Comprar mais produtos" class="bt" href="arquivos/image-carrinho1.jpeg">Continuar Comprando</a>
+		                        </li>
+		                        <li class="finalizar-compra last">
+		                            <a id="ctl00_Conteudo_lnkConcluirCompra1" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra1", "", true, "", "", false, true))'>Finalizar Compra</a>
+		                        </li>
+		                    </ul>
+		                    <table cellspacing="0" cellpadding="0" class="carrinhoTable">
+		                        <thead>
+		                            <tr>
+		                                <th class="produto">
+		                                    Produto
+		                                </th>
+		                                <th class="servico">
+		                                    
+		                                </th>
+		                                <th class="quantidade">
+		                                    Quantidade
+		                                </th>
+		                                <th class="preco-unitario">
+		                                    Valor Unitário
+		                                </th>
+		                                <th class="preco-total">
+		                                    Valor Total
+		                                </th>
+		                                <td class="excluir"></td>
+		                            </tr>
+		                        </thead>
+		                        <tfoot>
+		                            <tr class="subtotal">
+		                                <td colspan="2" class="preco-total">
+		                                    R$  59,90
+		                                </td>
+		                                <td colspan="4" class="txtSubTotal">
+		                                    Subtotal:
+		                                </td>
+		                            </tr>
+		                            <tr class="vale-presente">
+		                                <td colspan="2" class="texto-vale-presente">
+		                                    <fieldset class="vale-presente">
+		                                        <div class="grp">
+		                                            <legend><span>
+		                                            Desconto
+		                                        </span></legend>
+		                                            <label>Cupom de desconto</label>
+		                                            <input name="ctl00$Conteudo$txtCupom" type="text" maxlength="35" id="ctl00_Conteudo_txtCupom" class="vale-presente fitext">
+		                                            <span class="ok-carrinho">
+		                                                <input type="submit" name="ctl00$Conteudo$Button2" value="Calcular" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Conteudo$Button2&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Conteudo_Button2" title="Calcular" class="bt fisubmit"></span> <span class="reward-check">
+		                                                    </span>
+		                                        </div>
+		                                        
+		                                    </fieldset>
+		                                </td>
+		                                <td colspan="2" class="preco-total">
+		                                    (R$  0,00)
+		                                </td>
+		                                <td colspan="2" class="vale-presente">
+		                                    Desconto:
+		                                </td>   
+		                            </tr>
+		                            <tr class="cepline">
+		                                <td colspan="2" class="texto-cepline">
+		                                    <fieldset id="ctl00_Conteudo_fieldsetCEP" class="cep">
+		                                        <legend><span>Calcular frete<br><small>Digite aqui seu CEP:</small></span></legend>
+		                                        <div class="grp fMulti fCep">
+		                                            <label class="cep-prefixo">
+		                                                Digite seu cep
+		                                                
+		                                                <a target="_blank" href="http://www.buscacep.correios.com.br/servicos/dnec/menuAction.do?Metodo=menuLogradouro" class="duvidaCep">
+		                                                    Não sei meu CEP
+		                                                </a>
+		                                            </label>
+		                                            <input name="ctl00$Conteudo$txtCep1" type="text" maxlength="5" id="ctl00_Conteudo_txtCep1" class="cep-prefixo fitext" size="5" onkeyup="SaltaCampo(ctl00_Conteudo_txtCep1,ctl00_Conteudo_txtCep2,5,event);">
+		                                            <input name="ctl00$Conteudo$txtCep2" type="text" maxlength="3" id="ctl00_Conteudo_txtCep2" class="cep-sufixo fitext" size="3">
+		                                            <span class="ok-carrinho">
+		                                                <input type="submit" name="ctl00$Conteudo$Button1" value="OK" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Conteudo$Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Conteudo_Button1" title="OK" class="bt fisubmit"></span>
+		                                        </div>
+		                                        <span class="msgValCEP">
+		                                            <span id="ctl00_Conteudo_RegularExpressionValidator1" style="color:Red;visibility:hidden;">CEP inválido.</span>
+		                                            <span id="ctl00_Conteudo_RegularExpressionValidator2" style="color:Red;visibility:hidden;">CEP inválido.</span>
+		                                            
+		                                        </span>
+		                                    </fieldset>
+		                                    
+		                                </td>
+		                                <td colspan="2" class="frete-gratis">
+		                                    Grátis
+		                                    
+		                                </td>
+		                                <td colspan="2" class="txt-frete">
+		                                    Frete:
+		                                </td> 
+		                            </tr>
+		                            <tr class="total">
+		                                <td class="economizou">
+		                                    
+		                                </td>
+		                                <td class="atualizar-valores">
+		                                </td>
+		                                <td colspan="2" class="valor">
+		                                    R$  59,90
+		                                </td>
+		                                <td colspan="2" class="valor-total">
+		                                    Total
+		                                </td> 
+		                            </tr>
+		                            
+		                            <tr class="valor-parcelado">
+		                                <td colspan="6" class="valor-parcelado">
+		                                    <div id="ctl00_Conteudo_divValorParcelado" class="valor-parcelado">
+		                                        <p>
+		                                            Ou sem juros em até 
+		                                            <strong>
+		                                                2x de 
+		                                                R$ 
+		                                                29,95</strong>
+		                                        </p>
+		                                    </div>
+		                                </td>
+		                            </tr>
+		                        </tfoot>
+		                        <tbody>
+		                           <script language="javascript" type="text/javascript">
+		                                var _timer = 1000;
+		                                var _timeOutID;
+		                                var _quantidadeAnterior;
+		                                var _quantidadeAtual;
+
+		                                function alterarQuantidadeComTempo(caixaTexto, qa, qan) {
+
+		                                    _quantidadeAnterior = parseInt(qan);
+		                                    _quantidadeAtual = parseInt(qa.value);
+		                                    
+		                                    if (_quantidadeAtual != NaN && _quantidadeAtual > 0 && _quantidadeAnterior != _quantidadeAtual) {
+
+		                                        //cancela ação de alterar quantidade
+		                                        cancelarAcaoCarrinho();
+
+		                                        //altera a quantidade e registra o evento
+		                                        _timeOutID = setTimeout('__doPostBack(\'' + caixaTexto + '\')', _timer);
+		                                    }
+		                                }
+
+		                                //cancela ação de alterar quantidade
+		                                function cancelarAcaoCarrinho() {
+		                                    if (typeof (_timeOutID) == "number")
+		                                        clearTimeout(_timeOutID)
+		                                    else 
+		                                        void (0);
+		                                }
+		    
+		                            </script>
+		                            
+		                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+		                                    <td class="produto">
+		                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+		                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="arquivos/image-carrinho1.jpg"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/image-carrinho1.jpg"></a>
+		                                        <h4>
+		                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="arquivos/image-carrinho1.jpg">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+		                                        </h4>
+		                                    </td>
+		                                    <td class="servico">                                   
+		                                    </td>
+		                                    <td class="quantidade">
+		                                        <fieldset>
+		                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+		                                            <ul class="controle-quantidade">
+		                                                <li class="adicionar-item">
+		                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+		                                                <li class="remove-item">
+		                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+		                                            </ul>
+		                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+		                                        </fieldset>
+		                                    </td>
+		                                    <td class="preco-unitario">                           
+		                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+		                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+		                                    </td>
+		                                    <td class="preco-total">
+		                                        R$ 59,90
+		                                    </td>
+		                                    <td class="excluir">
+		                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+		                                    </td>
+		                                </tr>
+		                                <tr id="ctl00_Conteudo_rptCarrinho_ctl00_trCarrinhoLinha" class="carrinho-produto">
+		                                    <td class="produto">
+		                                        <input type="hidden" name="ctl00$Conteudo$rptCarrinho$ctl00$tbxIdCarrinhoSkuCondensado" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxIdCarrinhoSkuCondensado" value="9449">
+		                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkSkuImagem" class="sku-imagem" href="arquivos/image-carrinho1.jpg"><img height="103" width="80" alt="Cal-a-jeans-masculina-classic" src="arquivos/image-carrinho1.jpg"></a>
+		                                        <h4>
+		                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkNomeProduto" href="arquivos/image-carrinho1.jpg">Calça jeans masculina classic - 42 aaaaaaaa</a><br>INDIGO RED
+		                                        </h4>
+		                                    </td>
+		                                    <td class="servico">                                   
+		                                    </td>
+		                                    <td class="quantidade">
+		                                        <fieldset>
+		                                            <input name="ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade" type="text" value="1" onchange="javascript:setTimeout('__doPostBack(\'ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;" id="ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade" title="773" class="boxQuantidade fitext" onkeyup="alterarQuantidadeComTempo('ctl00$Conteudo$rptCarrinho$ctl00$tbxQuantidade',ctl00_Conteudo_rptCarrinho_ctl00_tbxQuantidade,1)" style="width:30px;">
+		                                            <ul class="controle-quantidade">
+		                                                <li class="adicionar-item">
+		                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMais" title="Adicionar Item" class="adicionar-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMais", "", true, "", "", false, true))'>Adicionar</a></li>
+		                                                <li class="remove-item">
+		                                                    <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuMenos" title="Remover Item" class="remove-item" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuMenos", "", true, "", "", false, true))'>Remover</a></li>
+		                                            </ul>
+		                                            <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkAlterarCarrinhoSkuAtualiza" class="btn-atualizar" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$rptCarrinho$ctl00$lnkAlterarCarrinhoSkuAtualiza", "", true, "", "", false, true))'></a>
+		                                        </fieldset>
+		                                    </td>
+		                                    <td class="preco-unitario">                           
+		                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblValorUnitarioPor">R$ 59,90</span>
+		                                        <span id="ctl00_Conteudo_rptCarrinho_ctl00_lblRewardValue"></span>
+		                                    </td>
+		                                    <td class="preco-total">
+		                                        R$ 59,90
+		                                    </td>
+		                                    <td class="excluir">
+		                                        <a id="ctl00_Conteudo_rptCarrinho_ctl00_lnkApagarCarrinhoSkuCondensado" title="Retirar do carrinho" class="excluir" href="carrinho.aspx?IdSkuRm=9449">Retirar do carrinho</a>
+		                                    </td>
+		                                </tr>               
+		                        </tbody>
+		                    </table>          
+		                    <ul class="bts bottom">
+		                        <li class="enviar-lista first" style="display:none;">
+		                            <a id="ctl00_Conteudo_lnkCartToList2" title="Criar uma nova Lista com todos os Produtos do seu Carrinho" class="bt cart-to-list-login" href="https://www.netmall.com.br:443/Site/Login.aspx?ReturnUrl=Carrinho.aspx">Salvar como Lista</a>
+		                            
+		                        </li>
+		                        <li class="continuar-comprando">
+		                            <a id="ctl00_Conteudo_lnkContinuarCompra2" title="Comprar mais produtos" class="bt" href="http://www.netmall.com.br/busca/?fq=H:134">Comprar mais produtos</a>
+		                        </li>
+		                        <li class="finalizar-compra last">
+		                            <a id="ctl00_Conteudo_lnkConcluirCompra2" class="bt" href='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Conteudo$lnkConcluirCompra2", "", true, "", "", false, true))'>Concluir compra</a>
+		                        </li>
+		                    </ul>       
+		                </div>
+		            </div><!-- end wrapper carrinho -->
+		        </div>
+		</div><!-- end container -->
+		<!-- start footer -->
+		<div class="footer bg-footer">
+			<div class="wrapper-footer">
+				<ul class="navegador-footer clearfix">
+					<li class="institucional">
+						<h2 class="title-nav-footer">Institucional</h2>
+						<div class="links">
+							<span><a href="#">Sobre a AACC</a></span>
+							<span><a href="#">Projetos</a></span>
+							<span><a href="#">Parceiros</a></span>
+							<span><a href="#">Doações</a></span>
+						</div>
+					</li>
+					<li class="informacoes">
+						<h2 class="title-nav-footer">Informações úteis</h2>
+						<div class="links">
+							<span><a href="#">Como comprar</a></span>
+							<span><a href="#">Trocas e devoluções</a></span>
+							<span><a href="#">Perguntas frequentes</a></span>
+							<span><a href="#">Acompanhe seus pedidos</a></span>
+							<span><a href="#">Política de Privacidade</a></span>
+							<span><a href="#">Pagamento e Parcelamento</a></span>
+							<span><a href="#">Política de Entrega</a></span>
+						</div>
+					</li>
+					<li class="fale-conosco">
+						<h2 class="title-nav-footer">Fale conosco</h2>
+						<div class="links">
+							<span class="atendimento"><a href="#">atendimento: (11) 1234 1234</a></span>
+							<span class="email"><a href="#">e-mail: contato@aacc.com.br</a></span>
+							<h2 class="title-nav-footer">Mídias Sociais</h2>
+							<span class="social-network-footer">
+								<span><a href="#"  class="icons tw" title="Twitter">Twitter</a></span>
+								<span><a href="#" class="icons fb" title="Facebook">Facebook</a></span>
+								<span><a href="#" class="icons inst" title="Instegram">Instagram</a></span>
+							</span>
+						</div>
+					</li>
+					<li class="certificados">
+						<h2 class="title-nav-footer">Certificados</h2>
+						<div class="links last">
+							<span class="icon-certificados"></span>
+						</div>
+					</li>
+				</ul>
+				<div class="formas-pagamento clearfix">
+					<h2 class="title-nav-footer">Formas de Pagamento</h2>
+					<div class="bandeiras">Visa, Credicard, Mastercard, Diners Club, Hipercard, American express, B! cash, Paypal</div>
+					<div class="desenvolvedores">
+						<a href="#" class="uber">Uber Digital</a>
+						<a href="#" class="vtex">Vtex</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- end footer -->
+	</div><!-- end container -->
+</body>
+</html>

@@ -3,3 +3,43 @@
    Autor: Ivan Richard Roncatto;
 */
 
+/* sidebar left */
+
+.sidebar-left{float: left; width: 165px; margin-bottom: 40px; padding: 0 25px; background: #e9e9e9; }
+	.sidebar-left h3{padding: 15px 0; border-bottom: 1px solid #cacaca; margin-bottom: 15px; background: #e9e9e9;}
+		.sidebar-left h3 a{color: #646464; font-weight: bold;}
+	.sidebar-left ul{padding-left: 10px;}
+	.sidebar-left ul li{padding-bottom: 15px;}
+	.sidebar-left ul li a{color: #646464;}
+
+
+/* resultado */
+
+.resultado-busca{float: right; width: 745px; margin-left: 30px;}
+	/* filtro */
+	.filtro-resultado{display: block; padding: 3px 0; background: #e9e9e9; border: 1px solid #d0d0d0; position: relative; margin-bottom: 20px;}
+	.itens .order{float: left; padding: 5px 20px; text-transform: uppercase; font-size: 11px;}
+	.itens .form-itens-pag{float: left;}
+	.filtro-resultado .order{float: left; padding: 5px 20px; text-transform: uppercase; font-size: 11px; color: #646464;}
+	.filtro-resultado .itens-pag .form-itens-pag{float: left;}
+	.filtro-resultado .order-price{float: left; right: 20%; position: absolute;}
+	.filtro-resultado .order-price .form-order-preco{float: right;}
+	.filtro-resultado .nav-pagination{float: right; margin: 1px 10px 0 0;}
+	.filtro-resultado .nav-pagination li{float: left; padding: 3px 6px; border: 1px solid #838383; cursor: pointer; margin-right: 5px;}
+	.filtro-resultado .nav-pagination li.last{}
+	.filtro-resultado .nav-pagination li.select{color: #fff; background: #838383;}
+	.filtro-resultado .select-filter{outline: none;}
+
+	/* prateleira */
+	.prateleira ul{margin: 0 0 40px; display: table;}
+	.prateleira li{float: left; margin-right: 21px; width: 170px;}
+	.prateleira .last{margin-right: 0;}
+	.prateleira li .productImage{border-bottom: 1px solid #ccc; margin-bottom: 10px; display: block; text-align: center;}
+	.prateleira li .data{ text-align: center; color: #545454;}
+	.prateleira li .data h3{ font-size: 13px; font-weight: bold; text-transform: uppercase; margin-bottom: 5px;}
+	.prateleira li .price{color:#464646; font-size: 11px; font-weight: bold;}
+	.prateleira li .data h3 a{ color: #004b99;}
+	.prateleira li .data .newPrice{display: block; margin-bottom: 3px;}
+	.prateleira .discount{margin-top: 5px;}
+
+

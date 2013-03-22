@@ -3,3 +3,81 @@
    Autor: Ivan Richard Roncatto;
 */
 
+.wrapper-carrinho{position: relative; width: 970px; margin: 0 auto;}
+.title-head-carrinho{margin-bottom: 20px;}
+.title-head-carrinho h2{margin: 20px 0; text-align: center; text-transform: uppercase; font-size: 26px; color: #70bdb7;}
+.options-link-car{color: #8c8c8c; font-size: 11px; text-transform: uppercase; text-align: center; margin-bottom: 20px;}
+.options-link-car li{padding: 0px 8px; border-right: 1px solid #d0d0d0;display: inline;margin: 0; }
+.options-link-car li a{padding-right: 3px; color: #8c8c8c; }
+.options-link-car .last{border-right: 0;}
+
+.conteudo-carrinho .bts{float: left; margin-bottom: 20px; width: 100%;}
+.continuar-comprando{background:url('icons.png') no-repeat; background-position: -2px -224px; width: 212px; height: 32px;  margin-right: 5px;text-indent: -9999px;cursor: pointer;}
+.finalizar-compra{background:url('icons.png') no-repeat; background-position: -3px -188px; width: 176px; height: 32px;float: right;text-indent: -9999px;cursor: pointer;}
+
+.carrinhoTable{width: 100%; clear: both;}
+.carrinhoTable thead{text-transform: uppercase; width: 970px; float: left; margin-bottom: 10px;}
+.carrinhoTable th.produto{width: 400px;padding: 10px 0;text-align: left;}
+.quantidade{width: 150px;}
+.servico{display: none;}
+.preco-unitario{width: 200px;}
+th.preco-total{width: 160px;}
+.carrinho-produto { position: relative; background: #F7F7F7; float: left; width: 950px; margin-bottom: 20px; padding: 10px;}
+.carrinho-produto {width/*\**/: 970px\9;}
+.carrinhoTable .carrinho-produto td{float: left;padding: 10px 0; margin-right: 116px;}
+.produto img{border: 1px solid #d0d0d0;}
+.excluir{margin-right: 0!important;}
+.carrinhoTable tbody .produto h4 a{margin-top: 35px;margin-bottom: 7px;float: left; color: #000; line-height: 16px;}
+.carrinhoTable tbody .produto a{float: left; margin-right: 10px;}
+.carrinhoTable tbody .produto h4{float: left; width: 224px;text-transform: uppercase;}
+
+.carrinhoTable .carrinho-produto .quantidade{ float: left; margin: 38px 0; margin-right: 23px;}
+.carrinhoTable .carrinho-produto .quantidade{ margin /*\**/: 38px 0\9; margin-right /*\**/: 25px\9; float /*\**/: left\9;}
+.carrinhoTable .carrinho-produto .preco-unitario{ float: left; margin: 45px 0; margin-right: 80px; width: 106px!important; font-size: 16px; }
+.carrinhoTable .carrinho-produto .preco-unitario{ float /*\**/: left\9; margin /*\**/: 45px 0\9; margin-right /*\**/: 72px\9;}
+.carrinhoTable .carrinho-produto .preco-total{float: left; margin: 45px 0; width: 85px!important; font-size: 16px;}
+.carrinhoTable .carrinho-produto a.excluir{background: url('icons.png') no-repeat; float: left; background-position: -132px -228px; height: 18px;width: 20px;text-indent: -9999px;position: relative;top: 45px;right: -35px;}
+.carrinhoTable tfoot{ width: 800px;}
+.carrinhoTable tfoot td.txtSubTotal{color: #545454;font-size: 14px; padding: 10px 0; margin-right: 30px; color: #000; text-align: right;text-transform: uppercase; float: right; position: relative;}
+.carrinhoTable tfoot td.preco-total{float: right; padding: 10px 0; position: relative; color: #000;}
+.carrinhoTable tfoot tr.vale-presente td.preco-total{position: relative; top: 8px;}
+.carrinhoTable fieldset.vale-presente legend span {display: none;}
+.carrinhoTable tr.vale-presente .grp label span{font-weight: bold;}
+.carrinhoTable tr.vale-presente .grp .fitext{width: 150px; height: 19px; outline: none; border: 1px solid #d0d0d0; margin: 0 5px; padding: 1px 10px;}
+.vale-presente span.ok-carrinho .bt{background: url('icons.png') no-repeat; cursor: pointer; background-position: -7px -341px; height: 22px;width: 100px;text-indent: -9999px;border: none;}
+.texto-cepline span.ok-carrinho .bt{background: url('icons.png') no-repeat; cursor: pointer; background-position: -7px -341px; height: 22px;width: 100px;text-indent: -9999px;border: none;}
+.texto-cepline .cep{margin-right: 20px; width: 423px; float: left; height: 25px;}
+.carrinhoTable tr.vale-presente td.vale-presente{ color: #000;font-size: 14px; position: relative; top: 8px; padding: 10px 0; margin-right: 30px; text-align: right;text-transform: uppercase;float: right;}
+.texto-cepline .cep legend{display: none;}
+.texto-cepline .cep .duvidaCep{display: none;}
+.texto-cepline .texto-cepline .fCep, #ctl00_Conteudo_txtCep1{width: 72px;height: 19px;outline: none; color: #555; border: 1px solid #d0d0d0; margin-left:45px; padding: 1px 15px;}
+.texto-cepline .texto-cepline .fCep, #ctl00_Conteudo_txtCep2{width: 33px;height: 19px;outline: none; margin-right: 5px; border: 1px solid #d0d0d0; padding: 1px 15px;}
+.carrinhoTable tr.cepline .fCep .cep-prefixo span {font-weight: bold;}
+.bts .continuar-comprando{background:url('icons.png') no-repeat; background-position: -4px -257px; width: 210px; height: 34px;  float: left;margin-right: 5px;text-indent: -9999px;cursor: pointer; position: relative; right: -570px;}
+.bts .finalizar-compra{background:url('icons.png') no-repeat; background-position: -4px -299px; width: 175px; height: 35px;float: right;text-indent: -9999px;cursor: pointer;}
+.cepline td.txt-frete{ color: #000;font-size: 14px; padding: 10px 0; margin-right: 30px; text-align: right;text-transform: uppercase;float: right;}
+.cepline .frete-gratis{padding: 10px 0; float: right;}
+.carrinhoTable tr.total{width: 800px;padding: 20px 0; float: left; margin-bottom: 20px;}
+.texto-cepline{float: left; font-size: 12px;text-transform: uppercase;}
+.valor-parcelado{display: none;}
+.texto-vale-presente{float: left; padding: 10px 0; font-size: 12px; text-transform: uppercase;}
+.carrinhoTable tr.vale-presente{border-bottom: 1px solid #feeaf6;float: left;width: 970px; position: relative;} 
+.carrinhoTable tr.cepline {margin-top: 10px;float: left;width: 970px; border-bottom: 1px solid #feeaf6;}
+.fCep{float: left;}
+.fCep .cep-prefixo{color: #70bdb7;}
+.grp label{color: #70bdb7;}
+
+.total .valor-total{ color: #000;font-size: 14px; right: -170px; position: relative; margin-right: 30px; text-align: right;text-transform: uppercase;float: right; padding: 10px 0;}
+.total .valor{float: right; padding: 10px 0; font-size: 14px; position: relative; right: -170px;}
+
+.carrinhoTable .quantidade .boxQuantidade{border-radius: 4px; border: 1px solid #d0d0d0; outline: none; margin-right: 5px; float: left; padding: 2px 20px; width: 5px!important; color: #000; height: 20px;}
+.carrinhoTable .quantidade .controle-quantidade{float: left; text-indent: -9999px;}
+.carrinhoTable .quantidade .controle-quantidade .adicionar-item a{background: url('add-item.png') no-repeat; margin-bottom: 2px; margin-top: 1px; height: 10px;width: 16px;float: left;}
+.carrinhoTable .quantidade .controle-quantidade .remove-item a{background: url('remove-item.png') no-repeat; height: 10px;float: left;width: 16px;}
+
+/* login */
+
+.login .content h2{border-bottom: 1px solid;color: #777;font-size: 28px;font-family: 'Archivo Narrow', Arial, sans-serif;margin-bottom: 40px;padding-bottom: 10px;text-transform: uppercase;}
+
+
+

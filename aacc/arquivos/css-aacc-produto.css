@@ -26,7 +26,7 @@
 	.detalhes-compra .ref{float: left; margin-right: 60px; margin-top: 15px; color: #646464;}
 	.detalhes-compra .social-network{float: left;}
 	/* price */
-	.price{font-family: Tahoma, "Sans-serif"; margin-top: 25px;}
+	.detalhes-compra .price{font-family: Tahoma, "Sans-serif"; margin-top: 25px;}
 		.price .before{display: block; color: #939cac; font-size: 12px;}
 		.price .value{font-size: 16px; color: #514e86; font-weight: bold; margin-top: 15px;}
 	/* color */
