@@ -23,7 +23,18 @@
 </head>
 <body class="login">
 	<!-- start container -->
-	<div class="container container-bg-top">
+	<div class="container">
+		<div id="ctl00_TopBar_TopBar1_outerHeader" class="header-steps">
+			<h1><a id="ctl00_TopBar_TopBar1_lnkHome" title="My Shoes" href="#">My Shoes</a></h1>
+			<div id="ctl00_TopBar_TopBar1_divPassos" class="steps">
+			    <ul>
+			      <li id="ctl00_TopBar_TopBar1_liIdentificacao" class="ativo">Identificação</li>
+			      <li id="ctl00_TopBar_TopBar1_liEntregaEmbalagem">Entrega e Embalagem</li>
+			      <li id="ctl00_TopBar_TopBar1_liPagamento">Pagamento</li>  
+			    </ul>
+			</div>
+		</div>
+		<div id="ctl00_TopBar_LoginTop_pnlPanel" class="prodContentContainer"></div>
 		<!-- start content -->
 		<div class="content clearfix">
 				  <h2>Identificação</h2>
@@ -66,7 +77,7 @@
 					<td>
 				<fieldset>
 					<div class="grp fEmail">
-						<label class="email">Informe seu e-mail:</label>
+						<label class="email">E-mail:</label>
 						<input name="ctl00$Conteudo$ctrlLogin$ctrLogin$UserName" type="text" id="ctl00_Conteudo_ctrlLogin_ctrLogin_UserName" tabindex="1" class="fitext">
 						<span id="ctl00_Conteudo_ctrlLogin_ctrLogin_UserNameRequired" style="color:Red;display:none;"></span>
 						<span id="ctl00_Conteudo_ctrlLogin_ctrLogin_RgxEmailValidator" style="color:Red;display:none;"></span>
@@ -77,7 +88,7 @@
 						</ul>
 					</div>
 					<div class="grp fSenha">
-						<label class="senha">Informe sua senha:</label>
+						<label class="senha">Senha:</label>
 						<input name="ctl00$Conteudo$ctrlLogin$ctrLogin$Password" type="password" id="ctl00_Conteudo_ctrlLogin_ctrLogin_Password" tabindex="2" class="fipassword fitext">
 						<span id="ctl00_Conteudo_ctrlLogin_ctrLogin_PasswordRequired" style="color:Red;display:none;"></span>
 						<ul class="login-senha-links">
